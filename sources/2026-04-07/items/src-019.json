@@ -1,0 +1,22 @@
+{
+  "id": "src-019",
+  "title": "이란, 일시적 휴전 거부…호르무즈 해협 봉쇄 유지 강행",
+  "url": "https://www.g-enews.com/article/Global-Biz/2026/04/202604061812022772e250e8e188_1",
+  "snippet": "이란 일시적 휴전 거부, 호르무즈 봉쇄 유지.",
+  "source_name": "글로벌이코노믹",
+  "language": "ko",
+  "discovered_date": "2026-04-07",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "첫 실행으로 이전 소스 없음 — 전체 신규 처리",
+  "entities": [
+    { "temp_id": "temp-002", "name": "Iran", "class": "Organization", "type": "state" },
+    { "temp_id": "temp-008", "name": "Strait of Hormuz", "class": "Location", "type": "waterway" },
+    { "temp_id": "temp-010", "name": "ceasefire negotiations", "class": "Event", "date": "2026-04-06" }
+  ],
+  "relations": [
+    { "subject": "temp-002", "predicate": "opposes", "object": "temp-010" },
+    { "subject": "temp-002", "predicate": "relatedTo", "object": "temp-008" }
+  ]
+}

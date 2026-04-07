@@ -1,0 +1,22 @@
+{
+  "id": "src-016",
+  "title": "US forces rescue crew member from F-15 jet shot down over Iran",
+  "url": "https://www.cnn.com/2026/04/05/world/live-news/iran-war-us-trump-oil",
+  "snippet": "F-15E crew member rescued.",
+  "source_name": "CNN",
+  "language": "en",
+  "discovered_date": "2026-04-07",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "첫 실행으로 이전 소스 없음 — 전체 신규 처리",
+  "entities": [
+    { "temp_id": "temp-012", "name": "US Air Force", "class": "Organization", "type": "military" },
+    { "temp_id": "temp-002", "name": "Iran", "class": "Organization", "type": "state" },
+    { "temp_id": "temp-013", "name": "F-15E incident", "class": "Event", "date": "2026-04-05" }
+  ],
+  "relations": [
+    { "subject": "temp-012", "predicate": "participatesIn", "object": "temp-013" },
+    { "subject": "temp-013", "predicate": "locatedIn", "object": "temp-002" }
+  ]
+}

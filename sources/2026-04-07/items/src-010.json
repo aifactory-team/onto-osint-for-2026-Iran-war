@@ -1,0 +1,25 @@
+{
+  "id": "src-010",
+  "title": "What's Iran's 10-point peace plan?",
+  "url": "https://www.aljazeera.com/news/2026/4/7/whats-irans-10-point-peace-plan-that-trump-says-is-not-good-enough",
+  "snippet": "Details of Iran's 10-point plan: permanent ceasefire, reparations, nuclear terms.",
+  "source_name": "Al Jazeera",
+  "language": "en",
+  "discovered_date": "2026-04-07",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "첫 실행으로 이전 소스 없음 — 전체 신규 처리",
+  "entities": [
+    { "temp_id": "temp-002", "name": "Iran", "class": "Organization", "type": "state" },
+    { "temp_id": "temp-001", "name": "Donald Trump", "class": "Person", "role": "US President" },
+    { "temp_id": "temp-014", "name": "10-point peace plan", "class": "Event", "date": "2026-04-06" },
+    { "temp_id": "temp-015", "name": "nuclear program", "class": "Concept", "domain": "military" }
+  ],
+  "relations": [
+    { "subject": "temp-002", "predicate": "participatesIn", "object": "temp-014" },
+    { "subject": "temp-001", "predicate": "opposes", "object": "temp-014" },
+    { "subject": "temp-014", "predicate": "mentions", "object": "temp-015" },
+    { "subject": "temp-002", "predicate": "relatedTo", "object": "temp-015" }
+  ]
+}

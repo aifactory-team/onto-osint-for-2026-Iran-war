@@ -1,0 +1,20 @@
+{
+  "id": "src-020",
+  "title": "전쟁 5주째 완강한 이란…'미국이 밀리고 있다'",
+  "url": "https://www.mindlenews.com/news/articleView.html?idxno=19346",
+  "snippet": "전쟁 5주째 이란 완강한 저항 분석.",
+  "source_name": "민들레",
+  "language": "ko",
+  "discovered_date": "2026-04-07",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "첫 실행으로 이전 소스 없음 — 전체 신규 처리",
+  "entities": [
+    { "temp_id": "temp-002", "name": "Iran", "class": "Organization", "type": "state" },
+    { "temp_id": "temp-003", "name": "US Military", "class": "Organization", "type": "military" }
+  ],
+  "relations": [
+    { "subject": "temp-002", "predicate": "opposes", "object": "temp-003" }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "src-017",
+  "title": "미국·이란, 필사적인 조종사 수색 작전...휴전 협상 엇갈린 신호",
+  "url": "https://www.ytn.co.kr/_ln/0104_202604051056213990",
+  "snippet": "F-15E 조종사 구출 작전. 휴전 협상 엇갈린 신호.",
+  "source_name": "YTN",
+  "language": "ko",
+  "discovered_date": "2026-04-07",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "첫 실행으로 이전 소스 없음 — 전체 신규 처리",
+  "entities": [
+    { "temp_id": "temp-012", "name": "US Air Force", "class": "Organization", "type": "military" },
+    { "temp_id": "temp-002", "name": "Iran", "class": "Organization", "type": "state" },
+    { "temp_id": "temp-013", "name": "F-15E incident", "class": "Event", "date": "2026-04-05" },
+    { "temp_id": "temp-010", "name": "ceasefire negotiations", "class": "Event", "date": "2026-04-06" }
+  ],
+  "relations": [
+    { "subject": "temp-012", "predicate": "participatesIn", "object": "temp-013" },
+    { "subject": "temp-013", "predicate": "locatedIn", "object": "temp-002" },
+    { "subject": "temp-013", "predicate": "relatedTo", "object": "temp-010" }
+  ]
+}

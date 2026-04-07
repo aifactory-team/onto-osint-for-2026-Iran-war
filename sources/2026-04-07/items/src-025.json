@@ -1,0 +1,24 @@
+{
+  "id": "src-025",
+  "title": "이란, 걸프국 빅테크 기업 공격...호르무즈 '톨게이트화' 우려",
+  "url": "https://www.ytn.co.kr/_ln/0104_202604031542172077",
+  "snippet": "이란 걸프국 빅테크 공격. 호르무즈 톨게이트화 우려.",
+  "source_name": "YTN",
+  "language": "ko",
+  "discovered_date": "2026-04-07",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "첫 실행으로 이전 소스 없음 — 전체 신규 처리",
+  "entities": [
+    { "temp_id": "temp-002", "name": "Iran", "class": "Organization", "type": "state" },
+    { "temp_id": "temp-005", "name": "IRGC", "class": "Organization", "type": "military" },
+    { "temp_id": "temp-023", "name": "Gulf States", "class": "Location", "type": "region" },
+    { "temp_id": "temp-008", "name": "Strait of Hormuz", "class": "Location", "type": "waterway" }
+  ],
+  "relations": [
+    { "subject": "temp-005", "predicate": "affiliatedWith", "object": "temp-002" },
+    { "subject": "temp-002", "predicate": "opposes", "object": "temp-023" },
+    { "subject": "temp-008", "predicate": "locatedIn", "object": "temp-023" }
+  ]
+}

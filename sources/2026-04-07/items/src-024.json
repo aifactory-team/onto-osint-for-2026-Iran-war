@@ -1,0 +1,24 @@
+{
+  "id": "src-024",
+  "title": "드디어 입 연 중국 '호르무즈 막힌 건 미국 때문'",
+  "url": "https://imnews.imbc.com/replay/2026/nwdesk/article/6812270_37004.html",
+  "snippet": "중국이 호르무즈 봉쇄 책임을 미국에 돌림.",
+  "source_name": "MBC",
+  "language": "ko",
+  "discovered_date": "2026-04-07",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "첫 실행으로 이전 소스 없음 — 전체 신규 처리",
+  "entities": [
+    { "temp_id": "temp-019", "name": "China", "class": "Organization", "type": "state" },
+    { "temp_id": "temp-003", "name": "US Military", "class": "Organization", "type": "military" },
+    { "temp_id": "temp-002", "name": "Iran", "class": "Organization", "type": "state" },
+    { "temp_id": "temp-008", "name": "Strait of Hormuz", "class": "Location", "type": "waterway" }
+  ],
+  "relations": [
+    { "subject": "temp-019", "predicate": "opposes", "object": "temp-003" },
+    { "subject": "temp-019", "predicate": "cooperatesWith", "object": "temp-002" },
+    { "subject": "temp-002", "predicate": "relatedTo", "object": "temp-008" }
+  ]
+}

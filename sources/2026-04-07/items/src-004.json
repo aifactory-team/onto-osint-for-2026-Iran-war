@@ -1,0 +1,24 @@
+{
+  "id": "src-004",
+  "title": "Iran rejects a U.S. ceasefire plan as Trump again threatens to bomb its infrastructure",
+  "url": "https://www.npr.org/2026/04/06/nx-s1-5775383/iran-war-updates",
+  "snippet": "Iran rejected US ceasefire plan. Trump threatens bridges and power plants.",
+  "source_name": "NPR",
+  "language": "en",
+  "discovered_date": "2026-04-07",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "첫 실행으로 이전 소스 없음 — 전체 신규 처리",
+  "entities": [
+    { "temp_id": "temp-001", "name": "Donald Trump", "class": "Person", "role": "US President" },
+    { "temp_id": "temp-002", "name": "Iran", "class": "Organization", "type": "state" },
+    { "temp_id": "temp-003", "name": "US Military", "class": "Organization", "type": "military" },
+    { "temp_id": "temp-010", "name": "ceasefire negotiations", "class": "Event", "date": "2026-04-06" }
+  ],
+  "relations": [
+    { "subject": "temp-002", "predicate": "participatesIn", "object": "temp-010" },
+    { "subject": "temp-001", "predicate": "opposes", "object": "temp-002" },
+    { "subject": "temp-001", "predicate": "participatesIn", "object": "temp-010" }
+  ]
+}

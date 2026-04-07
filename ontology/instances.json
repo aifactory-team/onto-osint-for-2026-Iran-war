@@ -1,7 +1,242 @@
 {
   "version": "1.0.0",
   "description": "알려진 엔티티 인스턴스 — 파이프라인 실행 시 자동으로 추가/업데이트된다.",
-  "last_updated": null,
-  "entities": [],
-  "total_count": 0
+  "last_updated": "2026-04-07",
+  "entities": [
+    {
+      "id": "ent-001",
+      "type": "Person",
+      "name": "Donald Trump",
+      "properties": { "role": "US President", "affiliation": "United States" },
+      "first_seen": "2026-04-07",
+      "last_seen": "2026-04-07",
+      "mention_count": 13
+    },
+    {
+      "id": "ent-002",
+      "type": "Organization",
+      "name": "Iran",
+      "properties": { "type": "state", "location": "Middle East" },
+      "first_seen": "2026-04-07",
+      "last_seen": "2026-04-07",
+      "mention_count": 25
+    },
+    {
+      "id": "ent-003",
+      "type": "Organization",
+      "name": "US Military",
+      "properties": { "type": "military", "location": "United States" },
+      "first_seen": "2026-04-07",
+      "last_seen": "2026-04-07",
+      "mention_count": 8
+    },
+    {
+      "id": "ent-004",
+      "type": "Organization",
+      "name": "Israel",
+      "properties": { "type": "state", "location": "Middle East" },
+      "first_seen": "2026-04-07",
+      "last_seen": "2026-04-07",
+      "mention_count": 5
+    },
+    {
+      "id": "ent-005",
+      "type": "Organization",
+      "name": "IRGC (Islamic Revolutionary Guard Corps)",
+      "properties": { "type": "military", "location": "Iran" },
+      "first_seen": "2026-04-07",
+      "last_seen": "2026-04-07",
+      "mention_count": 5
+    },
+    {
+      "id": "ent-006",
+      "type": "Person",
+      "name": "Majid Khademi",
+      "properties": { "role": "IRGC Intelligence Chief", "affiliation": "IRGC", "status": "killed 2026-04-07" },
+      "first_seen": "2026-04-07",
+      "last_seen": "2026-04-07",
+      "mention_count": 1
+    },
+    {
+      "id": "ent-007",
+      "type": "Location",
+      "name": "Kharg Island",
+      "properties": { "type": "island/oil hub", "coordinates": "29.2333°N, 50.3167°E" },
+      "first_seen": "2026-04-07",
+      "last_seen": "2026-04-07",
+      "mention_count": 5
+    },
+    {
+      "id": "ent-008",
+      "type": "Location",
+      "name": "Strait of Hormuz",
+      "properties": { "type": "strait/waterway" },
+      "first_seen": "2026-04-07",
+      "last_seen": "2026-04-07",
+      "mention_count": 10
+    },
+    {
+      "id": "ent-009",
+      "type": "Organization",
+      "name": "Russia",
+      "properties": { "type": "state" },
+      "first_seen": "2026-04-07",
+      "last_seen": "2026-04-07",
+      "mention_count": 2
+    },
+    {
+      "id": "ent-010",
+      "type": "Organization",
+      "name": "China",
+      "properties": { "type": "state" },
+      "first_seen": "2026-04-07",
+      "last_seen": "2026-04-07",
+      "mention_count": 3
+    },
+    {
+      "id": "ent-011",
+      "type": "Organization",
+      "name": "UN Security Council",
+      "properties": { "type": "international organization" },
+      "first_seen": "2026-04-07",
+      "last_seen": "2026-04-07",
+      "mention_count": 2
+    },
+    {
+      "id": "ent-012",
+      "type": "Organization",
+      "name": "US Air Force",
+      "properties": { "type": "military branch" },
+      "first_seen": "2026-04-07",
+      "last_seen": "2026-04-07",
+      "mention_count": 3
+    },
+    {
+      "id": "ent-013",
+      "type": "Location",
+      "name": "Tel Aviv",
+      "properties": { "type": "city" },
+      "first_seen": "2026-04-07",
+      "last_seen": "2026-04-07",
+      "mention_count": 1
+    },
+    {
+      "id": "ent-014",
+      "type": "Location",
+      "name": "Haifa",
+      "properties": { "type": "city" },
+      "first_seen": "2026-04-07",
+      "last_seen": "2026-04-07",
+      "mention_count": 1
+    },
+    {
+      "id": "ent-015",
+      "type": "Event",
+      "name": "2026 Iran War",
+      "properties": { "date": "2026-02-28~", "location": "Iran/Middle East", "participants": "US, Israel, Iran" },
+      "first_seen": "2026-04-07",
+      "last_seen": "2026-04-07",
+      "mention_count": 25
+    },
+    {
+      "id": "ent-016",
+      "type": "Event",
+      "name": "Ceasefire Negotiations",
+      "properties": { "date": "2026-04-06~07", "participants": "US, Iran, regional mediators" },
+      "first_seen": "2026-04-07",
+      "last_seen": "2026-04-07",
+      "mention_count": 8
+    },
+    {
+      "id": "ent-017",
+      "type": "Event",
+      "name": "Kharg Island Strikes (Apr 7)",
+      "properties": { "date": "2026-04-07", "location": "Kharg Island" },
+      "first_seen": "2026-04-07",
+      "last_seen": "2026-04-07",
+      "mention_count": 4
+    },
+    {
+      "id": "ent-018",
+      "type": "Event",
+      "name": "F-15E Shoot Down & Rescue",
+      "properties": { "date": "2026-04-03~05", "location": "Iran" },
+      "first_seen": "2026-04-07",
+      "last_seen": "2026-04-07",
+      "mention_count": 3
+    },
+    {
+      "id": "ent-019",
+      "type": "Event",
+      "name": "Iran 10-Point Peace Plan",
+      "properties": { "date": "2026-04-06" },
+      "first_seen": "2026-04-07",
+      "last_seen": "2026-04-07",
+      "mention_count": 2
+    },
+    {
+      "id": "ent-020",
+      "type": "Event",
+      "name": "Trump Hormuz Deadline",
+      "properties": { "date": "2026-04-08 20:00 ET" },
+      "first_seen": "2026-04-07",
+      "last_seen": "2026-04-07",
+      "mention_count": 7
+    },
+    {
+      "id": "ent-021",
+      "type": "Event",
+      "name": "IRGC Intelligence Chief Assassination",
+      "properties": { "date": "2026-04-07", "target": "Majid Khademi" },
+      "first_seen": "2026-04-07",
+      "last_seen": "2026-04-07",
+      "mention_count": 1
+    },
+    {
+      "id": "ent-022",
+      "type": "Event",
+      "name": "UN Security Council Vote on Hormuz (Vetoed)",
+      "properties": { "date": "2026-04-07", "result": "vetoed by Russia and China" },
+      "first_seen": "2026-04-07",
+      "last_seen": "2026-04-07",
+      "mention_count": 2
+    },
+    {
+      "id": "ent-023",
+      "type": "Event",
+      "name": "Iran Retaliatory Strikes on Gulf/Israel",
+      "properties": { "date": "2026-04-07", "targets": "Tel Aviv, Haifa, Gulf oil facilities" },
+      "first_seen": "2026-04-07",
+      "last_seen": "2026-04-07",
+      "mention_count": 3
+    },
+    {
+      "id": "ent-024",
+      "type": "Event",
+      "name": "Tehran Severs Diplomatic Ties with US",
+      "properties": { "date": "2026-04-07" },
+      "first_seen": "2026-04-07",
+      "last_seen": "2026-04-07",
+      "mention_count": 1
+    },
+    {
+      "id": "ent-025",
+      "type": "Concept",
+      "name": "Nuclear Program",
+      "properties": { "domain": "military/energy" },
+      "first_seen": "2026-04-07",
+      "last_seen": "2026-04-07",
+      "mention_count": 1
+    },
+    {
+      "id": "ent-026",
+      "type": "Concept",
+      "name": "Strait of Hormuz Blockade",
+      "properties": { "domain": "maritime/energy" },
+      "first_seen": "2026-04-07",
+      "last_seen": "2026-04-07",
+      "mention_count": 4
+    }
+  ],
+  "total_count": 26
 }

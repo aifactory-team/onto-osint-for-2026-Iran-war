@@ -1,0 +1,24 @@
+{
+  "id": "src-014",
+  "title": "US has struck Iranian military targets on Kharg Island",
+  "url": "https://www.cnn.com/2026/04/07/middleeast/kharg-island-us-assault-risk-trump-intl",
+  "snippet": "50+ military targets struck. Oil infrastructure not targeted.",
+  "source_name": "CNN",
+  "language": "en",
+  "discovered_date": "2026-04-07",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "첫 실행으로 이전 소스 없음 — 전체 신규 처리",
+  "entities": [
+    { "temp_id": "temp-003", "name": "US Military", "class": "Organization", "type": "military" },
+    { "temp_id": "temp-007", "name": "Kharg Island", "class": "Location", "type": "island" },
+    { "temp_id": "temp-002", "name": "Iran", "class": "Organization", "type": "state" },
+    { "temp_id": "temp-005", "name": "IRGC", "class": "Organization", "type": "military" }
+  ],
+  "relations": [
+    { "subject": "temp-003", "predicate": "opposes", "object": "temp-005" },
+    { "subject": "temp-005", "predicate": "locatedIn", "object": "temp-007" },
+    { "subject": "temp-007", "predicate": "locatedIn", "object": "temp-002" }
+  ]
+}

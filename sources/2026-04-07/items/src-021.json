@@ -1,0 +1,22 @@
+{
+  "id": "src-021",
+  "title": "美 정보당국 '이란 호르무즈 봉쇄 해제 가능성 낮다'",
+  "url": "https://www.seoul.co.kr/news/international/USA-amrica/2026/04/04/20260404500024",
+  "snippet": "미국 정보당국 봉쇄 해제 가능성 낮다 판단.",
+  "source_name": "서울신문",
+  "language": "ko",
+  "discovered_date": "2026-04-07",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "첫 실행으로 이전 소스 없음 — 전체 신규 처리",
+  "entities": [
+    { "temp_id": "temp-021", "name": "US Intelligence", "class": "Organization", "type": "intelligence" },
+    { "temp_id": "temp-002", "name": "Iran", "class": "Organization", "type": "state" },
+    { "temp_id": "temp-008", "name": "Strait of Hormuz", "class": "Location", "type": "waterway" }
+  ],
+  "relations": [
+    { "subject": "temp-021", "predicate": "relatedTo", "object": "temp-008" },
+    { "subject": "temp-002", "predicate": "relatedTo", "object": "temp-008" }
+  ]
+}
