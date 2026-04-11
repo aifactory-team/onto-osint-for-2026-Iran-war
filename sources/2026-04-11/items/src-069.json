@@ -1,0 +1,28 @@
+{
+  "id": "src-069",
+  "title": "US-Iran direct talks on ending war under way in Pakistan",
+  "url": "https://www.aljazeera.com/news/2026/4/11/us-iran-talks-on-ending-war-begin-in-pakistan",
+  "snippet": "First direct talks between Washington and Tehran since 1979. Vance, Witkoff, Kushner met with Ghalibaf and Araghchi at Serena Hotel, Islamabad. Initially planned as 'proximate talks' but became direct face-to-face with Pakistani mediators present. Iranian delegation includes ~70 people. First round lasted ~2 hours.",
+  "source_name": "Al Jazeera",
+  "language": "en",
+  "discovered_date": "2026-04-11",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "이슬라마바드 협상 실제 개시는 4/11 당일 발생한 신규 사건",
+  "entities": [
+    { "id": "ent-041", "type": "Person", "name": "JD Vance", "role": "US Vice President" },
+    { "id": "ent-042", "type": "Person", "name": "Jared Kushner", "role": "Trump adviser" },
+    { "id": "ent-043", "type": "Person", "name": "Steve Witkoff", "role": "US Middle East Envoy" },
+    { "id": "ent-044", "type": "Person", "name": "Abbas Araghchi", "role": "Iran FM" },
+    { "id": "ent-045", "type": "Person", "name": "Mohammad Bagher Ghalibaf", "role": "Iran Parliament Speaker" },
+    { "id": "ent-029", "type": "Organization", "name": "Pakistan", "role": "mediator" },
+    { "id": "ent-051", "type": "Location", "name": "Islamabad" },
+    { "id": "ent-054", "type": "Event", "name": "Islamabad Peace Talks" }
+  ],
+  "relations": [
+    { "subject": "ent-041", "predicate": "participatesIn", "object": "ent-054" },
+    { "subject": "ent-044", "predicate": "participatesIn", "object": "ent-054" },
+    { "subject": "ent-045", "predicate": "participatesIn", "object": "ent-054" }
+  ]
+}

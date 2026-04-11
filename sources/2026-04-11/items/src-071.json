@@ -1,0 +1,26 @@
+{
+  "id": "src-071",
+  "title": "Live Updates: Vance participates in high-stakes talks with Iran as U.S. Navy ships cross the Strait of Hormuz",
+  "url": "https://www.cbsnews.com/live-updates/iran-war-trump-strait-of-hormuz-israel-ceasefire-talks/",
+  "snippet": "US CENTCOM says two Navy destroyers conducted operations in Strait of Hormuz on Saturday, began mine-clearing. Iran calls crossing a ceasefire violation.",
+  "source_name": "CBS News",
+  "language": "en",
+  "discovered_date": "2026-04-11",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "미해군 호르무즈 통과 + 협상 동시 진행은 4/11 신규 사건",
+  "entities": [
+    { "id": "ent-041", "type": "Person", "name": "JD Vance" },
+    { "id": "ent-003", "type": "Organization", "name": "US Military" },
+    { "id": "ent-008", "type": "Location", "name": "Strait of Hormuz" },
+    { "id": "ent-005", "type": "Organization", "name": "IRGC" },
+    { "id": "ent-054", "type": "Event", "name": "Islamabad Peace Talks" },
+    { "id": "temp-001", "type": "Event", "name": "US Navy Hormuz Transit (Apr 11)" },
+    { "id": "temp-002", "type": "Organization", "name": "CENTCOM" }
+  ],
+  "relations": [
+    { "subject": "ent-003", "predicate": "participatesIn", "object": "temp-001" },
+    { "subject": "temp-001", "predicate": "locatedIn", "object": "ent-008" }
+  ]
+}

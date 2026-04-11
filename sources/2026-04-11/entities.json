@@ -1,0 +1,205 @@
+{
+  "date": "2026-04-11",
+  "entities": [
+    {
+      "temp_id": "temp-001",
+      "matched_id": null,
+      "type": "Event",
+      "name": "US Navy Hormuz Transit (Apr 11)",
+      "properties": { "date": "2026-04-11", "vessels": "USS Frank E. Peterson, USS Michael Murphy", "mission": "mine clearance, establish merchant route", "iran_response": "called ceasefire violation" },
+      "source_ids": ["src-071", "src-074", "src-075", "src-076", "src-077"],
+      "mention_count": 12
+    },
+    {
+      "temp_id": "temp-002",
+      "matched_id": null,
+      "type": "Organization",
+      "name": "CENTCOM (US Central Command)",
+      "properties": { "type": "military command", "location": "United States" },
+      "source_ids": ["src-071", "src-074", "src-075", "src-076"],
+      "mention_count": 8
+    },
+    {
+      "temp_id": "temp-003",
+      "matched_id": null,
+      "type": "Organization",
+      "name": "USS Frank E. Peterson",
+      "properties": { "type": "guided-missile destroyer", "class": "Arleigh Burke" },
+      "source_ids": ["src-074", "src-077"],
+      "mention_count": 4
+    },
+    {
+      "temp_id": "temp-004",
+      "matched_id": null,
+      "type": "Organization",
+      "name": "USS Michael Murphy",
+      "properties": { "type": "guided-missile destroyer", "class": "Arleigh Burke" },
+      "source_ids": ["src-074", "src-077"],
+      "mention_count": 4
+    },
+    {
+      "temp_id": "temp-005",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Israel-Lebanon Washington Talks (planned)",
+      "properties": { "date": "2026-04-15 (planned)", "location": "Washington, Department of State", "participants": "Israel, Lebanon", "context": "Israel rejects ceasefire but agrees to talks" },
+      "source_ids": ["src-078"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-006",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Lebanon Attacks (Apr 11, ongoing)",
+      "properties": { "date": "2026-04-11", "casualties": "at least 10 killed including 3 emergency workers", "context": "continuing Israeli attacks despite ceasefire" },
+      "source_ids": ["src-078"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-007",
+      "matched_id": null,
+      "type": "Concept",
+      "name": "Iran 4 Red Lines",
+      "properties": { "domain": "diplomacy/negotiation", "items": ["Hormuz sovereignty", "frozen assets ($6B)", "war reparations", "region-wide ceasefire (including Lebanon)"] },
+      "source_ids": ["src-079", "src-083"],
+      "mention_count": 6
+    },
+    {
+      "temp_id": "temp-008",
+      "matched_id": null,
+      "type": "Concept",
+      "name": "Frozen Assets ($6B)",
+      "properties": { "domain": "finance/sanctions", "amount": "$6 billion", "context": "Iran demands release as precondition" },
+      "source_ids": ["src-073", "src-079", "src-083"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-041",
+      "type": "Person",
+      "name": "JD Vance",
+      "properties": { "role": "US Vice President" },
+      "source_ids": ["src-069", "src-070", "src-071", "src-072", "src-073", "src-080", "src-081", "src-082"],
+      "mention_count": 20
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-044",
+      "type": "Person",
+      "name": "Abbas Araghchi",
+      "properties": { "role": "Iran Foreign Minister" },
+      "source_ids": ["src-069", "src-070", "src-072", "src-084"],
+      "mention_count": 10
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-045",
+      "type": "Person",
+      "name": "Mohammad Bagher Ghalibaf",
+      "properties": { "role": "Iran Parliament Speaker, delegation leader" },
+      "source_ids": ["src-069", "src-070", "src-072", "src-080", "src-081", "src-084"],
+      "mention_count": 12
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-001",
+      "type": "Person",
+      "name": "Donald Trump",
+      "properties": { "role": "US President" },
+      "source_ids": ["src-080", "src-085"],
+      "mention_count": 8
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-054",
+      "type": "Event",
+      "name": "Islamabad Peace Talks",
+      "properties": { "date": "2026-04-11", "status": "underway, positive tone but Hormuz stalemate", "format": "direct face-to-face (initially planned as proximate)", "delegation_size_iran": "~70 people" },
+      "source_ids": ["src-069", "src-070", "src-071", "src-072", "src-073", "src-079", "src-080", "src-081", "src-082", "src-083", "src-084", "src-085", "src-086"],
+      "mention_count": 30
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-008",
+      "type": "Location",
+      "name": "Strait of Hormuz",
+      "properties": { "status": "key sticking point in talks, US Navy transit attempted" },
+      "source_ids": ["src-070", "src-071", "src-074", "src-075", "src-076", "src-077", "src-079", "src-082", "src-086"],
+      "mention_count": 18
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-003",
+      "type": "Organization",
+      "name": "US Military",
+      "properties": { "type": "military" },
+      "source_ids": ["src-071", "src-074", "src-075", "src-076", "src-077"],
+      "mention_count": 10
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-005",
+      "type": "Organization",
+      "name": "IRGC",
+      "properties": { "type": "military", "context": "threatened US Navy ships" },
+      "source_ids": ["src-071", "src-075", "src-076", "src-086"],
+      "mention_count": 6
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-004",
+      "type": "Organization",
+      "name": "Israel",
+      "properties": { "type": "state" },
+      "source_ids": ["src-078"],
+      "mention_count": 6
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-047",
+      "type": "Organization",
+      "name": "Hezbollah",
+      "properties": { "type": "armed group" },
+      "source_ids": ["src-078"],
+      "mention_count": 4
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-050",
+      "type": "Location",
+      "name": "Lebanon",
+      "properties": { "type": "country" },
+      "source_ids": ["src-078", "src-079"],
+      "mention_count": 8
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-053",
+      "type": "Event",
+      "name": "Israel Lebanon Attacks",
+      "properties": { "date": "2026-04-08~11", "casualties_revised": "357+ killed (revised from 254)", "ongoing": "10 more killed April 11" },
+      "source_ids": ["src-078"],
+      "mention_count": 5
+    }
+  ],
+  "relations": [
+    { "subject": "ent-041", "predicate": "participatesIn", "object": "ent-054", "source_ids": ["src-069", "src-070", "src-072"], "confidence": 0.95 },
+    { "subject": "ent-044", "predicate": "participatesIn", "object": "ent-054", "source_ids": ["src-069", "src-070", "src-072"], "confidence": 0.95 },
+    { "subject": "ent-045", "predicate": "participatesIn", "object": "ent-054", "source_ids": ["src-069", "src-070", "src-072"], "confidence": 0.95 },
+    { "subject": "ent-003", "predicate": "participatesIn", "object": "temp-001", "source_ids": ["src-071", "src-074", "src-075"], "confidence": 0.95 },
+    { "subject": "temp-001", "predicate": "locatedIn", "object": "ent-008", "source_ids": ["src-074", "src-075", "src-077"], "confidence": 0.95 },
+    { "subject": "ent-005", "predicate": "opposes", "object": "temp-001", "source_ids": ["src-075", "src-076"], "confidence": 0.85 },
+    { "subject": "ent-004", "predicate": "opposes", "object": "ent-047", "source_ids": ["src-078"], "confidence": 0.95 },
+    { "subject": "ent-004", "predicate": "participatesIn", "object": "temp-006", "source_ids": ["src-078"], "confidence": 0.90 },
+    { "subject": "ent-054", "predicate": "relatedTo", "object": "temp-007", "source_ids": ["src-079", "src-083"], "confidence": 0.90 },
+    { "subject": "ent-054", "predicate": "relatedTo", "object": "ent-055", "source_ids": ["src-070", "src-086"], "confidence": 0.90 },
+    { "subject": "ent-001", "predicate": "participatesIn", "object": "ent-054", "source_ids": ["src-080"], "confidence": 0.90 },
+    { "subject": "ent-002", "predicate": "participatesIn", "object": "ent-054", "source_ids": ["src-069", "src-070", "src-079"], "confidence": 0.95 }
+  ],
+  "stats": {
+    "total_entities": 20,
+    "new_entities": 8,
+    "matched_entities": 12,
+    "total_relations": 12
+  }
+}

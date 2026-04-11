@@ -1,0 +1,21 @@
+{
+  "id": "src-082",
+  "title": "美-이란, 개전 43일 만에 첫 담판…종전 협상 개시",
+  "url": "https://www.seoul.co.kr/news/international/2026/04/11/20260411500049",
+  "snippet": "개전 43일 만에 첫 담판, 종전 협상 개시. 호르무즈 완전 개방, 핵 프로그램 제한 등 의제.",
+  "source_name": "서울신문",
+  "language": "ko",
+  "discovered_date": "2026-04-11",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "4/11 당일 협상 개시 보도",
+  "entities": [
+    { "id": "ent-041", "type": "Person", "name": "JD Vance" },
+    { "id": "ent-002", "type": "Organization", "name": "Iran" },
+    { "id": "ent-008", "type": "Location", "name": "Strait of Hormuz" },
+    { "id": "ent-025", "type": "Concept", "name": "Nuclear Program" },
+    { "id": "ent-054", "type": "Event", "name": "Islamabad Peace Talks" }
+  ],
+  "relations": []
+}

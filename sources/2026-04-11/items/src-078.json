@@ -1,0 +1,25 @@
+{
+  "id": "src-078",
+  "title": "Israel rejects ceasefire with Hezbollah before Lebanon talks next week",
+  "url": "https://www.aljazeera.com/news/2026/4/11/israel-rejects-ceasefire-with-hezbollah-ahead-of-lebanon-talks-next-week",
+  "snippet": "Israel rejects ceasefire with Hezbollah before Washington talks next week. At least 10 killed in Lebanon on April 11 including 3 emergency workers. Israeli and Lebanese ambassadors arranged Washington meeting for Tuesday. April 8 death toll revised to 357.",
+  "source_name": "Al Jazeera",
+  "language": "en",
+  "discovered_date": "2026-04-11",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "이스라엘 헤즈볼라 휴전 공식 거부 + 4/11 추가 사망 + 워싱턴 회담 예고 — 신규 전개",
+  "entities": [
+    { "id": "ent-004", "type": "Organization", "name": "Israel" },
+    { "id": "ent-047", "type": "Organization", "name": "Hezbollah" },
+    { "id": "ent-050", "type": "Location", "name": "Lebanon" },
+    { "id": "ent-053", "type": "Event", "name": "Israel Lebanon Attacks" },
+    { "id": "temp-005", "type": "Event", "name": "Israel-Lebanon Washington Talks (planned)" },
+    { "id": "temp-006", "type": "Event", "name": "Lebanon Attacks (Apr 11, 10 killed)" }
+  ],
+  "relations": [
+    { "subject": "ent-004", "predicate": "opposes", "object": "ent-047" },
+    { "subject": "ent-004", "predicate": "participatesIn", "object": "temp-005" }
+  ]
+}

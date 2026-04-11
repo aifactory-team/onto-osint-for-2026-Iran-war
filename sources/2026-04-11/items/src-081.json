@@ -1,0 +1,21 @@
+{
+  "id": "src-081",
+  "title": "미·이란, 47년 만의 대면‥'이슬라마바드 협상' 곧 시작",
+  "url": "https://imnews.imbc.com/replay/2026/nwdesk/article/6814452_37004.html",
+  "snippet": "미국과 이란의 최고위급 인사들이 47년 만에(1979년 이슬람 혁명 이후) 파키스탄 이슬라마바드에서 만났다. 전쟁 발발 43일 만에 첫 직접 대면.",
+  "source_name": "MBC",
+  "language": "ko",
+  "discovered_date": "2026-04-11",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "한국어 주요 매체의 47년 만 대면 보도 — 국내 여론 반영",
+  "entities": [
+    { "id": "ent-041", "type": "Person", "name": "JD Vance" },
+    { "id": "ent-045", "type": "Person", "name": "Ghalibaf" },
+    { "id": "ent-051", "type": "Location", "name": "Islamabad" },
+    { "id": "ent-054", "type": "Event", "name": "Islamabad Peace Talks" },
+    { "id": "ent-002", "type": "Organization", "name": "Iran" }
+  ],
+  "relations": []
+}

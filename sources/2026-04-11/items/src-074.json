@@ -1,0 +1,25 @@
+{
+  "id": "src-074",
+  "title": "U.S. warships cross Strait of Hormuz for first time since Iran war began",
+  "url": "https://www.axios.com/2026/04/11/us-iran-navy-strait-of-hormuz",
+  "snippet": "Two guided-missile destroyers USS Frank E. Peterson and USS Michael Murphy transited the Strait of Hormuz. First crossing since war began Feb 28. Part of mine clearance mission. Additional forces including underwater drones to join.",
+  "source_name": "Axios",
+  "language": "en",
+  "discovered_date": "2026-04-11",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "미해군 구축함의 호르무즈 최초 통과 — 완전히 신규 사건",
+  "entities": [
+    { "id": "ent-003", "type": "Organization", "name": "US Military" },
+    { "id": "ent-008", "type": "Location", "name": "Strait of Hormuz" },
+    { "id": "temp-001", "type": "Event", "name": "US Navy Hormuz Transit (Apr 11)" },
+    { "id": "temp-002", "type": "Organization", "name": "CENTCOM" },
+    { "id": "temp-003", "type": "Organization", "name": "USS Frank E. Peterson" },
+    { "id": "temp-004", "type": "Organization", "name": "USS Michael Murphy" }
+  ],
+  "relations": [
+    { "subject": "ent-003", "predicate": "participatesIn", "object": "temp-001" },
+    { "subject": "temp-001", "predicate": "locatedIn", "object": "ent-008" }
+  ]
+}

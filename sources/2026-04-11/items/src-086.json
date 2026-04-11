@@ -1,0 +1,21 @@
+{
+  "id": "src-086",
+  "title": "Strait of Hormuz Reportedly Point of 'Serious Disagreement' in Islamabad Talks",
+  "url": "https://www.haaretz.com/israel-news/israel-security/2026-04-11/ty-article-live/report-iran-still-has-thousands-of-missiles-launchers-in-underground-sites/0000019d-7a72-de10-afdf-7a7e24580000",
+  "snippet": "Hormuz is point of 'serious disagreement'. Report: Iran still has thousands of missiles and launchers in underground sites.",
+  "source_name": "Haaretz",
+  "language": "en",
+  "discovered_date": "2026-04-11",
+  "tag": "update",
+  "related_report": "2026-04-10",
+  "related_item": "src-055/Hormuz Toll Dispute",
+  "tag_reason": "호르무즈가 '심각한 이견' 지점이라는 새 정보 + 이란 미사일 잔여 전력 보도",
+  "entities": [
+    { "id": "ent-008", "type": "Location", "name": "Strait of Hormuz" },
+    { "id": "ent-054", "type": "Event", "name": "Islamabad Peace Talks" },
+    { "id": "ent-002", "type": "Organization", "name": "Iran" },
+    { "id": "ent-055", "type": "Event", "name": "Hormuz Toll Dispute" },
+    { "id": "ent-005", "type": "Organization", "name": "IRGC" }
+  ],
+  "relations": []
+}

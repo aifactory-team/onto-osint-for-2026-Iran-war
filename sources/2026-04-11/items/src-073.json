@@ -1,0 +1,23 @@
+{
+  "id": "src-073",
+  "title": "U.S.-Iran peace talks underway in Islamabad after weeks of frantic diplomacy",
+  "url": "https://www.npr.org/2026/04/11/nx-s1-5781760/pakistan-hosts-peace-talks-us-iran",
+  "snippet": "Historic direct negotiations. Iran demands $6B frozen assets, nuclear guarantees, Hormuz rights. First talks since 1979.",
+  "source_name": "NPR",
+  "language": "en",
+  "discovered_date": "2026-04-11",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "NPR의 당일 협상 종합 보도 — 이란 요구사항 상세",
+  "entities": [
+    { "id": "ent-002", "type": "Organization", "name": "Iran" },
+    { "id": "ent-029", "type": "Organization", "name": "Pakistan" },
+    { "id": "ent-054", "type": "Event", "name": "Islamabad Peace Talks" },
+    { "id": "ent-025", "type": "Concept", "name": "Nuclear Program" },
+    { "id": "temp-008", "type": "Concept", "name": "Frozen Assets ($6B)" },
+    { "id": "ent-008", "type": "Location", "name": "Strait of Hormuz" },
+    { "id": "ent-041", "type": "Person", "name": "JD Vance" }
+  ],
+  "relations": []
+}

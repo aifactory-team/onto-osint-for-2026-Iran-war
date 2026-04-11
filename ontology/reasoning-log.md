@@ -110,3 +110,39 @@
 - 17개 새 엔티티 모두 기존 클래스(Person, Organization, Event, Location, Concept)로 분류 가능
 - 23개 새 관계 모두 기존 관계 유형으로 표현 가능
 - "Hormuz Toll/Management"는 기존 Concept 클래스로 충분히 표현
+
+---
+
+## 2026-04-11 추론 결과
+
+### 추론 #13: event_chain (미해군 호르무즈 통과 ← 2주 휴전)
+- **입력:** (ent-030/2-Week Ceasefire, 호르무즈 개방 조건 포함), (ent-058/US Navy Hormuz Transit, 호르무즈에서 기뢰 제거 작전)
+- **추론:** (ent-058/US Navy Hormuz Transit, causedBy, ent-030/2-Week Ceasefire)
+- **신뢰도:** 0.80
+- **상태:** 확정
+- **비고:** 미해군의 호르무즈 통과는 휴전 조건인 호르무즈 개방을 군사적으로 실행하는 것. 기뢰 제거 및 상선 항로 개척이 목적.
+
+### 추론 #14: co_participation (미해군 통과 ↔ 이슬라마바드 협상 동시성)
+- **입력:** (ent-058/US Navy Hormuz Transit, date=2026-04-11), (ent-054/Islamabad Talks, date=2026-04-11)
+- **추론:** (ent-058/US Navy Hormuz Transit, relatedTo, ent-054/Islamabad Talks)
+- **신뢰도:** 0.75
+- **상태:** 확정 (잠정에 가까움)
+- **비고:** 외교 협상과 군사 작전이 동시에 진행. 밴스가 이슬라마바드에서 협상하는 동안 미해군이 호르무즈에서 작전 수행 — 전형적인 "협상-압박" 이중 트랙. 의도적 동시성인지 우연인지는 불확실.
+
+### 추론 #15: transitivity (CENTCOM → Trump 간접 소속)
+- **입력:** (ent-059/CENTCOM, affiliatedWith, ent-003/US Military), (ent-003/US Military → ent-001/Trump via command)
+- **추론:** (ent-059/CENTCOM, indirectlyAffiliatedWith, ent-001/Trump)
+- **신뢰도:** 0.81
+- **상태:** 확정
+- **비고:** CENTCOM은 미군 통합전투사령부로 대통령 직할. 호르무즈 작전은 대통령 명령에 의한 것.
+
+### 추론 #16: event_chain (워싱턴 회담 → 레바논 공습 후속)
+- **입력:** (ent-053/Israel Lebanon Attacks, date=2026-04-08), (ent-060/Washington Talks, date=2026-04-15 planned)
+- **추론:** (ent-060/Israel-Lebanon Washington Talks, follows, ent-053/Israel Lebanon Attacks)
+- **신뢰도:** 0.78
+- **상태:** 확정
+- **비고:** 이스라엘이 4/8 레바논 공습 후 레바논과 워싱턴에서 직접 회담에 합의. 공습의 외교적 후속 조치이나, 이스라엘은 헤즈볼라 휴전은 거부하면서 회담만 수용하는 이중 전략.
+
+### 스키마 변경 없음
+- 5개 새 엔티티 모두 기존 클래스(Event, Organization, Concept)로 분류 가능
+- 12개 새 관계 모두 기존 관계 유형으로 표현 가능

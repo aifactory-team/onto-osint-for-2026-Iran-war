@@ -1,0 +1,21 @@
+{
+  "id": "src-083",
+  "title": "[속보] 美·이란, 협상 개시…이란, 호르무즈 통제권 등 '4대 레드라인' 제시",
+  "url": "https://biz.heraldcorp.com/article/10715063",
+  "snippet": "이란이 호르무즈 통제권, 동결자산 해제, 전쟁 배상금, 지역 전면 휴전 등 4대 레드라인을 제시했다.",
+  "source_name": "헤럴드경제",
+  "language": "ko",
+  "discovered_date": "2026-04-11",
+  "tag": "update",
+  "related_report": "2026-04-10",
+  "related_item": "src-054/Islamabad Talks",
+  "tag_reason": "이전 이슬라마바드 협상 보도의 후속 — 이란의 4대 레드라인 구체화",
+  "entities": [
+    { "id": "ent-002", "type": "Organization", "name": "Iran" },
+    { "id": "ent-008", "type": "Location", "name": "Strait of Hormuz" },
+    { "id": "temp-007", "type": "Concept", "name": "Iran 4 Red Lines" },
+    { "id": "temp-008", "type": "Concept", "name": "Frozen Assets ($6B)" },
+    { "id": "ent-054", "type": "Event", "name": "Islamabad Peace Talks" }
+  ],
+  "relations": []
+}

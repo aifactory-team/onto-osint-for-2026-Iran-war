@@ -1,0 +1,21 @@
+{
+  "id": "src-077",
+  "title": "Two U.S. Warships Sail Through Strait of Hormuz to Establish New Route for Merchant Ships",
+  "url": "https://news.usni.org/2026/04/11/two-u-s-warships-sail-through-strait-of-hormuz-to-establish-new-route-for-merchant-ships",
+  "snippet": "USS Frank E. Peterson and USS Michael Murphy sailed through Strait to establish new route for merchant ships and begin mine clearance. Additional underwater drones to join.",
+  "source_name": "USNI News",
+  "language": "en",
+  "discovered_date": "2026-04-11",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "해군 전문매체의 상세 작전 정보 — 상선 항로 개척 목적 명시",
+  "entities": [
+    { "id": "ent-003", "type": "Organization", "name": "US Military" },
+    { "id": "ent-008", "type": "Location", "name": "Strait of Hormuz" },
+    { "id": "temp-001", "type": "Event", "name": "US Navy Hormuz Transit (Apr 11)" },
+    { "id": "temp-003", "type": "Organization", "name": "USS Frank E. Peterson" },
+    { "id": "temp-004", "type": "Organization", "name": "USS Michael Murphy" }
+  ],
+  "relations": []
+}

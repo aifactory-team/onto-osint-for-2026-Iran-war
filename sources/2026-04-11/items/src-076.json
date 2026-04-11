@@ -1,0 +1,23 @@
+{
+  "id": "src-076",
+  "title": "U.S. Navy attempts to cross Hormuz; accounts differ on what ensued",
+  "url": "https://fortune.com/2026/04/11/us-navy-ships-strait-of-hormuz-crossing-ceasefire-talks-pakistan/",
+  "snippet": "Accounts differ: CENTCOM says transit completed; regional intelligence official says two Arleigh Burke-class destroyers were forced to turn back after encountering IRGC threats.",
+  "source_name": "Fortune",
+  "language": "en",
+  "discovered_date": "2026-04-11",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "호르무즈 통과 결과에 대한 상반된 보도 — CENTCOM vs 지역 정보원",
+  "entities": [
+    { "id": "ent-003", "type": "Organization", "name": "US Military" },
+    { "id": "ent-005", "type": "Organization", "name": "IRGC" },
+    { "id": "ent-008", "type": "Location", "name": "Strait of Hormuz" },
+    { "id": "temp-001", "type": "Event", "name": "US Navy Hormuz Transit (Apr 11)" },
+    { "id": "temp-002", "type": "Organization", "name": "CENTCOM" }
+  ],
+  "relations": [
+    { "subject": "ent-005", "predicate": "opposes", "object": "temp-001" }
+  ]
+}

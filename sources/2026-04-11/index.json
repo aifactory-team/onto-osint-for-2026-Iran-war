@@ -1,0 +1,209 @@
+{
+  "date": "2026-04-11",
+  "total": 25,
+  "new": 14,
+  "reported": 7,
+  "update": 4,
+  "items": [
+    {
+      "id": "src-069",
+      "title": "US-Iran direct talks on ending war under way in Pakistan",
+      "url": "https://www.aljazeera.com/news/2026/4/11/us-iran-talks-on-ending-war-begin-in-pakistan",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 8
+    },
+    {
+      "id": "src-070",
+      "title": "Live updates: Iran war news as Vance and Iranian officials meet for Pakistan talks",
+      "url": "https://www.cnn.com/2026/04/11/world/live-news/iran-us-war-talks",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 8
+    },
+    {
+      "id": "src-071",
+      "title": "Live Updates: Vance participates in high-stakes talks with Iran as U.S. Navy ships cross the Strait of Hormuz",
+      "url": "https://www.cbsnews.com/live-updates/iran-war-trump-strait-of-hormuz-israel-ceasefire-talks/",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 7
+    },
+    {
+      "id": "src-072",
+      "title": "U.S.-Iran talks underway in Islamabad after delegations arrive",
+      "url": "https://www.cnbc.com/2026/04/11/us-iran-talks-set-to-begin-in-islamabad-after-delegations-arrive.html",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 6
+    },
+    {
+      "id": "src-073",
+      "title": "U.S.-Iran peace talks underway in Islamabad after weeks of frantic diplomacy",
+      "url": "https://www.npr.org/2026/04/11/nx-s1-5781760/pakistan-hosts-peace-talks-us-iran",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 7
+    },
+    {
+      "id": "src-074",
+      "title": "U.S. warships cross Strait of Hormuz for first time since Iran war began",
+      "url": "https://www.axios.com/2026/04/11/us-iran-navy-strait-of-hormuz",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 6
+    },
+    {
+      "id": "src-075",
+      "title": "US says two naval ships 'transited' Strait of Hormuz for mine-clearing",
+      "url": "https://www.aljazeera.com/news/2026/4/11/us-says-two-naval-ships-transited-strait-of-hormuz-for-mine-clearing",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 5
+    },
+    {
+      "id": "src-076",
+      "title": "U.S. Navy attempts to cross Hormuz; accounts differ on what ensued",
+      "url": "https://fortune.com/2026/04/11/us-navy-ships-strait-of-hormuz-crossing-ceasefire-talks-pakistan/",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 5
+    },
+    {
+      "id": "src-077",
+      "title": "Two U.S. Warships Sail Through Strait of Hormuz to Establish New Route for Merchant Ships",
+      "url": "https://news.usni.org/2026/04/11/two-u-s-warships-sail-through-strait-of-hormuz-to-establish-new-route-for-merchant-ships",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 5
+    },
+    {
+      "id": "src-078",
+      "title": "Israel rejects ceasefire with Hezbollah before Lebanon talks next week",
+      "url": "https://www.aljazeera.com/news/2026/4/11/israel-rejects-ceasefire-with-hezbollah-ahead-of-lebanon-talks-next-week",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 6
+    },
+    {
+      "id": "src-079",
+      "title": "US, Iran hold direct talks in Pakistan; Tehran demands control of Hormuz, truce in Lebanon",
+      "url": "https://www.timesofisrael.com/us-iran-talks-begin-in-pakistan-tehran-demands-control-of-hormuz-truce-in-lebanon/",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 7
+    },
+    {
+      "id": "src-080",
+      "title": "Iran war live: Trump says US in 'very deep' negotiations with Iran",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/4/11/iran-war-live-us-negotiators-due-to-arrive-in-pakistan-for-ceasefire-talks",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 6
+    },
+    {
+      "id": "src-081",
+      "title": "미·이란, 47년 만의 대면‥'이슬라마바드 협상' 곧 시작",
+      "url": "https://imnews.imbc.com/replay/2026/nwdesk/article/6814452_37004.html",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 5
+    },
+    {
+      "id": "src-082",
+      "title": "美-이란, 개전 43일 만에 첫 담판…종전 협상 개시",
+      "url": "https://www.seoul.co.kr/news/international/2026/04/11/20260411500049",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 5
+    },
+    {
+      "id": "src-083",
+      "title": "[속보] 美·이란, 협상 개시…이란, 호르무즈 통제권 등 '4대 레드라인' 제시",
+      "url": "https://biz.heraldcorp.com/article/10715063",
+      "tag": "update",
+      "related_report": "2026-04-10",
+      "entity_count": 5
+    },
+    {
+      "id": "src-084",
+      "title": "이란 \"美와 협상, 구체적 실무 논의 단계…하루 연장될 수도\"",
+      "url": "https://www.news1.kr/world/middleeast-africa/6133305",
+      "tag": "update",
+      "related_report": "2026-04-10",
+      "entity_count": 4
+    },
+    {
+      "id": "src-085",
+      "title": "U.S., Iran seek path to end war in Islamabad talks",
+      "url": "https://www.washingtonpost.com/world/2026/04/11/us-iran-islamabad-hormuz-ceasefire/",
+      "tag": "update",
+      "related_report": "2026-04-10",
+      "entity_count": 6
+    },
+    {
+      "id": "src-086",
+      "title": "Strait of Hormuz Reportedly Point of 'Serious Disagreement' in Islamabad Talks",
+      "url": "https://www.haaretz.com/israel-news/israel-security/2026-04-11/ty-article-live/report-iran-still-has-thousands-of-missiles-launchers-in-underground-sites/0000019d-7a72-de10-afdf-7a7e24580000",
+      "tag": "update",
+      "related_report": "2026-04-10",
+      "entity_count": 5
+    },
+    {
+      "id": "src-087",
+      "title": "World anxiously waits to see if US-Iran peace talks can deliver",
+      "url": "https://www.cnn.com/2026/04/10/middleeast/us-iran-war-talks-pakistan-what-we-know-intl-hnk",
+      "tag": "reported",
+      "related_report": "2026-04-10",
+      "entity_count": 6
+    },
+    {
+      "id": "src-088",
+      "title": "Analysis: A teetering ceasefire bodes ill for treacherous US-Iran talks ahead",
+      "url": "https://www.cnn.com/2026/04/09/politics/trump-iran-ceasefire-hormuz-pakistan-vance-talks-analysis",
+      "tag": "reported",
+      "related_report": "2026-04-10",
+      "entity_count": 4
+    },
+    {
+      "id": "src-089",
+      "title": "Permanent Iran tolls on Strait of Hormuz would rock global economy",
+      "url": "https://www.washingtontimes.com/news/2026/apr/9/permanent-iran-tolls-strait-hormuz-would-rock-global-economy-undo/",
+      "tag": "reported",
+      "related_report": "2026-04-10",
+      "entity_count": 4
+    },
+    {
+      "id": "src-090",
+      "title": "호르무즈 통행, 레바논 전황에 달려...휴전에도 이란 '손아귀'",
+      "url": "https://www.fnnews.com/news/202604090935480172",
+      "tag": "reported",
+      "related_report": "2026-04-10",
+      "entity_count": 4
+    },
+    {
+      "id": "src-091",
+      "title": "불안한 2주 휴전…일본은 통과한 호르무즈, 한국은?",
+      "url": "https://www.sisajournal.com/news/articleView.html?idxno=368770",
+      "tag": "reported",
+      "related_report": "2026-04-10",
+      "entity_count": 4
+    },
+    {
+      "id": "src-092",
+      "title": "이슬라마바드 집결한 미·이란 대표단…'매머드급' 협상 개시 임박",
+      "url": "https://www.ajunews.com/view/20260411212843778",
+      "tag": "reported",
+      "related_report": "2026-04-10",
+      "entity_count": 5
+    },
+    {
+      "id": "src-093",
+      "title": "휴전 이후 첫 非이란 유조선 호르무즈 해협 통과",
+      "url": "https://biz.heraldcorp.com/article/10714015",
+      "tag": "reported",
+      "related_report": "2026-04-10",
+      "entity_count": 4
+    }
+  ]
+}

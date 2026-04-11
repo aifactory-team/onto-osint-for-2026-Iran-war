@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "OSINT 온톨로지 스키마 — config/osint-config.json의 seed로부터 초기화되고, 매일 파이프라인 실행 시 자동 확장된다.",
-  "last_updated": "2026-04-10",
+  "last_updated": "2026-04-11",
   "classes": [
     {
       "id": "Entity",
@@ -68,6 +68,13 @@
       "target": "17 new entities (ent-041~ent-057)",
       "reason": "이슬라마바드 평화회담 참가자(Vance, Kushner, Witkoff, Araghchi, Ghalibaf), 모즈타바 하메네이 최고지도자, 헤즈볼라, 레바논, 이스라엘 레바논 공습, 호르무즈 통행료 분쟁 등 신규 사건/행위자 추출",
       "source_ids": ["src-037", "src-038", "src-039", "src-041", "src-044", "src-047", "src-048", "src-050"]
+    },
+    {
+      "date": "2026-04-11",
+      "action": "add_instances",
+      "target": "5 new entities (ent-058~ent-062)",
+      "reason": "미해군 호르무즈 최초 통과(구축함 2척 기뢰 제거 작전), CENTCOM, 이스라엘-레바논 워싱턴 회담 예고, 이란 4대 레드라인, 동결자산($6B) 등 이슬라마바드 협상 의제 구체화",
+      "source_ids": ["src-069", "src-074", "src-075", "src-078", "src-079", "src-083"]
     }
   ]
 }

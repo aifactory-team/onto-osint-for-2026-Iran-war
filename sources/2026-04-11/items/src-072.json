@@ -1,0 +1,22 @@
+{
+  "id": "src-072",
+  "title": "U.S.-Iran talks underway in Islamabad after delegations arrive",
+  "url": "https://www.cnbc.com/2026/04/11/us-iran-talks-set-to-begin-in-islamabad-after-delegations-arrive.html",
+  "snippet": "Focus on Hormuz, Lebanon, nuclear stockpile. Direct talks begin between Vance, Witkoff, Kushner and Ghalibaf, Araghchi.",
+  "source_name": "CNBC",
+  "language": "en",
+  "discovered_date": "2026-04-11",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "4/11 당일 협상 개시 보도",
+  "entities": [
+    { "id": "ent-041", "type": "Person", "name": "JD Vance" },
+    { "id": "ent-043", "type": "Person", "name": "Steve Witkoff" },
+    { "id": "ent-044", "type": "Person", "name": "Abbas Araghchi" },
+    { "id": "ent-045", "type": "Person", "name": "Ghalibaf" },
+    { "id": "ent-054", "type": "Event", "name": "Islamabad Peace Talks" },
+    { "id": "ent-008", "type": "Location", "name": "Strait of Hormuz" }
+  ],
+  "relations": []
+}

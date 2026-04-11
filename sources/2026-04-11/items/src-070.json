@@ -1,0 +1,27 @@
+{
+  "id": "src-070",
+  "title": "Live updates: Iran war news as Vance and Iranian officials meet for Pakistan talks",
+  "url": "https://www.cnn.com/2026/04/11/world/live-news/iran-us-war-talks",
+  "snippet": "Pakistani sources say tone positive but stalemate on Hormuz. Iranian delegation ~70 people including technical experts. Negotiations continued into early Sunday morning. Iran's source says US made 'unacceptable demands' over Hormuz.",
+  "source_name": "CNN",
+  "language": "en",
+  "discovered_date": "2026-04-11",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "협상 실시간 경과 보도 — 이전 보도에 없는 협상 분위기/교착 상황 상세",
+  "entities": [
+    { "id": "ent-041", "type": "Person", "name": "JD Vance" },
+    { "id": "ent-044", "type": "Person", "name": "Abbas Araghchi" },
+    { "id": "ent-045", "type": "Person", "name": "Ghalibaf" },
+    { "id": "ent-029", "type": "Organization", "name": "Pakistan" },
+    { "id": "ent-002", "type": "Organization", "name": "Iran" },
+    { "id": "ent-008", "type": "Location", "name": "Strait of Hormuz" },
+    { "id": "ent-054", "type": "Event", "name": "Islamabad Peace Talks" },
+    { "id": "ent-055", "type": "Event", "name": "Hormuz Toll Dispute" }
+  ],
+  "relations": [
+    { "subject": "ent-054", "predicate": "relatedTo", "object": "ent-055" },
+    { "subject": "ent-002", "predicate": "participatesIn", "object": "ent-054" }
+  ]
+}

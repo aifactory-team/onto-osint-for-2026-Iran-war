@@ -1,0 +1,22 @@
+{
+  "id": "src-085",
+  "title": "U.S., Iran seek path to end war in Islamabad talks",
+  "url": "https://www.washingtonpost.com/world/2026/04/11/us-iran-islamabad-hormuz-ceasefire/",
+  "snippet": "US and Iran seek path to end six-week war in Islamabad talks. Hormuz remains key sticking point.",
+  "source_name": "Washington Post",
+  "language": "en",
+  "discovered_date": "2026-04-11",
+  "tag": "update",
+  "related_report": "2026-04-10",
+  "related_item": "src-054/Islamabad Talks",
+  "tag_reason": "이전 보고된 이슬라마바드 협상의 후속 — 워싱턴포스트 종합 분석",
+  "entities": [
+    { "id": "ent-002", "type": "Organization", "name": "Iran" },
+    { "id": "ent-001", "type": "Person", "name": "Donald Trump" },
+    { "id": "ent-054", "type": "Event", "name": "Islamabad Peace Talks" },
+    { "id": "ent-008", "type": "Location", "name": "Strait of Hormuz" },
+    { "id": "ent-030", "type": "Event", "name": "2-Week Ceasefire" },
+    { "id": "ent-051", "type": "Location", "name": "Islamabad" }
+  ],
+  "relations": []
+}

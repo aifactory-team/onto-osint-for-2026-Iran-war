@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "알려진 엔티티 인스턴스 — 파이프라인 실행 시 자동으로 추가/업데이트된다.",
-  "last_updated": "2026-04-10",
+  "last_updated": "2026-04-11",
   "entities": [
     {
       "id": "ent-001",
@@ -9,8 +9,8 @@
       "name": "Donald Trump",
       "properties": { "role": "US President", "affiliation": "United States" },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-10",
-      "mention_count": 33
+      "last_seen": "2026-04-11",
+      "mention_count": 41
     },
     {
       "id": "ent-002",
@@ -18,8 +18,8 @@
       "name": "Iran",
       "properties": { "type": "state", "location": "Middle East" },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-10",
-      "mention_count": 65
+      "last_seen": "2026-04-11",
+      "mention_count": 85
     },
     {
       "id": "ent-003",
@@ -27,8 +27,8 @@
       "name": "US Military",
       "properties": { "type": "military", "location": "United States" },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-07",
-      "mention_count": 10
+      "last_seen": "2026-04-11",
+      "mention_count": 20
     },
     {
       "id": "ent-004",
@@ -36,8 +36,8 @@
       "name": "Israel",
       "properties": { "type": "state", "location": "Middle East" },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-10",
-      "mention_count": 34
+      "last_seen": "2026-04-11",
+      "mention_count": 40
     },
     {
       "id": "ent-005",
@@ -45,8 +45,8 @@
       "name": "IRGC (Islamic Revolutionary Guard Corps)",
       "properties": { "type": "military", "location": "Iran" },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-07",
-      "mention_count": 10
+      "last_seen": "2026-04-11",
+      "mention_count": 16
     },
     {
       "id": "ent-006",
@@ -72,8 +72,8 @@
       "name": "Strait of Hormuz",
       "properties": { "type": "strait/waterway" },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-10",
-      "mention_count": 35
+      "last_seen": "2026-04-11",
+      "mention_count": 53
     },
     {
       "id": "ent-009",
@@ -225,8 +225,8 @@
       "name": "Nuclear Program",
       "properties": { "domain": "military/energy" },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-10",
-      "mention_count": 4
+      "last_seen": "2026-04-11",
+      "mention_count": 7
     },
     {
       "id": "ent-026",
@@ -261,8 +261,8 @@
       "name": "Pakistan",
       "properties": { "type": "state", "role": "mediator in Iran war, host of Islamabad talks" },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-10",
-      "mention_count": 26
+      "last_seen": "2026-04-11",
+      "mention_count": 36
     },
     {
       "id": "ent-030",
@@ -369,8 +369,8 @@
       "name": "JD Vance",
       "properties": { "role": "US Vice President", "affiliation": "United States" },
       "first_seen": "2026-04-10",
-      "last_seen": "2026-04-10",
-      "mention_count": 15
+      "last_seen": "2026-04-11",
+      "mention_count": 35
     },
     {
       "id": "ent-042",
@@ -396,17 +396,17 @@
       "name": "Abbas Araghchi",
       "properties": { "role": "Iran Foreign Minister", "affiliation": "Iran" },
       "first_seen": "2026-04-10",
-      "last_seen": "2026-04-10",
-      "mention_count": 8
+      "last_seen": "2026-04-11",
+      "mention_count": 18
     },
     {
       "id": "ent-045",
       "type": "Person",
       "name": "Mohammad Bagher Ghalibaf",
-      "properties": { "role": "Iran Parliament Speaker", "affiliation": "Iran" },
+      "properties": { "role": "Iran Parliament Speaker, delegation leader", "affiliation": "Iran" },
       "first_seen": "2026-04-10",
-      "last_seen": "2026-04-10",
-      "mention_count": 8
+      "last_seen": "2026-04-11",
+      "mention_count": 20
     },
     {
       "id": "ent-046",
@@ -423,8 +423,8 @@
       "name": "Hezbollah",
       "properties": { "type": "armed group", "location": "Lebanon", "affiliation": "Iran-backed" },
       "first_seen": "2026-04-10",
-      "last_seen": "2026-04-10",
-      "mention_count": 8
+      "last_seen": "2026-04-11",
+      "mention_count": 12
     },
     {
       "id": "ent-048",
@@ -450,8 +450,8 @@
       "name": "Lebanon",
       "properties": { "type": "country" },
       "first_seen": "2026-04-10",
-      "last_seen": "2026-04-10",
-      "mention_count": 20
+      "last_seen": "2026-04-11",
+      "mention_count": 28
     },
     {
       "id": "ent-051",
@@ -459,8 +459,8 @@
       "name": "Islamabad",
       "properties": { "type": "city", "country": "Pakistan" },
       "first_seen": "2026-04-10",
-      "last_seen": "2026-04-10",
-      "mention_count": 15
+      "last_seen": "2026-04-11",
+      "mention_count": 25
     },
     {
       "id": "ent-052",
@@ -475,28 +475,28 @@
       "id": "ent-053",
       "type": "Event",
       "name": "Israel Lebanon Attacks (Apr 8)",
-      "properties": { "date": "2026-04-08", "location": "Lebanon", "casualties": "254+ killed, 1100+ wounded", "context": "Hours after Iran ceasefire declared" },
+      "properties": { "date": "2026-04-08~11", "location": "Lebanon", "casualties": "357+ killed (revised), 1100+ wounded; 10 more killed Apr 11", "context": "Hours after Iran ceasefire declared, 'Operation Eternal Darkness', 'Black Wednesday'" },
       "first_seen": "2026-04-10",
-      "last_seen": "2026-04-10",
-      "mention_count": 20
+      "last_seen": "2026-04-11",
+      "mention_count": 25
     },
     {
       "id": "ent-054",
       "type": "Event",
       "name": "Islamabad Peace Talks",
-      "properties": { "date": "2026-04-10~11", "location": "Islamabad, Serena Hotel", "participants": "US (Vance, Witkoff, Kushner), Iran (Araghchi, Ghalibaf), Pakistan (host/mediator)" },
+      "properties": { "date": "2026-04-11~", "location": "Islamabad, Serena Hotel", "participants": "US (Vance, Witkoff, Kushner), Iran (Araghchi, Ghalibaf ~70 people), Pakistan (host/mediator)", "status": "underway — positive tone, Hormuz stalemate", "format": "direct face-to-face (first since 1979)" },
       "first_seen": "2026-04-10",
-      "last_seen": "2026-04-10",
-      "mention_count": 25
+      "last_seen": "2026-04-11",
+      "mention_count": 55
     },
     {
       "id": "ent-055",
       "type": "Event",
       "name": "Hormuz Toll Dispute",
-      "properties": { "date": "2026-04-08~10", "detail": "Iran charges $1-2M per ship, Trump demands toll-free passage" },
+      "properties": { "date": "2026-04-08~11", "detail": "Iran charges $1-2M per ship, Trump demands toll-free passage, 'serious disagreement' in Islamabad talks" },
       "first_seen": "2026-04-10",
-      "last_seen": "2026-04-10",
-      "mention_count": 12
+      "last_seen": "2026-04-11",
+      "mention_count": 17
     },
     {
       "id": "ent-056",
@@ -515,7 +515,52 @@
       "first_seen": "2026-04-10",
       "last_seen": "2026-04-10",
       "mention_count": 10
+    },
+    {
+      "id": "ent-058",
+      "type": "Event",
+      "name": "US Navy Hormuz Transit (Apr 11)",
+      "properties": { "date": "2026-04-11", "vessels": "USS Frank E. Peterson, USS Michael Murphy (Arleigh Burke-class)", "mission": "mine clearance, establish merchant route", "iran_response": "called ceasefire violation, threatened attack" },
+      "first_seen": "2026-04-11",
+      "last_seen": "2026-04-11",
+      "mention_count": 12
+    },
+    {
+      "id": "ent-059",
+      "type": "Organization",
+      "name": "CENTCOM (US Central Command)",
+      "properties": { "type": "military command", "location": "United States" },
+      "first_seen": "2026-04-11",
+      "last_seen": "2026-04-11",
+      "mention_count": 8
+    },
+    {
+      "id": "ent-060",
+      "type": "Event",
+      "name": "Israel-Lebanon Washington Talks (planned)",
+      "properties": { "date": "2026-04-15 (planned)", "location": "Washington, Department of State", "participants": "Israel, Lebanon", "context": "Israel rejects ceasefire but agrees to talks on Hezbollah disarmament" },
+      "first_seen": "2026-04-11",
+      "last_seen": "2026-04-11",
+      "mention_count": 3
+    },
+    {
+      "id": "ent-061",
+      "type": "Concept",
+      "name": "Iran 4 Red Lines",
+      "properties": { "domain": "diplomacy/negotiation", "items": "Hormuz sovereignty, frozen assets ($6B), war reparations, region-wide ceasefire" },
+      "first_seen": "2026-04-11",
+      "last_seen": "2026-04-11",
+      "mention_count": 6
+    },
+    {
+      "id": "ent-062",
+      "type": "Concept",
+      "name": "Frozen Assets ($6B)",
+      "properties": { "domain": "finance/sanctions", "amount": "$6 billion", "context": "Iran demands release as negotiation precondition" },
+      "first_seen": "2026-04-11",
+      "last_seen": "2026-04-11",
+      "mention_count": 5
     }
   ],
-  "total_count": 57
+  "total_count": 62
 }
