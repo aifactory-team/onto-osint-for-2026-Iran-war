@@ -1,0 +1,29 @@
+{
+  "id": "src-094",
+  "title": "US and Iran fail to reach a deal after marathon talks in Pakistan",
+  "url": "https://www.aljazeera.com/news/2026/4/12/us-and-iran-fail-to-reach-peace-deal-after-marathon-talks-in-pakistan",
+  "snippet": "US VP JD Vance says Tehran has refused to accept Washington's terms after 21 hours of negotiations in Islamabad. Ghalibaf says US failed to gain trust. Three key sticking points: nuclear (900 lbs enriched uranium), Hormuz control, frozen assets.",
+  "source_name": "Al Jazeera",
+  "language": "en",
+  "discovered_date": "2026-04-12",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Major new development: 21-hour Islamabad talks collapse without agreement. First report of specific nuclear demands (900 lbs enriched uranium handover).",
+  "entities": [
+    { "id": "ent-041", "type": "Person", "name": "JD Vance", "role": "US VP, leads US delegation" },
+    { "id": "ent-045", "type": "Person", "name": "Mohammad Bagher Ghalibaf", "role": "Iran delegation leader" },
+    { "id": "ent-044", "type": "Person", "name": "Abbas Araghchi", "role": "Iran FM" },
+    { "id": "temp-005", "type": "Person", "name": "Esmail Baghaei", "role": "Iran FM spokesman" },
+    { "id": "ent-001", "type": "Person", "name": "Donald Trump" },
+    { "id": "ent-002", "type": "Organization", "name": "Iran" },
+    { "id": "ent-029", "type": "Organization", "name": "Pakistan" },
+    { "id": "ent-008", "type": "Location", "name": "Strait of Hormuz" },
+    { "id": "ent-054", "type": "Event", "name": "Islamabad Peace Talks" }
+  ],
+  "relations": [
+    { "subject": "ent-041", "predicate": "participatesIn", "object": "ent-054" },
+    { "subject": "ent-045", "predicate": "participatesIn", "object": "ent-054" },
+    { "subject": "ent-054", "predicate": "relatedTo", "object": "ent-008" }
+  ]
+}

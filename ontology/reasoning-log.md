@@ -146,3 +146,46 @@
 ### 스키마 변경 없음
 - 5개 새 엔티티 모두 기존 클래스(Event, Organization, Concept)로 분류 가능
 - 12개 새 관계 모두 기존 관계 유형으로 표현 가능
+
+---
+
+## 2026-04-12 추론 결과
+
+### 추론 #17: event_chain (봉쇄 선언 ← 협상 결렬 ← 휴전 합의)
+- **입력:** (ent-054/Islamabad Talks, follows, ent-030/2-Week Ceasefire), (ent-063/Blockade Declaration, causedBy, ent-054/Islamabad Talks)
+- **추론:** (ent-063/Trump Hormuz Blockade, causalChain, ent-030/2-Week Ceasefire)
+- **신뢰도:** 0.76 (3단계 체인: 휴전 합의 → 이슬라마바드 협상 → 협상 결렬 → 봉쇄 선언)
+- **상태:** 확정
+- **비고:** 2주 휴전이 이슬라마바드 협상의 전제였고, 협상 결렬 후 트럼프가 즉각 봉쇄를 선언함으로써 휴전의 실질적 사망 선고를 내렸다. 4월 22일 휴전 만료 전에 전쟁이 재개될 가능성 대두.
+
+### 추론 #18: event_chain (봉쇄 → 협상 결렬 직접 후속)
+- **입력:** (ent-054/Islamabad Talks, 결과: 결렬), (ent-063/Blockade Declaration, 시점: 결렬 직후)
+- **추론:** (ent-063/Trump Hormuz Blockade, follows, ent-054/Islamabad Talks)
+- **신뢰도:** 0.95
+- **상태:** 확정
+- **비고:** 봉쇄 선언은 협상 결렬 발표 수시간 후 트루스소셜에서 이루어졌다. 명백한 인과적 후속 조치.
+
+### 추론 #19: transitivity (이샤크 다르 → 셰바즈 샤리프 간접 소속)
+- **입력:** (ent-065/Ishaq Dar, affiliatedWith, ent-029/Pakistan), (ent-027/Shehbaz Sharif, affiliatedWith, ent-029/Pakistan)
+- **추론:** (ent-065/Ishaq Dar, indirectlyAffiliatedWith, ent-027/Shehbaz Sharif)
+- **신뢰도:** 0.81
+- **상태:** 확정
+- **비고:** 다르 부총리/외무장관은 샤리프 총리 정부의 핵심 인사. 협상 결렬 후 외교적 후속 조치를 주도.
+
+### 추론 #20: co_participation (핵 문제 ↔ 이란 4대 레드라인)
+- **입력:** (ent-064/Enriched Uranium, relatedTo, ent-054/Islamabad Talks), (ent-061/Iran 4 Red Lines, relatedTo, ent-054/Islamabad Talks)
+- **추론:** (ent-064/Enriched Uranium, relatedTo, ent-061/Iran 4 Red Lines)
+- **신뢰도:** 0.85
+- **상태:** 확정
+- **비고:** 흥미로운 비대칭: 이란의 4대 레드라인에는 핵이 포함되지 않았으나, 미국의 핵심 요구는 핵이었다. 양측이 다른 쟁점을 최우선으로 설정한 것이 결렬의 근본 원인.
+
+### 추론 #21: co_participation (50% 관세 → 중국)
+- **입력:** (ent-068/50% Tariff Threat, 대상: 이란 지원국), (ent-010/China, 이란 지원 의심국)
+- **추론:** (ent-068/50% Tariff Threat, relatedTo, ent-010/China)
+- **신뢰도:** 0.75
+- **상태:** 확정 (잠정에 가까움)
+- **비고:** 트럼프가 "이란을 돕는 국가"에 50% 관세를 부과하겠다고 밝혔으며, 이는 사실상 중국을 겨냥한 것. 중국은 이란산 원유의 최대 수입국이자, UN 안보리에서 이란 관련 결의안에 거부권을 행사한 국가.
+
+### 스키마 변경 없음
+- 6개 새 엔티티 모두 기존 클래스(Event, Concept, Person)로 분류 가능
+- 15개 새 관계 모두 기존 관계 유형(causedBy, follows, relatedTo, affiliatedWith, opposes, participatesIn)으로 표현 가능

@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "누적 지식그래프 — 모든 트리플을 포함하는 전체 그래프",
-  "last_updated": "2026-04-11",
+  "last_updated": "2026-04-12",
   "nodes": [
     { "id": "ent-001", "type": "Person", "label": "Donald Trump" },
     { "id": "ent-002", "type": "Organization", "label": "Iran" },
@@ -64,7 +64,13 @@
     { "id": "ent-059", "type": "Organization", "label": "CENTCOM" },
     { "id": "ent-060", "type": "Event", "label": "Israel-Lebanon Washington Talks (planned)" },
     { "id": "ent-061", "type": "Concept", "label": "Iran 4 Red Lines" },
-    { "id": "ent-062", "type": "Concept", "label": "Frozen Assets ($6B)" }
+    { "id": "ent-062", "type": "Concept", "label": "Frozen Assets ($6B)" },
+    { "id": "ent-063", "type": "Event", "label": "Trump Hormuz Naval Blockade Declaration" },
+    { "id": "ent-064", "type": "Concept", "label": "Enriched Uranium Issue (900 lbs)" },
+    { "id": "ent-065", "type": "Person", "label": "Ishaq Dar" },
+    { "id": "ent-066", "type": "Person", "label": "Esmail Baghaei" },
+    { "id": "ent-067", "type": "Event", "label": "Oil Price Surge (Apr 12)" },
+    { "id": "ent-068", "type": "Concept", "label": "50% Tariff Threat" }
   ],
   "edges": [],
   "triples": [
@@ -162,11 +168,30 @@
     { "subject": "ent-058", "predicate": "causedBy", "object": "ent-030", "date": "2026-04-11", "confidence": 0.80, "type": "inferred" },
     { "subject": "ent-058", "predicate": "relatedTo", "object": "ent-054", "date": "2026-04-11", "confidence": 0.75, "type": "inferred" },
     { "subject": "ent-059", "predicate": "indirectlyAffiliatedWith", "object": "ent-001", "date": "2026-04-11", "confidence": 0.81, "type": "inferred" },
-    { "subject": "ent-060", "predicate": "follows", "object": "ent-053", "date": "2026-04-11", "confidence": 0.78, "type": "inferred" }
+    { "subject": "ent-060", "predicate": "follows", "object": "ent-053", "date": "2026-04-11", "confidence": 0.78, "type": "inferred" },
+    { "subject": "ent-063", "predicate": "causedBy", "object": "ent-054", "date": "2026-04-12", "confidence": 0.95, "type": "explicit" },
+    { "subject": "ent-001", "predicate": "participatesIn", "object": "ent-063", "date": "2026-04-12", "confidence": 0.95, "type": "explicit" },
+    { "subject": "ent-003", "predicate": "participatesIn", "object": "ent-063", "date": "2026-04-12", "confidence": 0.90, "type": "explicit" },
+    { "subject": "ent-063", "predicate": "relatedTo", "object": "ent-008", "date": "2026-04-12", "confidence": 0.95, "type": "explicit" },
+    { "subject": "ent-005", "predicate": "opposes", "object": "ent-063", "date": "2026-04-12", "confidence": 0.90, "type": "explicit" },
+    { "subject": "ent-002", "predicate": "opposes", "object": "ent-063", "date": "2026-04-12", "confidence": 0.90, "type": "explicit" },
+    { "subject": "ent-064", "predicate": "relatedTo", "object": "ent-054", "date": "2026-04-12", "confidence": 0.95, "type": "explicit" },
+    { "subject": "ent-064", "predicate": "relatedTo", "object": "ent-025", "date": "2026-04-12", "confidence": 0.90, "type": "explicit" },
+    { "subject": "ent-065", "predicate": "affiliatedWith", "object": "ent-029", "date": "2026-04-12", "confidence": 0.95, "type": "explicit" },
+    { "subject": "ent-066", "predicate": "affiliatedWith", "object": "ent-002", "date": "2026-04-12", "confidence": 0.90, "type": "explicit" },
+    { "subject": "ent-067", "predicate": "causedBy", "object": "ent-063", "date": "2026-04-12", "confidence": 0.90, "type": "explicit" },
+    { "subject": "ent-068", "predicate": "relatedTo", "object": "ent-063", "date": "2026-04-12", "confidence": 0.85, "type": "explicit" },
+    { "subject": "ent-065", "predicate": "participatesIn", "object": "ent-054", "date": "2026-04-12", "confidence": 0.85, "type": "explicit" },
+    { "subject": "ent-063", "predicate": "follows", "object": "ent-058", "date": "2026-04-12", "confidence": 0.85, "type": "explicit" },
+    { "subject": "ent-063", "predicate": "causalChain", "object": "ent-030", "date": "2026-04-12", "confidence": 0.76, "type": "inferred" },
+    { "subject": "ent-063", "predicate": "follows", "object": "ent-054", "date": "2026-04-12", "confidence": 0.95, "type": "inferred" },
+    { "subject": "ent-065", "predicate": "indirectlyAffiliatedWith", "object": "ent-027", "date": "2026-04-12", "confidence": 0.81, "type": "inferred" },
+    { "subject": "ent-064", "predicate": "relatedTo", "object": "ent-061", "date": "2026-04-12", "confidence": 0.85, "type": "inferred" },
+    { "subject": "ent-068", "predicate": "relatedTo", "object": "ent-010", "date": "2026-04-12", "confidence": 0.75, "type": "inferred" }
   ],
   "stats": {
-    "total_nodes": 62,
-    "total_edges": 96,
-    "total_triples": 96
+    "total_nodes": 68,
+    "total_edges": 116,
+    "total_triples": 116
   }
 }

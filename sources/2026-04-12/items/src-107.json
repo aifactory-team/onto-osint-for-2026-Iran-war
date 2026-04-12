@@ -1,0 +1,25 @@
+{
+  "id": "src-107",
+  "title": "Iran war live: Trump says US to blockade Hormuz, IRGC insists strait open",
+  "url": "https://www.aljazeera.com/news/liveblog/2026/4/12/iran-war-live-historic-face-to-face-talks-with-us-continue-in-islamabad",
+  "snippet": "IRGC Navy: 'any wrong move will trap the enemy in the strait's deadly currents.' Strait open for civilian vessels, military ships 'will be dealt with severely.' IRGC warns US: full control over Hormuz. Head of Iran's negotiating team: 'Trump's threats are nothing, we are ready to give the United States a new lesson.'",
+  "source_name": "Al Jazeera",
+  "language": "en",
+  "discovered_date": "2026-04-12",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "New IRGC response to Trump blockade: specific military warnings and surveillance footage release. Distinguishes civilian vs military vessel policy.",
+  "entities": [
+    { "id": "ent-005", "type": "Organization", "name": "IRGC" },
+    { "id": "ent-008", "type": "Location", "name": "Strait of Hormuz" },
+    { "id": "ent-001", "type": "Person", "name": "Donald Trump" },
+    { "id": "ent-003", "type": "Organization", "name": "US Military" },
+    { "id": "temp-002", "type": "Event", "name": "Trump Hormuz Naval Blockade Declaration" },
+    { "id": "ent-002", "type": "Organization", "name": "Iran" }
+  ],
+  "relations": [
+    { "subject": "ent-005", "predicate": "opposes", "object": "temp-002" },
+    { "subject": "ent-002", "predicate": "opposes", "object": "temp-002" }
+  ]
+}

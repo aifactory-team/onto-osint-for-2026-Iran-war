@@ -1,0 +1,27 @@
+{
+  "id": "src-098",
+  "title": "Trump announces naval blockade on Iran after peace talks collapse",
+  "url": "https://www.axios.com/2026/04/12/trump-naval-blockade-iran-strait-hormuz-peace-talks",
+  "snippet": "Trump on Truth Social: 'Effective immediately, US Navy will begin BLOCKADING any and all Ships trying to enter, or leave, the Strait of Hormuz.' Complete blockade — all or none. Will interdict vessels that paid Iran tolls. 50% tariff on countries assisting Iran.",
+  "source_name": "Axios",
+  "language": "en",
+  "discovered_date": "2026-04-12",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Major new event: Trump declares immediate naval blockade of Hormuz following collapse of Islamabad talks. First announcement of 50% tariff threat on Iran-assisting countries.",
+  "entities": [
+    { "id": "ent-001", "type": "Person", "name": "Donald Trump" },
+    { "id": "ent-003", "type": "Organization", "name": "US Military" },
+    { "id": "ent-008", "type": "Location", "name": "Strait of Hormuz" },
+    { "id": "ent-002", "type": "Organization", "name": "Iran" },
+    { "id": "temp-002", "type": "Event", "name": "Trump Hormuz Naval Blockade Declaration" },
+    { "id": "temp-006", "type": "Concept", "name": "50% Tariff Threat" },
+    { "id": "ent-054", "type": "Event", "name": "Islamabad Peace Talks" }
+  ],
+  "relations": [
+    { "subject": "ent-001", "predicate": "participatesIn", "object": "temp-002" },
+    { "subject": "temp-002", "predicate": "causedBy", "object": "ent-054" },
+    { "subject": "temp-002", "predicate": "relatedTo", "object": "ent-008" }
+  ]
+}

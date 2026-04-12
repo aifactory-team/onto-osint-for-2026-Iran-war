@@ -1,0 +1,180 @@
+{
+  "date": "2026-04-12",
+  "collected_at": "2026-04-12T23:00:00Z",
+  "config_topic": "2026 Iran War",
+  "search_count": 12,
+  "total_results": 78,
+  "expanded_keywords": ["Islamabad talks", "Vance Iran", "Hormuz blockade", "Trump blockade", "IRGC", "Ghalibaf", "Araghchi", "nuclear uranium", "이슬라마바드 협상 결렬", "호르무즈 봉쇄", "이란 핵"],
+  "searches": [
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Iran war Islamabad peace talks April 12 2026",
+      "language": "en",
+      "timestamp": "2026-04-12T23:00:00Z",
+      "result_count": 10,
+      "results": [
+        { "title": "US and Iran fail to reach a deal after marathon talks in Pakistan", "url": "https://www.aljazeera.com/news/2026/4/12/us-and-iran-fail-to-reach-peace-deal-after-marathon-talks-in-pakistan", "snippet": "US VP JD Vance says Tehran has refused to accept Washington's terms after 21 hours of negotiations in Islamabad", "source_name": "Al Jazeera" },
+        { "title": "The U.S. military says it will blockade Iranian ports as Iran peace talks collapse", "url": "https://www.npr.org/2026/04/12/nx-s1-5782538/u-s-iran-peace-talks-islamabad-collapse", "snippet": "The U.S. military says it will blockade Iranian ports after peace talks in Islamabad collapse", "source_name": "NPR" },
+        { "title": "No Deal: U.S.-Iran peace talks in Islamabad fall through", "url": "https://www.npr.org/2026/04/11/nx-s1-5781760/pakistan-peace-talks-us-iran", "snippet": "21 hours of marathon talks end without agreement", "source_name": "NPR" },
+        { "title": "Iran war live updates: Trump says U.S. will blockade Strait of Hormuz after peace talks fail", "url": "https://www.nbcnews.com/world/iran/live-blog/live-updates-us-iran-fail-reach-deal-peace-talks-day-negotiations-rcna315918", "snippet": "Trump says US will blockade Hormuz after peace talks fail", "source_name": "NBC News" },
+        { "title": "U.S. and Iran Fail To Reach Deal on Ending War After Marathon Talks", "url": "https://time.com/article/2026/04/11/strait-of-hormuz-iran-peace-talks/", "snippet": "Trump wrote that 'the meeting went well, most points were agreed to, but the only point that really mattered, NUCLEAR, was not'", "source_name": "Time" },
+        { "title": "No agreement between U.S. and Iran after 21 hours of talks, Vance says", "url": "https://www.nbcnews.com/world/iran/live-blog/live-updates-trump-iran-hormuz-israel-lebanon-ceasefire-talks-pakistan-rcna285140", "snippet": "Vance says no agreement reached after 21 hours", "source_name": "NBC News" },
+        { "title": "Live updates: Iran war news; Trump says US will blockade Strait of Hormuz after Iran talks end without a deal", "url": "https://www.cnn.com/2026/04/12/world/live-news/iran-us-war-talks-trump", "snippet": "Trump announces blockade after talks end without deal", "source_name": "CNN" },
+        { "title": "US delegation departs Pakistan after peace talks with Iran fail", "url": "https://www.foxnews.com/live-news/us-iranar-vance-strait-hormuz-april-12", "snippet": "US delegation departs Pakistan after peace talks fail", "source_name": "Fox News" },
+        { "title": "Vance heads back to the U.S. without striking a deal with Iran to bring an end to the war", "url": "https://www.cnbc.com/2026/04/11/us-iran-talks-set-to-begin-in-islamabad-after-delegations-arrive.html", "snippet": "Vance heads home without Iran deal", "source_name": "CNBC" },
+        { "title": "Failed U.S.-Iran negotiations in Pakistan raise questions about fragile ceasefire", "url": "https://www.pbs.org/newshour/world/failed-u-s-iran-negotiations-in-pakistan-raise-questions-about-fragile-ceasefire", "snippet": "Failed talks raise questions about the two-week ceasefire expiring April 22", "source_name": "PBS" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Trump Hormuz blockade announcement April 12 2026 details",
+      "language": "en",
+      "timestamp": "2026-04-12T23:02:00Z",
+      "result_count": 10,
+      "results": [
+        { "title": "Trump announces naval blockade on Iran after peace talks collapse", "url": "https://www.axios.com/2026/04/12/trump-naval-blockade-iran-strait-hormuz-peace-talks", "snippet": "Trump: US Navy will begin blockading any and all ships trying to enter or leave Hormuz", "source_name": "Axios" },
+        { "title": "Trump says U.S. will blockade Strait of Hormuz after Iran peace talks fail", "url": "https://www.cnbc.com/2026/04/12/trump-iran-war-strait-of-hormuz.html", "snippet": "Complete blockade, all or none; 50% tariff on Iran-assisting countries", "source_name": "CNBC" },
+        { "title": "'Blown to hell': Trump orders Hormuz blockade after US-Iran peace talks end", "url": "https://www.aljazeera.com/news/2026/4/12/trump-announces-strait-of-hormuz-blockade-after-us-iran-peace-talks-end", "snippet": "Trump: Navy will seek and interdict every vessel that paid toll to Iran", "source_name": "Al Jazeera" },
+        { "title": "Trump says U.S. will blockade Strait of Hormuz and intercept ships that paid tolls to Iran", "url": "https://www.cbsnews.com/news/trump-strait-of-hormuz-blockade-iran/", "snippet": "Navy to intercept ships that paid Iran tolls; mine-clearing operations ordered", "source_name": "CBS News" },
+        { "title": "Trump Says US Will Begin Blockade of Ships to and From Hormuz", "url": "https://www.bloomberg.com/news/articles/2026-04-12/trump-says-us-will-begin-blockade-of-ships-to-and-from-hormuz", "snippet": "Trump vows to sever Iran lifeline with Hormuz blockade", "source_name": "Bloomberg" },
+        { "title": "Trump Says U.S. Will Blockade Strait of Hormuz After Iran Peace Talks Fail", "url": "https://time.com/article/2026/04/12/trump-blockade-strait-of-hormuz-iran/", "snippet": "Full blockade until Iran relents", "source_name": "Time" },
+        { "title": "Here's how a U.S. naval blockade of the Strait of Hormuz could work", "url": "https://fortune.com/2026/04/12/us-naval-blockade-strait-of-hormuz-number-warships-oil-exports-iran-economy/", "snippet": "'This is a big task, and it's a big gamble'", "source_name": "Fortune" },
+        { "title": "Trump threatens US 'blockade' of Strait of Hormuz after Iran ceasefire talks in Pakistan fail", "url": "https://www.euronews.com/2026/04/12/us-and-iran-end-peace-and-ceasefire-talks-in-pakistan-without-agreement", "snippet": "Trump threatens blockade after Islamabad talks fail", "source_name": "Euronews" },
+        { "title": "Trump declares naval blockade of the Strait of Hormuz after Iran nuclear talks collapse", "url": "https://www.israelhayom.com/2026/04/12/trump-declares-naval-blockade-of-the-strait-of-hormuz-after-iran-nuclear-talks-collapse", "snippet": "Naval blockade declared after nuclear talks collapse", "source_name": "Israel Hayom" },
+        { "title": "Oil Surges, US Futures Drop on Hormuz Blockade: Markets Wrap", "url": "https://www.bloomberg.com/news/articles/2026-04-12/oil-surges-us-futures-drop-on-hormuz-blockade-markets-wrap", "snippet": "Brent $102 (+8%), WTI $104 (+8%) on blockade announcement", "source_name": "Bloomberg" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Strait of Hormuz US Navy Iran April 2026",
+      "language": "en",
+      "timestamp": "2026-04-12T23:01:00Z",
+      "result_count": 10,
+      "results": [
+        { "title": "Iran war live: Trump says US to blockade Hormuz, IRGC insists strait open", "url": "https://www.aljazeera.com/news/liveblog/2026/4/12/iran-war-live-historic-face-to-face-talks-with-us-continue-in-islamabad", "snippet": "IRGC: strait open for civilians, military ships dealt with severely", "source_name": "Al Jazeera" },
+        { "title": "IRGC WARNS US NAVY: DON'T GET TRAPPED IN THE STRAIT OF HORMUZ", "url": "https://rachelblevins.substack.com/p/iran-strait-hormuz-blockade", "snippet": "IRGC Navy: any wrong move will trap the enemy in deadly currents", "source_name": "Rachel Blevins/Substack" },
+        { "title": "Donald Trump's Hormuz blockade to put 20,000 lives at risk?", "url": "https://www.theweek.in/news/middle-east/2026/04/13/donald-trump-s-hormuz-blockade-to-put-20000-lives-at-risk-how-iran-s-deadly-vortex-could-escalate-war.html", "snippet": "Iran's 'deadly vortex' warning, 20000 lives at risk", "source_name": "The Week" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "IRGC response Trump blockade Hormuz April 12 2026",
+      "language": "en",
+      "timestamp": "2026-04-12T23:03:00Z",
+      "result_count": 8,
+      "results": [
+        { "title": "IRGC publishes surveillance footage of the Strait of Hormuz in response to Trump", "url": "https://trump.news-pravda.com/world/2026/04/12/331671.html", "snippet": "IRGC publishes surveillance footage in response to blockade announcement", "source_name": "Pravda" },
+        { "title": "US-Iran ceasefire talks: What are the key sticking points?", "url": "https://www.aljazeera.com/news/2026/4/12/us-iran-ceasefire-talks-what-are-the-key-sticking-points", "snippet": "Key sticking points: nuclear, Hormuz, frozen assets, proxy groups", "source_name": "Al Jazeera" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Iran nuclear enriched uranium Islamabad talks collapse 2026",
+      "language": "en",
+      "timestamp": "2026-04-12T23:04:00Z",
+      "result_count": 8,
+      "results": [
+        { "title": "Historic U.S. and Iran negotiations in Pakistan end without agreement", "url": "https://www.pbs.org/newshour/world/historic-u-s-and-iran-negotiations-in-pakistan-continue-past-midnight", "snippet": "US demanded Iran hand over 900 lbs of near-bomb-grade uranium at Isfahan", "source_name": "PBS" },
+        { "title": "U.S.-Iran talks end with no deal", "url": "https://www.axios.com/2026/04/12/iran-talks-pakistan-vance-no-deal", "snippet": "Nuclear and Hormuz the two unbridgeable gaps", "source_name": "Axios" },
+        { "title": "Iran Says Talks Pause After 15 Hours, To Resume Despite 'Differences'", "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/04/iran-260412-rferl03.htm", "snippet": "Iran says talks pause after 15 hours, resumed, but ended without deal", "source_name": "RFE/RL via GlobalSecurity" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Vance Iran negotiations Islamabad ceasefire April 2026",
+      "language": "en",
+      "timestamp": "2026-04-12T23:01:30Z",
+      "result_count": 8,
+      "results": [
+        { "title": "Vance says no agreement reached with Iran after marathon talks in Islamabad", "url": "https://abcnews.com/Politics/high-stakes-us-iran-peace-talks-led-vance/story?id=131924414", "snippet": "Vance: 'bad news for Iran much more than for US'", "source_name": "ABC News" },
+        { "title": "US, Iran end ceasefire talks, Vance heads home without an agreement", "url": "https://www.bostonglobe.com/2026/04/12/world/us-iran-end-ceasefire-talks-vance-heads-home-without-an-agreement/", "snippet": "Vance heads home without agreement after 21 hours", "source_name": "Boston Globe" },
+        { "title": "US-Iran talks in Pakistan end after 21 hours with no deal; US negotiators head home", "url": "https://www.timesofisrael.com/us-iran-talks-in-pakistan-end-after-21-hours-with-no-deal-us-negotiators-leave/", "snippet": "21 hours, no deal, US negotiators leave Pakistan", "source_name": "Times of Israel" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "oil price reaction Iran talks collapse Hormuz blockade April 12 2026",
+      "language": "en",
+      "timestamp": "2026-04-12T23:05:00Z",
+      "result_count": 6,
+      "results": [
+        { "title": "Oil Surges, US Futures Drop on Hormuz Blockade: Markets Wrap", "url": "https://www.bloomberg.com/news/articles/2026-04-12/oil-surges-us-futures-drop-on-hormuz-blockade-markets-wrap", "snippet": "Brent crude $102 (+8%), WTI $104 (+8%); US gas avg $4.12/gal (+38% since war start)", "source_name": "Bloomberg" },
+        { "title": "Trump Says US to Sever Iran Lifeline With Blockade of Strait", "url": "https://www.bloomberg.com/news/articles/2026-04-12/trump-says-us-will-begin-blockade-of-ships-to-and-from-hormuz", "snippet": "Oil tops $100 again after blockade announcement", "source_name": "Bloomberg" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Pakistan reaction Islamabad talks failure Ishaq Dar April 12 2026",
+      "language": "en",
+      "timestamp": "2026-04-12T23:06:00Z",
+      "result_count": 6,
+      "results": [
+        { "title": "Pakistan Urges US-Iran Ceasefire After Talks End", "url": "https://www.pakistantoday.com.pk/2026/04/13/pakistan-urges-continued-ceasefire-as-us-iran-talks-end-without-agreement-after-21-hours", "snippet": "Pakistan urges both sides to uphold ceasefire commitment", "source_name": "Pakistan Today" },
+        { "title": "Ishaq Dar Says Pakistan Keeping Talks Alive After US Declares Negotiations Failed", "url": "https://propakistani.pk/2026/04/12/ishaq-dar-says-pakistan-keeping-talks-alive-after-us-declares-negotiations-failed/", "snippet": "Ishaq Dar: Pakistan will facilitate new round of dialogue", "source_name": "ProPakistani" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "이란 전쟁 이슬라마바드 협상 2026년 4월",
+      "language": "ko",
+      "timestamp": "2026-04-12T23:01:00Z",
+      "result_count": 10,
+      "results": [
+        { "title": "美-이란 협상, 9시간 넘겨 밤새 지속…\"호르무즈 이견에 교착\"(종합3보)", "url": "https://www.newsis.com/view/NISX20260412_0003587397", "snippet": "미-이란 협상 호르무즈 이견에 교착, 밤새 지속", "source_name": "뉴시스" },
+        { "title": "21시간 협상 결렬…트럼프, 전쟁 재개 vs 장기 협상 기로", "url": "https://www.newsis.com/view/NISX20260412_0003587679", "snippet": "21시간 협상 결렬, 트럼프 전쟁 재개 vs 장기 협상 기로", "source_name": "뉴시스" },
+        { "title": "미국-이란 이슬라마바드 종전협상 합의없이 끝나", "url": "https://www.mindlenews.com/news/articleView.html?idxno=19642", "snippet": "미국-이란 이슬라마바드 종전협상 합의 없이 종료", "source_name": "민들레" },
+        { "title": "미국-이란 종전 협상 결렬‥이 시각 이슬라마바드", "url": "https://imnews.imbc.com/replay/2026/nw1200/article/6814557_36967.html", "snippet": "미국-이란 종전 협상 결렬, 현장 보도", "source_name": "MBC" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "이란 이슬라마바드 협상 결렬 트럼프 호르무즈 봉쇄 2026년 4월 12일",
+      "language": "ko",
+      "timestamp": "2026-04-12T23:04:00Z",
+      "result_count": 10,
+      "results": [
+        { "title": "美는 \"핵 때문\" 이란은 \"호르무즈 이견\"… 결렬 이유 온도차", "url": "https://www.fnnews.com/news/202604121827386366", "snippet": "미국은 핵 문제, 이란은 호르무즈 이견을 결렬 사유로 주장", "source_name": "파이낸셜뉴스" },
+        { "title": "미-이란 협상 결렬… 핵·호르무즈 입장차 못 좁혔다", "url": "https://www.kmib.co.kr/article/view.asp?arcid=1775985784&code=11141400&sid1=int", "snippet": "핵과 호르무즈 입장차 해소 실패", "source_name": "국민일보" },
+        { "title": "트럼프 \"이란에 통행료 낸 선박 차단\"…미국도 호르무즈 봉쇄", "url": "https://www.khan.co.kr/article/202604122027005/", "snippet": "트럼프, 이란에 통행료 낸 선박 차단 지시", "source_name": "경향신문" },
+        { "title": "협상 결렬에 '對 이란 해상 봉쇄' 예고한 트럼프…2주 휴전 무산 위기", "url": "https://biz.heraldcorp.com/article/10715374", "snippet": "트럼프 해상 봉쇄 예고, 2주 휴전 무산 위기", "source_name": "헤럴드경제" },
+        { "title": "밴스 부통령, 종전 협상 결렬 발표…\"이란, 21시간 협상 끝에 미국의 평화 조건 거부\"", "url": "https://www.epochtimes.kr/2026/04/745843.html", "snippet": "밴스, 이란이 평화 조건 거부했다고 발표", "source_name": "에포크타임스" },
+        { "title": "협상 결렬 후 침묵하던 트럼프…'호르무즈 해상 봉쇄' 기사 공유", "url": "https://www.fnnews.com/news/202604122047102373", "snippet": "트럼프 호르무즈 해상 봉쇄 기사 공유로 입장 시사", "source_name": "파이낸셜뉴스" },
+        { "title": "휴전 기간 2주뿐인데…호르무즈 해협 한국 선박 언제 오나", "url": "https://www.seoul.co.kr/news/economy/2026/04/12/20260412500097", "snippet": "호르무즈 봉쇄로 한국 선박 귀환 난항 예상", "source_name": "서울신문" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "호르무즈 해협 미해군 이란 휴전 2026",
+      "language": "ko",
+      "timestamp": "2026-04-12T23:03:00Z",
+      "result_count": 8,
+      "results": [
+        { "title": "미국-이란, 종전 협상 중 호르무즈 해협 통과 놓고 군사적 긴장 고조", "url": "https://www.insight.co.kr/news/549847", "snippet": "종전 협상 중 호르무즈 해협 군사적 긴장 고조", "source_name": "인사이트" },
+        { "title": "휴전 기간 2주뿐인데…호르무즈 해협 내 선박 언제쯤 돌아올까", "url": "https://www.fnnews.com/news/202604120600415931", "snippet": "호르무즈 해협 선박 귀환 시기 불투명", "source_name": "파이낸셜뉴스" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Trump Iran war deal nuclear Pakistan talks 2026",
+      "language": "en",
+      "timestamp": "2026-04-12T23:05:30Z",
+      "result_count": 8,
+      "results": [
+        { "title": "IMPORTANT: Islamabad Talks Collapse Without Deal as US-Iran War Enters Critical Phase", "url": "https://www.thelevantfiles.org/2026/04/important-islamabad-talks-collapse.html", "snippet": "US demanded dismantling of enrichment facilities and handover of 900 lbs near-bomb-grade uranium", "source_name": "The Levant Files" },
+        { "title": "Iran Says Talks Pause After 15 Hours, To Resume Despite 'Differences'", "url": "https://www.globalsecurity.org/wmd/library/news/iran/2026/04/iran-260412-rferl03.htm", "snippet": "Iran FM spokesman: gaps remain on several major issues", "source_name": "RFE/RL" }
+      ]
+    }
+  ]
+}

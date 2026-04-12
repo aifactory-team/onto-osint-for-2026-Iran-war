@@ -1,0 +1,24 @@
+{
+  "id": "src-110",
+  "title": "Ishaq Dar Says Pakistan Keeping Talks Alive After US Declares Negotiations Failed",
+  "url": "https://propakistani.pk/2026/04/12/ishaq-dar-says-pakistan-keeping-talks-alive-after-us-declares-negotiations-failed/",
+  "snippet": "Pakistan FM/DPM Ishaq Dar: 'imperative that parties continue to uphold ceasefire commitment.' Pakistan will try to facilitate new round of dialogue. Diplomatic efforts between Washington and Tehran far from over.",
+  "source_name": "ProPakistani",
+  "language": "en",
+  "discovered_date": "2026-04-12",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "New Pakistani diplomatic response. First appearance of Ishaq Dar as key mediator figure urging continued dialogue.",
+  "entities": [
+    { "id": "temp-004", "type": "Person", "name": "Ishaq Dar", "role": "Pakistan DPM/FM" },
+    { "id": "ent-029", "type": "Organization", "name": "Pakistan" },
+    { "id": "ent-054", "type": "Event", "name": "Islamabad Peace Talks" },
+    { "id": "ent-030", "type": "Event", "name": "2-Week Ceasefire Agreement" },
+    { "id": "ent-002", "type": "Organization", "name": "Iran" }
+  ],
+  "relations": [
+    { "subject": "temp-004", "predicate": "affiliatedWith", "object": "ent-029" },
+    { "subject": "ent-029", "predicate": "participatesIn", "object": "ent-054" }
+  ]
+}

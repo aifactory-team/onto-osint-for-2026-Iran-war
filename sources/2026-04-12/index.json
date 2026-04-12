@@ -1,0 +1,249 @@
+{
+  "date": "2026-04-12",
+  "total": 30,
+  "new": 18,
+  "reported": 6,
+  "update": 6,
+  "items": [
+    {
+      "id": "src-094",
+      "title": "US and Iran fail to reach a deal after marathon talks in Pakistan",
+      "url": "https://www.aljazeera.com/news/2026/4/12/us-and-iran-fail-to-reach-peace-deal-after-marathon-talks-in-pakistan",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 9
+    },
+    {
+      "id": "src-095",
+      "title": "The U.S. military says it will blockade Iranian ports as Iran peace talks collapse",
+      "url": "https://www.npr.org/2026/04/12/nx-s1-5782538/u-s-iran-peace-talks-islamabad-collapse",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 8
+    },
+    {
+      "id": "src-096",
+      "title": "Live updates: Iran war news; Trump says US will blockade Strait of Hormuz after Iran talks end without a deal",
+      "url": "https://www.cnn.com/2026/04/12/world/live-news/iran-us-war-talks-trump",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 8
+    },
+    {
+      "id": "src-097",
+      "title": "Iran war live updates: Trump says U.S. will blockade Strait of Hormuz after peace talks fail",
+      "url": "https://www.nbcnews.com/world/iran/live-blog/live-updates-us-iran-fail-reach-deal-peace-talks-day-negotiations-rcna315918",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 7
+    },
+    {
+      "id": "src-098",
+      "title": "Trump announces naval blockade on Iran after peace talks collapse",
+      "url": "https://www.axios.com/2026/04/12/trump-naval-blockade-iran-strait-hormuz-peace-talks",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 7
+    },
+    {
+      "id": "src-099",
+      "title": "Trump says U.S. will blockade Strait of Hormuz after Iran peace talks fail",
+      "url": "https://www.cnbc.com/2026/04/12/trump-iran-war-strait-of-hormuz.html",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 7
+    },
+    {
+      "id": "src-100",
+      "title": "'Blown to hell': Trump orders Hormuz blockade after US-Iran peace talks end",
+      "url": "https://www.aljazeera.com/news/2026/4/12/trump-announces-strait-of-hormuz-blockade-after-us-iran-peace-talks-end",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 7
+    },
+    {
+      "id": "src-101",
+      "title": "Trump says U.S. will blockade Strait of Hormuz and intercept ships that paid tolls to Iran",
+      "url": "https://www.cbsnews.com/news/trump-strait-of-hormuz-blockade-iran/",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 6
+    },
+    {
+      "id": "src-102",
+      "title": "U.S. and Iran Fail To Reach Deal on Ending War After Marathon Talks",
+      "url": "https://time.com/article/2026/04/11/strait-of-hormuz-iran-peace-talks/",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 7
+    },
+    {
+      "id": "src-103",
+      "title": "Oil Surges, US Futures Drop on Hormuz Blockade: Markets Wrap",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-12/oil-surges-us-futures-drop-on-hormuz-blockade-markets-wrap",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 4
+    },
+    {
+      "id": "src-104",
+      "title": "Here's how a U.S. naval blockade of the Strait of Hormuz could work",
+      "url": "https://fortune.com/2026/04/12/us-naval-blockade-strait-of-hormuz-number-warships-oil-exports-iran-economy/",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 5
+    },
+    {
+      "id": "src-105",
+      "title": "Failed U.S.-Iran negotiations in Pakistan raise questions about fragile ceasefire",
+      "url": "https://www.pbs.org/newshour/world/failed-u-s-iran-negotiations-in-pakistan-raise-questions-about-fragile-ceasefire",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 6
+    },
+    {
+      "id": "src-106",
+      "title": "US-Iran ceasefire talks: What are the key sticking points?",
+      "url": "https://www.aljazeera.com/news/2026/4/12/us-iran-ceasefire-talks-what-are-the-key-sticking-points",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 6
+    },
+    {
+      "id": "src-107",
+      "title": "Iran war live: Trump says US to blockade Hormuz, IRGC insists strait open",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/4/12/iran-war-live-historic-face-to-face-talks-with-us-continue-in-islamabad",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 6
+    },
+    {
+      "id": "src-108",
+      "title": "Vance says no agreement reached with Iran after marathon talks in Islamabad",
+      "url": "https://abcnews.com/Politics/high-stakes-us-iran-peace-talks-led-vance/story?id=131924414",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 6
+    },
+    {
+      "id": "src-109",
+      "title": "Trump threatens US 'blockade' of Strait of Hormuz after Iran ceasefire talks in Pakistan fail",
+      "url": "https://www.euronews.com/2026/04/12/us-and-iran-end-peace-and-ceasefire-talks-in-pakistan-without-agreement",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 5
+    },
+    {
+      "id": "src-110",
+      "title": "Ishaq Dar Says Pakistan Keeping Talks Alive After US Declares Negotiations Failed",
+      "url": "https://propakistani.pk/2026/04/12/ishaq-dar-says-pakistan-keeping-talks-alive-after-us-declares-negotiations-failed/",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 5
+    },
+    {
+      "id": "src-111",
+      "title": "US, Iran end ceasefire talks, Vance heads home without an agreement",
+      "url": "https://www.bostonglobe.com/2026/04/12/world/us-iran-end-ceasefire-talks-vance-heads-home-without-an-agreement/",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 5
+    },
+    {
+      "id": "src-112",
+      "title": "21시간 협상 결렬…트럼프, 전쟁 재개 vs 장기 협상 기로",
+      "url": "https://www.newsis.com/view/NISX20260412_0003587679",
+      "tag": "update",
+      "related_report": "2026-04-11",
+      "entity_count": 6
+    },
+    {
+      "id": "src-113",
+      "title": "美는 \"핵 때문\" 이란은 \"호르무즈 이견\"… 결렬 이유 온도차",
+      "url": "https://www.fnnews.com/news/202604121827386366",
+      "tag": "update",
+      "related_report": "2026-04-11",
+      "entity_count": 5
+    },
+    {
+      "id": "src-114",
+      "title": "미-이란 협상 결렬… 핵·호르무즈 입장차 못 좁혔다",
+      "url": "https://www.kmib.co.kr/article/view.asp?arcid=1775985784&code=11141400&sid1=int",
+      "tag": "update",
+      "related_report": "2026-04-11",
+      "entity_count": 5
+    },
+    {
+      "id": "src-115",
+      "title": "트럼프 \"이란에 통행료 낸 선박 차단\"…미국도 호르무즈 봉쇄",
+      "url": "https://www.khan.co.kr/article/202604122027005/",
+      "tag": "update",
+      "related_report": "2026-04-11",
+      "entity_count": 5
+    },
+    {
+      "id": "src-116",
+      "title": "협상 결렬에 '對 이란 해상 봉쇄' 예고한 트럼프…2주 휴전 무산 위기",
+      "url": "https://biz.heraldcorp.com/article/10715374",
+      "tag": "update",
+      "related_report": "2026-04-11",
+      "entity_count": 5
+    },
+    {
+      "id": "src-117",
+      "title": "미국-이란 종전 협상 결렬‥이 시각 이슬라마바드",
+      "url": "https://imnews.imbc.com/replay/2026/nw1200/article/6814557_36967.html",
+      "tag": "update",
+      "related_report": "2026-04-11",
+      "entity_count": 5
+    },
+    {
+      "id": "src-118",
+      "title": "휴전 기간 2주뿐인데…호르무즈 해협 한국 선박 언제 오나",
+      "url": "https://www.seoul.co.kr/news/economy/2026/04/12/20260412500097",
+      "tag": "reported",
+      "related_report": "2026-04-11",
+      "entity_count": 4
+    },
+    {
+      "id": "src-119",
+      "title": "US-Iran talks in Pakistan end after 21 hours with no deal; US negotiators head home",
+      "url": "https://www.timesofisrael.com/us-iran-talks-in-pakistan-end-after-21-hours-with-no-deal-us-negotiators-leave/",
+      "tag": "reported",
+      "related_report": "2026-04-11",
+      "entity_count": 5
+    },
+    {
+      "id": "src-120",
+      "title": "No Deal: U.S.-Iran peace talks in Islamabad fall through",
+      "url": "https://www.npr.org/2026/04/11/nx-s1-5781760/pakistan-peace-talks-us-iran",
+      "tag": "reported",
+      "related_report": "2026-04-11",
+      "entity_count": 6
+    },
+    {
+      "id": "src-121",
+      "title": "US delegation departs Pakistan after peace talks with Iran fail",
+      "url": "https://www.foxnews.com/live-news/us-iranar-vance-strait-hormuz-april-12",
+      "tag": "reported",
+      "related_report": "2026-04-11",
+      "entity_count": 5
+    },
+    {
+      "id": "src-122",
+      "title": "미국-이란 이슬라마바드 종전협상 합의없이 끝나",
+      "url": "https://www.mindlenews.com/news/articleView.html?idxno=19642",
+      "tag": "reported",
+      "related_report": "2026-04-11",
+      "entity_count": 4
+    },
+    {
+      "id": "src-123",
+      "title": "휴전 기간 2주뿐인데…호르무즈 해협 내 선박 언제쯤 돌아올까",
+      "url": "https://www.fnnews.com/news/202604120600415931",
+      "tag": "reported",
+      "related_report": "2026-04-11",
+      "entity_count": 4
+    }
+  ]
+}

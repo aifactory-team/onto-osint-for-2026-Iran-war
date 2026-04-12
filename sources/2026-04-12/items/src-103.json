@@ -1,0 +1,22 @@
+{
+  "id": "src-103",
+  "title": "Oil Surges, US Futures Drop on Hormuz Blockade: Markets Wrap",
+  "url": "https://www.bloomberg.com/news/articles/2026-04-12/oil-surges-us-futures-drop-on-hormuz-blockade-markets-wrap",
+  "snippet": "Brent crude $102 (+8%), WTI $104 (+8%) after Trump's blockade announcement. US gas average $4.12/gal, up 38% since war start. US equity futures declined.",
+  "source_name": "Bloomberg",
+  "language": "en",
+  "discovered_date": "2026-04-12",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "New market data on oil price surge following blockade announcement. First specific pricing data for April 12.",
+  "entities": [
+    { "id": "ent-008", "type": "Location", "name": "Strait of Hormuz" },
+    { "id": "temp-002", "type": "Event", "name": "Trump Hormuz Naval Blockade Declaration" },
+    { "id": "temp-007", "type": "Event", "name": "Oil Price Surge (Apr 12)" },
+    { "id": "ent-001", "type": "Person", "name": "Donald Trump" }
+  ],
+  "relations": [
+    { "subject": "temp-007", "predicate": "causedBy", "object": "temp-002" }
+  ]
+}
