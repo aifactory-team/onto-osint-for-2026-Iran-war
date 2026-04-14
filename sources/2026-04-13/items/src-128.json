@@ -1,0 +1,21 @@
+{
+  "id": "src-128",
+  "title": "Pakistan eyes narrow window to resuscitate talks",
+  "url": "https://www.aljazeera.com/news/2026/4/13/pakistan-eyes-narrow-window-to-resuscitate-us-iran-talks-after-breakdown",
+  "snippet": "Pakistan working to resuscitate US-Iran talks before April 22 ceasefire expires. Regional states helping mediate for 2nd round. Narrow window of 8 days remaining. Middle Eastern countries engaging in behind-the-scenes diplomacy.",
+  "source_name": "Al Jazeera",
+  "language": "en",
+  "discovered_date": "2026-04-13",
+  "tag": "new",
+  "related_report": null,
+  "tag_reason": "New reporting on Pakistan's post-collapse mediation efforts and timeline pressure with 8 days remaining.",
+  "entities": [
+    {"id": "ent-029", "type": "Organization", "name": "Pakistan"},
+    {"id": "ent-065", "type": "Person", "name": "Ishaq Dar"},
+    {"id": "ent-054", "type": "Event", "name": "Islamabad Peace Talks"},
+    {"id": "ent-030", "type": "Event", "name": "2-Week Ceasefire"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"}
+  ],
+  "relations": []
+}

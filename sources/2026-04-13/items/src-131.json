@@ -1,0 +1,22 @@
+{
+  "id": "src-131",
+  "title": "Hezbollah rejects Israel-Lebanon Washington talks",
+  "url": "https://www.military.com/daily-news/2026/04/13/hezbollah-official-says-group-wont-abide-any-agreements-lebanon-israel-talks-us.html",
+  "snippet": "Hezbollah political council member Wafiq Safa: 'As for outcomes of this negotiation between Lebanon and Israeli enemy, we are not interested in or concerned with them at all.' Hezbollah leader Naim Qassem called on Lebanon to cancel April 15 Washington meeting, described as 'pointless'. Over 2000 killed and 1M displaced in Lebanon since war began.",
+  "source_name": "Military.com / AP, also Al Jazeera, Spectrum News",
+  "language": "en",
+  "discovered_date": "2026-04-13",
+  "tag": "new",
+  "related_report": null,
+  "tag_reason": "New Hezbollah rejection of planned April 15 Washington talks. Previously only reported Israel rejects ceasefire but agrees to talks.",
+  "entities": [
+    {"id": "temp-073", "type": "Person", "name": "Wafiq Safa"},
+    {"id": "temp-074", "type": "Person", "name": "Naim Qassem"},
+    {"id": "ent-047", "type": "Organization", "name": "Hezbollah"},
+    {"id": "ent-004", "type": "Organization", "name": "Israel"},
+    {"id": "ent-050", "type": "Location", "name": "Lebanon"},
+    {"id": "ent-060", "type": "Event", "name": "Israel-Lebanon Washington Talks"},
+    {"id": "temp-075", "type": "Event", "name": "Hezbollah Rejects Talks"}
+  ],
+  "relations": []
+}

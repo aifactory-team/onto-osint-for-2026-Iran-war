@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "알려진 엔티티 인스턴스 — 파이프라인 실행 시 자동으로 추가/업데이트된다.",
-  "last_updated": "2026-04-12",
+  "last_updated": "2026-04-13",
   "entities": [
     {
       "id": "ent-001",
@@ -10,7 +10,7 @@
       "properties": { "role": "US President", "affiliation": "United States" },
       "first_seen": "2026-04-07",
       "last_seen": "2026-04-12",
-      "mention_count": 71
+      "mention_count": 76
     },
     {
       "id": "ent-002",
@@ -18,8 +18,8 @@
       "name": "Iran",
       "properties": { "type": "state", "location": "Middle East" },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-12",
-      "mention_count": 115
+      "last_seen": "2026-04-13",
+      "mention_count": 130
     },
     {
       "id": "ent-003",
@@ -27,8 +27,8 @@
       "name": "US Military",
       "properties": { "type": "military", "location": "United States" },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-12",
-      "mention_count": 28
+      "last_seen": "2026-04-13",
+      "mention_count": 40
     },
     {
       "id": "ent-004",
@@ -45,8 +45,8 @@
       "name": "IRGC (Islamic Revolutionary Guard Corps)",
       "properties": { "type": "military", "location": "Iran" },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-12",
-      "mention_count": 24
+      "last_seen": "2026-04-13",
+      "mention_count": 30
     },
     {
       "id": "ent-006",
@@ -72,8 +72,8 @@
       "name": "Strait of Hormuz",
       "properties": { "type": "strait/waterway" },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-12",
-      "mention_count": 83
+      "last_seen": "2026-04-13",
+      "mention_count": 105
     },
     {
       "id": "ent-009",
@@ -90,8 +90,8 @@
       "name": "China",
       "properties": { "type": "state" },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-07",
-      "mention_count": 5
+      "last_seen": "2026-04-13",
+      "mention_count": 10
     },
     {
       "id": "ent-011",
@@ -396,8 +396,8 @@
       "name": "Abbas Araghchi",
       "properties": { "role": "Iran Foreign Minister", "affiliation": "Iran" },
       "first_seen": "2026-04-10",
-      "last_seen": "2026-04-12",
-      "mention_count": 25
+      "last_seen": "2026-04-13",
+      "mention_count": 31
     },
     {
       "id": "ent-045",
@@ -423,8 +423,8 @@
       "name": "Hezbollah",
       "properties": { "type": "armed group", "location": "Lebanon", "affiliation": "Iran-backed" },
       "first_seen": "2026-04-10",
-      "last_seen": "2026-04-11",
-      "mention_count": 12
+      "last_seen": "2026-04-13",
+      "mention_count": 20
     },
     {
       "id": "ent-048",
@@ -531,8 +531,8 @@
       "name": "CENTCOM (US Central Command)",
       "properties": { "type": "military command", "location": "United States" },
       "first_seen": "2026-04-11",
-      "last_seen": "2026-04-11",
-      "mention_count": 8
+      "last_seen": "2026-04-13",
+      "mention_count": 16
     },
     {
       "id": "ent-060",
@@ -566,10 +566,10 @@
       "id": "ent-063",
       "type": "Event",
       "name": "Trump Hormuz Naval Blockade Declaration",
-      "properties": { "date": "2026-04-12", "detail": "Effective immediately, complete blockade of all ships entering/leaving Hormuz; interdict vessels that paid Iran tolls; begin mine clearing; 50% tariff on Iran-assisting countries", "trigger": "Islamabad talks collapse" },
+      "properties": { "date": "2026-04-12", "detail": "Effective immediately, complete blockade of all ships entering/leaving Hormuz; interdict vessels that paid Iran tolls; begin mine clearing; 50% tariff on Iran-assisting countries", "trigger": "Islamabad talks collapse", "implementation": "2026-04-13 10:00 ET, 15 warships deployed" },
       "first_seen": "2026-04-12",
-      "last_seen": "2026-04-12",
-      "mention_count": 25
+      "last_seen": "2026-04-13",
+      "mention_count": 45
     },
     {
       "id": "ent-064",
@@ -616,6 +616,79 @@
       "last_seen": "2026-04-12",
       "mention_count": 4
     }
+    ,
+    {
+      "id": "ent-069",
+      "type": "Event",
+      "name": "US Hormuz Blockade Implementation (Apr 13)",
+      "properties": { "date": "2026-04-13 10:00 ET", "vessels": "15 warships", "protocol": "intercept/divert/capture unauthorized vessels", "scope": "all maritime traffic to/from Iranian ports", "exemption": "non-Iran traffic transiting Hormuz", "first_vessel": "sanctioned tanker Elpis passed through; Ostria turned back" },
+      "first_seen": "2026-04-13",
+      "last_seen": "2026-04-13",
+      "mention_count": 18
+    },
+    {
+      "id": "ent-070",
+      "type": "Concept",
+      "name": "Islamabad MoU (near-agreement)",
+      "properties": { "domain": "diplomacy", "detail": "Araghchi claims US and Iran were 'inches away' from signing a memorandum of understanding. Clearest signal both sides came closer to formal agreement than publicly acknowledged. Blamed US 'maximalism, shifting goalposts, and blockade'." },
+      "first_seen": "2026-04-13",
+      "last_seen": "2026-04-13",
+      "mention_count": 6
+    },
+    {
+      "id": "ent-071",
+      "type": "Concept",
+      "name": "20-Year Enrichment Moratorium Proposal",
+      "properties": { "domain": "nuclear/nonproliferation", "detail": "US proposed Iran accept 20-year moratorium on all uranium enrichment and remove all HEU from country. Iran counter-offered 'monitored process of down-blending' existing stockpile." },
+      "first_seen": "2026-04-13",
+      "last_seen": "2026-04-13",
+      "mention_count": 5
+    },
+    {
+      "id": "ent-072",
+      "type": "Person",
+      "name": "Wafiq Safa",
+      "properties": { "role": "Senior Hezbollah Political Council member", "affiliation": "Hezbollah", "statement": "As for the outcomes of this negotiation between Lebanon and the Israeli enemy, we are not interested in or concerned with them at all." },
+      "first_seen": "2026-04-13",
+      "last_seen": "2026-04-13",
+      "mention_count": 3
+    },
+    {
+      "id": "ent-073",
+      "type": "Person",
+      "name": "Naim Qassem",
+      "properties": { "role": "Hezbollah Secretary-General", "affiliation": "Hezbollah", "statement": "Called on Lebanon to cancel April 15 Washington meeting with Israel. Described talks as pointless." },
+      "first_seen": "2026-04-13",
+      "last_seen": "2026-04-13",
+      "mention_count": 3
+    },
+    {
+      "id": "ent-074",
+      "type": "Event",
+      "name": "Hezbollah Rejects Israel-Lebanon Washington Talks",
+      "properties": { "date": "2026-04-13", "detail": "Wafiq Safa: won't abide by any agreements. Naim Qassem: cancel April 15 talks. Over 2000 killed and 1M displaced in Lebanon since war. Hezbollah entered war firing missiles into Israel from March 2." },
+      "first_seen": "2026-04-13",
+      "last_seen": "2026-04-13",
+      "mention_count": 8
+    },
+    {
+      "id": "ent-075",
+      "type": "Concept",
+      "name": "Dual Blockade (이중 봉쇄)",
+      "properties": { "domain": "maritime/military", "detail": "Hormuz faces dual blockade: Iran blocks free passage (tolls/mines) while US blocks Iran-bound traffic. Pre-war 135 ships/day → 4-10 ships/day. Near-total maritime paralysis." },
+      "first_seen": "2026-04-13",
+      "last_seen": "2026-04-13",
+      "mention_count": 4
+    },
+    {
+      "id": "ent-076",
+      "type": "Event",
+      "name": "FAO Global Food Crisis Warning",
+      "properties": { "date": "2026-04-13", "detail": "UN FAO warns global food crisis could develop if normal Hormuz traffic doesn't resume. Substantial proportions of world farming products choked off. Largest oil supply disruption in history." },
+      "first_seen": "2026-04-13",
+      "last_seen": "2026-04-13",
+      "mention_count": 3
+    }
   ],
-  "total_count": 68
+  "total_count": 76
 }

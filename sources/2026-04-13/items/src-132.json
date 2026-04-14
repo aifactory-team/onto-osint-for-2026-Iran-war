@@ -1,0 +1,19 @@
+{
+  "id": "src-132",
+  "title": "Oil surges past $103 on blockade",
+  "url": "https://www.aljazeera.com/economy/2026/4/13/oil-prices-surge-past-103-a-barrel-after-us-announces-blockade-of-iran",
+  "snippet": "Brent crude past $103/bbl (+7%), WTI $104/bbl (+7.8%). Brent +40% since war start, WTI +50%. FAO warns global food crisis if normal Hormuz traffic doesn't resume. Ghalibaf: 'so-called blockade will make Americans nostalgic for $4-5 gas'.",
+  "source_name": "Al Jazeera, also CNN, CNBC",
+  "language": "en",
+  "discovered_date": "2026-04-13",
+  "tag": "update",
+  "related_report": "2026-04-12",
+  "tag_reason": "Update of Apr 12 oil surge (src-103). New data: prices continued rising on blockade implementation. FAO food crisis warning is new detail.",
+  "entities": [
+    {"id": "temp-079", "type": "Event", "name": "Oil Price Surge Apr 13"},
+    {"id": "temp-069", "type": "Event", "name": "Blockade Implementation"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "ent-045", "type": "Person", "name": "Ghalibaf"}
+  ],
+  "relations": []
+}

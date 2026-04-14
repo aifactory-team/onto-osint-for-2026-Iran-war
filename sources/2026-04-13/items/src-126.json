@@ -1,0 +1,22 @@
+{
+  "id": "src-126",
+  "title": "Iran army says blockade amounts to piracy",
+  "url": "https://www.aljazeera.com/news/2026/4/13/irans-army-says-us-plans-to-blockade-hormuz-amounts-to-piracy",
+  "snippet": "Iranian army statement: if Iran's ports in Persian Gulf and Arabian Sea threatened, no port in the Persian Gulf and Arabian Sea will be safe. Calls blockade piracy. IRGC Navy: 'any wrong move will trap the enemy in deadly whirlpools'. IRGC says military vessels get 'firm and forceful response' but civilian ships still allowed.",
+  "source_name": "Al Jazeera",
+  "language": "en",
+  "discovered_date": "2026-04-13",
+  "tag": "new",
+  "related_report": null,
+  "tag_reason": "New Iranian military response to blockade implementation. Piracy characterization and Gulf-wide retaliation threat are new escalations.",
+  "entities": [
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-005", "type": "Organization", "name": "IRGC"},
+    {"id": "ent-003", "type": "Organization", "name": "US Military"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "temp-069", "type": "Event", "name": "Blockade Implementation"},
+    {"id": "temp-070", "type": "Event", "name": "Iran Piracy Declaration"},
+    {"id": "ent-063", "type": "Event", "name": "Blockade Declaration"}
+  ],
+  "relations": []
+}

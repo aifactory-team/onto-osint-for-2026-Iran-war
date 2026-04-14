@@ -1,0 +1,20 @@
+{
+  "id": "src-144",
+  "title": "호르무즈 이중 봉쇄, 세계경제 숨통 끊나",
+  "url": "https://www.mt.co.kr/world/2026/04/14/2026041320095976321",
+  "snippet": "호르무즈 이중 봉쇄(이란 봉쇄 + 미국 역봉쇄) 상황. 선박 통항 전쟁 전 하루 135척에서 4~10척 급감. 세계경제 타격 우려.",
+  "source_name": "머니투데이",
+  "language": "ko",
+  "discovered_date": "2026-04-13",
+  "tag": "new",
+  "related_report": null,
+  "tag_reason": "New 'dual blockade' concept analysis — both Iran and US now blocking different types of traffic.",
+  "entities": [
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-003", "type": "Organization", "name": "US Military"},
+    {"id": "temp-080", "type": "Concept", "name": "Dual Blockade"},
+    {"id": "temp-069", "type": "Event", "name": "Blockade Implementation"}
+  ],
+  "relations": []
+}

@@ -1,0 +1,20 @@
+{
+  "id": "src-137",
+  "title": "이란 양해각서 체결 직전 진전, 美 극단적 요구 결렬",
+  "url": "https://www.fnnews.com/news/202604131045374743",
+  "snippet": "아라그치 외무장관: 양해각서 체결 직전 미국의 극단적 요구와 변덕스러운 목표 설정, 봉쇄에 직면. 이슬라마바드 양해각서(MoU)가 거의 완성 직전이었다고 주장.",
+  "source_name": "파이낸셜뉴스",
+  "language": "ko",
+  "discovered_date": "2026-04-13",
+  "tag": "new",
+  "related_report": null,
+  "tag_reason": "Korean reporting of Araghchi's new Islamabad MoU statement with additional context.",
+  "entities": [
+    {"id": "ent-044", "type": "Person", "name": "Abbas Araghchi"},
+    {"id": "ent-054", "type": "Event", "name": "Islamabad Talks"},
+    {"id": "temp-071", "type": "Concept", "name": "Islamabad MoU"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"}
+  ],
+  "relations": []
+}

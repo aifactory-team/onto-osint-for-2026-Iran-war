@@ -1,0 +1,233 @@
+{
+  "date": "2026-04-13",
+  "total": 28,
+  "new": 17,
+  "reported": 5,
+  "update": 6,
+  "items": [
+    {
+      "id": "src-124",
+      "title": "US military blockade on Iranian ports in Strait of Hormuz takes effect at 10 AM ET",
+      "url": "https://www.cnn.com/2026/04/13/world/live-news/iran-us-war-trump-hormuz",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 9
+    },
+    {
+      "id": "src-125",
+      "title": "Trump vows to sink Iranian ships approaching a U.S. blockade of Strait of Hormuz",
+      "url": "https://www.npr.org/2026/04/13/nx-s1-5783445/iran-war-updates",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 6
+    },
+    {
+      "id": "src-126",
+      "title": "Iran's army says US plan to blockade Hormuz 'amounts to piracy'; warns no Gulf port safe",
+      "url": "https://www.aljazeera.com/news/2026/4/13/irans-army-says-us-plans-to-blockade-hormuz-amounts-to-piracy",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 7
+    },
+    {
+      "id": "src-127",
+      "title": "Trump's threat to blockade Hormuz: Why it's the latest major escalation",
+      "url": "https://www.aljazeera.com/news/2026/4/13/trumps-threat-to-blockade-hormuz-why-its-wars-latest-major-escalation",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 5
+    },
+    {
+      "id": "src-128",
+      "title": "Pakistan eyes narrow window to resuscitate US-Iran talks after breakdown",
+      "url": "https://www.aljazeera.com/news/2026/4/13/pakistan-eyes-narrow-window-to-resuscitate-us-iran-talks-after-breakdown",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 6
+    },
+    {
+      "id": "src-129",
+      "title": "U.S. asked Iran to freeze uranium enrichment for 20 years, sources say",
+      "url": "https://www.axios.com/2026/04/13/iran-uranium-enrichment-moratorium-talks-vance",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 6
+    },
+    {
+      "id": "src-130",
+      "title": "Iran says 'Islamabad MoU' was inches away before US talks collapsed: Araghchi",
+      "url": "https://www.globalvillagespace.com/iran-says-islamabad-mou-was-within-reach-before-us-talks-collapsed/",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 5
+    },
+    {
+      "id": "src-131",
+      "title": "Hezbollah official says group won't abide by any agreements from Lebanon-Israel talks in US",
+      "url": "https://www.military.com/daily-news/2026/04/13/hezbollah-official-says-group-wont-abide-any-agreements-lebanon-israel-talks-us.html",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 7
+    },
+    {
+      "id": "src-132",
+      "title": "Oil prices surge past $103 a barrel after US announces blockade of Iran",
+      "url": "https://www.aljazeera.com/economy/2026/4/13/oil-prices-surge-past-103-a-barrel-after-us-announces-blockade-of-iran",
+      "tag": "update",
+      "related_report": "2026-04-12",
+      "entity_count": 4
+    },
+    {
+      "id": "src-133",
+      "title": "China urges restraint as Trump threatens to blockade Hormuz",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-13/china-urges-restraint-as-trump-threatens-to-blockade-hormuz",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 5
+    },
+    {
+      "id": "src-134",
+      "title": "US blockade of Iran would worsen global energy crisis, analysts say; FAO warns food crisis",
+      "url": "https://www.aljazeera.com/news/2026/4/13/us-blockade-of-iran-would-worsen-global-energy-crisis-analysts-say",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 4
+    },
+    {
+      "id": "src-135",
+      "title": "Why the Iran-U.S. Peace Talks Failed",
+      "url": "https://time.com/article/2026/04/13/iran-US-peace-talks-islamabad-war-nuclear/",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 6
+    },
+    {
+      "id": "src-136",
+      "title": "'역봉쇄'에 호르무즈 일촉즉발.. 국제유가 다시 100달러 돌파",
+      "url": "https://www.fnnews.com/news/202604131830040601",
+      "tag": "update",
+      "related_report": "2026-04-12",
+      "entity_count": 4
+    },
+    {
+      "id": "src-137",
+      "title": "이란 '협상, 양해각서 체결 직전까지 진전…美 극단적 요구 결렬'",
+      "url": "https://www.fnnews.com/news/202604131045374743",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 5
+    },
+    {
+      "id": "src-138",
+      "title": "美·이란 협상단 이슬라마바드서 철수…차기 회담 기약 없이 '결렬'",
+      "url": "https://www.news1.kr/world/usa-canada/6133540",
+      "tag": "update",
+      "related_report": "2026-04-12",
+      "entity_count": 5
+    },
+    {
+      "id": "src-139",
+      "title": "2주 휴전 '풍전등화'…종료직전 회담 가능성",
+      "url": "https://biz.heraldcorp.com/article/10715792",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 4
+    },
+    {
+      "id": "src-140",
+      "title": "협상 결렬 후 '호르무즈 역봉쇄'‥미국 내에서도 '도저히 이해 불가'",
+      "url": "https://imnews.imbc.com/replay/2026/nwdesk/article/6814890_37004.html",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 5
+    },
+    {
+      "id": "src-141",
+      "title": "美, 군함 15척 동원해 호르무즈 '역봉쇄' 시작…휴전 붕괴위기(종합)",
+      "url": "https://www.fnnews.com/news/202604140515446417",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 5
+    },
+    {
+      "id": "src-142",
+      "title": "美 호르무즈 봉쇄 시작 '차단·회항·나포'…'투쟁 예고' 이란과 휴전 깨질 위기",
+      "url": "https://biz.heraldcorp.com/article/10716317",
+      "tag": "update",
+      "related_report": "2026-04-12",
+      "entity_count": 5
+    },
+    {
+      "id": "src-143",
+      "title": "미 중부사령부 '한국시간 13일 오후 11시부터 호르무즈 봉쇄'···전 세계 모든 선박 대상",
+      "url": "https://www.khan.co.kr/article/202604130631001",
+      "tag": "update",
+      "related_report": "2026-04-12",
+      "entity_count": 4
+    },
+    {
+      "id": "src-144",
+      "title": "호르무즈 이중 봉쇄… 이란 돈줄 끊으려다 세계경제 숨통 끊나",
+      "url": "https://www.mt.co.kr/world/2026/04/14/2026041320095976321",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 5
+    },
+    {
+      "id": "src-145",
+      "title": "IDF eases wartime limits in parts of north but tightens rules elsewhere amid fragile Iran truce",
+      "url": "https://www.timesofisrael.com/liveblog-april-13-2026/",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 4
+    },
+    {
+      "id": "src-146",
+      "title": "Iran War: Trump Begins Hormuz Blockade Even as More Talks Mulled",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-13/trump-s-hormuz-blockade-deadline-hits-raising-iran-war-stakes",
+      "tag": "reported",
+      "related_report": "2026-04-12",
+      "entity_count": 6
+    },
+    {
+      "id": "src-147",
+      "title": "U.S. military blockade on Iranian ports in the Strait of Hormuz begins",
+      "url": "https://www.cbsnews.com/live-updates/iran-war-us-iran-ports-blockade-strait-of-hormuz-trump/",
+      "tag": "reported",
+      "related_report": "2026-04-12",
+      "entity_count": 5
+    },
+    {
+      "id": "src-148",
+      "title": "Iran war live updates: U.S.' Strait of Hormuz port blockade in effect",
+      "url": "https://www.nbcnews.com/world/iran/live-blog/live-updates-us-blockade-iran-ports-trump-hormuz-peace-talks-ceasefire-rcna331473",
+      "tag": "reported",
+      "related_report": "2026-04-12",
+      "entity_count": 6
+    },
+    {
+      "id": "src-149",
+      "title": "Hormuz blockade could deepen world's worst energy crisis — and risk a dangerous misstep",
+      "url": "https://www.cnbc.com/2026/04/13/trump-hormuz-blockade-oil-shock-china-iran-india-vessels-peace-talks.html",
+      "tag": "reported",
+      "related_report": "2026-04-12",
+      "entity_count": 5
+    },
+    {
+      "id": "src-150",
+      "title": "Analysis: Trump's strait blockade risks another serious blow to global economy",
+      "url": "https://www.cnn.com/2026/04/13/politics/trump-strait-blockade-hormuz-iran-war-analysis",
+      "tag": "reported",
+      "related_report": "2026-04-12",
+      "entity_count": 4
+    },
+    {
+      "id": "src-151",
+      "title": "U.S.-Iran Peace Talks Hit an Impasse. What Comes Next?",
+      "url": "https://www.cfr.org/articles/u-s-iran-peace-talks-hit-an-impasse-what-comes-next",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 5
+    }
+  ]
+}

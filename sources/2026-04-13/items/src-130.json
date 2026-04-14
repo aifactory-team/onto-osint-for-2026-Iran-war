@@ -1,0 +1,20 @@
+{
+  "id": "src-130",
+  "title": "Iran says Islamabad MoU was inches away",
+  "url": "https://www.globalvillagespace.com/iran-says-islamabad-mou-was-within-reach-before-us-talks-collapsed/",
+  "snippet": "Iran FM Abbas Araghchi says US and Iran were 'inches away' from Islamabad MoU. Blamed US 'maximalism, shifting goalposts, and blockade'. Clearest public signal that sides came closer to formal agreement than previously acknowledged.",
+  "source_name": "Global Village Space, also Express Tribune, The Federal",
+  "language": "en",
+  "discovered_date": "2026-04-13",
+  "tag": "new",
+  "related_report": null,
+  "tag_reason": "New Araghchi statement revealing Islamabad MoU was near-complete. Major new detail about talks proximity to agreement.",
+  "entities": [
+    {"id": "ent-044", "type": "Person", "name": "Abbas Araghchi"},
+    {"id": "ent-054", "type": "Event", "name": "Islamabad Talks"},
+    {"id": "temp-071", "type": "Concept", "name": "Islamabad MoU"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"}
+  ],
+  "relations": []
+}

@@ -1,0 +1,20 @@
+{
+  "id": "src-133",
+  "title": "China urges restraint on Hormuz blockade",
+  "url": "https://www.bloomberg.com/news/articles/2026-04-13/china-urges-restraint-as-trump-threatens-to-blockade-hormuz",
+  "snippet": "China warned blockade threatens global trade, called for immediate ceasefire. Chinese FM: root cause is military conflict. China gets 1/3 of oil via Hormuz, has ~1B barrels reserve. Open Hormuz crucial for global interests.",
+  "source_name": "Bloomberg, also SCMP, IranWire",
+  "language": "en",
+  "discovered_date": "2026-04-13",
+  "tag": "new",
+  "related_report": null,
+  "tag_reason": "New Chinese diplomatic response to blockade. Previously China mentioned only in context of 50% tariff threat and UN veto.",
+  "entities": [
+    {"id": "ent-010", "type": "Organization", "name": "China"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "temp-069", "type": "Event", "name": "Blockade Implementation"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"}
+  ],
+  "relations": []
+}

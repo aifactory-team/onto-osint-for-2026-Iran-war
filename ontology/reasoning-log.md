@@ -189,3 +189,46 @@
 ### 스키마 변경 없음
 - 6개 새 엔티티 모두 기존 클래스(Event, Concept, Person)로 분류 가능
 - 15개 새 관계 모두 기존 관계 유형(causedBy, follows, relatedTo, affiliatedWith, opposes, participatesIn)으로 표현 가능
+
+---
+
+## 2026-04-13 추론 결과
+
+### 추론 #22: event_chain (봉쇄 시행 ← 선언 ← 협상 결렬 ← 휴전)
+- **입력:** (ent-030/2-Week Ceasefire → ent-054/Islamabad Talks → ent-063/Blockade Declaration → ent-069/Blockade Implementation)
+- **추론:** (ent-069/US Hormuz Blockade Implementation, causalChain, ent-030/2-Week Ceasefire)
+- **신뢰도:** 0.72 (4단계 체인: 휴전 합의 → 이슬라마바드 협상 → 결렬 → 봉쇄 선언 → 봉쇄 시행, 0.5배 감쇠 적용)
+- **상태:** 확정
+- **비고:** 봉쇄 시행은 협상 결렬의 군사적 귀결. 휴전이 이행되지 않으면 봉쇄가 전면전 재개의 전주곡이 될 수 있다. 4/22 휴전 만료까지 8일.
+
+### 추론 #23: event_chain (헤즈볼라 회담 거부 ← 레바논 공습)
+- **입력:** (ent-053/Israel Lebanon Attacks, date=2026-04-08), (ent-060/Washington Talks, planned Apr 15), (ent-074/Hezbollah Rejects, date=2026-04-13)
+- **추론:** (ent-074/Hezbollah Rejects Talks, relatedTo, ent-053/Israel Lebanon Attacks)
+- **신뢰도:** 0.78
+- **상태:** 확정
+- **비고:** 헤즈볼라의 회담 거부는 4/8 이스라엘의 레바논 공습('블랙 웬즈데이', 357명 사망)에 대한 직접적 반응. "적과 협상하지 않는다"는 입장은 공습 이후 더욱 강화됨.
+
+### 추론 #24: transitivity (사파 → 헤즈볼라 → 이란 간접 소속)
+- **입력:** (ent-072/Wafiq Safa, affiliatedWith, ent-047/Hezbollah), (ent-047/Hezbollah, affiliatedWith, ent-002/Iran)
+- **추론:** (ent-072/Wafiq Safa, indirectlyAffiliatedWith, ent-002/Iran)
+- **신뢰도:** 0.81 (0.95 × 0.85)
+- **상태:** 확정
+- **비고:** 사파는 헤즈볼라 정치평의회의 핵심 인사. 이란의 '저항 축' 네트워크를 통해 간접적으로 이란과 연결.
+
+### 추론 #25: transitivity (카셈 → 헤즈볼라 → 이란 간접 소속)
+- **입력:** (ent-073/Naim Qassem, affiliatedWith, ent-047/Hezbollah), (ent-047/Hezbollah, affiliatedWith, ent-002/Iran)
+- **추론:** (ent-073/Naim Qassem, indirectlyAffiliatedWith, ent-002/Iran)
+- **신뢰도:** 0.81 (0.95 × 0.85)
+- **상태:** 확정
+- **비고:** 카셈은 헤즈볼라 사무총장으로 조직의 최고 지도자. 워싱턴 회담 거부 결정은 이란과의 조율 하에 이루어졌을 가능성 높음.
+
+### 추론 #26: co_participation (FAO 식량 위기 ↔ 이중 봉쇄)
+- **입력:** (ent-076/FAO Warning, causedBy, ent-069/Blockade Implementation), (ent-075/Dual Blockade, relatedTo, ent-008/Strait of Hormuz)
+- **추론:** (ent-076/FAO Warning, relatedTo, ent-075/Dual Blockade)
+- **신뢰도:** 0.80
+- **상태:** 확정
+- **비고:** 이란 봉쇄(통행료/기뢰) + 미국 역봉쇄(이란 항구 차단) = 호르무즈 이중 봉쇄. FAO 식량 위기 경고는 이 이중 봉쇄로 인한 농산물 수송 차질의 직접적 결과. 세계 석유 공급의 1/5이 이 해협을 통과하며, 식량/비료 물류도 영향.
+
+### 스키마 변경 없음
+- 8개 새 엔티티 모두 기존 클래스(Event, Concept, Person)로 분류 가능
+- 21개 새 관계 모두 기존 관계 유형(participatesIn, opposes, causedBy, follows, relatedTo, affiliatedWith, locatedIn, mentions, causalChain, indirectlyAffiliatedWith)으로 표현 가능

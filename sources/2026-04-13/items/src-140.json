@@ -1,0 +1,20 @@
+{
+  "id": "src-140",
+  "title": "협상 결렬 후 역봉쇄, 미국 내에서도 이해 불가",
+  "url": "https://imnews.imbc.com/replay/2026/nwdesk/article/6814890_37004.html",
+  "snippet": "미국 내에서도 역봉쇄 결정에 대한 비판 대두. 협상 결렬 후 즉각 군사 조치로 전환한 결정에 대해 이해 불가 반응.",
+  "source_name": "MBC뉴스",
+  "language": "ko",
+  "discovered_date": "2026-04-13",
+  "tag": "new",
+  "related_report": null,
+  "tag_reason": "New angle: domestic US criticism of blockade decision.",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"},
+    {"id": "ent-003", "type": "Organization", "name": "US Military"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "temp-069", "type": "Event", "name": "Blockade Implementation"},
+    {"id": "ent-054", "type": "Event", "name": "Islamabad Talks"}
+  ],
+  "relations": []
+}

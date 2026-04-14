@@ -1,0 +1,21 @@
+{
+  "id": "src-125",
+  "title": "Trump vows to sink Iranian ships",
+  "url": "https://www.npr.org/2026/04/13/nx-s1-5783445/iran-war-updates",
+  "snippet": "Trump: 'If any of these ships come anywhere close to our BLOCKADE, they will be immediately ELIMINATED'. Trump said 'We can't let a country blackmail or extort the world'. Goal is to force Iran to reopen strait or negotiate, 'Both of those things, certainly, and more'.",
+  "source_name": "NPR",
+  "language": "en",
+  "discovered_date": "2026-04-13",
+  "tag": "new",
+  "related_report": null,
+  "tag_reason": "New direct Trump threat to sink Iranian vessels. Escalatory rhetoric beyond previous blockade declaration.",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-005", "type": "Organization", "name": "IRGC"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "temp-069", "type": "Event", "name": "US Hormuz Blockade Implementation"},
+    {"id": "ent-003", "type": "Organization", "name": "US Military"}
+  ],
+  "relations": []
+}

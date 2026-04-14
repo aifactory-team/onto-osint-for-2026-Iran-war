@@ -1,0 +1,21 @@
+{
+  "id": "src-129",
+  "title": "US asked Iran 20-year enrichment moratorium",
+  "url": "https://www.axios.com/2026/04/13/iran-uranium-enrichment-moratorium-talks-vance",
+  "snippet": "US proposed Iran accept 20-year moratorium on all uranium enrichment. Also asked Iran remove all highly enriched uranium from country. Iran offered 'monitored process of down-blending' as counter. Iranians thought close to initial agreement Sunday morning, caught off guard by Vance press conference.",
+  "source_name": "Axios",
+  "language": "en",
+  "discovered_date": "2026-04-13",
+  "tag": "new",
+  "related_report": null,
+  "tag_reason": "New Axios scoop revealing specific US nuclear demands (20-year moratorium) and Iran counter-proposal (down-blending). Previously only general 'nuclear' framing.",
+  "entities": [
+    {"id": "ent-041", "type": "Person", "name": "JD Vance"},
+    {"id": "ent-044", "type": "Person", "name": "Abbas Araghchi"},
+    {"id": "ent-064", "type": "Concept", "name": "Enriched Uranium Issue"},
+    {"id": "ent-025", "type": "Concept", "name": "Nuclear Program"},
+    {"id": "temp-072", "type": "Concept", "name": "20-Year Moratorium Proposal"},
+    {"id": "ent-054", "type": "Event", "name": "Islamabad Talks"}
+  ],
+  "relations": []
+}

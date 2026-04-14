@@ -1,0 +1,19 @@
+{
+  "id": "src-134",
+  "title": "US blockade would worsen global energy crisis, FAO food warning",
+  "url": "https://www.aljazeera.com/news/2026/4/13/us-blockade-of-iran-would-worsen-global-energy-crisis-analysts-say",
+  "snippet": "Analysts warn blockade would worsen global energy crisis — largest oil supply disruption in history. FAO warns global food crisis. Tanker traffic plunged from pre-war 135 ships/day to 4-10. Blockade risks drawing ire from China and India.",
+  "source_name": "Al Jazeera, also CNBC, CNN",
+  "language": "en",
+  "discovered_date": "2026-04-13",
+  "tag": "new",
+  "related_report": null,
+  "tag_reason": "New comprehensive analysis of blockade's economic impact. FAO food warning and traffic statistics (135→4-10) are new data.",
+  "entities": [
+    {"id": "temp-077", "type": "Event", "name": "FAO Food Crisis Warning"},
+    {"id": "temp-069", "type": "Event", "name": "Blockade"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "temp-080", "type": "Concept", "name": "Dual Blockade"}
+  ],
+  "relations": []
+}

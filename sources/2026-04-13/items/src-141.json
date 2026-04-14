@@ -1,0 +1,20 @@
+{
+  "id": "src-141",
+  "title": "군함 15척 동원 역봉쇄 시작",
+  "url": "https://www.fnnews.com/news/202604140515446417",
+  "snippet": "미군 군함 15척 동원해 호르무즈 역봉쇄 시작. 미승인 선박에 대해 차단·회항·나포 경고. 휴전 붕괴 위기 고조.",
+  "source_name": "파이낸셜뉴스",
+  "language": "ko",
+  "discovered_date": "2026-04-13",
+  "tag": "new",
+  "related_report": null,
+  "tag_reason": "New detail: 15 warships deployed. Intercept/divert/capture protocol specified.",
+  "entities": [
+    {"id": "ent-003", "type": "Organization", "name": "US Military"},
+    {"id": "ent-059", "type": "Organization", "name": "CENTCOM"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "temp-069", "type": "Event", "name": "Blockade Implementation"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"}
+  ],
+  "relations": []
+}
