@@ -1,0 +1,163 @@
+{
+  "date": "2026-04-15",
+  "entities": [
+    {
+      "temp_id": "temp-001",
+      "matched_id": "ent-028",
+      "type": "Person",
+      "name": "Asim Munir",
+      "properties": { "role": "Pakistan Field Marshal / Army Chief", "affiliation": "Pakistan", "action": "visited Tehran on Apr 15 to deliver US message and mediate 2nd round talks" },
+      "source_ids": ["src-179", "src-180", "src-191", "src-204"],
+      "mention_count": 12
+    },
+    {
+      "temp_id": "temp-002",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Ali Abdollahi",
+      "properties": { "role": "Commander, Khatam al-Anbiya Central HQ", "affiliation": "Iran Armed Forces", "statement": "Warns of blocking trade through Persian Gulf, Gulf of Oman, and Red Sea" },
+      "source_ids": ["src-183", "src-184", "src-202", "src-203"],
+      "mention_count": 6
+    },
+    {
+      "temp_id": "temp-003",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Mohsin Naqvi",
+      "properties": { "role": "Pakistan Interior Minister", "affiliation": "Pakistan", "action": "accompanied Munir to Tehran" },
+      "source_ids": ["src-180"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-004",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Brad Cooper",
+      "properties": { "role": "Admiral, CENTCOM Commander", "affiliation": "CENTCOM/US Military" },
+      "source_ids": ["src-181", "src-194"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-005",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Trump 'War Close to Over' Declaration (Apr 15)",
+      "properties": { "date": "2026-04-15", "detail": "Trump told Fox Business war is 'very close to over' and stock market 'is going to boom'. Told NY Post talks could resume 'within two days' in Pakistan.", "context": "Day 47 of conflict, day 8 of ceasefire" },
+      "source_ids": ["src-178", "src-192", "src-197", "src-198", "src-200"],
+      "mention_count": 14
+    },
+    {
+      "temp_id": "temp-006",
+      "matched_id": null,
+      "type": "Event",
+      "name": "CENTCOM Blockade Fully Implemented (Apr 15)",
+      "properties": { "date": "2026-04-15", "detail": "CENTCOM declares blockade 'fully implemented', completely halting Iran's economic sea trade in less than 36 hours. 10,000+ US personnel deployed. 6 merchant ships turned back in first 24 hours.", "commander": "Admiral Brad Cooper" },
+      "source_ids": ["src-181", "src-182", "src-194"],
+      "mention_count": 10
+    },
+    {
+      "temp_id": "temp-007",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Iran Red Sea Blockade Threat (Apr 15)",
+      "properties": { "date": "2026-04-15", "detail": "Iran's Khatam al-Anbiya Central HQ threatens to block all trade through Persian Gulf, Gulf of Oman, AND Red Sea unless US lifts blockade. First formal Red Sea blockade threat.", "commander": "Ali Abdollahi" },
+      "source_ids": ["src-183", "src-184", "src-199", "src-202", "src-203"],
+      "mention_count": 8
+    },
+    {
+      "temp_id": "temp-008",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Asim Munir Tehran Visit (Apr 15)",
+      "properties": { "date": "2026-04-15", "detail": "Pakistan Field Marshal Asim Munir arrives in Tehran with Interior Minister Mohsin Naqvi, carrying US message. Met with FM Araghchi. Aim: persuade Iran to return to negotiating table for 2nd round.", "significance": "Munir has rapport with Trump ('favorite field marshal') and knows IRGC leadership from intelligence service days" },
+      "source_ids": ["src-179", "src-180", "src-191", "src-204"],
+      "mention_count": 12
+    },
+    {
+      "temp_id": "temp-009",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Iran $270B War Losses Claim (Apr 15)",
+      "properties": { "date": "2026-04-15", "detail": "Iran government estimates total war losses at $270 billion (preliminary). Demands reparations from US, Israel, and 5 Arab states (Bahrain, Saudi Arabia, Qatar, UAE, Jordan) for allowing territory to be used for attacks." },
+      "source_ids": ["src-185", "src-186"],
+      "mention_count": 6
+    },
+    {
+      "temp_id": "temp-010",
+      "matched_id": null,
+      "type": "Event",
+      "name": "S&P 500 Record High (Apr 15)",
+      "properties": { "date": "2026-04-15", "detail": "S&P 500 surges to 7,005.78, exceeding January 28 peak (7,002.28). First intraday record since war began. Up 9.8% since March 30. 2-week rally driven by peace hopes.", "related": "Nasdaq +2%, Dow +0.7%" },
+      "source_ids": ["src-187", "src-188", "src-196"],
+      "mention_count": 8
+    },
+    {
+      "temp_id": "temp-011",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Oil Prices Stabilize (Apr 15)",
+      "properties": { "date": "2026-04-15", "wti": "$91.29", "brent": "$94.93-95.27", "trend": "stable after previous day's -8% plunge, slight uptick", "context": "Physical crude still near $150/bbl vs futures $91-95 disconnect" },
+      "source_ids": ["src-189", "src-195"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": "temp-012",
+      "matched_id": null,
+      "type": "Organization",
+      "name": "Khatam al-Anbiya Central HQ",
+      "properties": { "type": "military command", "location": "Iran", "role": "Iran's unified military command structure" },
+      "source_ids": ["src-183", "src-184", "src-202"],
+      "mention_count": 4
+    },
+    {
+      "temp_id": "temp-013",
+      "matched_id": null,
+      "type": "Concept",
+      "name": "Iran War Reparations Demand ($270B)",
+      "properties": { "domain": "diplomacy/finance", "amount": "$270 billion (preliminary)", "targets": "US, Israel, Bahrain, Saudi Arabia, Qatar, UAE, Jordan" },
+      "source_ids": ["src-185", "src-186"],
+      "mention_count": 6
+    },
+    {
+      "temp_id": "temp-014",
+      "matched_id": null,
+      "type": "Concept",
+      "name": "Red Sea Blockade Threat",
+      "properties": { "domain": "maritime/military", "detail": "Iran's first formal threat to extend blockade beyond Hormuz to Red Sea, Gulf of Oman" },
+      "source_ids": ["src-183", "src-184", "src-199", "src-202"],
+      "mention_count": 8
+    },
+    {
+      "temp_id": "temp-015",
+      "matched_id": null,
+      "type": "Concept",
+      "name": "War Death Toll (~6,000)",
+      "properties": { "domain": "humanitarian", "figure": "nearly 6,000 killed since Feb 28", "scope": "Middle East total", "Lebanon_toll": "2,124+ killed, 1.1M displaced" },
+      "source_ids": ["src-192", "src-205"],
+      "mention_count": 3
+    }
+  ],
+  "relations": [
+    { "subject": "ent-028", "predicate": "participatesIn", "object": "temp-008", "source_ids": ["src-179", "src-180"], "confidence": 0.95 },
+    { "subject": "temp-002", "predicate": "participatesIn", "object": "temp-007", "source_ids": ["src-183", "src-184"], "confidence": 0.95 },
+    { "subject": "ent-028", "predicate": "cooperatesWith", "object": "ent-001", "source_ids": ["src-180"], "confidence": 0.85 },
+    { "subject": "ent-028", "predicate": "cooperatesWith", "object": "ent-044", "source_ids": ["src-180"], "confidence": 0.85 },
+    { "subject": "ent-001", "predicate": "participatesIn", "object": "temp-005", "source_ids": ["src-178", "src-197"], "confidence": 0.95 },
+    { "subject": "ent-059", "predicate": "participatesIn", "object": "temp-006", "source_ids": ["src-181", "src-194"], "confidence": 0.95 },
+    { "subject": "ent-002", "predicate": "opposes", "object": "temp-006", "source_ids": ["src-183"], "confidence": 0.90 },
+    { "subject": "ent-002", "predicate": "participatesIn", "object": "temp-007", "source_ids": ["src-183", "src-184"], "confidence": 0.90 },
+    { "subject": "ent-002", "predicate": "participatesIn", "object": "temp-009", "source_ids": ["src-185", "src-186"], "confidence": 0.95 },
+    { "subject": "temp-005", "predicate": "causedBy", "object": "temp-010", "source_ids": ["src-178"], "confidence": 0.80 },
+    { "subject": "temp-006", "predicate": "follows", "object": "ent-069", "source_ids": ["src-181"], "confidence": 0.95 },
+    { "subject": "temp-007", "predicate": "causedBy", "object": "temp-006", "source_ids": ["src-183"], "confidence": 0.85 },
+    { "subject": "temp-008", "predicate": "follows", "object": "ent-088", "source_ids": ["src-179"], "confidence": 0.90 },
+    { "subject": "temp-010", "predicate": "causedBy", "object": "temp-005", "source_ids": ["src-187"], "confidence": 0.80 },
+    { "subject": "temp-011", "predicate": "follows", "object": "ent-084", "source_ids": ["src-189"], "confidence": 0.90 }
+  ],
+  "stats": {
+    "total_entities": 15,
+    "new_entities": 14,
+    "matched_entities": 1,
+    "total_relations": 15
+  }
+}

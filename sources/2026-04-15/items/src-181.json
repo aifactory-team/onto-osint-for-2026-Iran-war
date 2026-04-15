@@ -1,0 +1,23 @@
+{
+  "id": "src-181",
+  "title": "US military says blockade of Iran ports 'completely' halts economic trade",
+  "url": "https://www.aljazeera.com/economy/2026/4/15/us-military-says-blockade-of-iran-ports-completely-halts-economic-trade",
+  "snippet": "In less than 36 hours since implementation, US forces have 'completely halted economic trade going into and out of Iran by sea,' says CENTCOM Commander Admiral Brad Cooper. 10,000+ sailors, Marines, Air Force personnel deployed. 6 merchant ships turned back in first 24 hours. No ships have made it past blockade.",
+  "source_name": "Al Jazeera",
+  "language": "en",
+  "discovered_date": "2026-04-15",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "CENTCOM의 '봉쇄 완전 시행(fully implemented)' 공식 선언은 4/15 신규. 이전 보도는 봉쇄 시작(4/13) 및 유조선 통과(4/14)였으나, 완전 차단 선언은 처음.",
+  "entities": [
+    { "id": "temp-004", "type": "Person", "name": "Brad Cooper", "role": "CENTCOM Commander" },
+    { "id": "ent-059", "type": "Organization", "name": "CENTCOM" },
+    { "id": "ent-002", "type": "Organization", "name": "Iran" },
+    { "id": "temp-006", "type": "Event", "name": "CENTCOM Blockade Fully Implemented" }
+  ],
+  "relations": [
+    { "subject": "ent-059", "predicate": "participatesIn", "object": "temp-006" },
+    { "subject": "temp-006", "predicate": "follows", "object": "ent-069" }
+  ]
+}

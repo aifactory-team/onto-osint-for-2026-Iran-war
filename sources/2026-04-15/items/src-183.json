@@ -1,0 +1,25 @@
+{
+  "id": "src-183",
+  "title": "Iran threatens shipping in Gulf, Red Sea; Trump's blockade continues",
+  "url": "https://www.nbcnews.com/world/iran/live-blog/live-updates-us-blockade-iran-hormuz-trump-peace-talks-rcna331890",
+  "snippet": "Iran's IRGC announces Tehran would not allow import/export through Persian Gulf, Gulf of Oman AND Red Sea unless US lifts blockade. Commander Ali Abdollahi of Khatam al-Anbiya HQ warns of 'firm and decisive' military action. First formal Red Sea blockade threat from Iran.",
+  "source_name": "NBC News",
+  "language": "en",
+  "discovered_date": "2026-04-15",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "이란의 홍해 봉쇄 위협은 4/15 완전 신규. 이전에는 호르무즈/걸프만만 언급했으나 홍해까지 확대 위협은 처음. 에스컬레이션의 질적 변화.",
+  "entities": [
+    { "id": "temp-002", "type": "Person", "name": "Ali Abdollahi", "role": "Khatam al-Anbiya Commander" },
+    { "id": "ent-002", "type": "Organization", "name": "Iran" },
+    { "id": "ent-005", "type": "Organization", "name": "IRGC" },
+    { "id": "temp-007", "type": "Event", "name": "Iran Red Sea Blockade Threat" },
+    { "id": "temp-012", "type": "Organization", "name": "Khatam al-Anbiya Central HQ" }
+  ],
+  "relations": [
+    { "subject": "temp-002", "predicate": "participatesIn", "object": "temp-007" },
+    { "subject": "ent-002", "predicate": "participatesIn", "object": "temp-007" },
+    { "subject": "temp-007", "predicate": "causedBy", "object": "temp-006" }
+  ]
+}

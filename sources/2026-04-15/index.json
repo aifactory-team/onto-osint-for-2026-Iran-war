@@ -1,0 +1,233 @@
+{
+  "date": "2026-04-15",
+  "total": 28,
+  "new": 22,
+  "reported": 2,
+  "update": 4,
+  "items": [
+    {
+      "id": "src-178",
+      "title": "Trump says Iran war is 'very close to over,' stock market 'is going to boom'",
+      "url": "https://www.cnbc.com/2026/04/15/iran-war-trump-peace-deal-us-talks-stock-market-oil-prices-.html",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 6
+    },
+    {
+      "id": "src-179",
+      "title": "Pakistan Army Chief Arrives in Tehran to Mediate Peace Talks",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-15/pakistan-army-chief-lands-in-tehran-for-us-iran-mediation-talks",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 7
+    },
+    {
+      "id": "src-180",
+      "title": "Pakistan army chief in Tehran to advance next round of US-Iran talks",
+      "url": "https://www.aljazeera.com/news/2026/4/15/pakistan-army-chief-in-tehran-to-advance-next-round-of-us-iran-talks",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 7
+    },
+    {
+      "id": "src-181",
+      "title": "US military says blockade of Iran ports 'completely' halts economic trade",
+      "url": "https://www.aljazeera.com/economy/2026/4/15/us-military-says-blockade-of-iran-ports-completely-halts-economic-trade",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 5
+    },
+    {
+      "id": "src-182",
+      "title": "Blockade completely halts Iran shipping, US military says. So why are some ships going through?",
+      "url": "https://www.cnn.com/2026/04/15/middleeast/iran-blockade-explainer-analysis-intl-hnk-ml",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 5
+    },
+    {
+      "id": "src-183",
+      "title": "Iran threatens shipping in Gulf, Red Sea; Trump's blockade continues",
+      "url": "https://www.nbcnews.com/world/iran/live-blog/live-updates-us-blockade-iran-hormuz-trump-peace-talks-rcna331890",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 6
+    },
+    {
+      "id": "src-184",
+      "title": "Iran issues new threat to further destabilize global trade via Red Sea",
+      "url": "https://www.newsweek.com/iran-new-threat-destabilize-global-trade-red-sea-11833027",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 5
+    },
+    {
+      "id": "src-185",
+      "title": "Iran says $270bn war loss must be compensated, as fresh talks with US loom",
+      "url": "https://www.aljazeera.com/news/2026/4/15/iran-says-270bn-war-loss-must-be-compensated-as-fresh-talks-with-us-loom",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 8
+    },
+    {
+      "id": "src-186",
+      "title": "Iran Demands War Reparations From 5 Arab States",
+      "url": "https://www.theepochtimes.com/world/iran-demands-war-reparations-from-5-arab-states-6011657",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 7
+    },
+    {
+      "id": "src-187",
+      "title": "S&P 500 hits record high as Iran peace hopes lift markets",
+      "url": "https://invezz.com/news/2026/04/15/sp-500-hits-record-high-as-iran-peace-hopes-lift-markets/",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 4
+    },
+    {
+      "id": "src-188",
+      "title": "S&P 500 hits first intraday record high since U.S.-Iran war",
+      "url": "https://www.bnnbloomberg.ca/business/2026/04/15/sp-500-hits-first-intraday-record-high-since-us-iran-war/",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 3
+    },
+    {
+      "id": "src-189",
+      "title": "Oil prices fall as renewed hopes for peace talks feed a stock market rally",
+      "url": "https://www.euronews.com/business/2026/04/15/oil-prices-fall-as-renewed-hopes-for-peace-talks-feed-a-stock-market-rally",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 4
+    },
+    {
+      "id": "src-190",
+      "title": "US-Iran talks: What's the latest on mediation efforts?",
+      "url": "https://www.aljazeera.com/news/2026/4/15/us-iran-talks-whats-the-latest-on-mediation-efforts",
+      "tag": "update",
+      "related_report": "2026-04-14",
+      "entity_count": 6
+    },
+    {
+      "id": "src-191",
+      "title": "White House optimistic about Iran deal as key Pakistani negotiator visits Tehran",
+      "url": "https://www.cnn.com/2026/04/15/world/live-news/iran-war-blockade-us-trump",
+      "tag": "update",
+      "related_report": "2026-04-14",
+      "entity_count": 7
+    },
+    {
+      "id": "src-192",
+      "title": "Iran war: What is happening on day 47 of the US-Iran conflict?",
+      "url": "https://www.aljazeera.com/news/2026/4/15/iran-war-what-is-happening-on-day-47-of-the-us-iran-conflict",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 8
+    },
+    {
+      "id": "src-193",
+      "title": "Trump says Iran talks could resume in days as U.S. military blocks Iranian ports",
+      "url": "https://www.npr.org/2026/04/15/nx-s1-5786034/iran-middle-east-updates",
+      "tag": "update",
+      "related_report": "2026-04-14",
+      "entity_count": 6
+    },
+    {
+      "id": "src-194",
+      "title": "U.S. declares blockade 'fully implemented,' cutting off Iran's seaborne trade 'completely'",
+      "url": "https://www.cnbc.com/2026/04/15/us-strait-of-hormuz-blockade-navy-iran-seaborne-trade-oil-trump.html",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 5
+    },
+    {
+      "id": "src-195",
+      "title": "Oil prices: Possible U.S.-Iran talks revive hopes of easing Hormuz tensions",
+      "url": "https://www.cnbc.com/2026/04/15/oil-price-us-iran-talks-hormuz-trump.html",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 4
+    },
+    {
+      "id": "src-196",
+      "title": "S&P 500 Nears Record Close as Ceasefire Optimism Lifts Stocks",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-15/s-p-500-on-pace-for-record-close-as-ceasefire-rally-continues",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 3
+    },
+    {
+      "id": "src-197",
+      "title": "협상 재개 시사한 트럼프 \"전쟁 거의 끝나\"...중동전쟁 이번주 최대 분수령",
+      "url": "https://seoul.co.kr/news/international/2026/04/15/20260415500216",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 5
+    },
+    {
+      "id": "src-198",
+      "title": "트럼프 \"전쟁 곧 끝나\"…'이슬라마바드 2차 회동' 급물살",
+      "url": "https://www.fnnews.com/news/202604151205168441",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 6
+    },
+    {
+      "id": "src-199",
+      "title": "트럼프 \"4월 협상타결 가능\"… 이란 '홍해 봉쇄' 경고",
+      "url": "https://www.fnnews.com/news/202604151820457791",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 5
+    },
+    {
+      "id": "src-200",
+      "title": "트럼프 \"전쟁 거의 끝\"… 4월 내 협상 타결 시사",
+      "url": "https://www.kmib.co.kr/article/view.asp?arcid=0029684910&code=61131111&sid1=int",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 4
+    },
+    {
+      "id": "src-201",
+      "title": "절반 지난 휴전…미·이란, 주중 재대면 '촉각'",
+      "url": "https://www.etoday.co.kr/news/view/2576005",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 5
+    },
+    {
+      "id": "src-202",
+      "title": "[속보] 이란군 \"美 해상봉쇄 계속하면 홍해 무역 차단 군사행동 나설 것\"",
+      "url": "https://m.seoul.co.kr/news/international/2026/04/15/20260415500271",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 4
+    },
+    {
+      "id": "src-203",
+      "title": "이란군, 걸프만·홍해까지 해상 봉쇄 위협",
+      "url": "https://www.g-enews.com/article/Global-Biz/2026/04/20260415204101812435e857d010_1",
+      "tag": "new",
+      "related_report": null,
+      "entity_count": 4
+    },
+    {
+      "id": "src-204",
+      "title": "Iran war live: Pakistani army chief in Tehran amid bid to restart US talks",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/4/15/iran-war-live-trump-hints-at-second-round-of-talks-israel-pounds-lebanon",
+      "tag": "update",
+      "related_report": "2026-04-14",
+      "entity_count": 8
+    },
+    {
+      "id": "src-205",
+      "title": "LIVE UPDATES: Conflict in the Middle East (April 15, 2026)",
+      "url": "https://www.gmanetwork.com/news/topstories/nation/983943/live-updates-conflict-in-the-middle-east-april-15-2026/story/",
+      "tag": "reported",
+      "related_report": "2026-04-14",
+      "entity_count": 5
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "src-185",
+  "title": "Iran says $270bn war loss must be compensated, as fresh talks with US loom",
+  "url": "https://www.aljazeera.com/news/2026/4/15/iran-says-270bn-war-loss-must-be-compensated-as-fresh-talks-with-us-loom",
+  "snippet": "Iran government estimates total war losses at $270 billion (preliminary). Tehran's UN envoy demands reparations from US, Israel, and 5 Arab states (Bahrain, Saudi Arabia, Qatar, UAE, Jordan) for allowing attacks from their territory. Includes physical destruction and lost economic activity.",
+  "source_name": "Al Jazeera",
+  "language": "en",
+  "discovered_date": "2026-04-15",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "이란의 $270B 전쟁 피해 추산 및 5개 아랍국가 대상 배상 요구는 4/15 신규. 이전 보도된 '전쟁 배상' 개념의 구체적 수치화.",
+  "entities": [
+    { "id": "ent-002", "type": "Organization", "name": "Iran" },
+    { "id": "ent-035", "type": "Organization", "name": "UAE" },
+    { "id": "ent-036", "type": "Organization", "name": "Bahrain" },
+    { "id": "temp-009", "type": "Event", "name": "Iran $270B War Losses Claim" },
+    { "id": "temp-013", "type": "Concept", "name": "Iran War Reparations Demand" }
+  ],
+  "relations": [
+    { "subject": "ent-002", "predicate": "participatesIn", "object": "temp-009" }
+  ]
+}

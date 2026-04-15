@@ -275,3 +275,47 @@
 ### 스키마 변경 없음
 - 14개 새 엔티티 모두 기존 클래스(Person, Organization, Event, Location, Concept)로 분류 가능
 - 21개 새 관계 모두 기존 관계 유형(participatesIn, affiliatedWith, opposes, follows, causedBy, relatedTo, causalChain, potentialRelation, indirectlyAffiliatedWith)으로 표현 가능
+
+---
+
+## 2026-04-15 추론 결과
+
+### 추론 #32: transitivity (소속 전이)
+- **입력:** (ent-093/Brad Cooper, participatesIn, ent-095/CENTCOM Blockade), (ent-059/CENTCOM, affiliatedWith, ent-003/US Military), (ent-003, cooperatesWith, ent-001/Trump)
+- **추론:** (ent-093/Brad Cooper, indirectlyAffiliatedWith, ent-001/Donald Trump)
+- **신뢰도:** 0.81
+- **상태:** 확정
+- **비고:** CENTCOM 사령관 쿠퍼 제독이 봉쇄 '완전 시행'을 선언. 트럼프의 봉쇄 명령을 직접 이행하는 실행자.
+
+### 추론 #33: transitivity (소속 전이)
+- **입력:** (ent-091/Ali Abdollahi, affiliatedWith, ent-002/Iran), (ent-005/IRGC, affiliatedWith, ent-002/Iran)
+- **추론:** (ent-091/Ali Abdollahi, indirectlyAffiliatedWith, ent-005/IRGC)
+- **신뢰도:** 0.81
+- **상태:** 확정
+- **비고:** 압돌라히는 하탐 알안비야 중앙군사본부 사령관으로 이란 군의 통합지휘 체계에 속하며, IRGC와 병렬적 지휘 관계.
+
+### 추론 #34: event_chain (인과 체인)
+- **입력:** (ent-054/Islamabad Talks, causedBy→ent-063/Blockade Declaration), (ent-069/Blockade Implementation, follows→ent-063), (ent-095/Blockade Fully Implemented, follows→ent-069), (ent-096/Red Sea Threat, causedBy→ent-095)
+- **추론:** (ent-096/Iran Red Sea Threat, causalChain, ent-054/Islamabad Talks)
+- **신뢰도:** 0.72 (4단계 체인 → 0.5배 감쇠 적용)
+- **상태:** 확정 (임계치 초과)
+- **비고:** 이슬라마바드 결렬 → 봉쇄 선언 → 봉쇄 시행 → 봉쇄 완전 시행 → 홍해 봉쇄 위협. 이란의 에스컬레이션이 미국 봉쇄 강화에 대한 직접적 반응임을 보여주는 인과 체인.
+
+### 추론 #35: co_participation (잠재적 관계)
+- **입력:** ent-028/Asim Munir이 테헤란 방문(ent-097)과 동일 날 ent-091/Ali Abdollahi가 홍해 봉쇄 위협(ent-096). 같은 날 이란 수도에서 발생.
+- **추론:** (ent-028/Asim Munir, potentialRelation, ent-091/Ali Abdollahi)
+- **신뢰도:** 0.75
+- **상태:** 확정
+- **비고:** 무니르의 테헤란 방문이 미국 메시지 전달 목적인 반면, 압돌라히의 홍해 위협은 이란의 대응 카드 과시. 같은 날 같은 도시에서 '당근과 채찍'이 동시에 작동. 직접 면담 여부는 확인 불가.
+
+### 추론 #36: event_chain (인과 체인)
+- **입력:** (ent-054/Islamabad Talks collapse), (ent-063/Blockade Declaration), (ent-094/Trump 'close to over'), (ent-099/S&P Record)
+- **추론:** (ent-099/S&P 500 Record, causalChain, ent-054/Islamabad Talks)
+- **신뢰도:** 0.72 (3단계 체인)
+- **상태:** 확정
+- **비고:** 이슬라마바드 결렬 → 봉쇄 선언 → 트럼프 '전쟁 거의 끝' → S&P 신고가. 시장이 '역설적'으로 봉쇄(악재)를 협상 레버리지(호재)로 해석. 전쟁 시작 이후 모든 손실을 회복한 것은 시장이 단기 종전에 강하게 베팅하고 있음을 시사.
+
+### 스키마 변경 없음
+- 13개 새 엔티티 모두 기존 클래스(Person, Organization, Event, Concept)로 분류 가능
+- 20개 새 관계 + 5개 추론 모두 기존 관계 유형으로 표현 가능
+- 홍해 위협은 기존 Concept 클래스 + relatedTo 관계로 충분히 모델링됨

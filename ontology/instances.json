@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "알려진 엔티티 인스턴스 — 파이프라인 실행 시 자동으로 추가/업데이트된다.",
-  "last_updated": "2026-04-14",
+  "last_updated": "2026-04-15",
   "entities": [
     {
       "id": "ent-001",
@@ -9,8 +9,8 @@
       "name": "Donald Trump",
       "properties": { "role": "US President", "affiliation": "United States" },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-14",
-      "mention_count": 94
+      "last_seen": "2026-04-15",
+      "mention_count": 108
     },
     {
       "id": "ent-002",
@@ -18,8 +18,8 @@
       "name": "Iran",
       "properties": { "type": "state", "location": "Middle East" },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-14",
-      "mention_count": 152
+      "last_seen": "2026-04-15",
+      "mention_count": 170
     },
     {
       "id": "ent-003",
@@ -72,8 +72,8 @@
       "name": "Strait of Hormuz",
       "properties": { "type": "strait/waterway" },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-14",
-      "mention_count": 123
+      "last_seen": "2026-04-15",
+      "mention_count": 138
     },
     {
       "id": "ent-009",
@@ -133,10 +133,10 @@
       "id": "ent-015",
       "type": "Event",
       "name": "2026 Iran War",
-      "properties": { "date": "2026-02-28~", "location": "Iran/Middle East", "participants": "US, Israel, Iran" },
+      "properties": { "date": "2026-02-28~", "location": "Iran/Middle East", "participants": "US, Israel, Iran", "day47_status": "ceasefire day 8, Trump says 'close to over'" },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-14",
-      "mention_count": 46
+      "last_seen": "2026-04-15",
+      "mention_count": 60
     },
     {
       "id": "ent-016",
@@ -250,19 +250,19 @@
       "id": "ent-028",
       "type": "Person",
       "name": "Asim Munir",
-      "properties": { "role": "Pakistan Field Marshal / Army Chief", "affiliation": "Pakistan" },
+      "properties": { "role": "Pakistan Field Marshal / Army Chief", "affiliation": "Pakistan", "note": "Trump's 'favorite field marshal', knows IRGC leadership from intel service days" },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-07",
-      "mention_count": 2
+      "last_seen": "2026-04-15",
+      "mention_count": 14
     },
     {
       "id": "ent-029",
       "type": "Organization",
       "name": "Pakistan",
-      "properties": { "type": "state", "role": "mediator in Iran war, host of Islamabad talks" },
+      "properties": { "type": "state", "role": "mediator in Iran war, host of Islamabad talks, army chief visiting Tehran for 2nd round" },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-14",
-      "mention_count": 56
+      "last_seen": "2026-04-15",
+      "mention_count": 68
     },
     {
       "id": "ent-030",
@@ -396,8 +396,8 @@
       "name": "Abbas Araghchi",
       "properties": { "role": "Iran Foreign Minister", "affiliation": "Iran" },
       "first_seen": "2026-04-10",
-      "last_seen": "2026-04-14",
-      "mention_count": 35
+      "last_seen": "2026-04-15",
+      "mention_count": 39
     },
     {
       "id": "ent-045",
@@ -531,8 +531,8 @@
       "name": "CENTCOM (US Central Command)",
       "properties": { "type": "military command", "location": "United States" },
       "first_seen": "2026-04-11",
-      "last_seen": "2026-04-14",
-      "mention_count": 20
+      "last_seen": "2026-04-15",
+      "mention_count": 30
     },
     {
       "id": "ent-060",
@@ -814,7 +814,124 @@
       "first_seen": "2026-04-14",
       "last_seen": "2026-04-14",
       "mention_count": 2
+    },
+    {
+      "id": "ent-091",
+      "type": "Person",
+      "name": "Ali Abdollahi",
+      "properties": { "role": "Commander, Khatam al-Anbiya Central HQ", "affiliation": "Iran Armed Forces", "action": "issued first formal Red Sea blockade threat (Apr 15)" },
+      "first_seen": "2026-04-15",
+      "last_seen": "2026-04-15",
+      "mention_count": 6
+    },
+    {
+      "id": "ent-092",
+      "type": "Person",
+      "name": "Mohsin Naqvi",
+      "properties": { "role": "Pakistan Interior Minister", "affiliation": "Pakistan", "action": "accompanied Munir to Tehran for mediation (Apr 15)" },
+      "first_seen": "2026-04-15",
+      "last_seen": "2026-04-15",
+      "mention_count": 2
+    },
+    {
+      "id": "ent-093",
+      "type": "Person",
+      "name": "Brad Cooper",
+      "properties": { "role": "Admiral, CENTCOM Commander", "affiliation": "CENTCOM/US Military", "statement": "blockade 'fully implemented', trade 'completely halted'" },
+      "first_seen": "2026-04-15",
+      "last_seen": "2026-04-15",
+      "mention_count": 3
+    },
+    {
+      "id": "ent-094",
+      "type": "Event",
+      "name": "Trump 'War Close to Over' Declaration (Apr 15)",
+      "properties": { "date": "2026-04-15", "detail": "Trump told Fox Business war is 'very close to over' and stock market 'is going to boom'. Told NY Post talks could resume 'within two days' in Pakistan. Strongest language yet on war ending.", "context": "Day 47 of conflict, day 8 of ceasefire, 6 days to expiry" },
+      "first_seen": "2026-04-15",
+      "last_seen": "2026-04-15",
+      "mention_count": 14
+    },
+    {
+      "id": "ent-095",
+      "type": "Event",
+      "name": "CENTCOM Blockade Fully Implemented (Apr 15)",
+      "properties": { "date": "2026-04-15", "detail": "CENTCOM declares blockade 'fully implemented' in less than 36 hours, completely halting Iran's economic sea trade. 10,000+ US personnel deployed. 6 merchant ships turned back. No ships made it past.", "commander": "Admiral Brad Cooper" },
+      "first_seen": "2026-04-15",
+      "last_seen": "2026-04-15",
+      "mention_count": 10
+    },
+    {
+      "id": "ent-096",
+      "type": "Event",
+      "name": "Iran Red Sea Blockade Threat (Apr 15)",
+      "properties": { "date": "2026-04-15", "detail": "Khatam al-Anbiya Central HQ Commander Ali Abdollahi threatens to block ALL trade through Persian Gulf, Gulf of Oman, AND Red Sea unless US lifts blockade. First formal Red Sea blockade threat from Iran.", "significance": "Qualitative escalation — extends conflict zone from Hormuz to global shipping lanes" },
+      "first_seen": "2026-04-15",
+      "last_seen": "2026-04-15",
+      "mention_count": 8
+    },
+    {
+      "id": "ent-097",
+      "type": "Event",
+      "name": "Asim Munir Tehran Visit (Apr 15)",
+      "properties": { "date": "2026-04-15", "detail": "Pakistan FM Asim Munir arrives in Tehran with Interior Min Mohsin Naqvi, carrying US message. Met FM Araghchi. Aim: persuade Iran to return to negotiating table for 2nd round.", "significance": "Munir has rapport with Trump ('favorite field marshal') and knows IRGC leadership from intel service days" },
+      "first_seen": "2026-04-15",
+      "last_seen": "2026-04-15",
+      "mention_count": 12
+    },
+    {
+      "id": "ent-098",
+      "type": "Event",
+      "name": "Iran $270B War Losses Claim (Apr 15)",
+      "properties": { "date": "2026-04-15", "amount": "$270 billion (preliminary)", "detail": "Iran government estimates total war losses. Demands reparations from US, Israel, and 5 Arab states (Bahrain, Saudi Arabia, Qatar, UAE, Jordan) accused of allowing territory for attacks." },
+      "first_seen": "2026-04-15",
+      "last_seen": "2026-04-15",
+      "mention_count": 6
+    },
+    {
+      "id": "ent-099",
+      "type": "Event",
+      "name": "S&P 500 Record High (Apr 15)",
+      "properties": { "date": "2026-04-15", "level": "7,005.78 (exceeds Jan 28 peak of 7,002.28)", "detail": "First intraday record since war began. S&P up 9.8% since Mar 30. Nasdaq +2%, Dow +0.7%. Market erased all war-related losses.", "driver": "Trump 'war close to over' comments, 2nd round talks expectations" },
+      "first_seen": "2026-04-15",
+      "last_seen": "2026-04-15",
+      "mention_count": 8
+    },
+    {
+      "id": "ent-100",
+      "type": "Event",
+      "name": "Oil Prices Stabilize (Apr 15)",
+      "properties": { "date": "2026-04-15", "wti": "$91.29/bbl", "brent": "$94.93-95.27/bbl", "trend": "stable after previous day's -8% plunge, slight uptick", "context": "Physical crude still near $150/bbl, futures-physical disconnect persists" },
+      "first_seen": "2026-04-15",
+      "last_seen": "2026-04-15",
+      "mention_count": 5
+    },
+    {
+      "id": "ent-101",
+      "type": "Concept",
+      "name": "Iran War Reparations Demand ($270B)",
+      "properties": { "domain": "diplomacy/finance", "amount": "$270 billion (preliminary)", "targets": "US, Israel, Bahrain, Saudi Arabia, Qatar, UAE, Jordan", "basis": "territory used for launching attacks on Iran" },
+      "first_seen": "2026-04-15",
+      "last_seen": "2026-04-15",
+      "mention_count": 6
+    },
+    {
+      "id": "ent-102",
+      "type": "Concept",
+      "name": "Red Sea Blockade Threat",
+      "properties": { "domain": "maritime/military", "detail": "Iran's first formal threat to extend blockade beyond Hormuz to Red Sea and Gulf of Oman. Qualitative escalation from regional to global shipping disruption." },
+      "first_seen": "2026-04-15",
+      "last_seen": "2026-04-15",
+      "mention_count": 8
+    },
+    {
+      "id": "ent-103",
+      "type": "Concept",
+      "name": "War Death Toll (~6,000)",
+      "properties": { "domain": "humanitarian", "figure": "nearly 6,000 killed since Feb 28", "scope": "Middle East total", "lebanon_toll": "2,124+ killed, 1.1M displaced" },
+      "first_seen": "2026-04-15",
+      "last_seen": "2026-04-15",
+      "mention_count": 3
     }
   ],
-  "total_count": 90
+  "total_count": 103
 }

@@ -1,0 +1,26 @@
+{
+  "id": "src-179",
+  "title": "Pakistan Army Chief Arrives in Tehran to Mediate Peace Talks",
+  "url": "https://www.bloomberg.com/news/articles/2026-04-15/pakistan-army-chief-lands-in-tehran-for-us-iran-mediation-talks",
+  "snippet": "Pakistan's Field Marshal Asim Munir arrives in Tehran carrying US message. Plans to coordinate second round of US-Iran talks. Accompanied by Interior Minister Mohsin Naqvi. Munir described as 'Trump's favorite field marshal' with IRGC contacts from intelligence days.",
+  "source_name": "Bloomberg",
+  "language": "en",
+  "discovered_date": "2026-04-15",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "무니르의 테헤란 방문은 4/15 신규 사건. 이전에 파키스탄 중재 역할은 보도됐으나 군 수장의 직접 테헤란 방문은 처음.",
+  "entities": [
+    { "id": "ent-028", "type": "Person", "name": "Asim Munir", "role": "Pakistan Field Marshal" },
+    { "id": "temp-003", "type": "Person", "name": "Mohsin Naqvi", "role": "Pakistan Interior Minister" },
+    { "id": "ent-044", "type": "Person", "name": "Abbas Araghchi", "role": "Iran FM" },
+    { "id": "ent-029", "type": "Organization", "name": "Pakistan" },
+    { "id": "ent-002", "type": "Organization", "name": "Iran" },
+    { "id": "temp-008", "type": "Event", "name": "Asim Munir Tehran Visit" }
+  ],
+  "relations": [
+    { "subject": "ent-028", "predicate": "participatesIn", "object": "temp-008" },
+    { "subject": "ent-028", "predicate": "cooperatesWith", "object": "ent-001" },
+    { "subject": "ent-028", "predicate": "cooperatesWith", "object": "ent-044" }
+  ]
+}

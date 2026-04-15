@@ -1,0 +1,20 @@
+{
+  "id": "src-187",
+  "title": "S&P 500 hits record high as Iran peace hopes lift markets",
+  "url": "https://invezz.com/news/2026/04/15/sp-500-hits-record-high-as-iran-peace-hopes-lift-markets/",
+  "snippet": "S&P 500 surges to 7,005.78 points, exceeding January 28 peak of 7,002.28. First intraday record since war began. Market has risen 9.8% since March 30. Two-week rally on peace hopes. Nasdaq +2%, Dow +0.7%.",
+  "source_name": "Invezz",
+  "language": "en",
+  "discovered_date": "2026-04-15",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "S&P 500이 전쟁 이후 최초로 사상 최고가를 기록한 것은 4/15 신규 사건. 전일 유가 급락에 이은 후속이지만 주식시장 신고가는 별도의 유의미한 이벤트.",
+  "entities": [
+    { "id": "temp-010", "type": "Event", "name": "S&P 500 Record High" },
+    { "id": "ent-015", "type": "Event", "name": "2026 Iran War" }
+  ],
+  "relations": [
+    { "subject": "temp-010", "predicate": "causedBy", "object": "temp-005" }
+  ]
+}

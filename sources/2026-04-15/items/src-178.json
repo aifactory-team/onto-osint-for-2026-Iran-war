@@ -1,0 +1,24 @@
+{
+  "id": "src-178",
+  "title": "Trump says Iran war is 'very close to over,' stock market 'is going to boom'",
+  "url": "https://www.cnbc.com/2026/04/15/iran-war-trump-peace-deal-us-talks-stock-market-oil-prices-.html",
+  "snippet": "President Trump told Fox Business the war is 'very close to over' and told NY Post talks could resume 'within two days' in Pakistan. Said stock market 'is going to boom'. S&P 500 approached record highs on his comments.",
+  "source_name": "CNBC",
+  "language": "en",
+  "discovered_date": "2026-04-15",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "신규 발언 — 트럼프가 '전쟁이 거의 끝났다'고 직접 선언한 것은 이번이 처음. 4/14의 '이틀 내 뭔가'보다 한층 강한 종전 시사.",
+  "entities": [
+    { "id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President" },
+    { "id": "ent-002", "type": "Organization", "name": "Iran" },
+    { "id": "ent-029", "type": "Organization", "name": "Pakistan" },
+    { "id": "temp-005", "type": "Event", "name": "Trump 'War Close to Over' Declaration" },
+    { "id": "temp-010", "type": "Event", "name": "S&P 500 Record High" }
+  ],
+  "relations": [
+    { "subject": "ent-001", "predicate": "participatesIn", "object": "temp-005" },
+    { "subject": "temp-005", "predicate": "causedBy", "object": "temp-010" }
+  ]
+}
