@@ -1,0 +1,189 @@
+{
+  "date": "2026-04-17",
+  "collected_at": "2026-04-17T23:00:00Z",
+  "config_topic": "2026 Iran War",
+  "search_count": 12,
+  "total_results": 80,
+  "expanded_keywords": [
+    "Iran war ceasefire April 17",
+    "Israel Lebanon ceasefire",
+    "Hormuz blockade Iran",
+    "Munir Tehran nuclear breakthrough",
+    "Pakistan mediation Iran US second round talks",
+    "Iran oil prices stock market",
+    "Iran Hormuz open commercial vessels Araghchi",
+    "Lebanon ceasefire violations Israeli forces",
+    "Iran threatens close Hormuz IRGC",
+    "Sharif Turkey Erdogan Iran mediation",
+    "이란 전쟁 휴전 협상 2026년 4월",
+    "이란 호르무즈 봉쇄 레바논 휴전 2026"
+  ],
+  "searches": [
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Iran war ceasefire talks April 17 2026",
+      "language": "en",
+      "timestamp": "2026-04-17T23:00:00Z",
+      "result_count": 10,
+      "results": [
+        { "title": "Live updates: Next round of US-Iran talks to take place in Pakistan on Monday, Iranian sources say", "url": "https://edition.cnn.com/2026/04/17/world/live-news/iran-war-trump-lebanon-israel-ceasefire", "snippet": "US and Iranian delegations expected to arrive in Pakistan this weekend and hold negotiations Monday", "source_name": "CNN" },
+        { "title": "Iran war live: Trump hails Hormuz Strait opening as Lebanon ceasefire holds", "url": "https://www.aljazeera.com/news/liveblog/2026/4/17/iran-war-live-ceasefire-starts-in-lebanon-as-trump-says-tehran-deal-close", "snippet": "Iran announces Hormuz completely open for commercial vessels during ceasefire period", "source_name": "Al Jazeera" },
+        { "title": "Where U.S.-Iran talks stand as ceasefire deadline looms", "url": "https://thehill.com/policy/international/5833458-us-israel-iran-fragile-ceasefire/", "snippet": "Fragile ceasefire with 4 days left; 2nd round talks expected Monday in Pakistan", "source_name": "The Hill" },
+        { "title": "US-Iran war: Guterres calls for continued talks, end to ceasefire violations", "url": "https://news.un.org/en/story/2026/04/1167292", "snippet": "UN Secretary-General calls for end to ceasefire violations and continued negotiations", "source_name": "UN News" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Israel Lebanon ceasefire April 2026",
+      "language": "en",
+      "timestamp": "2026-04-17T23:01:00Z",
+      "result_count": 10,
+      "results": [
+        { "title": "What we know about the Israel-Lebanon ceasefire", "url": "https://www.aljazeera.com/news/2026/4/17/what-we-know-about-the-israel-lebanon-ceasefire", "snippet": "10-day ceasefire began at 21:00 GMT on April 16; Israel keeps security strip in south Lebanon", "source_name": "Al Jazeera" },
+        { "title": "Celebrations in Lebanon as 10-day ceasefire with Israel begins", "url": "https://www.aljazeera.com/news/2026/4/17/celebrations-in-lebanon-as-10-day-ceasefire-with-israel-begins", "snippet": "Lebanese celebrate ceasefire after 6 weeks of fighting; 2,196 killed, 1M+ displaced", "source_name": "Al Jazeera" },
+        { "title": "MIDDLE EAST LIVE 17 April: Israel-Lebanon ceasefire begins", "url": "https://news.un.org/en/story/2026/04/1167318", "snippet": "UN reports ceasefire in effect; Lebanese army reports Israeli violations", "source_name": "UN News" },
+        { "title": "Ten Day Cessation of Hostilities to Enable Peace Negotiations Between Israel and Lebanon", "url": "https://www.state.gov/releases/office-of-the-spokesperson/2026/04/ten-day-cessation-of-hostilities-to-enable-peace-negotiations-between-israel-and-lebanon", "snippet": "Official US State Department statement on 10-day cessation of hostilities", "source_name": "US State Department" },
+        { "title": "After PM claims Hezbollah fight not over, Trump says Israel 'PROHIBITED' from bombing Lebanon", "url": "https://www.timesofisrael.com/liveblog-april-17-2026/", "snippet": "Trump rebukes Netanyahu after PM suggests Hezbollah fight continues despite ceasefire", "source_name": "Times of Israel" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Hormuz blockade Iran April 17 2026",
+      "language": "en",
+      "timestamp": "2026-04-17T23:02:00Z",
+      "result_count": 10,
+      "results": [
+        { "title": "Live updates: Iran declares Strait of Hormuz 'completely open'; Trump says U.S. blockade 'will remain in full force' until peace deal", "url": "https://www.nbcnews.com/world/iran/live-blog/live-updates-israel-lebanon-ceasefire-trump-iran-talks-hormuz-summit-rcna332294", "snippet": "Iran opens Hormuz but Trump says US blockade of Iranian ports continues until peace deal", "source_name": "NBC News" },
+        { "title": "Iran threatens to close Hormuz again if US blockade continues", "url": "https://www.iranintl.com/en/202604170620", "snippet": "IRGC-affiliated Fars News: Iran will close Hormuz again if US blockade not lifted", "source_name": "Iran International" },
+        { "title": "The U.S. blockade continues despite Iran's announcement the Strait of Hormuz is open", "url": "https://www.opb.org/article/2026/04/17/iran-says-strait-of-hormuz-is-open-trump-says-u-s-blockade-continues/", "snippet": "Dual reality: Iran says open, US says blockade continues; only handful of ships pass", "source_name": "OPB/AP" },
+        { "title": "Blockade on Iran will continue, Trump says, after Iran says it will reopen Strait of Hormuz", "url": "https://www.cbc.ca/news/world/iran-foreign-minister-strait-of-hormuz-opens-9.7167808", "snippet": "Trump: blockade 100% until peace deal; Iran conditions: designated routes, commercial only", "source_name": "CBC News" },
+        { "title": "Strait of Hormuz Reopens — US Still Blocking Iran Shipping", "url": "https://www.military.com/daily-news/2026/04/17/Hormuz-Reopens-US-Still-Blocking-Iran-Shipping", "snippet": "Hormuz reopens for transit but US Navy continues blocking Iran-bound/origin shipping", "source_name": "Military.com" },
+        { "title": "Shipowners and Oil Traders Wary as Iran Says Hormuz Fully Open", "url": "https://www.bloomberg.com/news/articles/2026-04-17/shipowners-and-oil-traders-wary-as-iran-says-hormuz-fully-open", "snippet": "Shipping companies cautious despite Iran announcement; only handful of vessels transit", "source_name": "Bloomberg" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Munir Tehran Iran nuclear breakthrough 2026",
+      "language": "en",
+      "timestamp": "2026-04-17T23:03:00Z",
+      "result_count": 10,
+      "results": [
+        { "title": "Pakistan-US-Iran Nuclear Talks: Gen Munir in Tehran", "url": "https://www.pakistantoday.com.pk/2026/04/16/backchannel-diplomacy-intensifies-pakistan-pushes-us-iran-nuclear-breakthrough-as-gen-munir-holds-high-stakes-talks-in-tehran", "snippet": "Iran agrees in principle to Pakistani proposal for third-party monitoring by 4 countries + IAEA", "source_name": "Pakistan Today" },
+        { "title": "Asim Munir Holds Key Talks In Tehran As Pakistan Pushes Breakthrough On Iran Nuclear Issue", "url": "https://www.dailyparliamenttimes.com/2026/04/16/asim-munir-holds-key-talks-in-tehran-as-pakistan-pushes-breakthrough-on-iran-nuclear-issue/", "snippet": "Options for 440kg enriched uranium: send abroad to third party or downblend to 3%", "source_name": "Daily Parliament Times" },
+        { "title": "Pakistan Mediates US-Iran Nuclear Talks for Breakthrough", "url": "https://www.newkerala.com/news/a/pak-officials-hopeful-major-breakthrough-us-iran-nuclear-talks-475.htm", "snippet": "Technical teams in continuous message exchanges; Munir may travel to Washington", "source_name": "NewKerala" },
+        { "title": "Pakistan Army Chief Asim Munir meets Iranian Parliament Speaker in Tehran", "url": "https://www.tribuneindia.com/news/asim-munir-tehran/pakistan-army-chief-asim-munir-meets-iranian-parliament-speaker-in-tehran", "snippet": "Munir met Ghalibaf in Tehran; nuclear programme key discussion topic", "source_name": "Tribune India" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "이란 전쟁 휴전 협상 2026년 4월",
+      "language": "ko",
+      "timestamp": "2026-04-17T23:04:00Z",
+      "result_count": 10,
+      "results": [
+        { "title": "미-이란 기본합의에 더 접근…성사시 휴전 연장", "url": "https://www.koreancenter.or.kr/news/articleView.html?idxno=1340149", "snippet": "미국과 이란이 기본합의에 더 접근, 성사시 휴전 연장 가능", "source_name": "코리안센터" },
+        { "title": "\"이르면 주말 2차 협상‥이스라엘·레바논 휴전\"", "url": "https://imnews.imbc.com/replay/2026/nwtoday/article/6815882_37012.html", "snippet": "이르면 주말 2차 미-이란 협상, 이스라엘·레바논 휴전 발효", "source_name": "MBC" },
+        { "title": "이란 전쟁 휴전 시한 4일 앞 레바논 휴전 타결", "url": "https://www.g-enews.com/article/Global-Biz/2026/04/2026041706023042032bd56fbc3c_1", "snippet": "휴전 시한 4일 앞으로 레바논 휴전 타결, 호르무즈 개방 선언", "source_name": "글로벌이코노믹" },
+        { "title": "[목요논박] 미국-이란 전쟁 휴전 언제 할까?···국내 정치에 끼친 영향은?", "url": "https://dgmbc.com/NewsArticle/835594", "snippet": "미국-이란 전쟁 휴전 전망과 국내 정치 영향 분석", "source_name": "대구MBC" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "이란 호르무즈 봉쇄 레바논 휴전 2026",
+      "language": "ko",
+      "timestamp": "2026-04-17T23:05:00Z",
+      "result_count": 10,
+      "results": [
+        { "title": "이란 \"호르무즈 개방\" 선언했지만…트럼프 \"이란 봉쇄 조치 100% 유지\"", "url": "https://segye.com/newsView/20260417515143", "snippet": "이란 호르무즈 개방 선언에도 트럼프 봉쇄 조치 100% 유지 선언", "source_name": "세계일보" },
+        { "title": "이란 \"레바논 휴전 기간 상선에 호르무즈 완전 개방\"", "url": "https://biz.heraldcorp.com/article/10720043", "snippet": "아라그치: 레바논 휴전 기간 호르무즈 상선 완전 개방", "source_name": "헤럴드경제" },
+        { "title": "이란 \"휴전 기간 호르무즈 개방\"…트럼프 \"감사하지만 해군 봉쇄는 유지\"", "url": "https://www.etoday.co.kr/news/view/2576869", "snippet": "이란 호르무즈 개방에 트럼프 감사하면서도 해군 봉쇄 유지 선언", "source_name": "이투데이" },
+        { "title": "이란 \"호르무즈 전면 개방\"...트럼프 \"고맙다. 봉쇄는 유지\"", "url": "https://www.fnnews.com/news/202604172223145229", "snippet": "이란 호르무즈 전면 개방, 트럼프: 고맙다 그러나 봉쇄 유지", "source_name": "파이낸셜뉴스" },
+        { "title": "이란 \"레바논 휴전 기간 호르무즈 '지정 항로' 완전 개방\"", "url": "https://www.newsis.com/view/NISX20260417_0003596425", "snippet": "이란 Ports and Maritime Organisation 지정 항로로 호르무즈 완전 개방", "source_name": "뉴시스" },
+        { "title": "이란, 호르무즈 해협 상선에 다시 열었다…휴전 기간 완전 개방 선언", "url": "https://www.news1.kr/world/middleeast-africa/6140742", "snippet": "이란 호르무즈 해협 상선에 완전 개방 선언, 지정 항로 조건", "source_name": "뉴스1" },
+        { "title": "[속보] 이란 \"휴전 기간 호르무즈 해협 전면 개방\"... 글로벌 물류 숨통 트이나", "url": "https://www.g-enews.com/article/Global-Biz/2026/04/202604172236496473e250e8e188_1", "snippet": "이란 호르무즈 전면 개방으로 글로벌 물류 회복 기대", "source_name": "글로벌이코노믹" },
+        { "title": "[속보] 이란 \"레바논 휴전기간 이란이 정한 항로로 호르무즈 완전 개방\"", "url": "https://www.newdaily.co.kr/site/data/html/2026/04/17/2026041700257.html", "snippet": "이란 정한 항로 조건으로 호르무즈 완전 개방", "source_name": "뉴데일리" },
+        { "title": "이란 \"레바논 휴전 기간 상선에 호르무즈 완전 개방\"", "url": "https://www.sedaily.com/article/20034015", "snippet": "아라그치 외무장관 호르무즈 완전 개방 발표", "source_name": "서울경제" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Pakistan mediation Iran US second round talks April 2026",
+      "language": "en",
+      "timestamp": "2026-04-17T23:06:00Z",
+      "result_count": 10,
+      "results": [
+        { "title": "Pakistan Mediates Again as Iran, US Signal Fresh Diplomatic Engagement", "url": "https://www.asianmirror.us/2026/04/16/iran-pakistan-second-round-us-talks/", "snippet": "Pakistan mediating 2nd round of US-Iran talks; both sides signal fresh engagement", "source_name": "Asian Mirror" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Iran war oil prices stock market April 17 2026",
+      "language": "en",
+      "timestamp": "2026-04-17T23:07:00Z",
+      "result_count": 10,
+      "results": [
+        { "title": "Oil prices plunge 11% after Iran says Strait of Hormuz is open for commercial vessels", "url": "https://www.nbcnews.com/business/markets/oil-prices-plunge-stocks-jump-hormuz-open-iran-war-rcna332321", "snippet": "WTI -11.4% to $83.85, Brent -9% to $90.38; S&P 500 +1.2% weekly +4.5%, Nasdaq +1.5% weekly +6.8%", "source_name": "NBC News" },
+        { "title": "Stock Market Today, April 17: Oil Prices Drop As Strait of Hormuz Reopens", "url": "https://www.fool.com/coverage/stock-market-today/2026/04/17/stock-market-today-april-17-oil-stocks-drop-after-strait-of-hormuz-reopens/", "snippet": "Oil stocks drop as Hormuz reopens; broader market rallies to record highs", "source_name": "Motley Fool" },
+        { "title": "Oil prices tumble more than 10% as Iran declares Strait of Hormuz open, easing supply fears", "url": "https://www.cnbc.com/2026/04/17/oil-prices-wti-brent-israel-lebanon-ceasefire-trump.html", "snippet": "Oil tumbles 10%+ on Hormuz opening; biggest single-day oil drop since war began", "source_name": "CNBC" },
+        { "title": "Strait of Hormuz Opens for Shipping During Israel-Hezbollah Truce, Iran Says", "url": "https://www.bloomberg.com/news/articles/2026-04-17/iran-says-hormuz-to-open-during-lebanon-truce-in-boost-for-peace", "snippet": "Bloomberg: Hormuz opens during Lebanon truce, boost for peace; Brent falls below $90", "source_name": "Bloomberg" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Iran Hormuz open commercial vessels Araghchi conditions April 17 2026",
+      "language": "en",
+      "timestamp": "2026-04-17T23:08:00Z",
+      "result_count": 10,
+      "results": [
+        { "title": "Iran foreign minister says Strait of Hormuz 'completely open'", "url": "https://www.aljazeera.com/news/2026/4/17/iran-foreign-minister-says-strait-of-hormuz-completely-open", "snippet": "Araghchi: Hormuz completely open for commercial vessels on coordinated routes", "source_name": "Al Jazeera" },
+        { "title": "Iran Declares Strait of Hormuz Open to Commercial Vessels as U.S. Blockade Remains in Place", "url": "https://www.thedefensenews.com/news-details/Iran-Declares-Strait-of-Hormuz-Open-to-Commercial-Vessels-as-US-Blockade-Remains-in-Place-Lebanon-Ceasefire-Enters-Effect/", "snippet": "Iran opens Hormuz but US blockade remains; conditions include designated routes near Larak island", "source_name": "Defense News" },
+        { "title": "Commercial vessels are sailing through the Strait of Hormuz. Here's what 'completely open' looks like for now.", "url": "https://dnyuz.com/2026/04/17/commercial-vessels-are-sailing-through-the-strait-of-hormuz-heres-what-completely-open-looks-like-for-now/", "snippet": "Only handful of ships actually transit; shipping companies remain cautious", "source_name": "DNyuz" },
+        { "title": "Iran Reopens Strait of Hormuz, but Trump Says Blockade on Iranian Ships and Ports Will Stay in Force", "url": "https://www.military.com/daily-news/2026/04/17/iran-reopens-strait-of-hormuz-trump-says-blockade-iranian-ships-and-ports-will-stay-force.html", "snippet": "Iran reopens but Trump: blockade stays for Iranian ships/ports until peace deal", "source_name": "Military.com" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Lebanon ceasefire violations Israeli forces April 17 2026",
+      "language": "en",
+      "timestamp": "2026-04-17T23:09:00Z",
+      "result_count": 10,
+      "results": [
+        { "title": "Lebanese army says Israeli attacks violate ceasefire, urges caution in south", "url": "https://www.tribuneindia.com/news/world/lebanese-army-says-israeli-attacks-violate-ceasefire-urges-caution-in-south/", "snippet": "Lebanese army reports Israeli shelling violations; ambulance attacked in Kunin, 1 killed in Kounine", "source_name": "Tribune India" },
+        { "title": "After PM claims Hezbollah fight not over, Trump says Israel 'PROHIBITED' from bombing Lebanon", "url": "https://www.timesofisrael.com/liveblog-april-17-2026/", "snippet": "Trump rebukes Netanyahu: Israel PROHIBITED from bombing Lebanon during ceasefire", "source_name": "Times of Israel" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Iran threatens close Hormuz again IRGC blockade April 2026",
+      "language": "en",
+      "timestamp": "2026-04-17T23:10:00Z",
+      "result_count": 10,
+      "results": [
+        { "title": "Iran threatens to close Hormuz again if US blockade continues - IRGC outlet", "url": "https://www.iranintl.com/en/202604170620", "snippet": "IRGC-affiliated Fars News: Iran will close Hormuz again if US blockade not lifted", "source_name": "Iran International" }
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Sharif Turkey Erdogan Iran mediation April 17 2026",
+      "language": "en",
+      "timestamp": "2026-04-17T23:11:00Z",
+      "result_count": 10,
+      "results": [
+        { "title": "Pakistan PM in Türkiye after Saudi, Qatar visits as diplomacy gathers pace over Iran war", "url": "https://www.arabnews.com/node/2640209/pakistan", "snippet": "Sharif arrives Antalya for Diplomacy Forum; bilateral with Erdogan; Turkey/Pakistan/Saudi/Egypt FMs meet", "source_name": "Arab News" },
+        { "title": "Erdogan says Turkey working to extend Iran ceasefire, continue talks", "url": "https://english.alarabiya.net/News/middle-east/2026/04/15/erdogan-says-turkey-working-to-extend-iran-ceasefire-continue-talks", "snippet": "Erdogan: 'no negotiating with clenched fists'; Turkey working to extend ceasefire", "source_name": "Al Arabiya" }
+      ]
+    }
+  ]
+}

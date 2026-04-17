@@ -1,0 +1,20 @@
+{
+  "id": "src-246",
+  "title": "Lebanese army says Israeli attacks violate ceasefire, urges caution in south",
+  "url": "https://www.tribuneindia.com/news/world/lebanese-army-says-israeli-attacks-violate-ceasefire-urges-caution-in-south/",
+  "snippet": "Lebanese army reports Israeli shelling violations hours after ceasefire begins. Machinegun and artillery fire at ambulance team in Kunin (Nabatieh). 1 killed in Kounine (motorcycle/vehicle struck). Israeli military warns residents to stay north of Litani River.",
+  "source_name": "Tribune India",
+  "language": "en",
+  "discovered_date": "2026-04-17",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "레바논 휴전 발효 직후 이스라엘군 위반 사례는 휴전의 취약성을 보여주는 신규 전개",
+  "entities": [
+    { "id": "ent-004", "type": "Organization", "name": "Israel" },
+    { "id": "ent-050", "type": "Location", "name": "Lebanon" }
+  ],
+  "relations": [
+    { "subject": "ent-004", "predicate": "participatesIn", "object": "Lebanon Ceasefire Violations" }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "date": "2026-04-17",
+  "new_triples": [
+    { "subject": "ent-044", "predicate": "participatesIn", "object": "ent-117", "source_id": "src-236", "date": "2026-04-17", "confidence": 0.95, "type": "explicit" },
+    { "subject": "ent-001", "predicate": "opposes", "object": "ent-117", "source_id": "src-237", "date": "2026-04-17", "confidence": 0.90, "type": "explicit" },
+    { "subject": "ent-117", "predicate": "causedBy", "object": "ent-109", "source_id": "src-236", "date": "2026-04-17", "confidence": 0.85, "type": "explicit" },
+    { "subject": "ent-005", "predicate": "participatesIn", "object": "ent-118", "source_id": "src-240", "date": "2026-04-17", "confidence": 0.85, "type": "explicit" },
+    { "subject": "ent-118", "predicate": "opposes", "object": "ent-117", "source_id": "src-240", "date": "2026-04-17", "confidence": 0.80, "type": "explicit" },
+    { "subject": "ent-119", "predicate": "follows", "object": "ent-054", "source_id": "src-243", "date": "2026-04-17", "confidence": 0.90, "type": "explicit" },
+    { "subject": "ent-029", "predicate": "participatesIn", "object": "ent-119", "source_id": "src-243", "date": "2026-04-17", "confidence": 0.90, "type": "explicit" },
+    { "subject": "ent-002", "predicate": "participatesIn", "object": "ent-119", "source_id": "src-243", "date": "2026-04-17", "confidence": 0.90, "type": "explicit" },
+    { "subject": "ent-004", "predicate": "participatesIn", "object": "ent-120", "source_id": "src-246", "date": "2026-04-17", "confidence": 0.90, "type": "explicit" },
+    { "subject": "ent-120", "predicate": "relatedTo", "object": "ent-109", "source_id": "src-246", "date": "2026-04-17", "confidence": 0.90, "type": "explicit" },
+    { "subject": "ent-001", "predicate": "opposes", "object": "ent-031", "source_id": "src-247", "date": "2026-04-17", "confidence": 0.85, "type": "explicit" },
+    { "subject": "ent-121", "predicate": "causedBy", "object": "ent-120", "source_id": "src-247", "date": "2026-04-17", "confidence": 0.80, "type": "explicit" },
+    { "subject": "ent-122", "predicate": "causedBy", "object": "ent-117", "source_id": "src-248", "date": "2026-04-17", "confidence": 0.90, "type": "explicit" },
+    { "subject": "ent-027", "predicate": "participatesIn", "object": "ent-124", "source_id": "src-251", "date": "2026-04-17", "confidence": 0.95, "type": "explicit" },
+    { "subject": "ent-127", "predicate": "participatesIn", "object": "ent-124", "source_id": "src-251", "date": "2026-04-17", "confidence": 0.90, "type": "explicit" },
+    { "subject": "ent-027", "predicate": "cooperatesWith", "object": "ent-127", "source_id": "src-251", "date": "2026-04-17", "confidence": 0.85, "type": "explicit" },
+    { "subject": "ent-125", "predicate": "relatedTo", "object": "ent-116", "source_id": "src-252", "date": "2026-04-17", "confidence": 0.85, "type": "explicit" },
+    { "subject": "ent-028", "predicate": "participatesIn", "object": "ent-125", "source_id": "src-252", "date": "2026-04-17", "confidence": 0.90, "type": "explicit" },
+    { "subject": "ent-002", "predicate": "participatesIn", "object": "ent-125", "source_id": "src-252", "date": "2026-04-17", "confidence": 0.85, "type": "explicit" },
+    { "subject": "ent-117", "predicate": "relatedTo", "object": "ent-126", "source_id": "src-236", "date": "2026-04-17", "confidence": 0.90, "type": "explicit" },
+    { "subject": "ent-008", "predicate": "locatedIn", "object": "ent-126", "source_id": "src-236", "date": "2026-04-17", "confidence": 0.90, "type": "explicit" },
+    { "subject": "ent-083", "predicate": "mentions", "object": "ent-120", "source_id": "src-253", "date": "2026-04-17", "confidence": 0.80, "type": "explicit" }
+  ],
+  "updated_triples": [
+    { "subject": "ent-001", "predicate": "participatesIn", "object": "ent-015", "source_id": "src-237", "date": "2026-04-17", "confidence": 0.95, "type": "explicit", "note": "day 49 status update" },
+    { "subject": "ent-028", "predicate": "participatesIn", "object": "ent-116", "source_id": "src-252", "date": "2026-04-17", "confidence": 0.90, "type": "explicit", "note": "third-party monitoring details" }
+  ],
+  "inferred_triples": [
+    { "subject": "ent-118", "predicate": "potentialRelation", "object": "ent-117", "rule": "co_participation", "confidence": 0.75, "type": "inferred", "note": "IRGC re-closure threat vs Araghchi opening — internal Iran faction competition" },
+    { "subject": "ent-117", "predicate": "causalChain", "object": "ent-054", "rule": "event_chain", "confidence": 0.72, "type": "inferred", "note": "Islamabad collapse → blockade → max pressure → Lebanon ceasefire → Hormuz opening" },
+    { "subject": "ent-122", "predicate": "causalChain", "object": "ent-109", "rule": "event_chain", "confidence": 0.72, "type": "inferred", "note": "Lebanon ceasefire → Hormuz opening → oil crash (3-step chain)" },
+    { "subject": "ent-127", "predicate": "indirectlyAffiliatedWith", "object": "ent-029", "rule": "transitivity", "confidence": 0.81, "type": "inferred", "note": "Erdogan cooperates with Sharif (Pakistan PM) → Pakistan is sole mediator → Erdogan indirect participant in mediation" },
+    { "subject": "ent-121", "predicate": "potentialRelation", "object": "ent-109", "rule": "co_participation", "confidence": 0.75, "type": "inferred", "note": "Trump PROHIBITED warning + Lebanon ceasefire violations: both related to enforcing ceasefire against Israel" },
+    { "subject": "ent-119", "predicate": "causalChain", "object": "ent-117", "rule": "event_chain", "confidence": 0.72, "type": "inferred", "note": "Hormuz opening creates momentum → 2nd round talks confirmation (reciprocal pressure/goodwill)" }
+  ],
+  "stats": {
+    "new_nodes": 11,
+    "new_edges": 22,
+    "inferred_edges": 6
+  }
+}

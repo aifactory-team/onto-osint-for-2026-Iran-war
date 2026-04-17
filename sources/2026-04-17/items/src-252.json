@@ -1,0 +1,21 @@
+{
+  "id": "src-252",
+  "title": "Pakistan-US-Iran Nuclear Talks: Gen Munir in Tehran — Iran agrees to third-party monitoring proposal",
+  "url": "https://www.pakistantoday.com.pk/2026/04/16/backchannel-diplomacy-intensifies-pakistan-pushes-us-iran-nuclear-breakthrough-as-gen-munir-holds-high-stakes-talks-in-tehran",
+  "snippet": "Iran agreed in principle to Pakistani proposal for third-party monitoring of nuclear programme by 4 countries + IAEA. Tehran conveyed acceptance to Munir. US has not formally responded. Options for 440kg enriched uranium: send abroad to third party or downblend to 3%. Technical teams in continuous message exchanges. Munir may travel to Washington for direct talks with Trump.",
+  "source_name": "Pakistan Today",
+  "language": "en",
+  "discovered_date": "2026-04-17",
+  "tag": "update",
+  "related_report": "2026-04-16",
+  "related_item": "src-220",
+  "tag_reason": "4/16 무니르 방문의 후속이나 핵심 새 정보: 이란의 제3자 모니터링 수용 (원칙적), 440kg 처리 옵션, 무니르 워싱턴 방문 가능성",
+  "entities": [
+    { "id": "ent-028", "type": "Person", "name": "Asim Munir" },
+    { "id": "ent-002", "type": "Organization", "name": "Iran" },
+    { "id": "ent-029", "type": "Organization", "name": "Pakistan" }
+  ],
+  "relations": [
+    { "subject": "ent-028", "predicate": "participatesIn", "object": "Nuclear monitoring proposal" }
+  ]
+}

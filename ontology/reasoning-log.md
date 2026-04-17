@@ -369,3 +369,53 @@
 - 13개 새 엔티티 모두 기존 클래스(Person, Organization, Event, Concept)로 분류 가능
 - 28개 새 관계 + 6개 추론 모두 기존 관계 유형으로 표현 가능
 - 레바논 휴전, 글로벌 봉쇄, 핵 돌파구 보도 모두 기존 온톨로지 구조로 모델링 가능
+
+---
+
+## 2026-04-17 추론 결과
+
+### 추론 #43: co_participation (이란 내부 분열)
+- **입력:** (ent-044/Araghchi, participatesIn, ent-117/Hormuz Opening), (ent-005/IRGC, participatesIn, ent-118/Hormuz Re-closure Threat)
+- **추론:** (ent-118/IRGC Re-closure, potentialRelation, ent-117/Hormuz Opening)
+- **신뢰도:** 0.75
+- **상태:** 확정
+- **비고:** 아라그치(외교부)가 호르무즈 '완전 개방'을 선언한 같은 날, IRGC 계열 파르스통신이 재폐쇄를 위협. 실용파(외교부)와 강경파(IRGC/SNSC)의 공개적 불일치. 이란 내부의 전쟁 종결 여부를 둘러싼 노선 갈등이 수면 위로 부상.
+
+### 추론 #44: event_chain (5단계 인과 체인)
+- **입력:** (ent-054/Islamabad Talks, 결렬) → (ent-063/Blockade Declaration) → (ent-109/Lebanon Ceasefire) → (ent-117/Hormuz Opening)
+- **추론:** (ent-117/Hormuz Opening, causalChain, ent-054/Islamabad Talks)
+- **신뢰도:** 0.72 (5단계 체인, 0.5배 감쇠)
+- **상태:** 확정
+- **비고:** 이슬라마바드 결렬 → 봉쇄 선언 → 최대 압박 → 레바논 분리 해결 → 이란 호르무즈 '선제적 개방'. 이란의 개방은 레바논 휴전이라는 명분을 활용했으나, 실질적으로는 봉쇄의 경제적 압박이 원동력.
+
+### 추론 #45: event_chain (3단계 인과 체인)
+- **입력:** (ent-109/Lebanon Ceasefire) → (ent-117/Hormuz Opening) → (ent-122/Oil Price Crash)
+- **추론:** (ent-122/Oil Crash, causalChain, ent-109/Lebanon Ceasefire)
+- **신뢰도:** 0.72 (3단계)
+- **상태:** 확정
+- **비고:** 레바논 휴전 → 이란 호르무즈 개방 → 유가 11% 폭락. 시장은 레바논 휴전을 이란 전체 종전의 전주곡으로 해석. WTI $83.85는 3/10 이후 최저.
+
+### 추론 #46: transitivity (에르도안 → 파키스탄 간접 관련)
+- **입력:** (ent-127/Erdogan, cooperatesWith, ent-027/Sharif), (ent-027/Sharif, affiliatedWith, ent-029/Pakistan)
+- **추론:** (ent-127/Erdogan, indirectlyAffiliatedWith, ent-029/Pakistan)
+- **신뢰도:** 0.81
+- **상태:** 확정
+- **비고:** 에르도안은 안탈리아 외교포럼에서 샤리프와 양자 회담. 4국 외무장관 회담(터키/파키스탄/사우디/이집트)으로 확대. 터키가 파키스탄 주도 중재에 지역적 지지 제공.
+
+### 추론 #47: co_participation (트럼프 PROHIBITED ↔ 레바논 휴전)
+- **입력:** (ent-001/Trump, participatesIn, ent-109/Lebanon Ceasefire), (ent-001/Trump, opposes via ent-121/PROHIBITED, ent-031/Netanyahu)
+- **추론:** (ent-121/PROHIBITED Warning, potentialRelation, ent-109/Lebanon Ceasefire)
+- **신뢰도:** 0.75
+- **상태:** 확정
+- **비고:** 트럼프가 중재한 레바논 휴전이 이스라엘에 의해 위반되자, 트럼프는 공개적으로 이스라엘을 견제. 이는 트럼프가 레바논 휴전을 자신의 대이란 종전 전략의 핵심 요소로 보고 있음을 확인.
+
+### 추론 #48: event_chain (호르무즈 개방 → 2차 회담 확정)
+- **입력:** (ent-117/Hormuz Opening, date=2026-04-17), (ent-119/2nd Round Talks, date=2026-04-21 expected)
+- **추론:** (ent-119/2nd Round Talks, causalChain, ent-117/Hormuz Opening)
+- **신뢰도:** 0.72
+- **상태:** 확정
+- **비고:** 이란의 호르무즈 개방은 선의의 제스처이자 협상 레버리지. 같은 날 2차 회담이 구체적으로 확정된 것은 양측의 상호 신호(goodwill signaling)가 작동하고 있음을 시사. 이란이 '개방'하고 미국이 '봉쇄 유지'하면서도 '회담 확정'이라는 모순적이면서도 논리적인 구도.
+
+### 스키마 변경 없음
+- 11개 새 엔티티 모두 기존 클래스(Event, Concept, Person)로 분류 가능
+- 22개 새 관계 + 6개 추론 모두 기존 관계 유형으로 표현 가능

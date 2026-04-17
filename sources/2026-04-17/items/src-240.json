@@ -1,0 +1,21 @@
+{
+  "id": "src-240",
+  "title": "Iran threatens to close Hormuz again if US blockade continues - IRGC outlet",
+  "url": "https://www.iranintl.com/en/202604170620",
+  "snippet": "IRGC-affiliated Fars News citing SNSC source: Iran considers US naval blockade a ceasefire violation. Will close Strait of Hormuz again if blockade not lifted. IRGC Navy: any military vessel approaching the strait meets 'severe response'.",
+  "source_name": "Iran International",
+  "language": "en",
+  "discovered_date": "2026-04-17",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "아라그치의 개방 선언과 동시에 IRGC 측에서 재폐쇄 위협 — 이란 내부 강경파/실용파 갈등의 신규 징후",
+  "entities": [
+    { "id": "ent-005", "type": "Organization", "name": "IRGC" },
+    { "id": "ent-002", "type": "Organization", "name": "Iran" },
+    { "id": "ent-008", "type": "Location", "name": "Strait of Hormuz" }
+  ],
+  "relations": [
+    { "subject": "ent-005", "predicate": "opposes", "object": "US Blockade" }
+  ]
+}

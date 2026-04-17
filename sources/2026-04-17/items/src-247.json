@@ -1,0 +1,21 @@
+{
+  "id": "src-247",
+  "title": "After PM claims Hezbollah fight not over, Trump says Israel 'PROHIBITED' from bombing Lebanon",
+  "url": "https://www.timesofisrael.com/liveblog-april-17-2026/",
+  "snippet": "Netanyahu claimed Hezbollah fight 'not over' despite ceasefire. Trump publicly rebuked Netanyahu: Israel 'PROHIBITED' from bombing Lebanon during ceasefire. Rare public US-Israel friction. Trump enforcing ceasefire against ally.",
+  "source_name": "Times of Israel",
+  "language": "en",
+  "discovered_date": "2026-04-17",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "트럼프의 이스라엘 폭격 '금지' 공개 경고는 미-이스라엘 관계의 새로운 긴장을 보여주는 신규 전개",
+  "entities": [
+    { "id": "ent-001", "type": "Person", "name": "Donald Trump" },
+    { "id": "ent-031", "type": "Person", "name": "Benjamin Netanyahu" },
+    { "id": "ent-004", "type": "Organization", "name": "Israel" }
+  ],
+  "relations": [
+    { "subject": "ent-001", "predicate": "opposes", "object": "ent-031" }
+  ]
+}

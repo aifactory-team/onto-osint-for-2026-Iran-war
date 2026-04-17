@@ -1,0 +1,21 @@
+{
+  "id": "src-243",
+  "title": "Next round of US-Iran talks to take place in Pakistan on Monday, Iranian sources say",
+  "url": "https://edition.cnn.com/2026/04/17/world/live-news/iran-war-trump-lebanon-israel-ceasefire",
+  "snippet": "Iranian sources tell CNN: US and Iranian delegations expected to arrive in Pakistan this weekend, hold negotiations Monday April 21. Trump signals he expects peace deal 'in coming days'. Coincides with ceasefire expiry date.",
+  "source_name": "CNN",
+  "language": "en",
+  "discovered_date": "2026-04-17",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "2차 회담의 구체적 일정(4월 21일 월요일)이 최초로 확인된 신규 정보",
+  "entities": [
+    { "id": "ent-002", "type": "Organization", "name": "Iran" },
+    { "id": "ent-029", "type": "Organization", "name": "Pakistan" },
+    { "id": "ent-001", "type": "Person", "name": "Donald Trump" }
+  ],
+  "relations": [
+    { "subject": "ent-029", "predicate": "participatesIn", "object": "2nd Round Talks" }
+  ]
+}

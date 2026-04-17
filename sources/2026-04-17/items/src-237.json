@@ -1,0 +1,21 @@
+{
+  "id": "src-237",
+  "title": "Iran declares Strait of Hormuz 'completely open'; Trump says U.S. blockade 'will remain in full force' until peace deal",
+  "url": "https://www.nbcnews.com/world/iran/live-blog/live-updates-israel-lebanon-ceasefire-trump-iran-talks-hormuz-summit-rcna332294",
+  "snippet": "Iran FM Araghchi announces Hormuz open. Trump responds: thanks Iran but US blockade of Iranian ports 'will remain in full force' until 100% peace deal. Dual reality: Iran opens passage, US continues blocking Iran-specific shipping.",
+  "source_name": "NBC News",
+  "language": "en",
+  "discovered_date": "2026-04-17",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "트럼프의 '봉쇄 100% 유지' 대응은 이란의 개방 선언과 결합하여 호르무즈의 이중 현실을 보여주는 신규 전개",
+  "entities": [
+    { "id": "ent-001", "type": "Person", "name": "Donald Trump" },
+    { "id": "ent-044", "type": "Person", "name": "Abbas Araghchi" },
+    { "id": "ent-008", "type": "Location", "name": "Strait of Hormuz" }
+  ],
+  "relations": [
+    { "subject": "ent-001", "predicate": "opposes", "object": "Iran Hormuz Opening" }
+  ]
+}

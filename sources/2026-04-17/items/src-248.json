@@ -1,0 +1,17 @@
+{
+  "id": "src-248",
+  "title": "Oil prices plunge 11% after Iran says Strait of Hormuz is open for commercial vessels",
+  "url": "https://www.nbcnews.com/business/markets/oil-prices-plunge-stocks-jump-hormuz-open-iran-war-rcna332321",
+  "snippet": "WTI crude -11.4% to $83.85/bbl (lowest since Mar 10). Brent -9% to $90.38. Biggest single-day drop since war began. S&P 500 +1.2% (weekly +4.5%), Nasdaq +1.5% (weekly +6.8%), both at new record highs. Physical crude still elevated but gap narrowing.",
+  "source_name": "NBC News",
+  "language": "en",
+  "discovered_date": "2026-04-17",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "유가 11% 폭락은 전쟁 이후 최대 일일 하락폭으로 완전히 신규",
+  "entities": [
+    { "id": "ent-008", "type": "Location", "name": "Strait of Hormuz" }
+  ],
+  "relations": []
+}

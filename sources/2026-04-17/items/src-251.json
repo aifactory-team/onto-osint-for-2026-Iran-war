@@ -1,0 +1,21 @@
+{
+  "id": "src-251",
+  "title": "Pakistan PM in Türkiye after Saudi, Qatar visits as diplomacy gathers pace over Iran war",
+  "url": "https://www.arabnews.com/node/2640209/pakistan",
+  "snippet": "Sharif arrives Antalya for Diplomacy Forum on last leg of Saudi-Qatar-Turkey tour. Bilateral meeting with Erdogan. FMs of Turkey, Pakistan, Saudi Arabia, and Egypt meet on sidelines to discuss war and Hormuz. Sharif pushing for Hormuz reopening and 2nd round talks support.",
+  "source_name": "Arab News",
+  "language": "en",
+  "discovered_date": "2026-04-17",
+  "tag": "update",
+  "related_report": "2026-04-16",
+  "related_item": "src-225",
+  "tag_reason": "샤리프의 터키 도착은 4/16 보도된 사우디-카타르 순방의 후속으로 터키 레그 + 에르도안 양자 + 4개국 외무장관 회담이라는 새 정보 포함",
+  "entities": [
+    { "id": "ent-027", "type": "Person", "name": "Shehbaz Sharif" },
+    { "id": "temp-015", "type": "Person", "name": "Recep Tayyip Erdogan" },
+    { "id": "ent-029", "type": "Organization", "name": "Pakistan" }
+  ],
+  "relations": [
+    { "subject": "ent-027", "predicate": "cooperatesWith", "object": "temp-015" }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "date": "2026-04-17",
+  "entities": [
+    {
+      "temp_id": "temp-001",
+      "matched_id": "ent-044",
+      "type": "Person",
+      "name": "Abbas Araghchi",
+      "properties": { "role": "Iran Foreign Minister", "action_apr17": "declared Hormuz 'completely open' for commercial vessels during ceasefire period" },
+      "source_ids": ["src-236", "src-237", "src-238", "src-242", "src-255"],
+      "mention_count": 18
+    },
+    {
+      "temp_id": "temp-002",
+      "matched_id": "ent-001",
+      "type": "Person",
+      "name": "Donald Trump",
+      "properties": { "role": "US President", "action_apr17": "said US blockade 'will remain in full force' until peace deal; thanked Iran for Hormuz opening; said Israel 'PROHIBITED' from bombing Lebanon; expects deal 'in coming days'" },
+      "source_ids": ["src-237", "src-238", "src-243", "src-247", "src-248"],
+      "mention_count": 22
+    },
+    {
+      "temp_id": "temp-003",
+      "matched_id": "ent-008",
+      "type": "Location",
+      "name": "Strait of Hormuz",
+      "properties": { "status_apr17": "Iran declared 'completely open' with conditions; US blockade of Iran-bound shipping continues; only handful of ships transit; designated routes near Larak island" },
+      "source_ids": ["src-236", "src-237", "src-239", "src-241", "src-242"],
+      "mention_count": 30
+    },
+    {
+      "temp_id": "temp-004",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Iran Hormuz Opening Declaration (Apr 17)",
+      "properties": { "date": "2026-04-17", "detail": "Araghchi: Hormuz completely open for commercial vessels during ceasefire period. Conditions: commercial only, no hostile country cargo, designated routes via Larak island area, coordinated with Iran Ports and Maritime Organisation", "trigger": "Lebanon ceasefire", "response": "Trump: 'thank you, but blockade stays in full force'" },
+      "source_ids": ["src-236", "src-237", "src-238", "src-239", "src-254", "src-255", "src-256"],
+      "mention_count": 25
+    },
+    {
+      "temp_id": "temp-005",
+      "matched_id": null,
+      "type": "Event",
+      "name": "IRGC Hormuz Re-closure Threat (Apr 17)",
+      "properties": { "date": "2026-04-17", "detail": "IRGC-affiliated Fars News citing SNSC source: Iran will close Hormuz again if US blockade not lifted. IRGC considers US blockade ceasefire violation.", "significance": "Contradiction with Araghchi's opening — hardliner/pragmatist tension" },
+      "source_ids": ["src-240"],
+      "mention_count": 4
+    },
+    {
+      "temp_id": "temp-006",
+      "matched_id": null,
+      "type": "Event",
+      "name": "2nd Round Talks Confirmed for Monday (Apr 21)",
+      "properties": { "date": "2026-04-21 (expected)", "location": "Pakistan", "detail": "CNN: Iranian sources say next round in Pakistan on Monday. Trump: expects deal 'in coming days'. Both delegations expected to arrive over weekend.", "coincides_with": "Ceasefire expiry date (Apr 21-22)" },
+      "source_ids": ["src-243", "src-244", "src-258"],
+      "mention_count": 14
+    },
+    {
+      "temp_id": "temp-007",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Lebanon Ceasefire Violations (Apr 17)",
+      "properties": { "date": "2026-04-17", "detail": "Lebanese army reports Israeli shelling of southern villages; machinegun/artillery fire at ambulance team in Kunin (Nabatieh); 1 killed in Kounine (motorcycle/vehicle struck); Israeli military warns residents to stay north of Litani River", "casualties": "1 killed, 2 wounded" },
+      "source_ids": ["src-246", "src-247"],
+      "mention_count": 8
+    },
+    {
+      "temp_id": "temp-008",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Trump 'PROHIBITED' Warning to Israel (Apr 17)",
+      "properties": { "date": "2026-04-17", "detail": "After Netanyahu said Hezbollah fight 'not over', Trump publicly stated Israel is 'PROHIBITED' from bombing Lebanon during ceasefire. Rare public rebuke of Netanyahu.", "significance": "US enforcement of Lebanon ceasefire against Israeli ally" },
+      "source_ids": ["src-247"],
+      "mention_count": 6
+    },
+    {
+      "temp_id": "temp-009",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Oil Price Crash (Apr 17)",
+      "properties": { "date": "2026-04-17", "wti": "$83.85 (-11.4%)", "brent": "$87.94-$90.38 (-9% to -11.5%)", "cause": "Iran Hormuz opening declaration", "note": "Biggest single-day drop since war began; WTI lowest since Mar 10; S&P 500 +1.2% weekly +4.5%, Nasdaq +1.5% weekly +6.8%, both at record highs" },
+      "source_ids": ["src-248", "src-249", "src-250"],
+      "mention_count": 10
+    },
+    {
+      "temp_id": "temp-010",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Lebanon Ceasefire Celebrations (Apr 17)",
+      "properties": { "date": "2026-04-17", "detail": "Lebanese civilians celebrate first day of ceasefire after 6+ weeks of war; 2,196 killed, 1M+ displaced in Lebanon since war. First quiet day since March 2." },
+      "source_ids": ["src-245"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": "temp-011",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Sharif Antalya Diplomacy Forum (Apr 17)",
+      "properties": { "date": "2026-04-17", "location": "Antalya, Turkey", "detail": "Sharif arrives last leg of Saudi-Qatar-Turkey tour. Bilateral with Erdogan. FMs of Turkey, Pakistan, Saudi Arabia, Egypt meet on sidelines to discuss war and Hormuz.", "participants": "Sharif, Erdogan, FMs of Turkey/Pakistan/Saudi/Egypt" },
+      "source_ids": ["src-251", "src-259"],
+      "mention_count": 6
+    },
+    {
+      "temp_id": "temp-012",
+      "matched_id": null,
+      "type": "Concept",
+      "name": "Iran Third-Party Nuclear Monitoring Proposal",
+      "properties": { "domain": "nuclear/nonproliferation", "detail": "Iran agreed in principle to Pakistani proposal for third-party monitoring of nuclear programme by 4 countries + IAEA. Options for 440kg enriched uranium: send abroad or downblend to 3%. US has not formally responded." },
+      "source_ids": ["src-252"],
+      "mention_count": 6
+    },
+    {
+      "temp_id": "temp-013",
+      "matched_id": null,
+      "type": "Concept",
+      "name": "Hormuz Conditional Opening",
+      "properties": { "domain": "maritime/sovereignty", "detail": "Iran's 'opening' has 3 conditions: (1) commercial vessels only, (2) cargo/ships not linked to hostile countries, (3) designated routes via Iran's side (Larak island). Duration tied to ceasefire. Only handful of ships actually transit — shipowners wary." },
+      "source_ids": ["src-236", "src-241", "src-242"],
+      "mention_count": 12
+    },
+    {
+      "temp_id": "temp-014",
+      "matched_id": "ent-031",
+      "type": "Person",
+      "name": "Benjamin Netanyahu",
+      "properties": { "action_apr17": "claimed Hezbollah fight 'not over' despite ceasefire; rebuked by Trump 'PROHIBITED from bombing'" },
+      "source_ids": ["src-247"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": "temp-015",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Recep Tayyip Erdogan",
+      "properties": { "role": "President of Turkey", "affiliation": "Turkey", "statement": "'no negotiating with clenched fists'; Turkey working to extend ceasefire and maintain talks" },
+      "source_ids": ["src-251", "src-259"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": "temp-016",
+      "matched_id": "ent-083",
+      "type": "Person",
+      "name": "António Guterres",
+      "properties": { "action_apr17": "called for continued talks and end to ceasefire violations" },
+      "source_ids": ["src-253"],
+      "mention_count": 3
+    }
+  ],
+  "relations": [
+    { "subject": "ent-044", "predicate": "participatesIn", "object": "temp-004", "source_ids": ["src-236"], "confidence": 0.95 },
+    { "subject": "ent-001", "predicate": "opposes", "object": "temp-004", "source_ids": ["src-237", "src-238"], "confidence": 0.90 },
+    { "subject": "temp-004", "predicate": "causedBy", "object": "ent-109", "source_ids": ["src-236"], "confidence": 0.85 },
+    { "subject": "temp-005", "predicate": "opposes", "object": "temp-004", "source_ids": ["src-240"], "confidence": 0.80 },
+    { "subject": "ent-005", "predicate": "participatesIn", "object": "temp-005", "source_ids": ["src-240"], "confidence": 0.85 },
+    { "subject": "temp-006", "predicate": "follows", "object": "ent-054", "source_ids": ["src-243"], "confidence": 0.90 },
+    { "subject": "ent-029", "predicate": "participatesIn", "object": "temp-006", "source_ids": ["src-243"], "confidence": 0.90 },
+    { "subject": "ent-004", "predicate": "participatesIn", "object": "temp-007", "source_ids": ["src-246"], "confidence": 0.90 },
+    { "subject": "ent-001", "predicate": "opposes", "object": "temp-007", "source_ids": ["src-247"], "confidence": 0.85 },
+    { "subject": "temp-008", "predicate": "causedBy", "object": "temp-007", "source_ids": ["src-247"], "confidence": 0.80 },
+    { "subject": "temp-009", "predicate": "causedBy", "object": "temp-004", "source_ids": ["src-248"], "confidence": 0.90 },
+    { "subject": "ent-027", "predicate": "participatesIn", "object": "temp-011", "source_ids": ["src-251"], "confidence": 0.95 },
+    { "subject": "temp-015", "predicate": "participatesIn", "object": "temp-011", "source_ids": ["src-251"], "confidence": 0.90 },
+    { "subject": "temp-012", "predicate": "relatedTo", "object": "ent-116", "source_ids": ["src-252"], "confidence": 0.85 }
+  ],
+  "stats": {
+    "total_entities": 16,
+    "new_entities": 12,
+    "matched_entities": 4,
+    "total_relations": 14
+  }
+}

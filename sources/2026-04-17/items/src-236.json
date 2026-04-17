@@ -1,0 +1,21 @@
+{
+  "id": "src-236",
+  "title": "Iran foreign minister says Strait of Hormuz 'completely open'",
+  "url": "https://www.aljazeera.com/news/2026/4/17/iran-foreign-minister-says-strait-of-hormuz-completely-open",
+  "snippet": "Araghchi: 'In line with the ceasefire in Lebanon, the passage for all commercial vessels through Strait of Hormuz is declared completely open for the remaining period of ceasefire.' Conditions: designated routes coordinated by Iran Ports and Maritime Organisation, routes near Larak island (Iran's side), commercial vessels only, no hostile country cargo.",
+  "source_name": "Al Jazeera",
+  "language": "en",
+  "discovered_date": "2026-04-17",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "이란의 호르무즈 해협 완전 개방 선언은 전쟁 이후 최초의 해협 개방으로 완전히 새로운 전개",
+  "entities": [
+    { "id": "ent-044", "type": "Person", "name": "Abbas Araghchi", "role": "Iran FM, declared Hormuz open" },
+    { "id": "ent-002", "type": "Organization", "name": "Iran" },
+    { "id": "ent-008", "type": "Location", "name": "Strait of Hormuz" }
+  ],
+  "relations": [
+    { "subject": "ent-044", "predicate": "participatesIn", "object": "Hormuz Opening Declaration" }
+  ]
+}

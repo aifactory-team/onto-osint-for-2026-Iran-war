@@ -1,16 +1,16 @@
 {
   "version": "1.0.0",
   "description": "알려진 엔티티 인스턴스 — 파이프라인 실행 시 자동으로 추가/업데이트된다.",
-  "last_updated": "2026-04-16",
+  "last_updated": "2026-04-17",
   "entities": [
     {
       "id": "ent-001",
       "type": "Person",
       "name": "Donald Trump",
-      "properties": { "role": "US President", "affiliation": "United States" },
+      "properties": { "role": "US President", "affiliation": "United States", "action_apr17": "thanked Iran for Hormuz opening but blockade '100% in force'; said Israel 'PROHIBITED' from bombing Lebanon; expects deal 'in coming days'" },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-16",
-      "mention_count": 126
+      "last_seen": "2026-04-17",
+      "mention_count": 148
     },
     {
       "id": "ent-002",
@@ -70,10 +70,10 @@
       "id": "ent-008",
       "type": "Location",
       "name": "Strait of Hormuz",
-      "properties": { "type": "strait/waterway" },
+      "properties": { "type": "strait/waterway", "status_apr17": "Iran declared 'completely open' with conditions but US blockade continues; IRGC threatens re-closure; only handful of ships transit; oil -11%" },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-15",
-      "mention_count": 138
+      "last_seen": "2026-04-17",
+      "mention_count": 168
     },
     {
       "id": "ent-009",
@@ -133,10 +133,10 @@
       "id": "ent-015",
       "type": "Event",
       "name": "2026 Iran War",
-      "properties": { "date": "2026-02-28~", "location": "Iran/Middle East", "participants": "US, Israel, Iran", "day48_status": "ceasefire day 9, Israel-Lebanon 10-day ceasefire begins, blockade day 4, 2nd round talks 'very likely'" },
+      "properties": { "date": "2026-02-28~", "location": "Iran/Middle East", "participants": "US, Israel, Iran", "day49_status": "ceasefire day 10, Lebanon ceasefire day 1 (with violations), blockade day 5, Iran Hormuz 'open' but US blockade stays, 2nd round Monday Apr 21 confirmed, oil -11%" },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-16",
-      "mention_count": 72
+      "last_seen": "2026-04-17",
+      "mention_count": 80
     },
     {
       "id": "ent-016",
@@ -241,19 +241,19 @@
       "id": "ent-027",
       "type": "Person",
       "name": "Shehbaz Sharif",
-      "properties": { "role": "Pakistan Prime Minister", "affiliation": "Pakistan", "action_apr16": "regional diplomatic tour: Saudi Arabia (met MBS) → Qatar → Turkey for Iran mediation" },
+      "properties": { "role": "Pakistan Prime Minister", "affiliation": "Pakistan", "action_apr17": "arrived Antalya Diplomacy Forum (Turkey), bilateral with Erdogan, 4-nation FM meeting (Turkey/Pakistan/Saudi/Egypt) on war and Hormuz" },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-16",
-      "mention_count": 17
+      "last_seen": "2026-04-17",
+      "mention_count": 23
     },
     {
       "id": "ent-028",
       "type": "Person",
       "name": "Asim Munir",
-      "properties": { "role": "Pakistan Field Marshal / Army Chief", "affiliation": "Pakistan", "note": "Trump's 'favorite field marshal', knows IRGC leadership from intel service days. Apr 16: visited Khatam al-Anbiya military HQ, met Abdollahi, engaged top civil+military leadership, narrowed gaps on nuclear/Hormuz/reparations" },
+      "properties": { "role": "Pakistan Field Marshal / Army Chief", "affiliation": "Pakistan", "note": "Trump's 'favorite field marshal', knows IRGC leadership from intel service days. Apr 16-17: Iran agreed in principle to third-party nuclear monitoring proposal (4 countries + IAEA). Munir may travel to Washington for direct Trump talks. Technical teams in continuous exchanges." },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-16",
-      "mention_count": 28
+      "last_seen": "2026-04-17",
+      "mention_count": 34
     },
     {
       "id": "ent-029",
@@ -277,10 +277,10 @@
       "id": "ent-031",
       "type": "Person",
       "name": "Benjamin Netanyahu",
-      "properties": { "role": "Israel Prime Minister", "affiliation": "Israel", "action_apr16": "agreed 10-day ceasefire as 'gesture of goodwill', keeps 'security strip' in south Lebanon" },
+      "properties": { "role": "Israel Prime Minister", "affiliation": "Israel", "action_apr17": "claimed Hezbollah fight 'not over' despite ceasefire; publicly rebuked by Trump 'PROHIBITED from bombing'" },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-16",
-      "mention_count": 15
+      "last_seen": "2026-04-17",
+      "mention_count": 20
     },
     {
       "id": "ent-032",
@@ -394,10 +394,10 @@
       "id": "ent-044",
       "type": "Person",
       "name": "Abbas Araghchi",
-      "properties": { "role": "Iran Foreign Minister", "affiliation": "Iran" },
+      "properties": { "role": "Iran Foreign Minister", "affiliation": "Iran", "action_apr17": "declared Hormuz 'completely open' for commercial vessels during ceasefire period with 3 conditions" },
       "first_seen": "2026-04-10",
-      "last_seen": "2026-04-15",
-      "mention_count": 39
+      "last_seen": "2026-04-17",
+      "mention_count": 57
     },
     {
       "id": "ent-045",
@@ -1050,5 +1050,105 @@
       "mention_count": 6
     }
   ],
-  "total_count": 116
+    {
+      "id": "ent-117",
+      "type": "Event",
+      "name": "Iran Hormuz Opening Declaration (Apr 17)",
+      "properties": { "date": "2026-04-17", "detail": "Araghchi: Hormuz 'completely open' for commercial vessels during ceasefire. Conditions: commercial only, no hostile country cargo, designated routes via Larak island, coordinated with Iran Ports and Maritime Organisation. Duration tied to ceasefire period.", "trigger": "Lebanon ceasefire", "trump_response": "Thanks but US blockade 'will remain in full force' until peace deal" },
+      "first_seen": "2026-04-17",
+      "last_seen": "2026-04-17",
+      "mention_count": 25
+    },
+    {
+      "id": "ent-118",
+      "type": "Event",
+      "name": "IRGC Hormuz Re-closure Threat (Apr 17)",
+      "properties": { "date": "2026-04-17", "detail": "IRGC-affiliated Fars News citing SNSC source: Iran will close Hormuz again if US blockade not lifted. IRGC considers US blockade ceasefire violation. Contradicts Araghchi's opening — reveals hardliner/pragmatist tension within Iran." },
+      "first_seen": "2026-04-17",
+      "last_seen": "2026-04-17",
+      "mention_count": 4
+    },
+    {
+      "id": "ent-119",
+      "type": "Event",
+      "name": "2nd Round Talks Confirmed Monday Apr 21",
+      "properties": { "date": "2026-04-21 (expected)", "location": "Pakistan", "detail": "CNN: Iranian sources confirm next round Monday in Pakistan. Both delegations arriving over weekend. Trump: expects deal 'in coming days'. Coincides with ceasefire expiry.", "format": "direct face-to-face (2nd since 1979)" },
+      "first_seen": "2026-04-17",
+      "last_seen": "2026-04-17",
+      "mention_count": 14
+    },
+    {
+      "id": "ent-120",
+      "type": "Event",
+      "name": "Lebanon Ceasefire Violations (Apr 17)",
+      "properties": { "date": "2026-04-17", "perpetrator": "Israel", "detail": "Lebanese army reports Israeli shelling of southern villages. Machinegun/artillery at ambulance team in Kunin (Nabatieh). 1 killed, 2 wounded in Kounine (motorcycle struck). Israeli military warns residents north of Litani.", "casualties": "1 killed, 2 wounded" },
+      "first_seen": "2026-04-17",
+      "last_seen": "2026-04-17",
+      "mention_count": 8
+    },
+    {
+      "id": "ent-121",
+      "type": "Event",
+      "name": "Trump 'PROHIBITED' Warning to Israel (Apr 17)",
+      "properties": { "date": "2026-04-17", "detail": "After Netanyahu said Hezbollah fight 'not over', Trump publicly stated Israel 'PROHIBITED' from bombing Lebanon during ceasefire. Rare public rebuke of allied leader.", "significance": "US enforcement of Lebanon ceasefire against own ally; signals Trump prioritizes deal over Israeli preferences" },
+      "first_seen": "2026-04-17",
+      "last_seen": "2026-04-17",
+      "mention_count": 6
+    },
+    {
+      "id": "ent-122",
+      "type": "Event",
+      "name": "Oil Price Crash (Apr 17)",
+      "properties": { "date": "2026-04-17", "wti": "$83.85 (-11.4%)", "brent": "$87.94-$90.38 (-9% to -11.5%)", "cause": "Iran Hormuz opening declaration", "note": "Biggest single-day drop since war began. WTI lowest since Mar 10. S&P 500 +1.2% (weekly +4.5%), Nasdaq +1.5% (weekly +6.8%), both at new record highs." },
+      "first_seen": "2026-04-17",
+      "last_seen": "2026-04-17",
+      "mention_count": 10
+    },
+    {
+      "id": "ent-123",
+      "type": "Event",
+      "name": "Lebanon Ceasefire Celebrations (Apr 17)",
+      "properties": { "date": "2026-04-17", "detail": "Lebanese civilians celebrate first quiet day since March 2 after 6+ weeks of war. 2,196 killed, 1M+ displaced in Lebanon." },
+      "first_seen": "2026-04-17",
+      "last_seen": "2026-04-17",
+      "mention_count": 5
+    },
+    {
+      "id": "ent-124",
+      "type": "Event",
+      "name": "Sharif Antalya Diplomacy Forum (Apr 17)",
+      "properties": { "date": "2026-04-17", "location": "Antalya, Turkey", "detail": "Sharif arrives last leg of Saudi-Qatar-Turkey tour. Bilateral with Erdogan. FMs of Turkey, Pakistan, Saudi Arabia, Egypt meet on sidelines to discuss war and Hormuz blockade." },
+      "first_seen": "2026-04-17",
+      "last_seen": "2026-04-17",
+      "mention_count": 6
+    },
+    {
+      "id": "ent-125",
+      "type": "Concept",
+      "name": "Iran Third-Party Nuclear Monitoring Proposal",
+      "properties": { "domain": "nuclear/nonproliferation", "detail": "Pakistan-proposed: 4 countries + IAEA monitor Iran nuclear programme. Iran agreed in principle, conveyed acceptance to Munir. US not yet formally responded. Options for 440kg enriched uranium: send abroad to third party or downblend to 3%." },
+      "first_seen": "2026-04-17",
+      "last_seen": "2026-04-17",
+      "mention_count": 6
+    },
+    {
+      "id": "ent-126",
+      "type": "Concept",
+      "name": "Hormuz Conditional Opening",
+      "properties": { "domain": "maritime/sovereignty", "detail": "Iran's 'opening' has 3 conditions: (1) commercial vessels only, (2) cargo/ships not linked to hostile countries, (3) designated routes via Larak island (Iran's side). Only handful of ships actually transit — shipowners wary. Duration tied to ceasefire." },
+      "first_seen": "2026-04-17",
+      "last_seen": "2026-04-17",
+      "mention_count": 12
+    },
+    {
+      "id": "ent-127",
+      "type": "Person",
+      "name": "Recep Tayyip Erdogan",
+      "properties": { "role": "President of Turkey", "affiliation": "Turkey", "statement": "'No negotiating with clenched fists'; Turkey working to extend ceasefire and maintain talks" },
+      "first_seen": "2026-04-17",
+      "last_seen": "2026-04-17",
+      "mention_count": 5
+    }
+  ],
+  "total_count": 127
 }
