@@ -469,3 +469,53 @@
 ### 스키마 변경 없음
 - 10개 새 엔티티 모두 기존 클래스(Event, Concept)로 분류 가능
 - 24개 새 관계 + 6개 추론 모두 기존 관계 유형(participatesIn, follows, causedBy, locatedIn, opposes, relatedTo, causalChain, potentialRelation)으로 표현 가능
+
+---
+
+## 2026-04-19 추론 결과
+
+### 추론 #55: event_chain (Touska 나포 ← 봉쇄 ← 이슬라마바드 결렬)
+- **입력:** (ent-054/Islamabad Talks, 결렬) → (ent-063/Blockade Declaration) → (ent-095/Blockade Fully Implemented) → (ent-128/Hormuz Re-closure) → (ent-139/Touska Seizure)
+- **추론:** (ent-139/US Navy Seizes Touska, causalChain, ent-054/Islamabad Talks)
+- **신뢰도:** 0.72 (5단계 체인, 0.5배 감쇠)
+- **상태:** 확정
+- **비고:** 이슬라마바드 결렬 → 봉쇄 선언 → 완전 시행 → IRGC 재폐쇄 → 미 해군 Touska 나포. 봉쇄가 '차단'에서 '나포/발포'로 에스컬레이션한 것은 외교 교착의 직접적 군사적 귀결. USS Spruance가 6시간 경고 후 기관실에 사격한 것은 전쟁 이후 미군의 첫 이란 선박 직접 무력 행사.
+
+### 추론 #56: co_participation (이란 회담 거부 ↔ IRGC-외교부 분열)
+- **입력:** (ent-140/Iran Rejects Talks, 주체: Iran/IRNA), (ent-135/IRGC-Diplomatic Rift, IRGC가 외교부 결정 무력화)
+- **추론:** (ent-140/Iran Rejects Talks, relatedTo, ent-135/IRGC-Diplomatic Rift)
+- **신뢰도:** 0.80
+- **상태:** 확정
+- **비고:** 이란의 공식적 2차 회담 거부는 IRGC 강경파가 외교 노선을 완전히 장악했음을 의미. 4/18 Araghchi '바보' 사건 이후 24시간 만에 외교 채널 자체를 차단. Vahidi의 '배후 권력' 확인과 시기적으로 일치하며, IRGC가 협상 자체를 차단하는 구조적 결정임을 시사.
+
+### 추론 #57: transitivity (Vahidi → IRGC → Iran 소속 전이)
+- **입력:** (ent-138/Ahmad Vahidi, affiliatedWith, ent-005/IRGC), (ent-005/IRGC, affiliatedWith, ent-002/Iran)
+- **추론:** (ent-138/Ahmad Vahidi, indirectlyAffiliatedWith, ent-002/Iran)
+- **신뢰도:** 0.855 (= 0.95 × 0.90)
+- **상태:** 확정
+- **비고:** Vahidi는 IRGC 사령관이자 이란의 '배후 권력자'. Pezeshkian 대통령과 Araghchi 외무장관을 무력화하고 국가를 사실상 통제. IRGC 직속이면서 이란 전체를 간접 지배하는 이중적 위치. 이란 협상단의 합의 능력에 대한 근본적 의문을 더욱 강화.
+
+### 추론 #58: event_chain (유가 급등 ← Touska 나포 ← 재폐쇄 ← 개방 역전)
+- **입력:** (ent-117/Hormuz Opening) → (ent-122/Oil Crash -11%) → (ent-128/Re-closure) → (ent-137/Oil Rebound) → (ent-139/Touska Seizure) → (ent-144/Oil Surge +7%)
+- **추론:** (ent-144/Oil Price Surge Apr 19, causalChain, ent-128/Hormuz Re-closure)
+- **신뢰도:** 0.72 (3단계 체인)
+- **상태:** 확정
+- **비고:** 재폐쇄 → Touska 나포 → 유가 +7%. 3일 연속 대형 변동(4/17 -11%, 4/18 반등, 4/19 +7%)으로 에너지 시장이 완전한 불확실성에 진입. WTI $89.74, Brent $95.59로 다시 $90대 복귀. 호르무즈 '완전 운항 중단'(일요일 0척)이 가격 상승의 구조적 기반.
+
+### 추론 #59: co_participation (옐로 라인 ↔ 레바논 내부 분열)
+- **입력:** (ent-143/Israel Yellow Line, locatedIn, ent-050/Lebanon), (ent-090/Lebanon Internal Divisions, relatedTo, ent-074/Hezbollah Rejects Talks)
+- **추론:** (ent-143/Israel Yellow Line, potentialRelation, ent-090/Lebanon Internal Divisions)
+- **신뢰도:** 0.75
+- **상태:** 확정
+- **비고:** 이스라엘의 '옐로 라인' 10km 군사구역 설정은 레바논 내부 분열을 악화시킬 가능성. 정부(아운 대통령)는 휴전을 지지하나 헤즈볼라(카셈)는 이스라엘의 사실상 점령 확대에 반발할 수밖에 없음. 55개 마을의 가옥 철거는 '가자처럼'이라는 표현이 시사하듯 인도주의적 위기를 촉발할 수 있으며, 이는 레바논 정치의 종파적 긴장을 다시 분출시킬 변수.
+
+### 추론 #60: event_chain (인프라 파괴 위협 ← 전면 위반 ← IRGC 발포 ← 재폐쇄)
+- **입력:** (ent-128/Hormuz Re-closure) → (ent-129/IRGC Fires on Ships) → (ent-141/Trump Total Violation) → (ent-147/Infrastructure Destruction Threat)
+- **추론:** (ent-147/Trump Infrastructure Threat, causalChain, ent-128/Hormuz Re-closure)
+- **신뢰도:** 0.72 (4단계 체인, 0.5배 감쇠)
+- **상태:** 확정
+- **비고:** 재폐쇄 → IRGC 선박 발포 → 트럼프 '전면 위반' → 발전소/교량 파괴 위협. 이란의 군사적 에스컬레이션(재폐쇄+발포)이 트럼프의 가장 구체적인 인프라 파괴 위협을 촉발. '모든 발전소와 교량'이라는 표현은 이전의 '봉쇄 AND 폭격'(헤그세스 4/16)보다 더 구체적이며, 휴전 만료(4/23) 4일 전의 최후통첩적 성격. 2차 회담 불참과 결합되면 휴전 만료 후 전면전 재개의 가능성을 크게 높이는 신호.
+
+### 스키마 변경 없음
+- 11개 새 엔티티 모두 기존 클래스(Person, Event, Concept)로 분류 가능
+- 31개 새 관계(명시적) + 6개 추론 모두 기존 관계 유형(affiliatedWith, opposes, participatesIn, follows, locatedIn, causedBy, relatedTo, causalChain, indirectlyAffiliatedWith, potentialRelation)으로 표현 가능

@@ -1,0 +1,22 @@
+{
+  "id": "src-316",
+  "title": "이란 2차 협상 거부…\"과도한 요구, 비현실적 기대\"",
+  "url": "https://www.newspim.com/news/view/20260419000123",
+  "snippet": "이란 국영통신 IRNA 보도: 이란이 이슬라마바드 2차 협상 참여를 거부. '과도한 요구'와 '비현실적 기대', 봉쇄 지속을 이유로 거론. 4월 23일 휴전 만료 4일 전.",
+  "source_name": "뉴스핌",
+  "language": "ko",
+  "discovered_date": "2026-04-19",
+  "tag": "new",
+  "related_report": null,
+  "related_item": "src-295",
+  "tag_reason": "Korean coverage of Iran's talk rejection — same event as src-295 but with Korean-language reporting",
+  "entities": [
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "temp-003", "type": "Event", "name": "Iran Rejects 2nd Round Talks"},
+    {"id": "ent-064", "type": "Event", "name": "Islamabad Talks"},
+    {"id": "ent-125", "type": "Event", "name": "Iran Ceasefire"}
+  ],
+  "relations": [
+    {"subject": "ent-002", "predicate": "participatesIn", "object": "temp-003"}
+  ]
+}

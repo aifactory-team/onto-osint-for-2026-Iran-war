@@ -1,0 +1,24 @@
+{
+  "id": "src-310",
+  "title": "Ghalibaf: 'Impossible for others to pass Hormuz while we cannot'",
+  "url": "https://www.reuters.com/world/middle-east/ghalibaf-impossible-others-pass-hormuz-while-iran-cannot-2026-04-19/",
+  "snippet": "Iran's parliament speaker Ghalibaf said it is 'impossible for others to pass Hormuz while we cannot.' Also acknowledged 'progress' in talks 'but many gaps and fundamental points remain.' Said they are 'still far from final discussion.'",
+  "source_name": "Reuters",
+  "language": "en",
+  "discovered_date": "2026-04-19",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Ghalibaf's 'impossible' statement on Hormuz and assessment of talks progress — new positioning from parliament speaker",
+  "entities": [
+    {"id": "ent-045", "type": "Person", "name": "Mohammad Bagher Ghalibaf"},
+    {"id": "temp-011", "type": "Event", "name": "Ghalibaf 'Impossible' Statement"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "ent-064", "type": "Event", "name": "Islamabad Talks"},
+    {"id": "ent-095", "type": "Concept", "name": "US Naval Blockade"}
+  ],
+  "relations": [
+    {"subject": "ent-045", "predicate": "participatesIn", "object": "temp-011"},
+    {"subject": "temp-011", "predicate": "relatedTo", "object": "ent-008"}
+  ]
+}

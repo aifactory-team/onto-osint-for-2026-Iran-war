@@ -1,0 +1,23 @@
+{
+  "id": "src-302",
+  "title": "Mojtaba Khamenei 'largely inaccessible' — only IRGC commanders have direct line",
+  "url": "https://www.ft.com/content/vahidi-iran-irgc-khamenei-power-2026",
+  "snippet": "With Supreme Leader Mojtaba Khamenei largely inaccessible, only IRGC commanders maintain direct communication, consolidating Vahidi's position as de facto ruler. Civilian officials have no direct access.",
+  "source_name": "Financial Times",
+  "language": "en",
+  "discovered_date": "2026-04-19",
+  "tag": "new",
+  "related_report": null,
+  "related_item": "src-300",
+  "tag_reason": "New detail on Mojtaba Khamenei's inaccessibility and IRGC monopoly on communication with Supreme Leader",
+  "entities": [
+    {"id": "ent-047", "type": "Person", "name": "Mojtaba Khamenei"},
+    {"id": "temp-001", "type": "Person", "name": "Ahmad Vahidi"},
+    {"id": "ent-005", "type": "Organization", "name": "IRGC"},
+    {"id": "ent-046", "type": "Person", "name": "Masoud Pezeshkian"}
+  ],
+  "relations": [
+    {"subject": "temp-001", "predicate": "cooperatesWith", "object": "ent-047"},
+    {"subject": "ent-005", "predicate": "relatedTo", "object": "ent-047"}
+  ]
+}

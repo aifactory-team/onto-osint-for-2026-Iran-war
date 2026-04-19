@@ -1,0 +1,23 @@
+{
+  "id": "src-311",
+  "title": "Oil prices surge: WTI up 7% to $89.74, Brent up 5.8% to $95.59 on Iran ship seizure",
+  "url": "https://www.reuters.com/business/energy/oil-prices-surge-wti-brent-iran-ship-seizure-2026-04-19/",
+  "snippet": "Oil prices spiked with WTI climbing 7% to $89.74 and Brent rising 5.8% to $95.59 after US Navy seized Iranian ship and complete halt in Hormuz tanker traffic.",
+  "source_name": "Reuters",
+  "language": "en",
+  "discovered_date": "2026-04-19",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "New oil price data for April 19 — significant surge driven by Touska seizure and Hormuz halt",
+  "entities": [
+    {"id": "temp-007", "type": "Event", "name": "Oil Price Surge Apr 19"},
+    {"id": "temp-002", "type": "Event", "name": "US Navy Seizes Touska"},
+    {"id": "temp-009", "type": "Concept", "name": "Hormuz Total Shipping Halt"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"}
+  ],
+  "relations": [
+    {"subject": "temp-007", "predicate": "causedBy", "object": "temp-002"},
+    {"subject": "temp-007", "predicate": "causedBy", "object": "temp-009"}
+  ]
+}

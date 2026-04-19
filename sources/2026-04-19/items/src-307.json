@@ -1,0 +1,22 @@
+{
+  "id": "src-307",
+  "title": "At least 773 killed in Lebanon since ceasefire started, more than 2,000 wounded",
+  "url": "https://www.reuters.com/world/middle-east/lebanon-ceasefire-toll-773-killed-2000-wounded-2026-04-19/",
+  "snippet": "Lebanon's health ministry reports at least 773 people killed and more than 2,000 wounded since the ceasefire began, as Israel continues operations inside the 'Yellow Line' zone.",
+  "source_name": "Reuters",
+  "language": "en",
+  "discovered_date": "2026-04-19",
+  "tag": "update",
+  "related_report": "2026-04-18",
+  "related_item": "src-277",
+  "tag_reason": "Updated casualty figures for Lebanon ceasefire period — 773 killed and 2000+ wounded since ceasefire started",
+  "entities": [
+    {"id": "ent-121", "type": "Location", "name": "Lebanon"},
+    {"id": "ent-004", "type": "Organization", "name": "Israel"},
+    {"id": "temp-006", "type": "Event", "name": "Israel Yellow Line Lebanon"},
+    {"id": "ent-125", "type": "Event", "name": "Iran Ceasefire"}
+  ],
+  "relations": [
+    {"subject": "temp-006", "predicate": "relatedTo", "object": "ent-125"}
+  ]
+}

@@ -1,0 +1,229 @@
+{
+  "date": "2026-04-19",
+  "collected_at": "2026-04-19T23:00:00Z",
+  "config_topic": "2026 Iran War",
+  "search_count": 14,
+  "total_results": 80,
+  "expanded_keywords": ["Iran Hormuz", "IRGC Araghchi rift", "US Iran talks Pakistan", "Trump ceasefire violation", "Lebanon ceasefire yellow line", "$20 billion uranium deal", "India Iran ship attack Sanmar Herald", "oil prices Iran blockade", "US Navy seizes Iranian ship", "Ahmad Vahidi IRGC", "Operation Economic Fury", "Ghalibaf impossible Hormuz", "이란 호르무즈 미군 선박 나포", "트럼프 이란 휴전 위반"],
+  "searches": [
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "US Navy seizes Iranian cargo ship Touska Gulf of Oman April 19 2026",
+      "language": "en",
+      "timestamp": "2026-04-19T22:00:00Z",
+      "result_count": 8,
+      "results": [
+        {"title": "US Navy seizes Iranian cargo ship 'Touska' in Gulf of Oman after hours-long standoff", "url": "https://www.cnn.com/2026/04/19/world/us-navy-seizes-iranian-ship-touska-gulf-oman", "snippet": "USS Spruance intercepted sanctioned Iranian vessel Touska in Gulf of Oman, firing on engine room after 6 hours of warnings. CENTCOM confirms ship was under US Treasury sanctions.", "source_name": "CNN"},
+        {"title": "Trump announces seizure of Iranian ship on Truth Social: 'We got another one'", "url": "https://www.nbcnews.com/politics/trump-truth-social-iranian-ship-seizure-rcna341201", "snippet": "President Trump posted on Truth Social about the seizure of the Touska, calling it proof of Iran's sanctions evasion.", "source_name": "NBC News"},
+        {"title": "Iran condemns US seizure of Touska as 'armed piracy and theft'", "url": "https://www.aljazeera.com/news/2026/4/19/iran-condemns-us-seizure-touska-armed-piracy", "snippet": "Iran's foreign ministry called the US Navy seizure of the Touska 'armed piracy and theft' and threatened retaliation. IRGC warned of 'decisive response'.", "source_name": "Al Jazeera"},
+        {"title": "CENTCOM: Seized Iranian ship Touska was under Treasury sanctions for prior illegal activity", "url": "https://www.reuters.com/world/middle-east/centcom-seized-iranian-ship-touska-under-treasury-sanctions-2026-04-19/", "snippet": "US Central Command confirmed the Touska had been designated under US Treasury sanctions for prior involvement in illicit cargo transfers.", "source_name": "Reuters"},
+        {"title": "US Navy fires on Iranian cargo ship engine room during Gulf of Oman seizure", "url": "https://www.bbc.com/news/world-middle-east-66729145", "snippet": "USS Spruance fired on the engine room of the Touska after the vessel refused to stop for 6 hours. No casualties reported.", "source_name": "BBC News"},
+        {"title": "Iranian ship Touska seized: What we know about the Gulf of Oman standoff", "url": "https://www.axios.com/2026/04/19/iranian-ship-touska-seized-gulf-oman-what-we-know", "snippet": "The USS Spruance intercepted the Touska after it ignored repeated warnings. The ship was sanctioned by the US Treasury.", "source_name": "Axios"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Iran rejects second round talks Islamabad Pakistan April 2026",
+      "language": "en",
+      "timestamp": "2026-04-19T22:05:00Z",
+      "result_count": 7,
+      "results": [
+        {"title": "Iran rejects second round of talks in Islamabad, citing 'excessive demands'", "url": "https://www.aljazeera.com/news/2026/4/19/iran-rejects-second-round-talks-islamabad-excessive-demands", "snippet": "IRNA reports Iran will not participate in the second round of Pakistan-mediated talks, citing 'excessive demands', 'unrealistic expectations', and continued US blockade.", "source_name": "Al Jazeera"},
+        {"title": "Trump sending Witkoff, Kushner to Islamabad despite Iran's refusal to attend talks", "url": "https://www.cnn.com/2026/04/19/politics/trump-witkoff-kushner-islamabad-iran-talks", "snippet": "Trump still dispatching envoys Steve Witkoff and Jared Kushner to Islamabad for Monday night arrival, even as Iran rejects participation. Vance skipping this round.", "source_name": "CNN"},
+        {"title": "Iran pulls out of second round of US talks: 'Unrealistic expectations'", "url": "https://www.reuters.com/world/middle-east/iran-pulls-out-second-round-us-talks-unrealistic-expectations-2026-04-19/", "snippet": "Iran's state media IRNA reported that Tehran will not send delegation to Islamabad for the second round of negotiations.", "source_name": "Reuters"},
+        {"title": "Vance skips second round Iran talks — Trump cites 'security concerns'", "url": "https://www.politico.com/news/2026/04/19/vance-skips-iran-talks-security-concerns-00456789", "snippet": "Vice President JD Vance will not attend the second round of negotiations. Trump told reporters there are 'security concerns' about Islamabad.", "source_name": "Politico"},
+        {"title": "Iran refuses to return to Pakistan-mediated talks with US as blockade continues", "url": "https://www.pbs.org/newshour/world/iran-refuses-return-pakistan-mediated-talks-blockade-continues", "snippet": "Iran's rejection of the second round of talks leaves diplomatic channels in limbo with the ceasefire expiring Wednesday.", "source_name": "PBS NewsHour"},
+        {"title": "Second round of US-Iran talks in jeopardy after Tehran says it won't attend", "url": "https://abcnews.com/International/second-round-us-iran-talks-jeopardy-tehran/story?id=132010856", "snippet": "Iran's refusal throws second round of indirect US-Iran talks into uncertainty just days before ceasefire expiration.", "source_name": "ABC News"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Trump total violation ceasefire Iran threatens power plants bridges April 2026",
+      "language": "en",
+      "timestamp": "2026-04-19T22:10:00Z",
+      "result_count": 7,
+      "results": [
+        {"title": "Trump accuses Iran of 'total violation' of ceasefire, threatens to destroy 'every power plant, every bridge'", "url": "https://www.cnn.com/2026/04/19/politics/trump-iran-total-violation-ceasefire-threats", "snippet": "In a Truth Social post, Trump accused Iran of 'total violation' of the ceasefire and threatened to 'knock out every single Power Plant, and every single Bridge, in Iran' unless they accept a deal.", "source_name": "CNN"},
+        {"title": "Trump threatens to destroy Iran's infrastructure unless deal accepted", "url": "https://www.nbcnews.com/politics/trump-threatens-iran-infrastructure-power-plants-bridges-rcna341215", "snippet": "Trump posted on Truth Social Sunday morning threatening to knock out every power plant and bridge in Iran, calling their actions a 'total violation'.", "source_name": "NBC News"},
+        {"title": "Iran responds to Trump's infrastructure destruction threats: 'Empty bluster'", "url": "https://www.aljazeera.com/news/2026/4/19/iran-responds-trump-infrastructure-threats", "snippet": "Iranian officials dismissed Trump's threat to destroy every power plant and bridge as 'empty bluster from a position of weakness'.", "source_name": "Al Jazeera"},
+        {"title": "Trump escalates rhetoric: threatens 'every Power Plant' and 'every Bridge' in Iran", "url": "https://www.axios.com/2026/04/19/trump-threatens-iran-power-plants-bridges-ceasefire", "snippet": "The president's latest Truth Social post represents a significant escalation in rhetoric as the ceasefire nears expiration on April 23.", "source_name": "Axios"},
+        {"title": "Analysis: Trump's infrastructure threats raise questions about post-ceasefire plans", "url": "https://www.bbc.com/news/world-middle-east-66730012", "snippet": "Military analysts note Trump's threat to destroy every power plant and bridge in Iran would represent a massive escalation beyond current operations.", "source_name": "BBC News"},
+        {"title": "European allies express alarm at Trump's Iran infrastructure threats", "url": "https://www.politico.eu/article/europe-alarm-trump-iran-infrastructure-threats-power-plants/", "snippet": "EU foreign policy chief condemned Trump's threats to destroy Iranian civilian infrastructure, calling them 'deeply concerning'.", "source_name": "Politico EU"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Ahmad Vahidi IRGC commander power behind throne Iran April 2026",
+      "language": "en",
+      "timestamp": "2026-04-19T22:15:00Z",
+      "result_count": 5,
+      "results": [
+        {"title": "Ahmad Vahidi: The IRGC commander who is the 'power behind the throne' in Iran", "url": "https://www.bbc.com/news/world-middle-east-66730234", "snippet": "Since becoming IRGC Commander-in-Chief on March 1, 2026, Ahmad Vahidi has become the dominant figure in Iranian politics, blocking even the president's cabinet appointments.", "source_name": "BBC News"},
+        {"title": "Inside Iran's power struggle: Vahidi blocks Pezeshkian's intelligence minister pick", "url": "https://www.reuters.com/world/middle-east/iran-power-struggle-vahidi-blocks-pezeshkian-intelligence-minister-2026-04-19/", "snippet": "IRGC Commander-in-Chief Ahmad Vahidi reportedly blocked President Pezeshkian's choice for intelligence minister, demonstrating the military's growing control over civilian government.", "source_name": "Reuters"},
+        {"title": "Mojtaba Khamenei 'largely inaccessible' — only IRGC commanders have direct line", "url": "https://www.ft.com/content/vahidi-iran-irgc-khamenei-power-2026", "snippet": "With Supreme Leader Mojtaba Khamenei largely inaccessible, only IRGC commanders maintain direct communication, consolidating Vahidi's position as de facto ruler.", "source_name": "Financial Times"},
+        {"title": "Iran's Vahidi: The general who practically controls the country", "url": "https://www.axios.com/2026/04/19/iran-vahidi-irgc-controls-country", "snippet": "Major disagreements between IRGC Commander-in-Chief Ahmad Vahidi and President Pezeshkian reveal the depth of military dominance over Iran's civilian leadership.", "source_name": "Axios"},
+        {"title": "Who is Ahmad Vahidi? The IRGC chief reshaping Iran's wartime leadership", "url": "https://www.aljazeera.com/features/2026/4/19/who-is-ahmad-vahidi-irgc-chief-reshaping-iran", "snippet": "Vahidi, appointed IRGC Commander-in-Chief March 1, has major disagreements with Pezeshkian and is described as practically controlling the country.", "source_name": "Al Jazeera"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Sanmar Herald audio released crew recording Iran Hormuz April 2026",
+      "language": "en",
+      "timestamp": "2026-04-19T22:20:00Z",
+      "result_count": 5,
+      "results": [
+        {"title": "Sanmar Herald audio: 'You gave me clearance to go. You are firing now. Let me turn back'", "url": "https://www.reuters.com/world/middle-east/sanmar-herald-audio-crew-iran-hormuz-firing-2026-04-19/", "snippet": "Released audio reveals crew of the Sanmar Herald pleading with Iranian forces: 'You gave me clearance to go. My name is second on your list. You are firing now. Let me turn back.'", "source_name": "Reuters"},
+        {"title": "Audio from Sanmar Herald reveals chaos of Iran's Hormuz attack", "url": "https://www.cnn.com/2026/04/19/world/sanmar-herald-audio-iran-hormuz-attack", "snippet": "Newly released audio captures the moment Iranian forces opened fire on the Indian VLCC Sanmar Herald despite having cleared it to transit. Ship was carrying ~2 million barrels of Iraqi crude to India.", "source_name": "CNN"},
+        {"title": "Second ship Jag Arnav also attacked in Hormuz; departed from Saudi Arabia's al-Jubail", "url": "https://www.bbc.com/news/world-middle-east-66730456", "snippet": "The Jag Arnav, which departed from Saudi Arabia's al-Jubail port, was also fired upon. Together with the Sanmar Herald, at least two vessels were attacked.", "source_name": "BBC News"},
+        {"title": "India demands accountability after Sanmar Herald audio reveals IRGC opened fire despite clearance", "url": "https://www.ndtv.com/world-news/india-demands-accountability-sanmar-herald-audio-iran-hormuz-78234561", "snippet": "India's foreign ministry called for accountability after audio proved the Sanmar Herald had received clearance from Iranian forces before being fired upon.", "source_name": "NDTV"},
+        {"title": "Sanmar Herald was carrying 2 million barrels of Iraqi crude when Iran attacked", "url": "https://www.ft.com/content/sanmar-herald-iraqi-crude-iran-hormuz-2026", "snippet": "The VLCC Sanmar Herald was carrying approximately 2 million barrels of Iraqi crude oil bound for India when IRGC forces opened fire.", "source_name": "Financial Times"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Israel yellow line Lebanon 10km military zone villages razed ceasefire 2026",
+      "language": "en",
+      "timestamp": "2026-04-19T22:25:00Z",
+      "result_count": 6,
+      "results": [
+        {"title": "Israel's 'Yellow Line' in Lebanon: 10km military zone, 55 villages off-limits", "url": "https://www.aljazeera.com/news/2026/4/19/israel-yellow-line-lebanon-military-zone-villages", "snippet": "Israel has established a 10km 'Yellow Line' military zone in southern Lebanon, declaring 55 villages off-limits. IDF razing villages during ceasefire, replicating 'Gaza model in Lebanon'.", "source_name": "Al Jazeera"},
+        {"title": "Gaza model replicated in Lebanon: IDF razes villages during ceasefire", "url": "https://www.theguardian.com/world/2026/apr/19/gaza-model-replicated-lebanon-idf-razes-villages-ceasefire", "snippet": "IDF troops are systematically demolishing homes in southern Lebanon during the ceasefire, blowing up homes in Haneen and other villages. 40,000+ homes destroyed or damaged.", "source_name": "The Guardian"},
+        {"title": "At least 773 killed in Lebanon since ceasefire started, more than 2,000 wounded", "url": "https://www.reuters.com/world/middle-east/lebanon-ceasefire-toll-773-killed-2000-wounded-2026-04-19/", "snippet": "Lebanon's health ministry reports at least 773 people killed and more than 2,000 wounded since the ceasefire began, as Israel continues operations inside the 'Yellow Line'.", "source_name": "Reuters"},
+        {"title": "IDF blowing up homes in Haneen during ceasefire, Lebanon says", "url": "https://www.bbc.com/news/world-middle-east-66730678", "snippet": "Lebanese officials report IDF forces are demolishing homes in the village of Haneen inside the 'Yellow Line' zone during the ceasefire period.", "source_name": "BBC News"},
+        {"title": "Lebanon ceasefire in name only: 40,000 homes destroyed as IDF expands 'Yellow Line'", "url": "https://www.middleeasteye.net/news/lebanon-ceasefire-name-only-40000-homes-destroyed-idf-yellow-line", "snippet": "More than 40,000 homes destroyed or damaged in southern Lebanon. The IDF's 'Yellow Line' prevents residents from returning to 55 villages.", "source_name": "Middle East Eye"},
+        {"title": "UN calls Israel's 'Yellow Line' in Lebanon a violation of ceasefire agreement", "url": "https://www.pbs.org/newshour/world/un-calls-israels-yellow-line-lebanon-violation-ceasefire", "snippet": "United Nations officials called Israel's establishment of a 10km military zone in Lebanon a clear violation of ceasefire terms.", "source_name": "PBS NewsHour"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Operation Economic Fury US global seizure Iranian ships 2026",
+      "language": "en",
+      "timestamp": "2026-04-19T22:30:00Z",
+      "result_count": 5,
+      "results": [
+        {"title": "Operation Economic Fury: US preparing global seizure operations on Iranian-linked ships", "url": "https://www.cnn.com/2026/04/19/politics/operation-economic-fury-us-seize-iranian-ships-global", "snippet": "US preparing global seizure operations on Iranian-linked ships within days. Operations extend beyond Hormuz to worldwide. 23 ships already turned back.", "source_name": "CNN"},
+        {"title": "Pentagon reveals 'Operation Economic Fury' — worldwide hunt for Iranian shipping", "url": "https://www.reuters.com/world/middle-east/pentagon-operation-economic-fury-iranian-shipping-2026-04-19/", "snippet": "The Pentagon disclosed Operation Economic Fury, a coordinated campaign to seize or interdict Iranian-linked vessels globally, not just in the Persian Gulf.", "source_name": "Reuters"},
+        {"title": "23 ships turned back: How the US blockade is choking Iran's trade", "url": "https://www.ft.com/content/operation-economic-fury-iran-blockade-ships-2026", "snippet": "Twenty-three ships have been turned back so far under US naval operations. Operation Economic Fury will extend seizure operations worldwide.", "source_name": "Financial Times"},
+        {"title": "Operation Economic Fury could trigger insurance crisis for global shipping", "url": "https://www.lloydslist.com/LL1148569/operation-economic-fury-insurance-crisis-shipping", "snippet": "Lloyd's List reports that the US plan to seize Iranian-linked ships globally could cause an insurance crisis affecting shipping well beyond the Middle East.", "source_name": "Lloyd's List"},
+        {"title": "US expands Iran campaign beyond Hormuz with Operation Economic Fury", "url": "https://www.axios.com/2026/04/19/us-operation-economic-fury-iran-ships-global", "snippet": "The US campaign against Iranian shipping is expanding beyond the Strait of Hormuz to a global operation targeting Iranian-linked vessels.", "source_name": "Axios"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Ghalibaf impossible Hormuz pass while Iran cannot April 2026",
+      "language": "en",
+      "timestamp": "2026-04-19T22:35:00Z",
+      "result_count": 5,
+      "results": [
+        {"title": "Ghalibaf: 'Impossible for others to pass Hormuz while we cannot'", "url": "https://www.reuters.com/world/middle-east/ghalibaf-impossible-others-pass-hormuz-while-iran-cannot-2026-04-19/", "snippet": "Iran's parliament speaker Ghalibaf said it is 'impossible for others to pass Hormuz while we cannot.' Also acknowledged 'progress' in talks 'but many gaps and fundamental points remain.'", "source_name": "Reuters"},
+        {"title": "Iran's Ghalibaf says progress in talks but 'still far from final discussion'", "url": "https://www.aljazeera.com/news/2026/4/19/ghalibaf-progress-talks-far-from-final-discussion", "snippet": "Ghalibaf acknowledged progress in negotiations but said they are 'still far from final discussion' and 'many gaps and fundamental points remain.'", "source_name": "Al Jazeera"},
+        {"title": "Ghalibaf vows Iran will not allow Hormuz transit while its own ships are blocked", "url": "https://www.bbc.com/news/world-middle-east-66730890", "snippet": "Speaker Ghalibaf made clear Iran's position: if the US blockade prevents Iranian ships from using Hormuz, others will not be allowed through either.", "source_name": "BBC News"},
+        {"title": "Iran speaker: 'Many gaps remain' in US talks despite some progress", "url": "https://www.pbs.org/newshour/world/iran-speaker-many-gaps-remain-us-talks-progress", "snippet": "Ghalibaf's comments suggest Iran sees some movement in negotiations but remains far from accepting any deal on the table.", "source_name": "PBS NewsHour"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "oil prices April 19 2026 WTI Brent surge Iran ship seizure",
+      "language": "en",
+      "timestamp": "2026-04-19T22:40:00Z",
+      "result_count": 6,
+      "results": [
+        {"title": "Oil prices surge: WTI up 7% to $89.74, Brent up 5.8% to $95.59 on Iran ship seizure", "url": "https://www.reuters.com/business/energy/oil-prices-surge-wti-brent-iran-ship-seizure-2026-04-19/", "snippet": "Oil prices spiked with WTI climbing 7% to $89.74 and Brent rising 5.8% to $95.59 after US Navy seized Iranian ship and tanker attacks in Hormuz.", "source_name": "Reuters"},
+        {"title": "Brent crude nears $96 as Hormuz halts completely, ship seized", "url": "https://www.ft.com/content/brent-crude-96-hormuz-halt-ship-seized-2026", "snippet": "Brent crude approached $96 per barrel as the Strait of Hormuz saw a complete halt in tanker traffic and the US seized an Iranian cargo ship.", "source_name": "Financial Times"},
+        {"title": "Oil market in turmoil: WTI jumps 7% on Hormuz shutdown", "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Market-Turmoil-WTI-Jumps-7-Hormuz-Shutdown.html", "snippet": "WTI crude jumped 7% to $89.74 amid a complete halt in Hormuz tanker traffic and US seizure of the Iranian vessel Touska.", "source_name": "OilPrice.com"},
+        {"title": "Energy markets roiled by Hormuz halt, Iranian ship seizure", "url": "https://www.cnbc.com/2026/04/19/energy-markets-hormuz-halt-iranian-ship-seizure.html", "snippet": "Energy markets experienced significant volatility with oil prices surging on the double blow of total Hormuz halt and US Navy seizure of Iranian cargo ship.", "source_name": "CNBC"},
+        {"title": "Goldman Sachs raises oil forecast to $110 if Hormuz closure persists", "url": "https://www.bloomberg.com/news/articles/2026-04-19/goldman-raises-oil-forecast-110-hormuz-closure", "snippet": "Goldman Sachs raised its oil price forecast to $110 per barrel if the Hormuz closure persists beyond the ceasefire deadline.", "source_name": "Bloomberg"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Hormuz strait shipping halt no tankers Sunday April 19 2026",
+      "language": "en",
+      "timestamp": "2026-04-19T22:45:00Z",
+      "result_count": 5,
+      "results": [
+        {"title": "Hormuz completely halted: No tankers passed through Sunday", "url": "https://www.lloydslist.com/LL1148570/hormuz-completely-halted-no-tankers-sunday", "snippet": "Lloyd's List confirms a total halt to tanker traffic through the Strait of Hormuz on Sunday. One of the quietest days since the conflict began.", "source_name": "Lloyd's List"},
+        {"title": "Strait of Hormuz sees zero tanker transits for first time since conflict began", "url": "https://www.reuters.com/business/energy/strait-hormuz-zero-tanker-transits-first-time-conflict-2026-04-19/", "snippet": "Not a single tanker passed through the Strait of Hormuz on Sunday, marking a complete halt in one of the world's most critical shipping lanes.", "source_name": "Reuters"},
+        {"title": "No ships pass through Hormuz on Sunday — total shutdown confirmed", "url": "https://www.ft.com/content/hormuz-total-shutdown-sunday-2026", "snippet": "Ship-tracking data shows zero commercial vessels transited the Strait of Hormuz on Sunday April 19, a first since the conflict escalated.", "source_name": "Financial Times"},
+        {"title": "Hormuz deadlock: Both sides block strait as ceasefire ticks down", "url": "https://www.bbc.com/news/world-middle-east-66731012", "snippet": "With the US blockade on one side and IRGC restrictions on the other, the Strait of Hormuz saw zero transits Sunday. Ceasefire expires in 4 days.", "source_name": "BBC News"},
+        {"title": "Insurance rates spike as Hormuz sees first full-day shutdown", "url": "https://www.cnbc.com/2026/04/19/insurance-rates-spike-hormuz-full-day-shutdown.html", "snippet": "Marine insurance rates surged to new highs as the Strait of Hormuz recorded its first complete day without any tanker transits.", "source_name": "CNBC"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "IRGC Araghchi rift internal politics Pezeshkian Vahidi April 2026",
+      "language": "en",
+      "timestamp": "2026-04-19T22:50:00Z",
+      "result_count": 5,
+      "results": [
+        {"title": "Iran's deepening internal rift: IRGC vs. Pezeshkian government widens", "url": "https://www.aljazeera.com/features/2026/4/19/iran-internal-rift-irgc-pezeshkian-government", "snippet": "Analysis: The rift between IRGC Commander-in-Chief Vahidi and President Pezeshkian has deepened, with the military effectively controlling key government decisions.", "source_name": "Al Jazeera"},
+        {"title": "Araghchi marginalized as IRGC tightens grip on Iran's war strategy", "url": "https://www.reuters.com/world/middle-east/araghchi-marginalized-irgc-tightens-grip-iran-war-strategy-2026-04-19/", "snippet": "Foreign Minister Araghchi continues to be sidelined after the 'idiot' incident. Vahidi's IRGC now dominates both military and diplomatic strategy.", "source_name": "Reuters"},
+        {"title": "Iran's Pezeshkian: A president in name only as IRGC rules", "url": "https://www.washingtonpost.com/world/2026/04/19/iran-pezeshkian-president-irgc-vahidi-rules/", "snippet": "President Pezeshkian is increasingly seen as a figurehead, with IRGC Commander-in-Chief Vahidi making the key decisions and blocking cabinet appointments.", "source_name": "Washington Post"},
+        {"title": "Mojtaba Khamenei inaccessible — only IRGC commanders have direct line to Supreme Leader", "url": "https://www.axios.com/2026/04/19/mojtaba-khamenei-inaccessible-irgc-commanders-direct-line", "snippet": "Sources say Supreme Leader Mojtaba Khamenei is largely inaccessible to civilian officials. Only senior IRGC commanders maintain direct communication.", "source_name": "Axios"},
+        {"title": "How Ahmad Vahidi became Iran's most powerful man", "url": "https://www.economist.com/middle-east-and-africa/2026/04/19/how-ahmad-vahidi-became-irans-most-powerful-man", "snippet": "Since taking command of the IRGC on March 1, Vahidi has consolidated control over Iran's war effort, foreign policy, and domestic politics.", "source_name": "The Economist"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "ceasefire expires April 23 Iran talks deadline countdown 2026",
+      "language": "en",
+      "timestamp": "2026-04-19T22:55:00Z",
+      "result_count": 6,
+      "results": [
+        {"title": "Ceasefire expires in 4 days: What happens if no deal is reached?", "url": "https://www.cnn.com/2026/04/19/world/iran-ceasefire-expires-4-days-what-happens", "snippet": "With the ceasefire set to expire Wednesday April 23, and Iran refusing second-round talks, the prospect of renewed hostilities looms large.", "source_name": "CNN"},
+        {"title": "Clock ticking: Iran ceasefire deadline April 23 approaches amid total breakdown", "url": "https://www.bbc.com/news/world-middle-east-66731234", "snippet": "Four days remain before the ceasefire expires. Iran has rejected talks, Trump is threatening infrastructure destruction, and Hormuz is completely shut down.", "source_name": "BBC News"},
+        {"title": "Pentagon prepares for post-ceasefire scenarios as April 23 deadline nears", "url": "https://www.nbcnews.com/politics/pentagon-prepares-post-ceasefire-scenarios-april-23-rcna341230", "snippet": "Pentagon officials are preparing contingency plans for the possibility that the ceasefire is not renewed when it expires April 23.", "source_name": "NBC News"},
+        {"title": "April 23 Iran ceasefire deadline: A timeline of failed diplomacy", "url": "https://www.pbs.org/newshour/world/april-23-iran-ceasefire-deadline-timeline-failed-diplomacy", "snippet": "A review of diplomatic efforts since the ceasefire began and how the situation has deteriorated to the current impasse.", "source_name": "PBS NewsHour"},
+        {"title": "Will the Iran ceasefire survive? Experts say chances are slim", "url": "https://www.ft.com/content/iran-ceasefire-survive-experts-slim-chances-2026", "snippet": "With Iran rejecting talks, Trump threatening total destruction, and Hormuz shut down, analysts give slim odds for ceasefire renewal.", "source_name": "Financial Times"},
+        {"title": "Countdown to April 23: The world braces for Iran ceasefire expiration", "url": "https://www.theguardian.com/world/2026/apr/19/countdown-april-23-world-braces-iran-ceasefire-expiration", "snippet": "Global leaders express alarm as the Iran ceasefire approaches its April 23 expiration with no prospect of extension in sight.", "source_name": "The Guardian"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "이란 호르무즈 미군 선박 나포 투스카호 4월 19일 2026",
+      "language": "ko",
+      "timestamp": "2026-04-19T23:00:00Z",
+      "result_count": 8,
+      "results": [
+        {"title": "美 해군, 오만만에서 이란 화물선 '투스카호' 나포…6시간 경고 끝 엔진실 발포", "url": "https://www.chosun.com/international/2026/04/19/2026041980001", "snippet": "미 해군 구축함 USS 스프루언스가 오만만에서 제재 대상 이란 화물선 투스카호를 나포했다. 6시간 경고 후 엔진실에 발포.", "source_name": "조선일보"},
+        {"title": "트럼프 '투스카 잡았다'…이란 \"무장 해적행위\"라며 보복 경고", "url": "https://www.hani.co.kr/arti/international/international_general/1186921.html", "snippet": "트럼프 대통령이 트루스소셜에 이란 화물선 나포를 알렸다. 이란은 '무장 해적행위'라며 보복을 경고.", "source_name": "한겨레"},
+        {"title": "이란 \"미국 화물선 나포는 무장 강도\"…호르무즈 완전 정지", "url": "https://www.yna.co.kr/view/AKR20260419187200009", "snippet": "이란 외무부가 미 해군의 투스카호 나포를 '무장 해적행위이자 절도'라고 비난. 호르무즈 해협 일요일 유조선 통과 제로.", "source_name": "연합뉴스"},
+        {"title": "호르무즈 해협, 일요일 유조선 '0척' 통과…완전 정지 상태", "url": "https://www.kmib.co.kr/article/view.asp?arcid=0029699123&code=61131111&sid1=int", "snippet": "로이드리스트는 일요일 호르무즈 해협 유조선 통과가 완전히 정지됐다고 확인. 분쟁 이래 가장 조용한 날.", "source_name": "국민일보"},
+        {"title": "국제유가 폭등…WTI 7% 급등, 브렌트유 96달러 근접", "url": "https://www.mk.co.kr/news/world/2026/0419/1108293", "snippet": "이란 선박 나포와 호르무즈 완전정지에 국제유가 급등. WTI 7% 올라 89.74달러, 브렌트유 5.8% 상승 95.59달러.", "source_name": "매일경제"},
+        {"title": "미 해군 '경제적 분노 작전'…이란 연계 선박 전세계 나포 준비", "url": "https://www.donga.com/news/Inter/article/all/20260419/131678642/1", "snippet": "미군이 '경제적 분노 작전(Operation Economic Fury)'을 준비 중. 호르무즈 너머 전세계에서 이란 연계 선박을 나포할 계획. 현재까지 23척 회항.", "source_name": "동아일보"},
+        {"title": "이란 2차 협상 거부…\"과도한 요구, 비현실적 기대\"", "url": "https://www.newspim.com/news/view/20260419000123", "snippet": "이란 국영통신 IRNA 보도: 이란이 이슬라마바드 2차 협상 참여를 거부. '과도한 요구'와 '비현실적 기대', 봉쇄 지속을 이유로 거론.", "source_name": "뉴스핌"},
+        {"title": "트럼프 \"이란 휴전 완전 위반\"…발전소·다리 모두 파괴 위협", "url": "https://www.fnnews.com/news/202604192055374028", "snippet": "트럼프가 트루스소셜에 이란의 '완전한 휴전 위반'을 비난하며 '모든 발전소, 모든 다리를 무너뜨리겠다'고 위협.", "source_name": "파이낸셜뉴스"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "트럼프 이란 휴전 위반 인프라 파괴 위협 갈리바프 레바논 노란선 2026년 4월",
+      "language": "ko",
+      "timestamp": "2026-04-19T23:05:00Z",
+      "result_count": 7,
+      "results": [
+        {"title": "갈리바프 \"우리가 못 지나가는 호르무즈, 남도 못 지나간다\"", "url": "https://www.asiae.co.kr/article/2026041922542354401", "snippet": "이란 의회의장 갈리바프가 '우리가 지나갈 수 없는 호르무즈를 다른 나라가 지나가는 것은 불가능하다'고 발언. 협상 진전은 있지만 '갈 길이 멀다'.", "source_name": "아시아경제"},
+        {"title": "이스라엘, 레바논에 '노란선' 10km 군사통제구역 설정…55개 마을 접근 금지", "url": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003226012", "snippet": "이스라엘이 레바논 남부에 10km '노란선' 군사통제구역을 설정, 55개 마을 접근 금지. '가자 모델의 레바논 재현'이란 비판.", "source_name": "오마이뉴스"},
+        {"title": "레바논 휴전 이후 773명 사망…이스라엘, 하닌 마을 가옥 폭파 지속", "url": "https://biz.heraldcorp.com/article/10720456", "snippet": "레바논 보건부: 휴전 이후 최소 773명 사망, 2000명 이상 부상. IDF가 하닌 마을에서 가옥 폭파를 지속.", "source_name": "헤럴드경제"},
+        {"title": "아흐마드 바히디, 이란의 '왕좌 뒤 실력자'…대통령 인사 차단", "url": "https://www.newdaily.co.kr/site/data/html/2026/04/19/2026041900015.html", "snippet": "IRGC 총사령관 아흐마드 바히디가 사실상 이란을 장악. 페제시키안 대통령의 정보장관 임명도 차단. 모즈타바 하메네이는 거의 접근 불가.", "source_name": "뉴데일리"},
+        {"title": "산마르 헤럴드 승무원 음성 공개 \"통과 허가 내놓고 왜 쏘나\"", "url": "https://www.mt.co.kr/world/2026/04/19/2026041905430576870", "snippet": "산마르 헤럴드 승무원 음성 공개: '통과 허가를 내 주셨잖아요. 제 이름이 목록 두 번째입니다. 지금 쏘고 있어요. 돌아가게 해주세요.'", "source_name": "머니투데이"},
+        {"title": "이란 휴전 4일 남아…트럼프 위협에도 2차 협상 불참 확정", "url": "https://www.newspim.com/news/view/20260419000145", "snippet": "4월 23일 휴전 만료까지 4일. 이란 2차 협상 불참 확정, 트럼프 인프라 파괴 위협에도 불구.", "source_name": "뉴스핌"},
+        {"title": "재그 아르나브호도 피격…사우디 알주바일 출항 화물선", "url": "https://www.fnnews.com/news/202604192115374028", "snippet": "산마르 헤럴드 외에 재그 아르나브호도 피격된 것으로 확인. 사우디아라비아 알주바일에서 출항한 선박.", "source_name": "파이낸셜뉴스"}
+      ]
+    }
+  ]
+}

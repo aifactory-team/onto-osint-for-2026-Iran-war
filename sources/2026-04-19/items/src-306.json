@@ -1,0 +1,23 @@
+{
+  "id": "src-306",
+  "title": "Gaza model replicated in Lebanon: IDF razes villages during ceasefire",
+  "url": "https://www.theguardian.com/world/2026/apr/19/gaza-model-replicated-lebanon-idf-razes-villages-ceasefire",
+  "snippet": "IDF troops systematically demolishing homes in southern Lebanon during the ceasefire, blowing up homes in Haneen and other villages. 40,000+ homes destroyed or damaged across the area.",
+  "source_name": "The Guardian",
+  "language": "en",
+  "discovered_date": "2026-04-19",
+  "tag": "new",
+  "related_report": null,
+  "related_item": "src-305",
+  "tag_reason": "Detailed reporting on systematic village demolition inside Yellow Line — 40,000 homes destroyed figure is new",
+  "entities": [
+    {"id": "ent-004", "type": "Organization", "name": "Israel"},
+    {"id": "ent-004a", "type": "Organization", "name": "IDF"},
+    {"id": "ent-121", "type": "Location", "name": "Lebanon"},
+    {"id": "temp-006", "type": "Event", "name": "Israel Yellow Line Lebanon"},
+    {"id": "ent-125", "type": "Event", "name": "Iran Ceasefire"}
+  ],
+  "relations": [
+    {"subject": "ent-004a", "predicate": "participatesIn", "object": "temp-006"}
+  ]
+}

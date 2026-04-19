@@ -1,0 +1,22 @@
+{
+  "id": "src-317",
+  "title": "갈리바프 \"우리가 못 지나가는 호르무즈, 남도 못 지나간다\"",
+  "url": "https://www.asiae.co.kr/article/2026041922542354401",
+  "snippet": "이란 의회의장 갈리바프가 '우리가 지나갈 수 없는 호르무즈를 다른 나라가 지나가는 것은 불가능하다'고 발언. 협상 진전은 있지만 '갈 길이 멀다'고 평가.",
+  "source_name": "아시아경제",
+  "language": "ko",
+  "discovered_date": "2026-04-19",
+  "tag": "new",
+  "related_report": null,
+  "related_item": "src-310",
+  "tag_reason": "Korean coverage of Ghalibaf's Hormuz statement — same event as src-310",
+  "entities": [
+    {"id": "ent-045", "type": "Person", "name": "Mohammad Bagher Ghalibaf"},
+    {"id": "temp-011", "type": "Event", "name": "Ghalibaf 'Impossible' Statement"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "ent-064", "type": "Event", "name": "Islamabad Talks"}
+  ],
+  "relations": [
+    {"subject": "ent-045", "predicate": "participatesIn", "object": "temp-011"}
+  ]
+}

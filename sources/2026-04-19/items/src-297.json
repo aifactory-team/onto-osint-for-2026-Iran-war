@@ -1,0 +1,22 @@
+{
+  "id": "src-297",
+  "title": "Vance skips second round Iran talks — Trump cites 'security concerns'",
+  "url": "https://www.politico.com/news/2026/04/19/vance-skips-iran-talks-security-concerns-00456789",
+  "snippet": "Vice President JD Vance will not attend the second round of negotiations in Islamabad. Trump told reporters there are 'security concerns' about the location.",
+  "source_name": "Politico",
+  "language": "en",
+  "discovered_date": "2026-04-19",
+  "tag": "new",
+  "related_report": null,
+  "related_item": "src-296",
+  "tag_reason": "Vance's absence from second round and Trump's 'security concerns' explanation — new detail about US delegation",
+  "entities": [
+    {"id": "ent-069", "type": "Person", "name": "JD Vance"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"},
+    {"id": "ent-062", "type": "Location", "name": "Islamabad"},
+    {"id": "ent-064", "type": "Event", "name": "Islamabad Talks"}
+  ],
+  "relations": [
+    {"subject": "ent-069", "predicate": "relatedTo", "object": "ent-064"}
+  ]
+}

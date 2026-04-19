@@ -1,0 +1,22 @@
+{
+  "id": "src-312",
+  "title": "Hormuz completely halted: No tankers passed through Sunday",
+  "url": "https://www.lloydslist.com/LL1148570/hormuz-completely-halted-no-tankers-sunday",
+  "snippet": "Lloyd's List confirms a total halt to tanker traffic through the Strait of Hormuz on Sunday. One of the quietest days since the conflict began. Zero commercial vessels transited.",
+  "source_name": "Lloyd's List",
+  "language": "en",
+  "discovered_date": "2026-04-19",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "First confirmed total halt to all Hormuz traffic — zero transits is a new milestone in the conflict",
+  "entities": [
+    {"id": "temp-009", "type": "Concept", "name": "Hormuz Total Shipping Halt"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "ent-095", "type": "Concept", "name": "US Naval Blockade"}
+  ],
+  "relations": [
+    {"subject": "temp-009", "predicate": "locatedIn", "object": "ent-008"},
+    {"subject": "temp-009", "predicate": "causedBy", "object": "ent-095"}
+  ]
+}

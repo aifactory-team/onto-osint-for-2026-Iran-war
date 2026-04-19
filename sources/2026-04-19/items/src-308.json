@@ -1,0 +1,24 @@
+{
+  "id": "src-308",
+  "title": "Operation Economic Fury: US preparing global seizure operations on Iranian-linked ships",
+  "url": "https://www.cnn.com/2026/04/19/politics/operation-economic-fury-us-seize-iranian-ships-global",
+  "snippet": "US preparing global seizure operations on Iranian-linked ships within days under 'Operation Economic Fury'. Operations extend beyond Hormuz to worldwide. 23 ships already turned back.",
+  "source_name": "CNN",
+  "language": "en",
+  "discovered_date": "2026-04-19",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "New named operation (Economic Fury) represents expansion of US campaign from regional blockade to global seizure operations",
+  "entities": [
+    {"id": "temp-005", "type": "Event", "name": "Operation Economic Fury"},
+    {"id": "ent-003", "type": "Organization", "name": "US Navy"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-095", "type": "Concept", "name": "US Naval Blockade"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"}
+  ],
+  "relations": [
+    {"subject": "temp-005", "predicate": "follows", "object": "ent-095"},
+    {"subject": "ent-003", "predicate": "participatesIn", "object": "temp-005"}
+  ]
+}

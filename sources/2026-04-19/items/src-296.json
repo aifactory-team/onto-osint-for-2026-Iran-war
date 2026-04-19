@@ -1,0 +1,25 @@
+{
+  "id": "src-296",
+  "title": "Trump sending Witkoff, Kushner to Islamabad despite Iran's refusal to attend talks",
+  "url": "https://www.cnn.com/2026/04/19/politics/trump-witkoff-kushner-islamabad-iran-talks",
+  "snippet": "Despite Iran's rejection of the second round of talks, Trump is dispatching envoys Steve Witkoff and Jared Kushner to Islamabad for Monday night arrival. Vance is skipping this round, with Trump citing 'security concerns'.",
+  "source_name": "CNN",
+  "language": "en",
+  "discovered_date": "2026-04-19",
+  "tag": "new",
+  "related_report": null,
+  "related_item": "src-295",
+  "tag_reason": "US delegation composition change (Witkoff/Kushner without Vance) and continued dispatch despite Iran rejection — new development",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"},
+    {"id": "ent-070", "type": "Person", "name": "Steve Witkoff"},
+    {"id": "ent-071", "type": "Person", "name": "Jared Kushner"},
+    {"id": "ent-069", "type": "Person", "name": "JD Vance"},
+    {"id": "temp-003", "type": "Event", "name": "Iran Rejects 2nd Round Talks"},
+    {"id": "ent-062", "type": "Location", "name": "Islamabad"}
+  ],
+  "relations": [
+    {"subject": "ent-070", "predicate": "participatesIn", "object": "ent-064"},
+    {"subject": "ent-071", "predicate": "participatesIn", "object": "ent-064"}
+  ]
+}

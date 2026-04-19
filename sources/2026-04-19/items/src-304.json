@@ -1,0 +1,24 @@
+{
+  "id": "src-304",
+  "title": "Second ship Jag Arnav also attacked in Hormuz; departed from Saudi Arabia's al-Jubail",
+  "url": "https://www.bbc.com/news/world-middle-east-66730456",
+  "snippet": "The Jag Arnav, which departed from Saudi Arabia's al-Jubail port, was also fired upon by Iranian forces in the Strait of Hormuz. Together with the Sanmar Herald, at least two vessels were attacked.",
+  "source_name": "BBC News",
+  "language": "en",
+  "discovered_date": "2026-04-19",
+  "tag": "update",
+  "related_report": "2026-04-18",
+  "related_item": "src-268",
+  "tag_reason": "New detail identifying second attacked ship (Jag Arnav) and its origin (Saudi al-Jubail) — updates Apr 18 ship attack reporting",
+  "entities": [
+    {"id": "ent-005", "type": "Organization", "name": "IRGC"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "ent-080", "type": "Organization", "name": "India"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-010", "type": "Organization", "name": "Saudi Arabia"}
+  ],
+  "relations": [
+    {"subject": "ent-005", "predicate": "participatesIn", "object": "temp-133"},
+    {"subject": "ent-010", "predicate": "relatedTo", "object": "temp-133"}
+  ]
+}

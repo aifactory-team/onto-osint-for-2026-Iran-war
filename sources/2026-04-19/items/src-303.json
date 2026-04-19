@@ -1,0 +1,24 @@
+{
+  "id": "src-303",
+  "title": "Sanmar Herald audio: 'You gave me clearance to go. You are firing now. Let me turn back'",
+  "url": "https://www.reuters.com/world/middle-east/sanmar-herald-audio-crew-iran-hormuz-firing-2026-04-19/",
+  "snippet": "Released audio reveals crew of the Sanmar Herald pleading with Iranian forces: 'You gave me clearance to go. My name is second on your list. You are firing now. Let me turn back.' Ship was carrying ~2 million barrels of Iraqi crude to India.",
+  "source_name": "Reuters",
+  "language": "en",
+  "discovered_date": "2026-04-19",
+  "tag": "update",
+  "related_report": "2026-04-18",
+  "related_item": "src-268",
+  "tag_reason": "Audio release is significant new evidence for the Apr 18 Sanmar Herald attack — reveals crew had clearance before being fired upon",
+  "entities": [
+    {"id": "temp-008", "type": "Event", "name": "Sanmar Herald Audio Release"},
+    {"id": "ent-005", "type": "Organization", "name": "IRGC"},
+    {"id": "ent-080", "type": "Organization", "name": "India"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"}
+  ],
+  "relations": [
+    {"subject": "temp-008", "predicate": "follows", "object": "temp-133"},
+    {"subject": "ent-005", "predicate": "participatesIn", "object": "temp-008"}
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "src-299",
+  "title": "Trump threatens to destroy Iran's infrastructure unless deal accepted",
+  "url": "https://www.nbcnews.com/politics/trump-threatens-iran-infrastructure-power-plants-bridges-rcna341215",
+  "snippet": "Trump posted on Truth Social threatening to knock out every power plant and bridge in Iran, calling their actions a 'total violation' of the ceasefire. The threat represents significant escalation as April 23 deadline approaches.",
+  "source_name": "NBC News",
+  "language": "en",
+  "discovered_date": "2026-04-19",
+  "tag": "new",
+  "related_report": null,
+  "related_item": "src-298",
+  "tag_reason": "Additional coverage of Trump's infrastructure threat with analysis of escalation implications",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"},
+    {"id": "temp-010", "type": "Event", "name": "Trump Infrastructure Destruction Threat"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-125", "type": "Event", "name": "Iran Ceasefire"}
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "temp-010"}
+  ]
+}

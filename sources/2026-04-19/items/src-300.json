@@ -1,0 +1,26 @@
+{
+  "id": "src-300",
+  "title": "Ahmad Vahidi: The IRGC commander who is the 'power behind the throne' in Iran",
+  "url": "https://www.bbc.com/news/world-middle-east-66730234",
+  "snippet": "Since becoming IRGC Commander-in-Chief on March 1, 2026, Ahmad Vahidi has become the dominant figure in Iranian politics, blocking even the president's cabinet appointments. He is described as practically controlling the country.",
+  "source_name": "BBC News",
+  "language": "en",
+  "discovered_date": "2026-04-19",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "First major profile identifying Vahidi as the de facto ruler of Iran — new entity and critical power dynamic",
+  "entities": [
+    {"id": "temp-001", "type": "Person", "name": "Ahmad Vahidi"},
+    {"id": "ent-005", "type": "Organization", "name": "IRGC"},
+    {"id": "ent-046", "type": "Person", "name": "Masoud Pezeshkian"},
+    {"id": "ent-047", "type": "Person", "name": "Mojtaba Khamenei"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-044", "type": "Person", "name": "Abbas Araghchi"}
+  ],
+  "relations": [
+    {"subject": "temp-001", "predicate": "affiliatedWith", "object": "ent-005"},
+    {"subject": "temp-001", "predicate": "opposes", "object": "ent-046"},
+    {"subject": "temp-001", "predicate": "relatedTo", "object": "ent-047"}
+  ]
+}

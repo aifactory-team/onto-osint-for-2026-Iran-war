@@ -1,0 +1,22 @@
+{
+  "id": "src-309",
+  "title": "23 ships turned back: How the US blockade is choking Iran's trade",
+  "url": "https://www.ft.com/content/operation-economic-fury-iran-blockade-ships-2026",
+  "snippet": "Twenty-three ships have been turned back so far under US naval operations. Operation Economic Fury will extend seizure operations worldwide, targeting Iranian-linked vessels globally.",
+  "source_name": "Financial Times",
+  "language": "en",
+  "discovered_date": "2026-04-19",
+  "tag": "new",
+  "related_report": null,
+  "related_item": "src-308",
+  "tag_reason": "Detailed count of ships turned back (23) and analysis of trade impact — quantifies the blockade's economic effect",
+  "entities": [
+    {"id": "temp-005", "type": "Event", "name": "Operation Economic Fury"},
+    {"id": "ent-095", "type": "Concept", "name": "US Naval Blockade"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-003", "type": "Organization", "name": "US Navy"}
+  ],
+  "relations": [
+    {"subject": "temp-005", "predicate": "relatedTo", "object": "ent-095"}
+  ]
+}

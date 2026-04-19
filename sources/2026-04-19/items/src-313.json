@@ -1,0 +1,24 @@
+{
+  "id": "src-313",
+  "title": "Araghchi marginalized as IRGC tightens grip on Iran's war strategy",
+  "url": "https://www.reuters.com/world/middle-east/araghchi-marginalized-irgc-tightens-grip-iran-war-strategy-2026-04-19/",
+  "snippet": "Foreign Minister Araghchi continues to be sidelined after the 'idiot' incident. Vahidi's IRGC now dominates both military and diplomatic strategy. The IRGC-civilian government rift has deepened.",
+  "source_name": "Reuters",
+  "language": "en",
+  "discovered_date": "2026-04-19",
+  "tag": "update",
+  "related_report": "2026-04-18",
+  "related_item": "src-278",
+  "tag_reason": "Continuation of Araghchi marginalization story from Apr 18 — now framed within broader Vahidi power dynamic",
+  "entities": [
+    {"id": "ent-044", "type": "Person", "name": "Abbas Araghchi"},
+    {"id": "temp-001", "type": "Person", "name": "Ahmad Vahidi"},
+    {"id": "ent-005", "type": "Organization", "name": "IRGC"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-046", "type": "Person", "name": "Masoud Pezeshkian"}
+  ],
+  "relations": [
+    {"subject": "ent-005", "predicate": "opposes", "object": "ent-044"},
+    {"subject": "temp-001", "predicate": "opposes", "object": "ent-044"}
+  ]
+}

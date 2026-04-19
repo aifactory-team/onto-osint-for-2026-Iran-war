@@ -1,16 +1,16 @@
 {
   "version": "1.0.0",
   "description": "알려진 엔티티 인스턴스 — 파이프라인 실행 시 자동으로 추가/업데이트된다.",
-  "last_updated": "2026-04-18",
+  "last_updated": "2026-04-19",
   "entities": [
     {
       "id": "ent-001",
       "type": "Person",
       "name": "Donald Trump",
-      "properties": { "role": "US President", "affiliation": "United States", "action_apr17": "thanked Iran for Hormuz opening but blockade '100% in force'; said Israel 'PROHIBITED' from bombing Lebanon; expects deal 'in coming days'" },
+      "properties": { "role": "US President", "affiliation": "United States", "action_apr19": "'total violation' of ceasefire accusation; threatens to destroy 'every single Power Plant and Bridge in Iran'; orders USS Spruance to seize Touska; sends Witkoff/Kushner to Islamabad despite Iran refusal" },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-17",
-      "mention_count": 148
+      "last_seen": "2026-04-19",
+      "mention_count": 162
     },
     {
       "id": "ent-002",
@@ -18,8 +18,8 @@
       "name": "Iran",
       "properties": { "type": "state", "location": "Middle East" },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-16",
-      "mention_count": 190
+      "last_seen": "2026-04-19",
+      "mention_count": 205
     },
     {
       "id": "ent-003",
@@ -27,26 +27,26 @@
       "name": "US Military",
       "properties": { "type": "military", "location": "United States" },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-14",
-      "mention_count": 46
+      "last_seen": "2026-04-19",
+      "mention_count": 52
     },
     {
       "id": "ent-004",
       "type": "Organization",
       "name": "Israel",
-      "properties": { "type": "state", "location": "Middle East" },
+      "properties": { "type": "state", "location": "Middle East", "action_apr19": "'Yellow Line' 10km military zone in Lebanon, 55 villages, razing homes 'like Gaza' during ceasefire" },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-16",
-      "mention_count": 70
+      "last_seen": "2026-04-19",
+      "mention_count": 78
     },
     {
       "id": "ent-005",
       "type": "Organization",
       "name": "IRGC (Islamic Revolutionary Guard Corps)",
-      "properties": { "type": "military", "location": "Iran" },
+      "properties": { "type": "military", "location": "Iran", "commander_apr19": "Ahmad Vahidi identified as commander-in-chief, 'power behind the throne', blocking Pezeshkian, controlling country" },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-13",
-      "mention_count": 30
+      "last_seen": "2026-04-19",
+      "mention_count": 45
     },
     {
       "id": "ent-006",
@@ -70,10 +70,10 @@
       "id": "ent-008",
       "type": "Location",
       "name": "Strait of Hormuz",
-      "properties": { "type": "strait/waterway", "status_apr17": "Iran declared 'completely open' with conditions but US blockade continues; IRGC threatens re-closure; only handful of ships transit; oil -11%" },
+      "properties": { "type": "strait/waterway", "status_apr19": "zero tanker transits Sunday — total shipping halt for first time in history; US seizes Touska; Iran calls it 'armed piracy'" },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-17",
-      "mention_count": 168
+      "last_seen": "2026-04-19",
+      "mention_count": 185
     },
     {
       "id": "ent-009",
@@ -394,19 +394,19 @@
       "id": "ent-044",
       "type": "Person",
       "name": "Abbas Araghchi",
-      "properties": { "role": "Iran Foreign Minister", "affiliation": "Iran", "action_apr17": "declared Hormuz 'completely open' for commercial vessels during ceasefire period with 3 conditions" },
+      "properties": { "role": "Iran Foreign Minister", "affiliation": "Iran", "status_apr19": "rift with IRGC deepens further; Vahidi identification as 'power behind the throne' confirms structural marginalization of diplomatic track" },
       "first_seen": "2026-04-10",
-      "last_seen": "2026-04-17",
-      "mention_count": 57
+      "last_seen": "2026-04-19",
+      "mention_count": 60
     },
     {
       "id": "ent-045",
       "type": "Person",
       "name": "Mohammad Bagher Ghalibaf",
-      "properties": { "role": "Iran Parliament Speaker, delegation leader", "affiliation": "Iran" },
+      "properties": { "role": "Iran Parliament Speaker, delegation leader", "affiliation": "Iran", "statement_apr19": "'impossible for others to pass Hormuz while we cannot'; acknowledges progress but 'many gaps'" },
       "first_seen": "2026-04-10",
-      "last_seen": "2026-04-12",
-      "mention_count": 34
+      "last_seen": "2026-04-19",
+      "mention_count": 38
     },
     {
       "id": "ent-046",
@@ -448,10 +448,10 @@
       "id": "ent-050",
       "type": "Location",
       "name": "Lebanon",
-      "properties": { "type": "country" },
+      "properties": { "type": "country", "status_apr19": "Israel 'Yellow Line' 10km zone, 55 villages, homes razed 'like Gaza' during ceasefire day 3" },
       "first_seen": "2026-04-10",
-      "last_seen": "2026-04-16",
-      "mention_count": 62
+      "last_seen": "2026-04-19",
+      "mention_count": 70
     },
     {
       "id": "ent-051",
@@ -1048,8 +1048,7 @@
       "first_seen": "2026-04-16",
       "last_seen": "2026-04-16",
       "mention_count": 6
-    }
-  ],
+    },
     {
       "id": "ent-117",
       "type": "Event",
@@ -1239,7 +1238,106 @@
       "first_seen": "2026-04-18",
       "last_seen": "2026-04-18",
       "mention_count": 4
+    },
+    {
+      "id": "ent-138",
+      "type": "Person",
+      "name": "Ahmad Vahidi",
+      "properties": { "role": "IRGC Commander-in-Chief (since 2026-03-01)", "affiliation": "IRGC / Iran", "detail": "'power behind the throne' — blocking Pezeshkian, controlling country, blocking diplomatic compromises. Former Defense Minister, IRGC veteran." },
+      "first_seen": "2026-04-19",
+      "last_seen": "2026-04-19",
+      "mention_count": 8
+    },
+    {
+      "id": "ent-139",
+      "type": "Event",
+      "name": "US Navy Seizes Touska (Apr 19)",
+      "properties": { "date": "2026-04-19", "detail": "USS Spruance fired on engine room of Iranian cargo ship 'Touska' after 6 hours of warnings. First US seizure of Iranian vessel since blockade began. Iran calls it 'armed piracy' and threatens military response.", "vessel": "USS Spruance (DDG-111)", "target": "Touska (Iranian cargo ship)" },
+      "first_seen": "2026-04-19",
+      "last_seen": "2026-04-19",
+      "mention_count": 15
+    },
+    {
+      "id": "ent-140",
+      "type": "Event",
+      "name": "Iran Rejects 2nd Round Talks (Apr 19)",
+      "properties": { "date": "2026-04-19", "detail": "IRNA: Iran won't participate in 2nd round due to 'excessive demands' and US blockade. But Trump sending Witkoff/Kushner to Islamabad anyway (Monday night). Vance skipping.", "source": "IRNA" },
+      "first_seen": "2026-04-19",
+      "last_seen": "2026-04-19",
+      "mention_count": 12
+    },
+    {
+      "id": "ent-141",
+      "type": "Event",
+      "name": "Trump 'Total Violation' Accusation (Apr 19)",
+      "properties": { "date": "2026-04-19", "detail": "Trump accuses Iran of 'total violation' of ceasefire, threatens to destroy infrastructure. Linked to IRGC actions at Hormuz." },
+      "first_seen": "2026-04-19",
+      "last_seen": "2026-04-19",
+      "mention_count": 8
+    },
+    {
+      "id": "ent-142",
+      "type": "Event",
+      "name": "Operation Economic Fury",
+      "properties": { "date": "2026-04-19", "detail": "US global ship seizure operations expanding beyond Hormuz. Follow-on to Caine's Apr 16 global blockade expansion declaration. Multiple seizure operations worldwide targeting Iran-linked vessels." },
+      "first_seen": "2026-04-19",
+      "last_seen": "2026-04-19",
+      "mention_count": 6
+    },
+    {
+      "id": "ent-143",
+      "type": "Event",
+      "name": "Israel Yellow Line in Lebanon (Apr 19)",
+      "properties": { "date": "2026-04-19", "detail": "Israel establishes 10km 'Yellow Line' military zone in southern Lebanon, 55 villages, razing homes 'like Gaza' during ceasefire day 3. De facto occupation expansion under ceasefire cover." },
+      "first_seen": "2026-04-19",
+      "last_seen": "2026-04-19",
+      "mention_count": 10
+    },
+    {
+      "id": "ent-144",
+      "type": "Event",
+      "name": "Oil Price Surge (Apr 19)",
+      "properties": { "date": "2026-04-19", "wti": "$89.74 (+7%)", "brent": "$95.59 (+5.8%)", "cause": "Touska seizure + zero Hormuz transits", "note": "Third major swing in 3 days (crash → rebound → surge)" },
+      "first_seen": "2026-04-19",
+      "last_seen": "2026-04-19",
+      "mention_count": 6
+    },
+    {
+      "id": "ent-145",
+      "type": "Event",
+      "name": "Sanmar Herald Audio Release (Apr 19)",
+      "properties": { "date": "2026-04-19", "detail": "Audio recording of Sanmar Herald crew: 'You gave me clearance' — then fired upon by IRGC. Second ship Jag Arnav also attacked. Evidence of IRGC arbitrary fire despite prior transit authorization.", "vessel": "Sanmar Herald (Indian-flagged VLCC)" },
+      "first_seen": "2026-04-19",
+      "last_seen": "2026-04-19",
+      "mention_count": 5
+    },
+    {
+      "id": "ent-146",
+      "type": "Concept",
+      "name": "Hormuz Total Shipping Halt",
+      "properties": { "domain": "maritime/energy", "detail": "Zero tanker transits on Sunday Apr 19 — first time in modern history that no tanker has passed through Hormuz. Complete paralysis of world's most critical energy chokepoint." },
+      "first_seen": "2026-04-19",
+      "last_seen": "2026-04-19",
+      "mention_count": 8
+    },
+    {
+      "id": "ent-147",
+      "type": "Event",
+      "name": "Trump Infrastructure Destruction Threat (Apr 19)",
+      "properties": { "date": "2026-04-19", "detail": "Trump threatens to destroy 'every single Power Plant and Bridge in Iran'. Linked to 'total violation' accusation. Most specific infrastructure targeting language since war began." },
+      "first_seen": "2026-04-19",
+      "last_seen": "2026-04-19",
+      "mention_count": 7
+    },
+    {
+      "id": "ent-148",
+      "type": "Event",
+      "name": "Ghalibaf 'Impossible' Statement (Apr 19)",
+      "properties": { "date": "2026-04-19", "detail": "Ghalibaf: 'impossible for others to pass Hormuz while we cannot'. Acknowledges progress but says 'many gaps remain'. Partial alignment with IRGC line but with diplomatic reservation." },
+      "first_seen": "2026-04-19",
+      "last_seen": "2026-04-19",
+      "mention_count": 4
     }
   ],
-  "total_count": 137
+  "total_count": 148
 }

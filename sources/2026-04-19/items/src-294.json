@@ -1,0 +1,23 @@
+{
+  "id": "src-294",
+  "title": "CENTCOM: Seized Iranian ship Touska was under Treasury sanctions for prior illegal activity",
+  "url": "https://www.reuters.com/world/middle-east/centcom-seized-iranian-ship-touska-under-treasury-sanctions-2026-04-19/",
+  "snippet": "US Central Command confirmed the Iranian vessel Touska had been designated under US Treasury sanctions for prior involvement in illicit cargo transfers. USS Spruance fired on engine room after vessel refused to stop for 6 hours.",
+  "source_name": "Reuters",
+  "language": "en",
+  "discovered_date": "2026-04-19",
+  "tag": "new",
+  "related_report": null,
+  "related_item": "src-292",
+  "tag_reason": "Official CENTCOM confirmation and sanctions justification for Touska seizure — adds legal/operational context",
+  "entities": [
+    {"id": "ent-006", "type": "Organization", "name": "CENTCOM"},
+    {"id": "temp-002", "type": "Event", "name": "US Navy Seizes Touska"},
+    {"id": "ent-003", "type": "Organization", "name": "US Navy"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-095", "type": "Concept", "name": "US Naval Blockade"}
+  ],
+  "relations": [
+    {"subject": "ent-006", "predicate": "participatesIn", "object": "temp-002"}
+  ]
+}

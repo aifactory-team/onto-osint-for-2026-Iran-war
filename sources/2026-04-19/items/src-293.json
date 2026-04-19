@@ -1,0 +1,25 @@
+{
+  "id": "src-293",
+  "title": "Iran condemns US seizure of Touska as 'armed piracy and theft'",
+  "url": "https://www.aljazeera.com/news/2026/4/19/iran-condemns-us-seizure-touska-armed-piracy",
+  "snippet": "Iran's foreign ministry condemned the seizure of the Touska as 'armed piracy and theft' and threatened retaliation. IRGC warned of a 'decisive response' to the US Navy action in the Gulf of Oman.",
+  "source_name": "Al Jazeera",
+  "language": "en",
+  "discovered_date": "2026-04-19",
+  "tag": "new",
+  "related_report": null,
+  "related_item": "src-292",
+  "tag_reason": "Iran's official response to ship seizure — threats of retaliation are new escalatory development",
+  "entities": [
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-005", "type": "Organization", "name": "IRGC"},
+    {"id": "temp-002", "type": "Event", "name": "US Navy Seizes Touska"},
+    {"id": "ent-044", "type": "Person", "name": "Abbas Araghchi"},
+    {"id": "ent-003", "type": "Organization", "name": "US Navy"},
+    {"id": "ent-008", "type": "Location", "name": "Gulf of Oman"}
+  ],
+  "relations": [
+    {"subject": "ent-002", "predicate": "opposes", "object": "temp-002"},
+    {"subject": "ent-005", "predicate": "opposes", "object": "temp-002"}
+  ]
+}

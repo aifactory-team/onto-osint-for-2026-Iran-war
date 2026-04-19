@@ -1,0 +1,25 @@
+{
+  "id": "src-295",
+  "title": "Iran rejects second round of talks in Islamabad, citing 'excessive demands'",
+  "url": "https://www.aljazeera.com/news/2026/4/19/iran-rejects-second-round-talks-islamabad-excessive-demands",
+  "snippet": "IRNA reports Iran will not participate in the second round of Pakistan-mediated talks, citing 'excessive demands', 'unrealistic expectations', and continued US naval blockade. Ceasefire expires April 23.",
+  "source_name": "Al Jazeera",
+  "language": "en",
+  "discovered_date": "2026-04-19",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Iran officially rejects second round of talks — major diplomatic breakdown, not previously reported",
+  "entities": [
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "temp-003", "type": "Event", "name": "Iran Rejects 2nd Round Talks"},
+    {"id": "ent-064", "type": "Event", "name": "Islamabad Talks"},
+    {"id": "ent-095", "type": "Concept", "name": "US Naval Blockade"},
+    {"id": "ent-125", "type": "Event", "name": "Iran Ceasefire"},
+    {"id": "ent-062", "type": "Location", "name": "Islamabad"}
+  ],
+  "relations": [
+    {"subject": "ent-002", "predicate": "participatesIn", "object": "temp-003"},
+    {"subject": "temp-003", "predicate": "follows", "object": "ent-064"}
+  ]
+}

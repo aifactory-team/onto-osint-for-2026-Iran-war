@@ -1,0 +1,22 @@
+{
+  "id": "src-318",
+  "title": "이스라엘, 레바논에 '노란선' 10km 군사통제구역 설정…55개 마을 접근 금지",
+  "url": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003226012",
+  "snippet": "이스라엘이 레바논 남부에 10km '노란선' 군사통제구역을 설정, 55개 마을 접근 금지. '가자 모델의 레바논 재현'이란 비판. IDF가 하닌 마을 가옥 폭파 지속.",
+  "source_name": "오마이뉴스",
+  "language": "ko",
+  "discovered_date": "2026-04-19",
+  "tag": "reported",
+  "related_report": "2026-04-18",
+  "related_item": "src-305",
+  "tag_reason": "Korean coverage of Yellow Line — same story as src-305 with no additional new information",
+  "entities": [
+    {"id": "ent-004", "type": "Organization", "name": "Israel"},
+    {"id": "temp-006", "type": "Event", "name": "Israel Yellow Line Lebanon"},
+    {"id": "ent-121", "type": "Location", "name": "Lebanon"},
+    {"id": "ent-004a", "type": "Organization", "name": "IDF"}
+  ],
+  "relations": [
+    {"subject": "ent-004", "predicate": "participatesIn", "object": "temp-006"}
+  ]
+}

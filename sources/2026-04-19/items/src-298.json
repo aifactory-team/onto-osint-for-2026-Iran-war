@@ -1,0 +1,25 @@
+{
+  "id": "src-298",
+  "title": "Trump accuses Iran of 'total violation' of ceasefire, threatens to destroy 'every power plant, every bridge'",
+  "url": "https://www.cnn.com/2026/04/19/politics/trump-iran-total-violation-ceasefire-threats",
+  "snippet": "Trump posted on Truth Social Sunday morning accusing Iran of a 'total violation' of the ceasefire and threatening to 'knock out every single Power Plant, and every single Bridge, in Iran' unless they accept a deal.",
+  "source_name": "CNN",
+  "language": "en",
+  "discovered_date": "2026-04-19",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Trump's 'total violation' accusation and specific infrastructure destruction threats (power plants, bridges) are new escalatory rhetoric",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"},
+    {"id": "temp-004", "type": "Event", "name": "Trump Total Violation Accusation"},
+    {"id": "temp-010", "type": "Event", "name": "Trump Infrastructure Destruction Threat"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-125", "type": "Event", "name": "Iran Ceasefire"}
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "temp-004"},
+    {"subject": "temp-004", "predicate": "relatedTo", "object": "ent-125"},
+    {"subject": "temp-010", "predicate": "follows", "object": "temp-004"}
+  ]
+}

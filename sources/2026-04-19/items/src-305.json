@@ -1,0 +1,25 @@
+{
+  "id": "src-305",
+  "title": "Israel's 'Yellow Line' in Lebanon: 10km military zone, 55 villages off-limits",
+  "url": "https://www.aljazeera.com/news/2026/4/19/israel-yellow-line-lebanon-military-zone-villages",
+  "snippet": "Israel established a 10km 'Yellow Line' military zone in southern Lebanon, declaring 55 villages off-limits. Described as 'Gaza model replicated in Lebanon.' IDF razing villages during ceasefire, blowing up homes in Haneen.",
+  "source_name": "Al Jazeera",
+  "language": "en",
+  "discovered_date": "2026-04-19",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "First detailed report on Israel's 'Yellow Line' concept — 10km zone, 55 villages, systematic demolition during ceasefire",
+  "entities": [
+    {"id": "ent-004", "type": "Organization", "name": "Israel"},
+    {"id": "temp-006", "type": "Event", "name": "Israel Yellow Line Lebanon"},
+    {"id": "ent-121", "type": "Location", "name": "Lebanon"},
+    {"id": "ent-004a", "type": "Organization", "name": "IDF"},
+    {"id": "ent-007", "type": "Organization", "name": "Hezbollah"},
+    {"id": "ent-125", "type": "Event", "name": "Iran Ceasefire"}
+  ],
+  "relations": [
+    {"subject": "ent-004", "predicate": "participatesIn", "object": "temp-006"},
+    {"subject": "temp-006", "predicate": "locatedIn", "object": "ent-121"}
+  ]
+}

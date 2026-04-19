@@ -1,0 +1,22 @@
+{
+  "id": "src-319",
+  "title": "미 해군 '경제적 분노 작전'…이란 연계 선박 전세계 나포 준비",
+  "url": "https://www.donga.com/news/Inter/article/all/20260419/131678642/1",
+  "snippet": "미군이 '경제적 분노 작전(Operation Economic Fury)'을 준비 중. 호르무즈 너머 전세계에서 이란 연계 선박을 나포할 계획. 현재까지 23척 회항.",
+  "source_name": "동아일보",
+  "language": "ko",
+  "discovered_date": "2026-04-19",
+  "tag": "reported",
+  "related_report": null,
+  "related_item": "src-308",
+  "tag_reason": "Korean coverage of Operation Economic Fury — same information as src-308 with no additional details",
+  "entities": [
+    {"id": "temp-005", "type": "Event", "name": "Operation Economic Fury"},
+    {"id": "ent-003", "type": "Organization", "name": "US Navy"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-095", "type": "Concept", "name": "US Naval Blockade"}
+  ],
+  "relations": [
+    {"subject": "ent-003", "predicate": "participatesIn", "object": "temp-005"}
+  ]
+}
