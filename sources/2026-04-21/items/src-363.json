@@ -1,0 +1,24 @@
+{
+  "id": "src-363",
+  "title": "Tasnim: Iran says 'no decision change' on rejecting US talks",
+  "url": "https://www.timesofisrael.com/liveblog-april-21-2026/#entry-tasnim-iran-no-decision-change",
+  "snippet": "Times of Israel liveblog cites Iran's Tasnim news agency stating Iran has 'no decision change' regarding its rejection of talks with the US. This was published after Trump's ceasefire extension, confirming Iran's stance has not softened despite the extension.",
+  "source_name": "Times of Israel (via Tasnim)",
+  "language": "en",
+  "discovered_date": "2026-04-21",
+  "tag": "update",
+  "related_report": "2026-04-19",
+  "related_item": "src-295",
+  "tag_reason": "4/19 이란 협상 거부(src-295)의 후속. 신규 정보: 트럼프의 휴전 연장에도 불구하고 이란 입장 변화 없음을 Tasnim이 공식 확인.",
+  "entities": [
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "state"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President"},
+    {"id": "temp-007", "type": "Event", "name": "Iran Formal Rejection Through Pakistan (Apr 21)", "date": "2026-04-21"},
+    {"id": "temp-001", "type": "Event", "name": "Trump Ceasefire Indefinite Extension (Apr 21)", "date": "2026-04-21"},
+    {"id": "temp-008", "type": "Organization", "name": "Tasnim News Agency", "role": "Iranian semi-official media"}
+  ],
+  "relations": [
+    {"subject": "ent-002", "predicate": "opposes", "object": "ent-001"},
+    {"subject": "temp-007", "predicate": "relatedTo", "object": "temp-001"}
+  ]
+}

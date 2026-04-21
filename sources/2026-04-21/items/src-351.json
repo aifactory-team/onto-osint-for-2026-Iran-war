@@ -1,0 +1,23 @@
+{
+  "id": "src-351",
+  "title": "Trump extends ceasefire with Iran after saying he wouldn't",
+  "url": "https://www.nbcnews.com/politics/trump-extends-ceasefire-iran-reversal-rcna341890",
+  "snippet": "NBC News reports Trump extended ceasefire indefinitely after saying he wouldn't. Covers the same reversal as CNN/CNBC/Axios without significant new details.",
+  "source_name": "NBC News",
+  "language": "en",
+  "discovered_date": "2026-04-21",
+  "tag": "reported",
+  "related_report": "2026-04-21/src-348",
+  "related_item": "src-348",
+  "tag_reason": "CNN(src-348)과 동일한 트럼프 휴전 연장 사실 보도. 추가 정보 없이 동일 사실 반복.",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "state"},
+    {"id": "temp-001", "type": "Event", "name": "Trump Ceasefire Indefinite Extension (Apr 21)", "date": "2026-04-21"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz", "role": "blockade"},
+    {"id": "ent-029", "type": "Organization", "name": "Pakistan", "role": "mediator"}
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "temp-001"}
+  ]
+}

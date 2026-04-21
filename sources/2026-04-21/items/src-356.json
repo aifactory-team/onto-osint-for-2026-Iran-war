@@ -1,0 +1,23 @@
+{
+  "id": "src-356",
+  "title": "Trump extends ceasefire: blockade remains in full force",
+  "url": "https://www.euronews.com/2026/04/21/trump-extends-iran-ceasefire-blockade-remains",
+  "snippet": "Euronews reports Trump's ceasefire extension with emphasis on blockade remaining. Also confirms Vance trip postponement. No significant additional details beyond existing coverage.",
+  "source_name": "Euronews",
+  "language": "en",
+  "discovered_date": "2026-04-21",
+  "tag": "reported",
+  "related_report": "2026-04-21/src-348",
+  "related_item": "src-348",
+  "tag_reason": "CNN(src-348), Axios(src-350)와 동일 사실 보도. Euronews 독자 추가 정보 없음.",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "state"},
+    {"id": "temp-001", "type": "Event", "name": "Trump Ceasefire Indefinite Extension (Apr 21)", "date": "2026-04-21"},
+    {"id": "ent-041", "type": "Person", "name": "JD Vance", "role": "US Vice President"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz", "role": "blockade"}
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "temp-001"}
+  ]
+}

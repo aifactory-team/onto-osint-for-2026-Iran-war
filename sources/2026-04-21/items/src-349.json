@@ -1,0 +1,25 @@
+{
+  "id": "src-349",
+  "title": "Trump on CNBC morning: 'I don't want to' extend ceasefire — then reversed 7 hours later",
+  "url": "https://www.cnbc.com/2026/04/21/trump-iran-ceasefire-extension-reversal-truth-social.html",
+  "snippet": "During a morning CNBC interview, Trump stated 'I don't want to' extend the Iran ceasefire when directly asked. Seven hours later, he posted on Truth Social extending it indefinitely. CNBC coverage highlights the dramatic reversal and its impact on after-hours markets: WTI dropped 1.1% to $88.60, Brent fell 0.6% to $94.89.",
+  "source_name": "CNBC",
+  "language": "en",
+  "discovered_date": "2026-04-21",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "트럼프의 당일 오전 발언과 오후 번복을 시간순으로 정리한 신규 보도. CNBC 인터뷰 내용과 시장 영향 포함.",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President"},
+    {"id": "temp-001", "type": "Event", "name": "Trump Ceasefire Indefinite Extension (Apr 21)", "date": "2026-04-21"},
+    {"id": "temp-003", "type": "Event", "name": "Oil After-Hours Drop (Apr 21)", "date": "2026-04-21"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "state"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz", "role": "blockade"},
+    {"id": "temp-004", "type": "Concept", "name": "CNBC Interview Reversal", "domain": "politics"}
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "temp-001"},
+    {"subject": "temp-001", "predicate": "causedBy", "object": "temp-003"}
+  ]
+}

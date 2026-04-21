@@ -1,0 +1,22 @@
+{
+  "id": "src-373",
+  "title": "After-hours: WTI -1.1% to $88.60, Brent -0.6% to $94.89 on Trump ceasefire extension",
+  "url": "https://www.thestreet.com/markets/oil-after-hours-drop-trump-ceasefire-extension-iran",
+  "snippet": "TheStreet focuses on the after-hours oil price decline following Trump's ceasefire extension. WTI fell to $88.60 (-1.1%), Brent to $94.89 (-0.6%). The report frames this as a modest relief rally given the extension removes the immediate threat of war resumption.",
+  "source_name": "TheStreet",
+  "language": "en",
+  "discovered_date": "2026-04-21",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "시간외 유가 하락에 초점을 맞춘 TheStreet의 독자적 시장 분석. 전쟁 재개 위협 제거에 따른 완화 랠리로 해석.",
+  "entities": [
+    {"id": "temp-003", "type": "Event", "name": "Oil After-Hours Drop (Apr 21)", "date": "2026-04-21"},
+    {"id": "temp-001", "type": "Event", "name": "Trump Ceasefire Indefinite Extension (Apr 21)", "date": "2026-04-21"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz", "role": "blockade"}
+  ],
+  "relations": [
+    {"subject": "temp-003", "predicate": "causedBy", "object": "temp-001"}
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "src-350",
+  "title": "Trump extends Iran ceasefire 'until such time as their proposal is submitted'",
+  "url": "https://www.axios.com/2026/04/21/trump-iran-ceasefire-extended-indefinitely",
+  "snippet": "Axios reports Trump extended ceasefire 'until such time as their proposal is submitted,' implying open-ended timeline conditioned on Iran presenting a deal proposal. Axios also confirmed Vance's trip to Islamabad was 'postponed indefinitely.' The blockade remains.",
+  "source_name": "Axios",
+  "language": "en",
+  "discovered_date": "2026-04-21",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Axios의 독자적 보도로, 트럼프 연장 조건의 구체적 문구('until such time as their proposal is submitted')와 밴스 여행 연기 확인을 결합한 신규 분석 기사.",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President"},
+    {"id": "ent-041", "type": "Person", "name": "JD Vance", "role": "US Vice President"},
+    {"id": "temp-001", "type": "Event", "name": "Trump Ceasefire Indefinite Extension (Apr 21)", "date": "2026-04-21"},
+    {"id": "temp-005", "type": "Event", "name": "Vance Islamabad Trip Postponement (Apr 21)", "date": "2026-04-21"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "state"},
+    {"id": "ent-051", "type": "Location", "name": "Islamabad", "role": "planned talks venue"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz", "role": "blockade"}
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "temp-001"},
+    {"subject": "ent-041", "predicate": "participatesIn", "object": "temp-005"},
+    {"subject": "temp-005", "predicate": "relatedTo", "object": "temp-001"}
+  ]
+}

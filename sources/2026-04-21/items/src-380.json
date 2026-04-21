@@ -1,0 +1,23 @@
+{
+  "id": "src-380",
+  "title": "YTN: 호르무즈 긴장 최고조...협상-확전 기로, 트럼프 무기한 연장",
+  "url": "https://www.ytn.co.kr/_ln/0104_202604211930257812",
+  "snippet": "YTN은 호르무즈 긴장이 최고조에 달한 가운데 협상과 확전의 기로에 서 있다고 분석. 트럼프의 무기한 연장 결정, 이란의 협상 거부, 헤즈볼라의 레바논 휴전 위반 등을 종합 보도.",
+  "source_name": "YTN",
+  "language": "ko",
+  "discovered_date": "2026-04-21",
+  "tag": "update",
+  "related_report": "2026-04-20",
+  "related_item": "src-335",
+  "tag_reason": "4/20 YTN 보도의 후속. 신규 정보: 4/21 트럼프 무기한 연장과 헤즈볼라 공격을 포함한 종합 상황 업데이트.",
+  "entities": [
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz", "role": "tension peak"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "refusing talks"},
+    {"id": "ent-047", "type": "Organization", "name": "Hezbollah", "role": "ceasefire violation"}
+  ],
+  "relations": [
+    {"subject": "ent-008", "predicate": "relatedTo", "object": "temp-001"},
+    {"subject": "ent-047", "predicate": "relatedTo", "object": "temp-010"}
+  ]
+}

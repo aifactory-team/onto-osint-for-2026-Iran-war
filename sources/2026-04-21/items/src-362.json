@@ -1,0 +1,25 @@
+{
+  "id": "src-362",
+  "title": "Iran cites three reasons for rejecting talks: Lebanon ceasefire gap, excessive demands, blockade",
+  "url": "https://www.npr.org/2026/04/21/iran-three-reasons-rejecting-talks-lebanon-demands-blockade",
+  "snippet": "NPR details Iran's three specific objections: (1) the ceasefire does not extend to cover the Lebanon front, (2) US demands are excessive and unrealistic, (3) the naval blockade constitutes an 'act of war' that violates the ceasefire terms. These objections were communicated through Pakistan.",
+  "source_name": "NPR",
+  "language": "en",
+  "discovered_date": "2026-04-21",
+  "tag": "update",
+  "related_report": "2026-04-19",
+  "related_item": "src-295",
+  "tag_reason": "4/19 이란 협상 거부(src-295)의 후속. 3가지 구체 거부 사유를 정리한 NPR 독자 분석.",
+  "entities": [
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "state"},
+    {"id": "ent-050", "type": "Location", "name": "Lebanon", "role": "ceasefire gap"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz", "role": "blockade"},
+    {"id": "ent-029", "type": "Organization", "name": "Pakistan", "role": "intermediary"},
+    {"id": "temp-007", "type": "Event", "name": "Iran Formal Rejection Through Pakistan (Apr 21)", "date": "2026-04-21"},
+    {"id": "ent-026", "type": "Concept", "name": "Strait of Hormuz Blockade", "domain": "maritime/energy"}
+  ],
+  "relations": [
+    {"subject": "ent-002", "predicate": "opposes", "object": "ent-026"},
+    {"subject": "temp-007", "predicate": "relatedTo", "object": "ent-109"}
+  ]
+}

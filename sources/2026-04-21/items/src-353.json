@@ -1,0 +1,26 @@
+{
+  "id": "src-353",
+  "title": "Iran's government 'seriously fractured' — Trump cites as reason for extension",
+  "url": "https://www.aljazeera.com/news/2026/4/21/trump-extends-iran-ceasefire-seriously-fractured-government",
+  "snippet": "Al Jazeera reports Trump described Iran's government as 'seriously fractured' in his Truth Social post, citing this internal division as a strategic reason for extending rather than resuming bombing. The report provides context on the IRGC-diplomat rift and Vahidi's control as evidence for Trump's claim.",
+  "source_name": "Al Jazeera",
+  "language": "en",
+  "discovered_date": "2026-04-21",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "트럼프의 '심각하게 분열된 정부' 발언과 이란 내부 권력 투쟁 연결 분석은 기존 IRGC-외교관 갈등 보도(4/18-20)의 맥락이지만, 트럼프가 이를 연장 근거로 활용한 점은 신규 정보.",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "state"},
+    {"id": "ent-005", "type": "Organization", "name": "IRGC", "role": "military"},
+    {"id": "ent-138", "type": "Person", "name": "Ahmad Vahidi", "role": "IRGC Commander-in-Chief"},
+    {"id": "temp-001", "type": "Event", "name": "Trump Ceasefire Indefinite Extension (Apr 21)", "date": "2026-04-21"},
+    {"id": "ent-135", "type": "Concept", "name": "IRGC-Diplomatic Rift", "domain": "internal politics"}
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "mentions", "object": "ent-135"},
+    {"subject": "ent-138", "predicate": "opposes", "object": "ent-044"},
+    {"subject": "temp-001", "predicate": "relatedTo", "object": "ent-135"}
+  ]
+}

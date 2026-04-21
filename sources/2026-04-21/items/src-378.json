@@ -1,0 +1,22 @@
+{
+  "id": "src-378",
+  "title": "머니투데이: 다시 막힌 호르무즈, 유가 7% 상승...휴전 연장에도 봉쇄 지속",
+  "url": "https://www.mt.co.kr/view/mtview.php?type=1&no=2026042114305634562",
+  "snippet": "머니투데이는 호르무즈 해협이 다시 완전 봉쇄된 상황에서 유가가 7% 상승했다고 보도. 트럼프의 휴전 무기한 연장에도 불구하고 해상 봉쇄는 지속되며, 실물 원유가격은 선물보다 훨씬 높은 상태.",
+  "source_name": "머니투데이",
+  "language": "ko",
+  "discovered_date": "2026-04-21",
+  "tag": "update",
+  "related_report": "2026-04-20",
+  "related_item": "src-335",
+  "tag_reason": "4/20 한국어 유가/호르무즈 보도(src-335)의 후속. 신규 정보: 4/21 유가 7% 상승 데이터와 휴전 연장에도 봉쇄 지속이라는 모순 구조 분석.",
+  "entities": [
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz", "role": "blockade"},
+    {"id": "temp-017", "type": "Event", "name": "Oil Price Apr 21 (up then after-hours down)", "date": "2026-04-21"},
+    {"id": "temp-001", "type": "Event", "name": "Trump Ceasefire Indefinite Extension (Apr 21)", "date": "2026-04-21"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President"}
+  ],
+  "relations": [
+    {"subject": "temp-017", "predicate": "relatedTo", "object": "ent-008"}
+  ]
+}

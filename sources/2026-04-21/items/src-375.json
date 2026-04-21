@@ -1,0 +1,24 @@
+{
+  "id": "src-375",
+  "title": "Pakistan races against time to get Iran back to negotiating table",
+  "url": "https://www.aljazeera.com/news/2026/4/21/pakistan-races-against-time-iran-negotiating-table",
+  "snippet": "Al Jazeera reports Pakistan is in an intensified diplomatic push to bring Iran back to the negotiating table. Despite Iran's official rejection, Pakistani intermediaries continue shuttle diplomacy. The ceasefire extension gives Pakistan more time but the blockade remains a key stumbling block.",
+  "source_name": "Al Jazeera",
+  "language": "en",
+  "discovered_date": "2026-04-21",
+  "tag": "update",
+  "related_report": "2026-04-20",
+  "related_item": "src-325",
+  "tag_reason": "4/20 파키스탄 중재 노력(src-325, src-333)의 후속. 신규 정보: 이란 공식 거부에도 불구하고 파키스탄이 셔틀 외교를 지속하고 있다는 점과, 휴전 연장이 시간을 벌어주었다는 분석.",
+  "entities": [
+    {"id": "ent-029", "type": "Organization", "name": "Pakistan", "role": "mediator"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "refusing talks"},
+    {"id": "ent-027", "type": "Person", "name": "Shehbaz Sharif", "role": "Pakistan PM"},
+    {"id": "ent-028", "type": "Person", "name": "Asim Munir", "role": "Pakistan Field Marshal"},
+    {"id": "temp-007", "type": "Event", "name": "Iran Formal Rejection Through Pakistan (Apr 21)", "date": "2026-04-21"}
+  ],
+  "relations": [
+    {"subject": "ent-029", "predicate": "cooperatesWith", "object": "ent-002"},
+    {"subject": "ent-029", "predicate": "participatesIn", "object": "temp-007"}
+  ]
+}

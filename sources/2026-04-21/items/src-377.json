@@ -1,0 +1,24 @@
+{
+  "id": "src-377",
+  "title": "Iran FM: US blockade is 'act of war' violating ceasefire",
+  "url": "https://www.npr.org/2026/04/21/iran-fm-blockade-act-of-war-ceasefire-violation",
+  "snippet": "NPR reports Iran's Foreign Minister stated the US naval blockade constitutes an 'act of war' that violates the ceasefire terms. This statement reinforces Iran's position that the blockade and ceasefire are incompatible and serves as diplomatic justification for refusing talks.",
+  "source_name": "NPR",
+  "language": "en",
+  "discovered_date": "2026-04-21",
+  "tag": "update",
+  "related_report": "2026-04-19",
+  "related_item": "src-298",
+  "tag_reason": "4/19-20 이란의 봉쇄 비판(src-293, src-298)의 후속. 신규 정보: '전쟁 행위(act of war)'라는 격상된 표현 사용과 이를 협상 거부의 법적 근거로 활용.",
+  "entities": [
+    {"id": "ent-044", "type": "Person", "name": "Abbas Araghchi", "role": "Iran Foreign Minister"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "state"},
+    {"id": "ent-003", "type": "Organization", "name": "US Military", "role": "blockade enforcer"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz", "role": "blockade zone"},
+    {"id": "ent-026", "type": "Concept", "name": "Strait of Hormuz Blockade", "domain": "maritime/energy"}
+  ],
+  "relations": [
+    {"subject": "ent-044", "predicate": "opposes", "object": "ent-003"},
+    {"subject": "ent-002", "predicate": "opposes", "object": "ent-026"}
+  ]
+}

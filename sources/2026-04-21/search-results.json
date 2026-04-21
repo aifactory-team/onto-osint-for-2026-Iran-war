@@ -1,0 +1,175 @@
+{
+  "date": "2026-04-21",
+  "collected_at": "2026-04-21T23:00:00Z",
+  "config_topic": "2026 Iran War",
+  "search_count": 12,
+  "total_results": 78,
+  "expanded_keywords": ["Iran ceasefire extension", "Trump fractured Iran", "Vance Islamabad postponed", "Hezbollah rockets ceasefire violation", "Hormuz blockade oil prices", "Israel attack plans Iran", "이란 휴전 연장", "이슬라마바드 2차 협상", "호르무즈 봉쇄 유가"],
+  "searches": [
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Iran war ceasefire April 21 2026 Islamabad talks",
+      "language": "en",
+      "timestamp": "2026-04-21T23:00:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "Talks with Iran are in doubt as Vance delays his trip without word if Iran will join", "url": "https://www.npr.org/2026/04/21/nx-s1-5793638/iran-middle-east-updates", "snippet": "Trump extends ceasefire, Vance delays trip, Iran boycotts talks", "source_name": "NPR"},
+        {"title": "Live updates: Trump says he will extend ceasefire with Iran until negotiations conclude", "url": "https://www.cnn.com/2026/04/21/world/live-news/iran-war-us-trump-israel", "snippet": "Trump extends ceasefire citing fractured Iranian government", "source_name": "CNN"},
+        {"title": "Live updates: Trump extends Iran ceasefire, offering time for its leadership to unify around a proposal", "url": "https://www.nbcnews.com/world/iran/live-blog/live-updates-iran-war-trump-peace-talks-vance-ceasefire-ship-hormuz-rcna341149", "snippet": "Trump extends ceasefire at Pakistan's request", "source_name": "NBC News"},
+        {"title": "Trump wants to extend Iran ceasefire, until negotiations conclude", "url": "https://www.euronews.com/2026/04/21/us-iran-ceasefire-on-brink-of-collapse-as-talks-stall-and-strait-of-hormuz-crisis-deepens", "snippet": "Vance's trip to Pakistan on hold", "source_name": "Euronews"},
+        {"title": "US and Iran Signal New Ceasefire Talks in Islamabad as Truce Nears End", "url": "https://www.military.com/daily-news/2026/04/21/us-and-iran-signal-new-ceasefire-talks-islamabad-truce-nears-end.html", "snippet": "Talks signaled as truce nears end", "source_name": "Military.com"},
+        {"title": "Iran war live updates: Trump suggests he won't end ceasefire with Iran even if talks are productive", "url": "https://www.ms.now/liveblog/iran-war-live-updates-news-today-april-21-2026", "snippet": "Trump morning-afternoon flip on ceasefire", "source_name": "MS Now"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Iran Hormuz blockade April 21 2026",
+      "language": "en",
+      "timestamp": "2026-04-21T23:01:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "Trump extends Iran ceasefire, keeps blockade as Pakistan talks in disarray", "url": "https://www.aljazeera.com/news/liveblog/2026/4/21/iran-war-live-tehran-shuns-talks-trump-says-us-blockade-to-remain", "snippet": "Trump extends ceasefire, blockade remains, Pakistan talks in disarray", "source_name": "Al Jazeera"},
+        {"title": "Iran Is Running Out of Time and Options", "url": "https://www.realclearenergy.org/articles/2026/04/21/iran_is_running_out_of_time_and_options_1177839.html", "snippet": "Iran running out of options as blockade continues", "source_name": "RealClearEnergy"},
+        {"title": "Trump Says U.S. Will Extend Ceasefire With Iran", "url": "https://time.com/article/2026/04/21/iran-us-trump-war-ceasefire-talks-stalemate/", "snippet": "Ceasefire extended but blockade continues", "source_name": "Time"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Vance Islamabad Iran talks second round April 2026",
+      "language": "en",
+      "timestamp": "2026-04-21T23:02:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "Pakistan races against time to get Iran back to US talks as truce end nears", "url": "https://www.aljazeera.com/news/2026/4/21/pakistan-races-against-time-to-get-iran-back-to-us-talks-as-truce-end-nears", "snippet": "Pakistan racing to get Iran back to talks", "source_name": "Al Jazeera"},
+        {"title": "Vance's Pakistan trip postponed indefinitely as Iran boycotts peace talks", "url": "https://www.axios.com/2026/04/21/iran-us-war-peace-talks-vance-pakistan", "snippet": "Vance trip postponed indefinitely, Iran boycotts", "source_name": "Axios"},
+        {"title": "Vance's trip to Pakistan for talks with Iran on hold, US official says", "url": "https://www.euronews.com/2026/04/21/us-iran-ceasefire-on-brink-of-collapse-as-talks-stall-and-strait-of-hormuz-crisis-deepens", "snippet": "Vance trip on hold per US official", "source_name": "Euronews"},
+        {"title": "Vance trip to Pakistan for Iran talks is on hold, NYT reports", "url": "https://www.cnbc.com/2026/04/21/trump-vance-iran-war-pakistan.html", "snippet": "NYT: Vance trip on hold", "source_name": "CNBC"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "IRGC Iran nuclear deal ceasefire expiry April 2026",
+      "language": "en",
+      "timestamp": "2026-04-21T23:03:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "Trump announces Iran ceasefire extension but says blockade remains", "url": "https://www.aljazeera.com/news/2026/4/21/trump-announces-extending-iran-ceasefire-but-says-blockade-remains", "snippet": "Ceasefire extended, blockade remains, IRGC dismisses", "source_name": "Al Jazeera"},
+        {"title": "Trump extends ceasefire in Iran, citing 'seriously fractured' Iranian government", "url": "https://www.cnbc.com/2026/04/21/trump-iran-war-ceasefire.html", "snippet": "Trump cites fractured government, extends ceasefire", "source_name": "CNBC"},
+        {"title": "Trump extends Iran ceasefire, citing 'fractured' Iranian government", "url": "https://www.axios.com/2026/04/21/trump-iran-war-ceasefire-extension", "snippet": "Axios: fractured government, ceasefire extended", "source_name": "Axios"},
+        {"title": "'New cards on the battlefield': U.S., Iran ratchet up rhetoric with peace talks in limbo", "url": "https://www.cnbc.com/2026/04/21/new-cards-on-the-battlefield-us-iran-ratchet-up-rhetoric-with-peace-talks-in-limbo.html", "snippet": "New cards, rhetoric escalation", "source_name": "CNBC"},
+        {"title": "US, Iran exchange threats as fragile ceasefire set to expire", "url": "https://www.aljazeera.com/news/2026/4/21/us-and-iran-exchange-threats-as-fragile-ceasefire-set-to-expire", "snippet": "US and Iran exchange threats", "source_name": "Al Jazeera"},
+        {"title": "U.S. delays new round of negotiations with Iran as ceasefire deadline nears", "url": "https://www.pbs.org/newshour/world/u-s-and-iran-signal-new-ceasefire-talks-in-islamabad-as-fragile-truce-nears-end", "snippet": "US delays negotiations, deadline near", "source_name": "PBS"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "이란 전쟁 휴전 이슬라마바드 2차 협상 2026년 4월",
+      "language": "ko",
+      "timestamp": "2026-04-21T23:04:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "이란 이어 美대표단도 이슬라마바드 도착…협상 개시여부 주목", "url": "https://www.koreancenter.or.kr/news/articleView.html?idxno=1337949", "snippet": "미국 대표단 이슬라마바드 도착, 이란 불참 여부 주목", "source_name": "코리안센터"},
+        {"title": "\"美·이란 2차 협상 예정대로 열릴 것…양국 대표단 동시 도착\"", "url": "https://www.news1.kr/amp/world/middleeast-africa/6144392", "snippet": "뉴스1: 2차 협상 예정대로", "source_name": "뉴스1"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "이란 호르무즈 해협 봉쇄 유가 2026년 4월 21일",
+      "language": "ko",
+      "timestamp": "2026-04-21T23:05:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "다시 막힌 호르무즈, 국제유가 7% 상승…종전협상에 촉각", "url": "https://www.mt.co.kr/world/2026/04/21/2026042104573084299", "snippet": "호르무즈 재폐쇄 유가 7% 상승", "source_name": "머니투데이"},
+        {"title": "호르무즈 다시 막히자 유가 폭등…배럴당 95달러 재돌파", "url": "https://www.etnews.com/20260421000014", "snippet": "유가 폭등 배럴당 95달러 재돌파", "source_name": "전자신문"},
+        {"title": "호르무즈 긴장 최고조...주초 협상-확전 기로", "url": "https://www.ytn.co.kr/_ln/0104_202604202152498927", "snippet": "호르무즈 긴장 최고조 협상-확전 기로", "source_name": "YTN"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Lebanon ceasefire Israel Hezbollah April 21 2026",
+      "language": "en",
+      "timestamp": "2026-04-21T23:06:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "Hezbollah fires at Israeli forces for first time since Lebanon ceasefire", "url": "https://www.thenationalnews.com/news/mena/2026/04/21/hezbollah-fires-at-israeli-forces-for-first-time-since-lebanon-ceasefire/", "snippet": "Hezbollah fires rockets, first since ceasefire", "source_name": "The National"},
+        {"title": "Israel-Lebanon Talks Are a Moment of Reckoning", "url": "https://foreignpolicy.com/2026/04/21/israel-lebanon-hezbollah-trump-iran-cease-fire-talks-beirut/", "snippet": "Israel-Lebanon talks moment of reckoning", "source_name": "Foreign Policy"},
+        {"title": "Report says Israel doubts prospects of Iran deal, is coordinating potential attack plans with US", "url": "https://www.timesofisrael.com/liveblog-april-21-2026/", "snippet": "Israel doubts Iran deal, coordinates attack plans", "source_name": "Times of Israel"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Trump Iran bombs ceasefire expires Wednesday April 2026",
+      "language": "en",
+      "timestamp": "2026-04-21T23:07:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "Trump extends ceasefire in Iran, citing 'seriously fractured' Iranian government", "url": "https://www.cnbc.com/2026/04/21/trump-iran-war-ceasefire.html", "snippet": "Trump extends ceasefire citing fractured government", "source_name": "CNBC"},
+        {"title": "Trump announces Iran ceasefire extension but says blockade remains", "url": "https://www.aljazeera.com/news/2026/4/21/trump-announces-extending-iran-ceasefire-but-says-blockade-remains", "snippet": "Extension announced, blockade stays", "source_name": "Al Jazeera"},
+        {"title": "Trump says he opposes extending Iran ceasefire amid talks uncertainty", "url": "https://www.aljazeera.com/news/2026/4/21/trump-says-he-opposes-extending-iran-ceasefire-amid-talks-uncertainty", "snippet": "Morning: opposes extension. Later: extends.", "source_name": "Al Jazeera"},
+        {"title": "Live Updates: Trump extends ceasefire as uncertainty over U.S.-Iran peace talks remains", "url": "https://www.cbsnews.com/live-updates/us-iran-war-trump-ceasefire-pakistan-peace-talks-ultimatum/", "snippet": "Ceasefire extended, uncertainty remains", "source_name": "CBS News"},
+        {"title": "Trump Extends Iran Blockade, Ceasefire As Negotiations Remain In Limbo", "url": "https://dailycaller.com/2026/04/21/trump-extends-iran-blockade-ceasefire-negotiations-limbo/", "snippet": "Blockade and ceasefire extended", "source_name": "Daily Caller"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Trump extends ceasefire Iran fractured government Truth Social April 21 2026",
+      "language": "en",
+      "timestamp": "2026-04-21T23:08:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "Trump extends ceasefire in Iran, citing 'seriously fractured' Iranian government", "url": "https://www.cnbc.com/2026/04/21/trump-iran-war-ceasefire.html", "snippet": "Truth Social post: seriously fractured, extend until unified proposal", "source_name": "CNBC"},
+        {"title": "Trump extends Iran ceasefire, citing 'fractured' Iranian government", "url": "https://www.axios.com/2026/04/21/trump-iran-war-ceasefire-extension", "snippet": "Axios: fractured government, Pakistan request", "source_name": "Axios"},
+        {"title": "President Trump Just Extended the Iran Ceasefire", "url": "https://townhall.com/tipsheet/dmitri-bolt/2026/04/21/iran-ceasefire-extended-n2674844", "snippet": "Ceasefire extended", "source_name": "Townhall"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Hezbollah fires rockets Israel ceasefire violation April 21 2026",
+      "language": "en",
+      "timestamp": "2026-04-21T23:09:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "Hezbollah fires at Israeli forces for first time since Lebanon ceasefire", "url": "https://www.thenationalnews.com/news/mena/2026/04/21/hezbollah-fires-at-israeli-forces-for-first-time-since-lebanon-ceasefire/", "snippet": "First Hezbollah attack since ceasefire began", "source_name": "The National"},
+        {"title": "Hezbollah violates ceasefire, fires at IDF troops", "url": "https://www.israelhayom.com/2026/04/21/hezbollah-violates-ceasefire-fires-at-idf-troops", "snippet": "Ceasefire violated, IDF troops targeted", "source_name": "Israel Hayom"},
+        {"title": "IDF says Hezbollah breached truce by launching rockets at troops, drone at Israel", "url": "https://www.timesofisrael.com/liveblog_entry/idf-says-hezbollah-breached-truce-by-launching-rockets-at-troops-drone-at-israel/", "snippet": "Rockets at Rab al-Thalathine, drone intercepted", "source_name": "Times of Israel"},
+        {"title": "Hezbollah Fires Rockets at Israel After Alleged Ceasefire Violation in US-Iran Truce", "url": "https://gulfnews.com/world/mena/hezbollah-says-fired-rockets-towards-israel-in-response-to-violation-of-ceasefire-1.500500869", "snippet": "Hezbollah fires in response to Israeli violations", "source_name": "Gulf News"},
+        {"title": "Iran accuses US of violations as truce deadline looms; Hezbollah fires at Israel", "url": "https://www.khaleejtimes.com/world/mena/iran-us-israel-lebanon-war-ceasefire-day-14-live-updates", "snippet": "Iran accuses US, Hezbollah fires", "source_name": "Khaleej Times"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "oil prices markets April 21 2026 Hormuz Iran ceasefire",
+      "language": "en",
+      "timestamp": "2026-04-21T23:10:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "Oil prices little changed as Trump expects Iran deal but prepared to resume war if talks fail", "url": "https://www.cnbc.com/2026/04/21/oil-price-iran-war-strait-hormuz-tanker-ceasefire-peace-talks.html", "snippet": "Brent $98.48, WTI $92.13, then after-hours drop on extension", "source_name": "CNBC"},
+        {"title": "Stock Market Today (Apr. 21, 2026): Equities down ahead of ceasefire expiry", "url": "https://www.thestreet.com/latest-news/stock-market-today-apr-21-2026-updates", "snippet": "S&P, Nasdaq, Dow all down 0.6%", "source_name": "TheStreet"},
+        {"title": "U.S. stocks slip and oil prices rise on uncertainty about U.S.-Iran ceasefire talks", "url": "https://www.bnnbloomberg.ca/markets/dow-jones/2026/04/21/oil-prices-slip-and-world-shares-mostly-gain-as-us-iran-talks-still-in-doubt/", "snippet": "Stocks slip, oil rises on uncertainty", "source_name": "BNN Bloomberg"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Israel Iran attack plans deal doubts April 21 2026",
+      "language": "en",
+      "timestamp": "2026-04-21T23:11:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "Report says Israel doubts prospects of Iran deal, is coordinating potential attack plans with US", "url": "https://www.timesofisrael.com/liveblog_entry/report-israel-doubts-prospects-of-iran-deal-coordinated-potential-attack-plans-with-us/", "snippet": "Israel doubts deal, coordinates attack plans with US", "source_name": "Times of Israel"},
+        {"title": "Report: Israel doubts prospects of Iran deal, coordinated potential attack plans with US", "url": "https://www.timesofisrael.com/liveblog-april-21-2026/", "snippet": "Senior security official to Kan: jointly preparing for war resumption", "source_name": "Times of Israel"}
+      ]
+    }
+  ]
+}

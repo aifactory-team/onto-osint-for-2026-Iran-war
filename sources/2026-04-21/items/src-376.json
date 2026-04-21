@@ -1,0 +1,24 @@
+{
+  "id": "src-376",
+  "title": "IRGC dismisses ceasefire: 'strait will not be opened to enemies through ridiculous spectacle by US president'",
+  "url": "https://www.aljazeera.com/news/2026/4/21/irgc-dismisses-ceasefire-extension-ridiculous-spectacle",
+  "snippet": "Al Jazeera and CNBC report IRGC statement dismissing Trump's ceasefire extension: 'the strait will not be opened to the enemies of this nation through the ridiculous spectacle by the president of the US.' The statement signals IRGC will not change its Hormuz posture regardless of ceasefire status.",
+  "source_name": "Al Jazeera / CNBC",
+  "language": "en",
+  "discovered_date": "2026-04-21",
+  "tag": "update",
+  "related_report": "2026-04-20",
+  "related_item": "src-329",
+  "tag_reason": "4/20 IRGC 강경 노선(src-329, src-331)의 후속. 신규 정보: IRGC가 트럼프 휴전 연장을 구체적으로 '우스꽝스러운 쇼'로 규정하며 호르무즈 개방 불가 입장을 재확인.",
+  "entities": [
+    {"id": "ent-005", "type": "Organization", "name": "IRGC", "role": "statement issuer"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz", "role": "remains closed"},
+    {"id": "temp-001", "type": "Event", "name": "Trump Ceasefire Indefinite Extension (Apr 21)", "date": "2026-04-21"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "state"}
+  ],
+  "relations": [
+    {"subject": "ent-005", "predicate": "opposes", "object": "ent-001"},
+    {"subject": "ent-005", "predicate": "relatedTo", "object": "ent-008"}
+  ]
+}

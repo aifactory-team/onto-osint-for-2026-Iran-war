@@ -1,0 +1,27 @@
+{
+  "id": "src-352",
+  "title": "Trump cites Pakistan's request: Munir and Sharif asked for ceasefire extension",
+  "url": "https://www.npr.org/2026/04/21/trump-extends-iran-ceasefire-pakistan-request-munir-sharif",
+  "snippet": "NPR reports that Trump specifically cited Pakistan FM Asim Munir and PM Shehbaz Sharif's request as a factor in his decision to extend the ceasefire. The report details how Pakistan's dual-track diplomacy (Munir military, Sharif political) influenced the reversal. Blockade remains fully in effect.",
+  "source_name": "NPR",
+  "language": "en",
+  "discovered_date": "2026-04-21",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "파키스탄 측 요청이 트럼프 결정의 직접 원인이라는 NPR의 독자적 분석. Munir/Sharif의 구체적 역할을 설명하는 신규 정보 포함.",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President"},
+    {"id": "ent-028", "type": "Person", "name": "Asim Munir", "role": "Pakistan Field Marshal"},
+    {"id": "ent-027", "type": "Person", "name": "Shehbaz Sharif", "role": "Pakistan PM"},
+    {"id": "ent-029", "type": "Organization", "name": "Pakistan", "role": "mediator"},
+    {"id": "temp-001", "type": "Event", "name": "Trump Ceasefire Indefinite Extension (Apr 21)", "date": "2026-04-21"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "state"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz", "role": "blockade"}
+  ],
+  "relations": [
+    {"subject": "ent-028", "predicate": "cooperatesWith", "object": "ent-001"},
+    {"subject": "ent-027", "predicate": "cooperatesWith", "object": "ent-001"},
+    {"subject": "ent-029", "predicate": "participatesIn", "object": "temp-001"}
+  ]
+}

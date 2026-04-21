@@ -1,0 +1,23 @@
+{
+  "id": "src-354",
+  "title": "Trump extends ceasefire, says Iran government 'fractured' and deal possible",
+  "url": "https://time.com/7284521/trump-iran-ceasefire-extended-indefinitely-fractured/",
+  "snippet": "Time magazine reports Trump's ceasefire extension with 'fractured' government rationale. Coverage largely mirrors CNN and Al Jazeera reporting without additional new information.",
+  "source_name": "Time",
+  "language": "en",
+  "discovered_date": "2026-04-21",
+  "tag": "reported",
+  "related_report": "2026-04-21/src-348",
+  "related_item": "src-348",
+  "tag_reason": "CNN(src-348), Al Jazeera(src-353)와 동일 사실 반복. Time의 독자적 추가 정보 없음.",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "state"},
+    {"id": "temp-001", "type": "Event", "name": "Trump Ceasefire Indefinite Extension (Apr 21)", "date": "2026-04-21"},
+    {"id": "ent-005", "type": "Organization", "name": "IRGC", "role": "military"},
+    {"id": "ent-029", "type": "Organization", "name": "Pakistan", "role": "mediator"}
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "temp-001"}
+  ]
+}

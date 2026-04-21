@@ -1,0 +1,25 @@
+{
+  "id": "src-366",
+  "title": "Israel intercepts Hezbollah drone, strikes rocket launcher in Lebanon",
+  "url": "https://www.israelhayom.com/2026/04/21/israel-intercepts-hezbollah-drone-strikes-launcher/",
+  "snippet": "Israel Hayom reports IDF intercepted a Hezbollah drone over northern Israel and struck the rocket launcher used in the Rab al-Thalathine attack. IDF called the attacks 'blatant violations' of the Lebanon ceasefire.",
+  "source_name": "Israel Hayom",
+  "language": "en",
+  "discovered_date": "2026-04-21",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "이스라엘의 드론 요격 및 로켓 발사대 타격 등 이스라엘 측 대응 상세는 The National(src-365)에 포함되지 않은 신규 세부 정보.",
+  "entities": [
+    {"id": "ent-004", "type": "Organization", "name": "Israel", "role": "IDF response"},
+    {"id": "ent-047", "type": "Organization", "name": "Hezbollah", "role": "attacker"},
+    {"id": "temp-010", "type": "Event", "name": "Hezbollah First Attack Since Lebanon Ceasefire (Apr 21)", "date": "2026-04-21"},
+    {"id": "temp-011", "type": "Location", "name": "Rab al-Thalathine", "role": "attack target"},
+    {"id": "ent-050", "type": "Location", "name": "Lebanon", "role": "launcher struck"},
+    {"id": "temp-012", "type": "Organization", "name": "IDF (Israel Defense Forces)", "role": "military response"}
+  ],
+  "relations": [
+    {"subject": "ent-004", "predicate": "opposes", "object": "ent-047"},
+    {"subject": "temp-012", "predicate": "participatesIn", "object": "temp-010"}
+  ]
+}

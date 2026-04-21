@@ -1,0 +1,25 @@
+{
+  "id": "src-367",
+  "title": "IDF: Hezbollah attacks are 'blatant violations' of Lebanon ceasefire",
+  "url": "https://www.timesofisrael.com/idf-hezbollah-blatant-violations-lebanon-ceasefire-april-21/",
+  "snippet": "Times of Israel reports IDF spokesperson statement calling Hezbollah's rocket and drone attacks 'blatant violations' of the April 16 Lebanon ceasefire. Israel 'reserves the right to respond to any threat.' Statement signals potential Israeli military escalation if attacks continue.",
+  "source_name": "Times of Israel",
+  "language": "en",
+  "discovered_date": "2026-04-21",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "IDF의 공식 성명('노골적 위반')과 대응 경고는 이전에 보도되지 않은 신규 발언. 이스라엘의 공식 입장 표명.",
+  "entities": [
+    {"id": "temp-012", "type": "Organization", "name": "IDF (Israel Defense Forces)", "role": "statement issuer"},
+    {"id": "ent-047", "type": "Organization", "name": "Hezbollah", "role": "violator"},
+    {"id": "temp-010", "type": "Event", "name": "Hezbollah First Attack Since Lebanon Ceasefire (Apr 21)", "date": "2026-04-21"},
+    {"id": "ent-109", "type": "Event", "name": "Israel-Lebanon 10-Day Ceasefire (Apr 16)", "role": "violated"},
+    {"id": "ent-004", "type": "Organization", "name": "Israel", "role": "state"},
+    {"id": "ent-050", "type": "Location", "name": "Lebanon", "role": "ceasefire zone"}
+  ],
+  "relations": [
+    {"subject": "temp-012", "predicate": "opposes", "object": "ent-047"},
+    {"subject": "temp-010", "predicate": "relatedTo", "object": "ent-109"}
+  ]
+}

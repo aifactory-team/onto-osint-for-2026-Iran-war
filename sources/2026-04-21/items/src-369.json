@@ -1,0 +1,25 @@
+{
+  "id": "src-369",
+  "title": "Legal Agenda documents 220 Israeli ceasefire breaches Apr 17-19: 3 killed, 7 wounded incl 4 paramedics",
+  "url": "https://www.khaleejtimes.com/mena/legal-agenda-220-israeli-ceasefire-breaches-lebanon",
+  "snippet": "Khaleej Times details Legal Agenda's documentation of 220 Israeli ceasefire breaches between April 17-19 in Lebanon. Casualties include 3 killed and 7 wounded, with 4 of the wounded being paramedics. This systematic documentation provides the basis for Hezbollah's justification.",
+  "source_name": "Khaleej Times",
+  "language": "en",
+  "discovered_date": "2026-04-21",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Legal Agenda의 체계적 휴전 위반 기록(220건, 3일간)의 구체적 수치와 구급대원 피해 상세는 이전에 보도되지 않은 신규 데이터.",
+  "entities": [
+    {"id": "temp-013", "type": "Organization", "name": "Legal Agenda", "role": "documenter"},
+    {"id": "ent-004", "type": "Organization", "name": "Israel", "role": "accused violator"},
+    {"id": "ent-050", "type": "Location", "name": "Lebanon", "role": "violation zone"},
+    {"id": "ent-109", "type": "Event", "name": "Israel-Lebanon 10-Day Ceasefire (Apr 16)", "role": "violated"},
+    {"id": "temp-014", "type": "Event", "name": "220 Israeli Ceasefire Breaches (Apr 17-19)", "date": "2026-04-17~19"}
+  ],
+  "relations": [
+    {"subject": "temp-013", "predicate": "relatedTo", "object": "temp-014"},
+    {"subject": "ent-004", "predicate": "participatesIn", "object": "temp-014"},
+    {"subject": "temp-014", "predicate": "causedBy", "object": "temp-010"}
+  ]
+}

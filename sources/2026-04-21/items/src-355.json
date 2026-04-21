@@ -1,0 +1,24 @@
+{
+  "id": "src-355",
+  "title": "Trump ceasefire extension catches markets off-guard — posted 10 min after close",
+  "url": "https://www.cbsnews.com/news/trump-iran-ceasefire-extension-markets-after-hours/",
+  "snippet": "CBS highlights the market timing of Trump's Truth Social post: exactly 10 minutes after the 4pm ET market close. S&P/Nasdaq/Dow had all closed down ~0.6% on Iran uncertainty. After-hours oil fell: WTI -1.1% to $88.60, Brent -0.6% to $94.89. Speculation about deliberate timing to avoid intraday volatility.",
+  "source_name": "CBS News",
+  "language": "en",
+  "discovered_date": "2026-04-21",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "트럼프의 발표 타이밍(장 마감 10분 후)과 시장 영향에 대한 독자적 분석. 의도적 타이밍 가능성을 제기한 신규 관점.",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President"},
+    {"id": "temp-001", "type": "Event", "name": "Trump Ceasefire Indefinite Extension (Apr 21)", "date": "2026-04-21"},
+    {"id": "temp-003", "type": "Event", "name": "Oil After-Hours Drop (Apr 21)", "date": "2026-04-21"},
+    {"id": "temp-006", "type": "Event", "name": "Markets Close Down Apr 21", "date": "2026-04-21"},
+    {"id": "temp-002", "type": "Concept", "name": "Truth Social Announcement", "domain": "politics/communication"}
+  ],
+  "relations": [
+    {"subject": "temp-001", "predicate": "causedBy", "object": "temp-003"},
+    {"subject": "temp-006", "predicate": "relatedTo", "object": "temp-001"}
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "src-357",
+  "title": "Conservatives praise Trump ceasefire extension as strategic",
+  "url": "https://www.dailycaller.com/2026/04/21/trump-iran-ceasefire-extension-strategic-move",
+  "snippet": "Daily Caller and Townhall report conservative reaction praising Trump's ceasefire extension as strategic rather than weakness, framing it as leverage while Iran's government remains fractured.",
+  "source_name": "Daily Caller",
+  "language": "en",
+  "discovered_date": "2026-04-21",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "보수 매체의 휴전 연장 긍정적 프레이밍은 기존 보도에 없던 신규 반응/분석.",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President"},
+    {"id": "temp-001", "type": "Event", "name": "Trump Ceasefire Indefinite Extension (Apr 21)", "date": "2026-04-21"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "state"},
+    {"id": "ent-135", "type": "Concept", "name": "IRGC-Diplomatic Rift", "domain": "internal politics"}
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "temp-001"}
+  ]
+}

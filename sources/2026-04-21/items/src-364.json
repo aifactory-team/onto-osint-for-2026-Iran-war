@@ -1,0 +1,25 @@
+{
+  "id": "src-364",
+  "title": "Ghalibaf adviser on X: 'Trump's ceasefire extension means nothing, losing side cannot dictate terms'",
+  "url": "https://www.timesofisrael.com/liveblog-april-21-2026/#entry-ghalibaf-adviser",
+  "snippet": "An adviser to Iranian Parliament Speaker Ghalibaf posted on X (formerly Twitter): 'Trump's ceasefire extension means nothing, the losing side cannot dictate terms.' This statement goes further than official diplomatic language, suggesting hardliners view the extension as a sign of US weakness rather than goodwill.",
+  "source_name": "Times of Israel",
+  "language": "en",
+  "discovered_date": "2026-04-21",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "갈리바프 측근의 구체적 SNS 발언('패배한 측이 조건을 지시할 수 없다')은 이전에 보도되지 않은 신규 반응. 이란 강경파의 연장에 대한 해석을 보여줌.",
+  "entities": [
+    {"id": "ent-045", "type": "Person", "name": "Mohammad Bagher Ghalibaf", "role": "Iran Parliament Speaker"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President"},
+    {"id": "temp-001", "type": "Event", "name": "Trump Ceasefire Indefinite Extension (Apr 21)", "date": "2026-04-21"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "state"},
+    {"id": "temp-009", "type": "Person", "name": "Ghalibaf Adviser (unnamed)", "role": "adviser to Parliament Speaker"}
+  ],
+  "relations": [
+    {"subject": "ent-045", "predicate": "opposes", "object": "ent-001"},
+    {"subject": "temp-009", "predicate": "affiliatedWith", "object": "ent-045"},
+    {"subject": "ent-045", "predicate": "relatedTo", "object": "temp-001"}
+  ]
+}

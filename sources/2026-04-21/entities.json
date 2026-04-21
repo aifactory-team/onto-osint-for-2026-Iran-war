@@ -1,0 +1,548 @@
+{
+  "date": "2026-04-21",
+  "entities": [
+    {
+      "temp_id": "temp-001",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Trump Ceasefire Indefinite Extension (Apr 21)",
+      "properties": {
+        "date": "2026-04-21 ~4pm ET",
+        "detail": "Trump reversed morning stance ('I don't want to') and extended ceasefire indefinitely via Truth Social, 'until such time as their proposal is submitted.' Cited Iran's 'seriously fractured' government and Pakistan's request (Munir + Sharif). Naval blockade remains. Posted 10 min after market close.",
+        "participants": "Trump, Pakistan (Munir, Sharif)",
+        "platform": "Truth Social",
+        "significance": "Removes ceasefire expiry deadline (was Wednesday Apr 22), but blockade continues. Open-ended timeline shifts pressure to Iran to present proposal."
+      },
+      "source_ids": ["src-348", "src-349", "src-350", "src-351", "src-352", "src-353", "src-354", "src-355", "src-356", "src-357", "src-364", "src-376"],
+      "mention_count": 28
+    },
+    {
+      "temp_id": "temp-005",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Vance Islamabad Trip Postponement (Apr 21)",
+      "properties": {
+        "date": "2026-04-21",
+        "detail": "JD Vance did not fly to Islamabad as announced on April 20. Trip 'postponed indefinitely.' Vance remained in Washington. Linked to Iran's refusal to attend talks and ceasefire extension making trip unnecessary.",
+        "context": "On Apr 20, src-323/324 reported Vance heading to Pakistan. This reverses that."
+      },
+      "source_ids": ["src-350", "src-358", "src-359", "src-360"],
+      "mention_count": 6
+    },
+    {
+      "temp_id": "temp-007",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Iran Formal Rejection Through Pakistan (Apr 21)",
+      "properties": {
+        "date": "2026-04-21",
+        "detail": "Iran formally communicated through Pakistani intermediaries that negotiations would be 'a waste of time.' Three cited reasons: (1) failure to extend ceasefire to Lebanon, (2) excessive US demands, (3) naval blockade as 'act of war'. Tasnim confirmed 'no decision change.' Ghalibaf adviser: 'losing side cannot dictate terms.'",
+        "channel": "Pakistani diplomatic intermediary",
+        "follows": "Apr 19 informal rejection via IRNA"
+      },
+      "source_ids": ["src-361", "src-362", "src-363", "src-364", "src-375"],
+      "mention_count": 10
+    },
+    {
+      "temp_id": "temp-010",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Hezbollah First Attack Since Lebanon Ceasefire (Apr 21)",
+      "properties": {
+        "date": "2026-04-21",
+        "detail": "Hezbollah fired rockets at Rab al-Thalathine (Israeli security zone) and launched drone toward northern Israel. First attack since Apr 16 ceasefire. Israel struck rocket launcher, intercepted drone. IDF: 'blatant violations.' Hezbollah: responding to 220+ Israeli violations (Legal Agenda count, Apr 17-19, 3 killed, 7 wounded incl 4 paramedics).",
+        "location": "Rab al-Thalathine (southern Lebanon), northern Israel",
+        "significance": "First Hezbollah offensive action since ceasefire — risks unraveling Lebanon truce"
+      },
+      "source_ids": ["src-365", "src-366", "src-367", "src-368", "src-369", "src-370"],
+      "mention_count": 15
+    },
+    {
+      "temp_id": "temp-015",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Israel-US War Resumption Coordination (Apr 21)",
+      "properties": {
+        "date": "2026-04-21",
+        "detail": "Kan broadcaster citing senior security official: Israel is 'jointly preparing with Washington for war's resumption.' Israel doubts a deal with Iran will be reached. Military coordination continues in parallel with diplomatic efforts.",
+        "source_outlet": "Kan (Israeli broadcaster)",
+        "significance": "Reveals Israel-US are maintaining parallel military track even during ceasefire; signals lack of confidence in diplomatic resolution"
+      },
+      "source_ids": ["src-371"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-017",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Oil Price Apr 21 (up then after-hours down)",
+      "properties": {
+        "date": "2026-04-21",
+        "brent_close": "$98.48 (+3%)",
+        "wti_close": "$92.13 (+3%)",
+        "brent_after_hours": "$94.89 (-0.6%)",
+        "wti_after_hours": "$88.60 (-1.1%)",
+        "sp500": "down ~0.6%",
+        "nasdaq": "down ~0.6%",
+        "dow": "down ~0.6%",
+        "driver": "Iran uncertainty (up), ceasefire extension (after-hours down)"
+      },
+      "source_ids": ["src-349", "src-355", "src-372", "src-373", "src-374", "src-378", "src-379"],
+      "mention_count": 10
+    },
+    {
+      "temp_id": "temp-003",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Oil After-Hours Drop (Apr 21)",
+      "properties": {
+        "date": "2026-04-21 after 4pm ET",
+        "wti": "$88.60 (-1.1%)",
+        "brent": "$94.89 (-0.6%)",
+        "cause": "Trump ceasefire extension announcement"
+      },
+      "source_ids": ["src-349", "src-355", "src-372", "src-373"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": "temp-006",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Markets Close Down Apr 21",
+      "properties": {
+        "date": "2026-04-21",
+        "sp500": "down ~0.6%",
+        "nasdaq": "down ~0.6%",
+        "dow": "down ~0.6%",
+        "cause": "Iran war uncertainty"
+      },
+      "source_ids": ["src-355", "src-374"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-014",
+      "matched_id": null,
+      "type": "Event",
+      "name": "220 Israeli Ceasefire Breaches (Apr 17-19)",
+      "properties": {
+        "date": "2026-04-17~19",
+        "documenter": "Legal Agenda",
+        "count": "220+",
+        "casualties": "3 killed, 7 wounded (incl 4 paramedics)",
+        "perpetrator": "Israel",
+        "location": "southern Lebanon"
+      },
+      "source_ids": ["src-368", "src-369"],
+      "mention_count": 4
+    },
+    {
+      "temp_id": "temp-002",
+      "matched_id": null,
+      "type": "Concept",
+      "name": "Truth Social Announcement",
+      "properties": {
+        "domain": "politics/communication",
+        "detail": "Trump used Truth Social platform to announce ceasefire extension ~4pm ET, 10 min after market close. Pattern of using social media for major policy announcements."
+      },
+      "source_ids": ["src-348", "src-355"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-009",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Ghalibaf Adviser (unnamed)",
+      "properties": {
+        "role": "adviser to Iran Parliament Speaker Ghalibaf",
+        "affiliation": "Iran Parliament",
+        "statement": "Trump's ceasefire extension means nothing, the losing side cannot dictate terms"
+      },
+      "source_ids": ["src-364"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-011",
+      "matched_id": null,
+      "type": "Location",
+      "name": "Rab al-Thalathine",
+      "properties": {
+        "type": "town/village",
+        "country": "Lebanon/Israel security zone",
+        "detail": "Target of Hezbollah rocket attack Apr 21, located within Israel's declared security zone in southern Lebanon"
+      },
+      "source_ids": ["src-365", "src-366"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-012",
+      "matched_id": null,
+      "type": "Organization",
+      "name": "IDF (Israel Defense Forces)",
+      "properties": {
+        "type": "military",
+        "location": "Israel",
+        "action_apr21": "Intercepted Hezbollah drone, struck rocket launcher, called attacks 'blatant violations'"
+      },
+      "source_ids": ["src-366", "src-367"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-013",
+      "matched_id": null,
+      "type": "Organization",
+      "name": "Legal Agenda",
+      "properties": {
+        "type": "legal monitoring NGO",
+        "location": "Lebanon",
+        "detail": "Documented 220+ Israeli ceasefire breaches Apr 17-19"
+      },
+      "source_ids": ["src-368", "src-369"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-008",
+      "matched_id": null,
+      "type": "Organization",
+      "name": "Tasnim News Agency",
+      "properties": {
+        "type": "semi-official news agency",
+        "location": "Iran",
+        "affiliation": "close to IRGC"
+      },
+      "source_ids": ["src-363"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-016",
+      "matched_id": null,
+      "type": "Organization",
+      "name": "Kan (Israeli broadcaster)",
+      "properties": {
+        "type": "public broadcaster",
+        "location": "Israel",
+        "detail": "Cited senior security official on Israel-US war coordination"
+      },
+      "source_ids": ["src-371"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-001",
+      "type": "Person",
+      "name": "Donald Trump",
+      "properties": {"role": "US President", "action_apr21": "reversed morning stance, extended ceasefire indefinitely via Truth Social ~4pm ET; cited Iran 'seriously fractured' and Pakistan request; blockade remains"},
+      "source_ids": ["src-348", "src-349", "src-350", "src-352", "src-353", "src-355", "src-357", "src-364", "src-371", "src-372", "src-373", "src-376", "src-377", "src-378", "src-380"],
+      "mention_count": 25
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-002",
+      "type": "Organization",
+      "name": "Iran",
+      "properties": {"type": "state", "action_apr21": "formally rejected talks through Pakistan ('waste of time'); 3 reasons: Lebanon gap, excessive demands, blockade; IRGC: 'ridiculous spectacle'; FM: blockade 'act of war'; Tasnim: 'no decision change'"},
+      "source_ids": ["src-348", "src-349", "src-350", "src-351", "src-353", "src-354", "src-356", "src-357", "src-361", "src-362", "src-363", "src-374", "src-375", "src-376", "src-377", "src-379", "src-380"],
+      "mention_count": 30
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-004",
+      "type": "Organization",
+      "name": "Israel",
+      "properties": {"type": "state", "action_apr21": "intercepted Hezbollah drone, struck launcher; IDF called attacks 'blatant violations'; Kan: jointly preparing with US for war resumption, doubts Iran deal"},
+      "source_ids": ["src-365", "src-366", "src-367", "src-368", "src-369", "src-370", "src-371"],
+      "mention_count": 14
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-005",
+      "type": "Organization",
+      "name": "IRGC (Islamic Revolutionary Guard Corps)",
+      "properties": {"type": "military", "action_apr21": "dismissed ceasefire extension as 'ridiculous spectacle'; 'strait will not be opened to enemies of this nation'"},
+      "source_ids": ["src-353", "src-376"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-008",
+      "type": "Location",
+      "name": "Strait of Hormuz",
+      "properties": {"type": "strait/waterway", "status_apr21": "blockade continues despite ceasefire extension; IRGC refuses to open; oil prices up 3% then after-hours down on extension"},
+      "source_ids": ["src-348", "src-349", "src-350", "src-356", "src-372", "src-373", "src-376", "src-377", "src-378", "src-379", "src-380"],
+      "mention_count": 20
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-027",
+      "type": "Person",
+      "name": "Shehbaz Sharif",
+      "properties": {"role": "Pakistan PM", "action_apr21": "cited by Trump as requesting ceasefire extension along with Munir"},
+      "source_ids": ["src-348", "src-352", "src-375"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-028",
+      "type": "Person",
+      "name": "Asim Munir",
+      "properties": {"role": "Pakistan Field Marshal", "action_apr21": "cited by Trump as requesting ceasefire extension along with Sharif"},
+      "source_ids": ["src-348", "src-352", "src-375"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-029",
+      "type": "Organization",
+      "name": "Pakistan",
+      "properties": {"type": "state", "role": "mediator", "action_apr21": "racing against time to get Iran back to table; Munir + Sharif cited as requesting ceasefire extension; shuttle diplomacy continues despite Iran rejection"},
+      "source_ids": ["src-348", "src-350", "src-352", "src-354", "src-361", "src-362", "src-375"],
+      "mention_count": 10
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-041",
+      "type": "Person",
+      "name": "JD Vance",
+      "properties": {"role": "US Vice President", "action_apr21": "trip to Islamabad postponed indefinitely; remained in Washington"},
+      "source_ids": ["src-350", "src-356", "src-358", "src-359", "src-360"],
+      "mention_count": 7
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-044",
+      "type": "Person",
+      "name": "Abbas Araghchi",
+      "properties": {"role": "Iran Foreign Minister", "action_apr21": "stated US blockade is 'act of war' violating ceasefire"},
+      "source_ids": ["src-377"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-045",
+      "type": "Person",
+      "name": "Mohammad Bagher Ghalibaf",
+      "properties": {"role": "Iran Parliament Speaker", "action_apr21": "adviser posted: 'Trump's ceasefire extension means nothing, losing side cannot dictate terms'"},
+      "source_ids": ["src-364"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-047",
+      "type": "Organization",
+      "name": "Hezbollah",
+      "properties": {"type": "armed group", "action_apr21": "fired rockets at Rab al-Thalathine, drone toward northern Israel — first attack since Apr 16 ceasefire. Justified as response to 220+ Israeli violations."},
+      "source_ids": ["src-365", "src-366", "src-367", "src-368", "src-370", "src-380"],
+      "mention_count": 12
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-050",
+      "type": "Location",
+      "name": "Lebanon",
+      "properties": {"type": "country", "status_apr21": "ceasefire day 5; Hezbollah first attack since ceasefire; Legal Agenda counts 220+ Israeli violations; mutual escalation threatens truce collapse"},
+      "source_ids": ["src-361", "src-362", "src-365", "src-366", "src-367", "src-368", "src-369", "src-370"],
+      "mention_count": 12
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-051",
+      "type": "Location",
+      "name": "Islamabad",
+      "properties": {"type": "city", "status_apr21": "Vance trip postponed indefinitely; planned talks venue now unused"},
+      "source_ids": ["src-350", "src-358", "src-359", "src-360"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-003",
+      "type": "Organization",
+      "name": "US Military",
+      "properties": {"type": "military", "action_apr21": "blockade continues; jointly preparing with Israel for war resumption (Kan)"},
+      "source_ids": ["src-371", "src-377"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-026",
+      "type": "Concept",
+      "name": "Strait of Hormuz Blockade",
+      "properties": {"domain": "maritime/energy", "status_apr21": "remains in full force despite ceasefire extension; Iran FM calls it 'act of war'; IRGC refuses to open strait"},
+      "source_ids": ["src-361", "src-362", "src-377"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-109",
+      "type": "Event",
+      "name": "Israel-Lebanon 10-Day Ceasefire (Apr 16)",
+      "properties": {"status_apr21": "Day 5; first Hezbollah attack threatens collapse; mutual violations documented; 220+ Israeli breaches counted by Legal Agenda"},
+      "source_ids": ["src-365", "src-367", "src-368", "src-369", "src-370"],
+      "mention_count": 8
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-135",
+      "type": "Concept",
+      "name": "IRGC-Diplomatic Rift",
+      "properties": {"domain": "internal politics", "status_apr21": "Trump cites Iran 'seriously fractured'; IRGC dismisses ceasefire extension while FM calls blockade 'act of war' — different framing reveals continued internal split"},
+      "source_ids": ["src-353", "src-376", "src-377"],
+      "mention_count": 4
+    },
+    {
+      "temp_id": null,
+      "matched_id": "ent-138",
+      "type": "Person",
+      "name": "Ahmad Vahidi",
+      "properties": {"role": "IRGC Commander-in-Chief", "context_apr21": "Trump references Iran 'seriously fractured' — Vahidi's control as backdrop"},
+      "source_ids": ["src-353"],
+      "mention_count": 1
+    }
+  ],
+  "relations": [
+    {
+      "subject": "ent-001",
+      "predicate": "participatesIn",
+      "object": "temp-001",
+      "source_ids": ["src-348", "src-349", "src-350", "src-352"],
+      "confidence": 1.0
+    },
+    {
+      "subject": "temp-001",
+      "predicate": "follows",
+      "object": "ent-030",
+      "source_ids": ["src-348"],
+      "confidence": 0.95
+    },
+    {
+      "subject": "ent-029",
+      "predicate": "cooperatesWith",
+      "object": "ent-001",
+      "source_ids": ["src-348", "src-352", "src-375"],
+      "confidence": 0.95
+    },
+    {
+      "subject": "ent-027",
+      "predicate": "cooperatesWith",
+      "object": "ent-028",
+      "source_ids": ["src-348", "src-352"],
+      "confidence": 0.95
+    },
+    {
+      "subject": "ent-041",
+      "predicate": "participatesIn",
+      "object": "temp-005",
+      "source_ids": ["src-350", "src-358"],
+      "confidence": 1.0
+    },
+    {
+      "subject": "temp-005",
+      "predicate": "relatedTo",
+      "object": "temp-001",
+      "source_ids": ["src-350", "src-358"],
+      "confidence": 0.9
+    },
+    {
+      "subject": "temp-005",
+      "predicate": "causedBy",
+      "object": "temp-007",
+      "source_ids": ["src-358", "src-361"],
+      "confidence": 0.85
+    },
+    {
+      "subject": "ent-002",
+      "predicate": "opposes",
+      "object": "ent-001",
+      "source_ids": ["src-361", "src-363", "src-364", "src-376"],
+      "confidence": 1.0
+    },
+    {
+      "subject": "temp-007",
+      "predicate": "follows",
+      "object": "ent-140",
+      "source_ids": ["src-361", "src-363"],
+      "confidence": 0.95
+    },
+    {
+      "subject": "ent-005",
+      "predicate": "opposes",
+      "object": "ent-001",
+      "source_ids": ["src-376"],
+      "confidence": 1.0
+    },
+    {
+      "subject": "ent-047",
+      "predicate": "opposes",
+      "object": "ent-004",
+      "source_ids": ["src-365", "src-366", "src-367", "src-368", "src-370"],
+      "confidence": 1.0
+    },
+    {
+      "subject": "temp-010",
+      "predicate": "follows",
+      "object": "ent-109",
+      "source_ids": ["src-365", "src-367", "src-370"],
+      "confidence": 1.0
+    },
+    {
+      "subject": "temp-010",
+      "predicate": "causedBy",
+      "object": "temp-014",
+      "source_ids": ["src-368", "src-369"],
+      "confidence": 0.85
+    },
+    {
+      "subject": "ent-004",
+      "predicate": "cooperatesWith",
+      "object": "ent-003",
+      "source_ids": ["src-371"],
+      "confidence": 0.9
+    },
+    {
+      "subject": "temp-015",
+      "predicate": "relatedTo",
+      "object": "temp-001",
+      "source_ids": ["src-371"],
+      "confidence": 0.8
+    },
+    {
+      "subject": "temp-001",
+      "predicate": "causedBy",
+      "object": "temp-003",
+      "source_ids": ["src-349", "src-355", "src-372", "src-373"],
+      "confidence": 0.9
+    },
+    {
+      "subject": "ent-044",
+      "predicate": "opposes",
+      "object": "ent-003",
+      "source_ids": ["src-377"],
+      "confidence": 0.95
+    },
+    {
+      "subject": "ent-045",
+      "predicate": "opposes",
+      "object": "ent-001",
+      "source_ids": ["src-364"],
+      "confidence": 0.9
+    },
+    {
+      "subject": "temp-013",
+      "predicate": "relatedTo",
+      "object": "temp-014",
+      "source_ids": ["src-368", "src-369"],
+      "confidence": 1.0
+    },
+    {
+      "subject": "ent-029",
+      "predicate": "relatedTo",
+      "object": "temp-007",
+      "source_ids": ["src-361", "src-362", "src-375"],
+      "confidence": 0.95
+    }
+  ],
+  "stats": {
+    "total_entities": 35,
+    "new_entities": 16,
+    "matched_entities": 19,
+    "total_relations": 20
+  }
+}

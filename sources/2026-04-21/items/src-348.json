@@ -1,0 +1,29 @@
+{
+  "id": "src-348",
+  "title": "Trump extends Iran ceasefire indefinitely via Truth Social, reversing morning stance",
+  "url": "https://www.cnn.com/2026/04/21/politics/trump-extends-iran-ceasefire-indefinitely-truth-social",
+  "snippet": "Trump reversed course Monday afternoon on Truth Social (~4pm ET, 10 minutes after market close), extending the Iran ceasefire indefinitely 'until such time as their proposal is submitted.' He cited Iran's 'seriously fractured' government and Pakistan PM Sharif and FM Asim Munir's request. The naval blockade remains in full force. Earlier that morning on CNBC, Trump had said 'I don't want to' extend the ceasefire, and the day before said extension was 'highly unlikely.'",
+  "source_name": "CNN",
+  "language": "en",
+  "discovered_date": "2026-04-21",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "트럼프의 휴전 무기한 연장은 전일(4/20) '연장 거의 불가'에서 완전히 뒤집은 새로운 결정. 이전 소스에 동일 내용 없음.",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President"},
+    {"id": "ent-027", "type": "Person", "name": "Shehbaz Sharif", "role": "Pakistan PM"},
+    {"id": "ent-028", "type": "Person", "name": "Asim Munir", "role": "Pakistan Field Marshal"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "state"},
+    {"id": "ent-029", "type": "Organization", "name": "Pakistan", "role": "mediator"},
+    {"id": "temp-001", "type": "Event", "name": "Trump Ceasefire Indefinite Extension (Apr 21)", "date": "2026-04-21"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz", "role": "blockade continues"},
+    {"id": "temp-002", "type": "Concept", "name": "Truth Social Announcement", "domain": "politics/communication"}
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "temp-001"},
+    {"subject": "ent-027", "predicate": "cooperatesWith", "object": "ent-028"},
+    {"subject": "ent-029", "predicate": "cooperatesWith", "object": "ent-001"},
+    {"subject": "temp-001", "predicate": "follows", "object": "ent-030"}
+  ]
+}

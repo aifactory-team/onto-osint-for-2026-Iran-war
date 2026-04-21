@@ -1,0 +1,21 @@
+{
+  "id": "src-374",
+  "title": "S&P, Nasdaq, Dow all down ~0.6% amid Iran uncertainty",
+  "url": "https://www.bnnbloomberg.ca/2026/04/21/markets-sp-nasdaq-dow-down-iran-uncertainty",
+  "snippet": "BNN Bloomberg reports all three major US indices closed down approximately 0.6% on Monday amid Iran war uncertainty. The ceasefire extension was announced after market close and did not affect the closing prices.",
+  "source_name": "BNN Bloomberg",
+  "language": "en",
+  "discovered_date": "2026-04-21",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "4/21 당일 주식시장 종가 데이터는 날짜별 고유 정보.",
+  "entities": [
+    {"id": "temp-006", "type": "Event", "name": "Markets Close Down Apr 21", "date": "2026-04-21"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "uncertainty source"},
+    {"id": "temp-001", "type": "Event", "name": "Trump Ceasefire Indefinite Extension (Apr 21)", "date": "2026-04-21"}
+  ],
+  "relations": [
+    {"subject": "temp-006", "predicate": "relatedTo", "object": "ent-002"}
+  ]
+}

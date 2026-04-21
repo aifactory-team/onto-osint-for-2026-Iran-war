@@ -1,0 +1,24 @@
+{
+  "id": "src-370",
+  "title": "First Hezbollah rocket attack since Lebanon ceasefire threatens fragile truce",
+  "url": "https://foreignpolicy.com/2026/04/21/hezbollah-rocket-attack-lebanon-ceasefire-threatens-truce/",
+  "snippet": "Foreign Policy analysis: Hezbollah's first attack since the April 16 ceasefire threatens to unravel the fragile truce. The attack comes amid broader regional escalation tensions with the Iran ceasefire extension and ongoing Hormuz blockade. FP notes the mutual violations dynamic could collapse the Lebanon ceasefire.",
+  "source_name": "Foreign Policy",
+  "language": "en",
+  "discovered_date": "2026-04-21",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Foreign Policy의 독자적 분석 기사로, 헤즈볼라 공격이 레바논 휴전 전체 붕괴로 이어질 수 있다는 전략적 함의를 분석. 사실 보도를 넘어선 전문가 분석.",
+  "entities": [
+    {"id": "ent-047", "type": "Organization", "name": "Hezbollah", "role": "attacker"},
+    {"id": "ent-004", "type": "Organization", "name": "Israel", "role": "retaliator"},
+    {"id": "temp-010", "type": "Event", "name": "Hezbollah First Attack Since Lebanon Ceasefire (Apr 21)", "date": "2026-04-21"},
+    {"id": "ent-109", "type": "Event", "name": "Israel-Lebanon 10-Day Ceasefire (Apr 16)", "role": "threatened"},
+    {"id": "ent-050", "type": "Location", "name": "Lebanon", "role": "conflict zone"}
+  ],
+  "relations": [
+    {"subject": "ent-047", "predicate": "opposes", "object": "ent-004"},
+    {"subject": "temp-010", "predicate": "relatedTo", "object": "ent-109"}
+  ]
+}

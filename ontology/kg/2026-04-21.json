@@ -1,0 +1,50 @@
+{
+  "date": "2026-04-21",
+  "new_triples": [
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "ent-158", "source_id": "src-340", "date": "2026-04-21", "confidence": 0.95, "type": "explicit", "label": "Trump extends ceasefire indefinitely via Truth Social"},
+    {"subject": "ent-158", "predicate": "follows", "object": "ent-153", "source_id": "src-340", "date": "2026-04-21", "confidence": 0.95, "type": "explicit", "label": "Reversal from 'highly unlikely' (Apr 20) and 'don't want to' (morning Apr 21)"},
+    {"subject": "ent-158", "predicate": "causedBy", "object": "ent-029", "source_id": "src-340", "date": "2026-04-21", "confidence": 0.85, "type": "explicit", "label": "Cited Pakistan (Munir + Sharif) request"},
+    {"subject": "ent-028", "predicate": "participatesIn", "object": "ent-158", "source_id": "src-340", "date": "2026-04-21", "confidence": 0.90, "type": "explicit", "label": "Munir's request cited by Trump"},
+    {"subject": "ent-027", "predicate": "participatesIn", "object": "ent-158", "source_id": "src-340", "date": "2026-04-21", "confidence": 0.90, "type": "explicit", "label": "Sharif's request cited by Trump"},
+    {"subject": "ent-158", "predicate": "relatedTo", "object": "ent-030", "source_id": "src-340", "date": "2026-04-21", "confidence": 0.95, "type": "explicit", "label": "Extension of original 2-week ceasefire"},
+    {"subject": "ent-158", "predicate": "relatedTo", "object": "ent-008", "source_id": "src-340", "date": "2026-04-21", "confidence": 0.90, "type": "explicit", "label": "Blockade continues despite ceasefire extension"},
+    {"subject": "ent-041", "predicate": "participatesIn", "object": "ent-159", "source_id": "src-341", "date": "2026-04-21", "confidence": 0.95, "type": "explicit", "label": "Vance trip postponed indefinitely"},
+    {"subject": "ent-159", "predicate": "causedBy", "object": "ent-160", "source_id": "src-341", "date": "2026-04-21", "confidence": 0.90, "type": "explicit", "label": "Postponed because Iran boycotts talks"},
+    {"subject": "ent-159", "predicate": "follows", "object": "ent-119", "source_id": "src-341", "date": "2026-04-21", "confidence": 0.95, "type": "explicit", "label": "Was supposed to be 2nd round"},
+    {"subject": "ent-002", "predicate": "participatesIn", "object": "ent-160", "source_id": "src-342", "date": "2026-04-21", "confidence": 0.95, "type": "explicit", "label": "Iran officially refuses talks through Pakistani intermediary"},
+    {"subject": "ent-160", "predicate": "follows", "object": "ent-140", "source_id": "src-342", "date": "2026-04-21", "confidence": 0.95, "type": "explicit", "label": "Continues Apr 19 rejection, now official and via intermediary"},
+    {"subject": "ent-160", "predicate": "causedBy", "object": "ent-095", "source_id": "src-342", "date": "2026-04-21", "confidence": 0.85, "type": "explicit", "label": "Cited: naval blockade, excessive demands, Lebanon not covered"},
+    {"subject": "ent-047", "predicate": "participatesIn", "object": "ent-161", "source_id": "src-343", "date": "2026-04-21", "confidence": 0.95, "type": "explicit", "label": "Hezbollah fires rockets at Rab al-Thalathine + drone toward Israel"},
+    {"subject": "ent-161", "predicate": "locatedIn", "object": "ent-050", "source_id": "src-343", "date": "2026-04-21", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-161", "predicate": "causedBy", "object": "ent-143", "source_id": "src-343", "date": "2026-04-21", "confidence": 0.85, "type": "explicit", "label": "Hezbollah claims 220+ Israeli ceasefire violations provoked response"},
+    {"subject": "ent-161", "predicate": "follows", "object": "ent-109", "source_id": "src-343", "date": "2026-04-21", "confidence": 0.90, "type": "explicit", "label": "First Hezbollah fire since Apr 16 ceasefire"},
+    {"subject": "ent-004", "predicate": "cooperatesWith", "object": "ent-003", "source_id": "src-344", "date": "2026-04-21", "confidence": 0.90, "type": "explicit", "label": "Israel-US joint attack planning (Kan report)"},
+    {"subject": "ent-004", "predicate": "participatesIn", "object": "ent-162", "source_id": "src-344", "date": "2026-04-21", "confidence": 0.90, "type": "explicit", "label": "Senior Israeli official: jointly preparing with Washington for war resumption"},
+    {"subject": "ent-003", "predicate": "participatesIn", "object": "ent-162", "source_id": "src-344", "date": "2026-04-21", "confidence": 0.85, "type": "explicit"},
+    {"subject": "ent-162", "predicate": "causedBy", "object": "ent-160", "source_id": "src-344", "date": "2026-04-21", "confidence": 0.85, "type": "explicit", "label": "Israel doubts deal because Iran boycotts"},
+    {"subject": "ent-163", "predicate": "causedBy", "object": "ent-159", "source_id": "src-345", "date": "2026-04-21", "confidence": 0.85, "type": "explicit", "label": "Oil rose on Vance delay, then fell on ceasefire extension"},
+    {"subject": "ent-163", "predicate": "follows", "object": "ent-144", "source_id": "src-345", "date": "2026-04-21", "confidence": 0.90, "type": "explicit", "label": "Continues oil price volatility chain"},
+    {"subject": "ent-163", "predicate": "relatedTo", "object": "ent-008", "source_id": "src-345", "date": "2026-04-21", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-005", "predicate": "opposes", "object": "ent-158", "source_id": "src-346", "date": "2026-04-21", "confidence": 0.90, "type": "explicit", "label": "IRGC: 'strait will not be opened through ridiculous spectacle'"},
+    {"subject": "ent-045", "predicate": "opposes", "object": "ent-158", "source_id": "src-347", "date": "2026-04-21", "confidence": 0.85, "type": "explicit", "label": "Ghalibaf adviser: ceasefire extension 'means nothing, losing side cannot dictate'"},
+    {"subject": "ent-002", "predicate": "opposes", "object": "ent-158", "source_id": "src-342", "date": "2026-04-21", "confidence": 0.90, "type": "explicit", "label": "Iran FM: US blockade is 'act of war'"},
+    {"subject": "ent-029", "predicate": "cooperatesWith", "object": "ent-001", "source_id": "src-340", "date": "2026-04-21", "confidence": 0.90, "type": "explicit", "label": "Pakistan requested ceasefire extension, Trump cited them"}
+  ],
+  "updated_triples": [
+    {"subject": "ent-119", "predicate": "relatedTo", "object": "ent-159", "date": "2026-04-21", "confidence": 0.95, "type": "explicit", "label": "2nd round effectively collapsed — Vance postponed, Iran boycotts"},
+    {"subject": "ent-047", "predicate": "opposes", "object": "ent-109", "date": "2026-04-21", "confidence": 0.95, "type": "explicit", "label": "Hezbollah now actively violating Lebanon ceasefire (upgraded from conditional acceptance)"}
+  ],
+  "inferred_triples": [
+    {"subject": "ent-158", "predicate": "causalChain", "object": "ent-054", "date": "2026-04-21", "confidence": 0.72, "type": "inferred", "rule": "event_chain", "chain": "ent-054(Islamabad collapse)→ent-063(blockade)→ent-095(full implementation)→ent-140(Iran rejects)→ent-158(ceasefire extension)"},
+    {"subject": "ent-161", "predicate": "causalChain", "object": "ent-109", "date": "2026-04-21", "confidence": 0.72, "type": "inferred", "rule": "event_chain", "chain": "ent-109(Lebanon ceasefire)→ent-120(violations)→ent-143(Yellow Line)→ent-161(Hezbollah rocket fire)"},
+    {"subject": "ent-162", "predicate": "causalChain", "object": "ent-054", "date": "2026-04-21", "confidence": 0.72, "type": "inferred", "rule": "event_chain", "chain": "ent-054(Islamabad collapse)→ent-140(Iran rejects)→ent-160(official refusal)→ent-162(Israel-US war planning)"},
+    {"subject": "ent-163", "predicate": "causalChain", "object": "ent-128", "date": "2026-04-21", "confidence": 0.72, "type": "inferred", "rule": "event_chain", "chain": "ent-128(re-closure)→ent-139(Touska)→ent-144(oil surge Apr 19)→ent-163(oil movements Apr 21)"},
+    {"subject": "ent-004", "predicate": "potentialRelation", "object": "ent-003", "date": "2026-04-21", "confidence": 0.85, "type": "inferred", "rule": "co_participation", "note": "Both participate in ent-162 (joint attack planning) — upgrades existing cooperatesWith"},
+    {"subject": "ent-028", "predicate": "potentialRelation", "object": "ent-027", "date": "2026-04-21", "confidence": 0.85, "type": "inferred", "rule": "co_participation", "note": "Both participate in ent-158 (ceasefire extension) — Pakistan dual-track mediation confirmed"}
+  ],
+  "stats": {
+    "new_nodes": 6,
+    "new_edges": 30,
+    "inferred_edges": 6
+  }
+}

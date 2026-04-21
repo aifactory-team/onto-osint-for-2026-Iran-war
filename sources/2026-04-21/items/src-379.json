@@ -1,0 +1,21 @@
+{
+  "id": "src-379",
+  "title": "전자신문: 유가 폭등 95달러 재돌파...이란 협상 거부·봉쇄 장기화",
+  "url": "https://www.etnews.com/20260421000312",
+  "snippet": "전자신문은 브렌트유가 95달러를 재돌파했다고 보도. 이란의 협상 거부와 봉쇄 장기화 전망이 유가 상승 요인으로 작용.",
+  "source_name": "전자신문",
+  "language": "ko",
+  "discovered_date": "2026-04-21",
+  "tag": "update",
+  "related_report": "2026-04-20",
+  "related_item": "src-335",
+  "tag_reason": "4/20 한국 유가 보도의 후속. 4/21 유가 데이터(브렌트 95달러 돌파)는 일별 고유 정보이나 전반적 프레이밍은 동일.",
+  "entities": [
+    {"id": "temp-017", "type": "Event", "name": "Oil Price Apr 21 (up then after-hours down)", "date": "2026-04-21"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "refusing talks"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz", "role": "blockade"}
+  ],
+  "relations": [
+    {"subject": "temp-017", "predicate": "relatedTo", "object": "ent-008"}
+  ]
+}

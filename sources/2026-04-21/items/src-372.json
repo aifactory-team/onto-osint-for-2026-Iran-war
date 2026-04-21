@@ -1,0 +1,23 @@
+{
+  "id": "src-372",
+  "title": "Oil: Brent $98.48 (+3%), WTI $92.13 (+3%) — then after-hours drop on ceasefire extension",
+  "url": "https://www.cnbc.com/2026/04/21/oil-prices-brent-wti-iran-ceasefire-extension-after-hours.html",
+  "snippet": "CNBC reports oil markets rose during the trading session: Brent $98.48 (+3%), WTI $92.13 (+3%) on Iran uncertainty. After-hours, prices reversed: WTI fell 1.1% to $88.60, Brent dropped 0.6% to $94.89 following Trump's ceasefire extension announcement. S&P, Nasdaq, and Dow all closed down approximately 0.6%.",
+  "source_name": "CNBC",
+  "language": "en",
+  "discovered_date": "2026-04-21",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "4/21 당일 유가와 시장 데이터는 날짜별 고유 정보. 장중 상승 후 시간외 하락의 이중 패턴은 신규.",
+  "entities": [
+    {"id": "temp-017", "type": "Event", "name": "Oil Price Apr 21 (up then after-hours down)", "date": "2026-04-21"},
+    {"id": "temp-003", "type": "Event", "name": "Oil After-Hours Drop (Apr 21)", "date": "2026-04-21"},
+    {"id": "temp-006", "type": "Event", "name": "Markets Close Down Apr 21", "date": "2026-04-21"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz", "role": "blockade persists"}
+  ],
+  "relations": [
+    {"subject": "temp-003", "predicate": "causedBy", "object": "temp-001"},
+    {"subject": "temp-017", "predicate": "relatedTo", "object": "ent-008"}
+  ]
+}

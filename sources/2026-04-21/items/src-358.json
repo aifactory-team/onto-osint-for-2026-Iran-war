@@ -1,0 +1,25 @@
+{
+  "id": "src-358",
+  "title": "Vance trip to Islamabad postponed indefinitely — remained in Washington",
+  "url": "https://www.axios.com/2026/04/21/vance-islamabad-trip-postponed-indefinitely",
+  "snippet": "Axios reports JD Vance did not fly to Islamabad as planned on April 20 evening. Trip 'postponed indefinitely.' Vance remained in Washington. The postponement is linked to Iran's refusal to attend talks and the ceasefire extension, making the in-person trip unnecessary for now.",
+  "source_name": "Axios",
+  "language": "en",
+  "discovered_date": "2026-04-21",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "밴스 이슬라마바드 출발이 4/20에 확정 보도(src-323, src-324)되었으나, 실제로는 출발하지 않고 무기한 연기된 것은 완전히 새로운 전개.",
+  "entities": [
+    {"id": "ent-041", "type": "Person", "name": "JD Vance", "role": "US Vice President"},
+    {"id": "temp-005", "type": "Event", "name": "Vance Islamabad Trip Postponement (Apr 21)", "date": "2026-04-21"},
+    {"id": "ent-051", "type": "Location", "name": "Islamabad", "role": "planned talks venue"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "refuses talks"},
+    {"id": "temp-001", "type": "Event", "name": "Trump Ceasefire Indefinite Extension (Apr 21)", "date": "2026-04-21"}
+  ],
+  "relations": [
+    {"subject": "ent-041", "predicate": "participatesIn", "object": "temp-005"},
+    {"subject": "temp-005", "predicate": "causedBy", "object": "temp-007"},
+    {"subject": "temp-005", "predicate": "relatedTo", "object": "temp-001"}
+  ]
+}

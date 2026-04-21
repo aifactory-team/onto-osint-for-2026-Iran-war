@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "OSINT 온톨로지 스키마 — config/osint-config.json의 seed로부터 초기화되고, 매일 파이프라인 실행 시 자동 확장된다.",
-  "last_updated": "2026-04-20",
+  "last_updated": "2026-04-21",
   "classes": [
     {
       "id": "Entity",
@@ -138,6 +138,13 @@
       "target": "4 new entities (ent-149~ent-152)",
       "reason": "페제시키안 이란 대통령(Sharif 45분 통화), Zolghadr IRGC 감시관(협상팀 삽입 보도), Bessent 미 재무장관(긴급회의), Ratcliffe CIA 국장(긴급회의) — 트럼프 '폭탄' 경고·휴전연장 '거의 불가' 선언·밴스 이슬라마바드 출발 확정·쿠웨이트 불가항력 선언·이란 2차 회담 '계획 없음' 등 신규 사건 추출",
       "source_ids": ["src-320", "src-321", "src-322", "src-323", "src-325", "src-327", "src-329", "src-332", "src-333", "src-336"]
+    },
+    {
+      "date": "2026-04-21",
+      "action": "add_instances",
+      "target": "6 new entities (ent-158~ent-163)",
+      "reason": "트럼프 휴전 무기한 연장(Truth Social 180도 선회), 밴스 이슬라마바드행 무기한 연기(Axios), 이란 공식 회담 거부(파키스탄 중개인 통해 'waste of time'), 헤즈볼라 레바논 휴전 후 최초 로켓 발사(Rab al-Thalathine), 이스라엘-미국 공동 전쟁 재개 준비(Kan), 유가 Brent $98.48/WTI $92.13 후 장 마감 후 하락",
+      "source_ids": ["src-340", "src-341", "src-342", "src-343", "src-344", "src-345", "src-346", "src-347"]
     }
   ]
 }

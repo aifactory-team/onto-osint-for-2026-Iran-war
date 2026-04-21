@@ -1,0 +1,26 @@
+{
+  "id": "src-371",
+  "title": "Kan: Israel 'jointly preparing with Washington for war's resumption' — doubts Iran deal",
+  "url": "https://www.timesofisrael.com/kan-israel-jointly-preparing-war-resumption-doubts-iran-deal/",
+  "snippet": "Times of Israel reports Israeli Kan broadcaster citing a senior security official: Israel is 'jointly preparing with Washington for the resumption of war.' Israel doubts a deal with Iran will be reached. The report suggests Israel-US military coordination continues in parallel with diplomatic efforts, signaling both countries are maintaining military readiness.",
+  "source_name": "Times of Israel (Kan report)",
+  "language": "en",
+  "discovered_date": "2026-04-21",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "이스라엘-미국의 전쟁 재개 공동 준비와 이란 합의 회의론은 Kan 방송사의 고위 안보 관계자 인용으로, 이전에 보도되지 않은 완전히 새로운 정보.",
+  "entities": [
+    {"id": "ent-004", "type": "Organization", "name": "Israel", "role": "preparing for war resumption"},
+    {"id": "ent-003", "type": "Organization", "name": "US Military", "role": "coordinating with Israel"},
+    {"id": "temp-015", "type": "Event", "name": "Israel-US War Resumption Coordination (Apr 21)", "date": "2026-04-21"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "target"},
+    {"id": "temp-016", "type": "Organization", "name": "Kan (Israeli broadcaster)", "role": "source"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President"}
+  ],
+  "relations": [
+    {"subject": "ent-004", "predicate": "cooperatesWith", "object": "ent-003"},
+    {"subject": "ent-004", "predicate": "opposes", "object": "ent-002"},
+    {"subject": "temp-015", "predicate": "relatedTo", "object": "temp-001"}
+  ]
+}

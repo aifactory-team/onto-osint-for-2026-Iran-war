@@ -1,25 +1,25 @@
 {
   "version": "1.0.0",
   "description": "알려진 엔티티 인스턴스 — 파이프라인 실행 시 자동으로 추가/업데이트된다.",
-  "last_updated": "2026-04-20",
+  "last_updated": "2026-04-21",
   "entities": [
     {
       "id": "ent-001",
       "type": "Person",
       "name": "Donald Trump",
-      "properties": { "role": "US President", "affiliation": "United States", "action_apr20": "ceasefire ends Wednesday, extension 'highly unlikely'; 'lots of bombs start going off'; convened emergency meeting with full NSC; Vance/Witkoff/Kushner to Islamabad; vacillates between warmongering and deal optimism" },
+      "properties": { "role": "US President", "affiliation": "United States", "action_apr21": "morning CNBC 'I don't want to' extend ceasefire; ~4pm ET Truth Social reversal: extends ceasefire indefinitely 'until such time as their proposal is submitted'; cited Iran 'seriously fractured' and Pakistan (Munir+Sharif) request; blockade maintained: 'continue the Blockade and, in all other respects, remain ready and able'" },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-20",
-      "mention_count": 180
+      "last_seen": "2026-04-21",
+      "mention_count": 192
     },
     {
       "id": "ent-002",
       "type": "Organization",
       "name": "Iran",
-      "properties": { "type": "state", "location": "Middle East", "action_apr20": "says 'no talks for now'; FM Baghaei cites US blockade/Touska seizure as ceasefire violations; IRGC junta confirmed" },
+      "properties": { "type": "state", "location": "Middle East", "action_apr21": "officially refuses talks through Pakistani intermediary: 'waste of time'; cites (1) ceasefire not covering Lebanon, (2) excessive demands, (3) naval blockade; FM: blockade is 'act of war'; IRGC: 'strait will not be opened through ridiculous spectacle by president of US'" },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-20",
-      "mention_count": 227
+      "last_seen": "2026-04-21",
+      "mention_count": 240
     },
     {
       "id": "ent-003",
@@ -34,19 +34,19 @@
       "id": "ent-004",
       "type": "Organization",
       "name": "Israel",
-      "properties": { "type": "state", "location": "Middle East", "action_apr19": "'Yellow Line' 10km military zone in Lebanon, 55 villages, razing homes 'like Gaza' during ceasefire" },
+      "properties": { "type": "state", "location": "Middle East", "action_apr21": "doubts Iran deal; Kan: senior official says Israel 'jointly preparing with Washington for war resumption'; Yellow Line operations continue" },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-19",
-      "mention_count": 78
+      "last_seen": "2026-04-21",
+      "mention_count": 84
     },
     {
       "id": "ent-005",
       "type": "Organization",
       "name": "IRGC (Islamic Revolutionary Guard Corps)",
-      "properties": { "type": "military", "location": "Iran", "status_apr20": "described as 'military junta'; Vahidi inserted Zolghadr into negotiating team to monitor diplomats; full control of military and diplomatic posture; moderates sidelined" },
+      "properties": { "type": "military", "location": "Iran", "status_apr21": "dismisses ceasefire extension: 'the strait will not be opened to the enemies of this nation through the ridiculous spectacle by the president of the US'; full control confirmed; blocking all diplomatic engagement" },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-20",
-      "mention_count": 59
+      "last_seen": "2026-04-21",
+      "mention_count": 63
     },
     {
       "id": "ent-006",
@@ -70,10 +70,10 @@
       "id": "ent-008",
       "type": "Location",
       "name": "Strait of Hormuz",
-      "properties": { "type": "strait/waterway", "status_apr20": "16 ships Monday (up from 0 Sunday); 200+ tankers stuck in Persian Gulf; dual blockade persists; Kuwait force majeure" },
+      "properties": { "type": "strait/waterway", "status_apr21": "blockade continues per Trump order; Brent $98.48 (+3%) / WTI $92.13 (+3%); after-hours: WTI $88.60, Brent $94.89 on ceasefire extension news; IRGC refuses to open" },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-20",
-      "mention_count": 205
+      "last_seen": "2026-04-21",
+      "mention_count": 214
     },
     {
       "id": "ent-009",
@@ -241,28 +241,28 @@
       "id": "ent-027",
       "type": "Person",
       "name": "Shehbaz Sharif",
-      "properties": { "role": "Pakistan Prime Minister", "affiliation": "Pakistan", "action_apr20": "45-min call with Pezeshkian, then relay call with Trump; Islamabad venue secured for 2nd round; shuttle diplomacy between all parties" },
+      "properties": { "role": "Pakistan Prime Minister", "affiliation": "Pakistan", "action_apr21": "requested ceasefire extension from Trump (cited in Truth Social announcement); racing against time as Iran boycotts and Vance postpones" },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-20",
-      "mention_count": 31
+      "last_seen": "2026-04-21",
+      "mention_count": 34
     },
     {
       "id": "ent-028",
       "type": "Person",
       "name": "Asim Munir",
-      "properties": { "role": "Pakistan Field Marshal / Army Chief", "affiliation": "Pakistan", "note": "Trump's 'favorite field marshal', knows IRGC leadership from intel service days. Apr 16-17: Iran agreed in principle to third-party nuclear monitoring proposal (4 countries + IAEA). Munir may travel to Washington for direct Trump talks. Technical teams in continuous exchanges." },
+      "properties": { "role": "Pakistan Field Marshal / Army Chief", "affiliation": "Pakistan", "action_apr21": "requested ceasefire extension from Trump alongside Sharif — cited by name in Trump Truth Social announcement; Pakistan's military-diplomatic dual track continues" },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-17",
-      "mention_count": 34
+      "last_seen": "2026-04-21",
+      "mention_count": 37
     },
     {
       "id": "ent-029",
       "type": "Organization",
       "name": "Pakistan",
-      "properties": { "type": "state", "role": "sole mediator in Iran war (WH confirmed), host of Islamabad talks, army chief at Tehran military HQ, PM on Saudi-Qatar-Turkey tour" },
+      "properties": { "type": "state", "role": "sole mediator in Iran war (WH confirmed)", "action_apr21": "Munir + Sharif requested ceasefire extension from Trump — cited by Trump in extension announcement; racing against time as Iran boycotts talks" },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-16",
-      "mention_count": 82
+      "last_seen": "2026-04-21",
+      "mention_count": 88
     },
     {
       "id": "ent-030",
@@ -367,10 +367,10 @@
       "id": "ent-041",
       "type": "Person",
       "name": "JD Vance",
-      "properties": { "role": "US Vice President", "affiliation": "United States", "action_apr20": "heading to Pakistan tonight for 2nd round talks despite initial confusion; leads 300-member US delegation" },
+      "properties": { "role": "US Vice President", "affiliation": "United States", "action_apr21": "did NOT fly to Islamabad; trip 'postponed indefinitely' (Axios) as Iran boycotts 2nd round" },
       "first_seen": "2026-04-10",
-      "last_seen": "2026-04-20",
-      "mention_count": 83
+      "last_seen": "2026-04-21",
+      "mention_count": 88
     },
     {
       "id": "ent-042",
@@ -403,10 +403,10 @@
       "id": "ent-045",
       "type": "Person",
       "name": "Mohammad Bagher Ghalibaf",
-      "properties": { "role": "Iran Parliament Speaker, delegation leader", "affiliation": "Iran", "statement_apr19": "'impossible for others to pass Hormuz while we cannot'; acknowledges progress but 'many gaps'" },
+      "properties": { "role": "Iran Parliament Speaker, delegation leader", "affiliation": "Iran", "action_apr21": "adviser says: 'Trump's ceasefire extension means nothing, the losing side cannot dictate terms'" },
       "first_seen": "2026-04-10",
-      "last_seen": "2026-04-19",
-      "mention_count": 38
+      "last_seen": "2026-04-21",
+      "mention_count": 41
     },
     {
       "id": "ent-046",
@@ -421,10 +421,10 @@
       "id": "ent-047",
       "type": "Organization",
       "name": "Hezbollah",
-      "properties": { "type": "armed group", "location": "Lebanon", "affiliation": "Iran-backed", "ceasefire_stance": "conditional acceptance Apr 16 via Moussawi — if Israel stops all attacks" },
+      "properties": { "type": "armed group", "location": "Lebanon", "affiliation": "Iran-backed", "action_apr21": "first rocket fire since Apr 16 ceasefire — rockets at Rab al-Thalathine, drone toward Israel; claims 220+ Israeli violations (Legal Agenda: 220 breaches Apr 17-19, 3 killed, 7 wounded)" },
       "first_seen": "2026-04-10",
-      "last_seen": "2026-04-16",
-      "mention_count": 44
+      "last_seen": "2026-04-21",
+      "mention_count": 50
     },
     {
       "id": "ent-048",
@@ -448,10 +448,10 @@
       "id": "ent-050",
       "type": "Location",
       "name": "Lebanon",
-      "properties": { "type": "country", "status_apr19": "Israel 'Yellow Line' 10km zone, 55 villages, homes razed 'like Gaza' during ceasefire day 3" },
+      "properties": { "type": "country", "status_apr21": "Hezbollah fires first rockets since ceasefire at Rab al-Thalathine + drone; 220+ Israeli violations cited; Lebanon ceasefire day 5 increasingly fragile" },
       "first_seen": "2026-04-10",
-      "last_seen": "2026-04-19",
-      "mention_count": 70
+      "last_seen": "2026-04-21",
+      "mention_count": 76
     },
     {
       "id": "ent-051",
@@ -1071,10 +1071,10 @@
       "id": "ent-119",
       "type": "Event",
       "name": "2nd Round Talks Confirmed Monday Apr 21",
-      "properties": { "date": "2026-04-21 (expected)", "location": "Pakistan", "detail": "CNN: Iranian sources confirm next round Monday in Pakistan. Both delegations arriving over weekend. Trump: expects deal 'in coming days'. Coincides with ceasefire expiry.", "format": "direct face-to-face (2nd since 1979)" },
+      "properties": { "date": "2026-04-21 (expected)", "location": "Pakistan", "detail": "CNN: Iranian sources confirm next round Monday in Pakistan. Both delegations arriving over weekend. Trump: expects deal 'in coming days'. Coincides with ceasefire expiry.", "format": "direct face-to-face (2nd since 1979)", "status_apr21": "effectively collapsed — Iran boycotts ('waste of time'), Vance did not fly ('postponed indefinitely'), replaced by indefinite ceasefire extension" },
       "first_seen": "2026-04-17",
-      "last_seen": "2026-04-17",
-      "mention_count": 14
+      "last_seen": "2026-04-21",
+      "mention_count": 22
     },
     {
       "id": "ent-120",
@@ -1375,6 +1375,61 @@
       "last_seen": "2026-04-20",
       "mention_count": 2
     }
+    ,
+    {
+      "id": "ent-158",
+      "type": "Event",
+      "name": "Trump Ceasefire Extension Indefinite (Apr 21)",
+      "properties": { "date": "2026-04-21 ~4pm ET", "detail": "Trump reverses from 'highly unlikely' (Apr 20) and 'I don't want to' (morning CNBC Apr 21) to indefinite extension via Truth Social: 'until such time as their proposal is submitted'. Cited Iran 'seriously fractured' and Pakistan (Munir + Sharif) request. Blockade maintained: 'continue the Blockade and, in all other respects, remain ready and able.'", "participants": "Trump, Pakistan (Munir, Sharif)", "significance": "Averts Apr 22 ceasefire expiry and war resumption; but blockade stays, IRGC dismisses as 'ridiculous spectacle'" },
+      "first_seen": "2026-04-21",
+      "last_seen": "2026-04-21",
+      "mention_count": 18
+    },
+    {
+      "id": "ent-159",
+      "type": "Event",
+      "name": "Vance Trip Postponed Indefinitely (Apr 21)",
+      "properties": { "date": "2026-04-21", "detail": "Axios: Vance did NOT fly to Islamabad; trip 'postponed indefinitely' as Iran boycotts 2nd round talks. Was scheduled to lead 300-member delegation for face-to-face 2nd round.", "significance": "2nd round of US-Iran talks effectively collapsed" },
+      "first_seen": "2026-04-21",
+      "last_seen": "2026-04-21",
+      "mention_count": 8
+    },
+    {
+      "id": "ent-160",
+      "type": "Event",
+      "name": "Iran Official Talk Refusal via Pakistani Intermediary (Apr 21)",
+      "properties": { "date": "2026-04-21", "detail": "Iran officially refuses talks through Pakistani intermediary: negotiations 'waste of time'. Three reasons: (1) ceasefire not covering Lebanon, (2) excessive demands, (3) naval blockade. Ghalibaf adviser: 'Trump's ceasefire extension means nothing, losing side cannot dictate terms.' FM: US blockade is 'act of war.'", "significance": "Strongest rejection yet — escalation from Apr 19 'no plans' to Apr 21 formal refusal with stated reasons" },
+      "first_seen": "2026-04-21",
+      "last_seen": "2026-04-21",
+      "mention_count": 12
+    },
+    {
+      "id": "ent-161",
+      "type": "Event",
+      "name": "Hezbollah First Rocket Fire Since Ceasefire (Apr 21)",
+      "properties": { "date": "2026-04-21", "location": "Rab al-Thalathine, southern Lebanon", "detail": "Hezbollah fires rockets at Rab al-Thalathine + drone toward Israel. First Hezbollah attack since Apr 16 ceasefire. Claims 220+ Israeli violations. Legal Agenda: 220 breaches Apr 17-19, 3 killed, 7 wounded.", "significance": "Threshold crossing — transforms Lebanon ceasefire from 'violations' to 'active combat resumption'" },
+      "first_seen": "2026-04-21",
+      "last_seen": "2026-04-21",
+      "mention_count": 10
+    },
+    {
+      "id": "ent-162",
+      "type": "Event",
+      "name": "Israel-US Joint Attack Planning (Apr 21)",
+      "properties": { "date": "2026-04-21", "detail": "Kan broadcaster: senior Israeli security official says Israel is 'jointly preparing with Washington for war's resumption'. Skepticism about Iran deal as driver.", "significance": "First explicit report of joint war resumption planning during ceasefire period" },
+      "first_seen": "2026-04-21",
+      "last_seen": "2026-04-21",
+      "mention_count": 6
+    },
+    {
+      "id": "ent-163",
+      "type": "Event",
+      "name": "Oil Price Movements Apr 21",
+      "properties": { "date": "2026-04-21", "brent": "$98.48 (+3%)", "wti": "$92.13 (+3%)", "after_hours": "WTI $88.60, Brent $94.89 on ceasefire extension news", "equities": "S&P/Nasdaq/Dow down ~0.6%", "note": "4th consecutive day of major swings" },
+      "first_seen": "2026-04-21",
+      "last_seen": "2026-04-21",
+      "mention_count": 5
+    }
   ],
-  "total_count": 152
+  "total_count": 163
 }

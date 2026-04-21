@@ -1,0 +1,22 @@
+{
+  "id": "src-359",
+  "title": "Vance stays in Washington as Iran talks stall — trip postponed",
+  "url": "https://www.cnbc.com/2026/04/21/vance-washington-iran-talks-postponed-islamabad.html",
+  "snippet": "CNBC confirms Vance stayed in Washington and did not travel to Islamabad. Mirrors Axios reporting.",
+  "source_name": "CNBC",
+  "language": "en",
+  "discovered_date": "2026-04-21",
+  "tag": "reported",
+  "related_report": "2026-04-21/src-358",
+  "related_item": "src-358",
+  "tag_reason": "Axios(src-358)와 동일한 밴스 연기 사실 보도. CNBC 추가 정보 없음.",
+  "entities": [
+    {"id": "ent-041", "type": "Person", "name": "JD Vance", "role": "US Vice President"},
+    {"id": "temp-005", "type": "Event", "name": "Vance Islamabad Trip Postponement (Apr 21)", "date": "2026-04-21"},
+    {"id": "ent-051", "type": "Location", "name": "Islamabad", "role": "planned talks venue"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "state"}
+  ],
+  "relations": [
+    {"subject": "ent-041", "predicate": "participatesIn", "object": "temp-005"}
+  ]
+}

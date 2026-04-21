@@ -1,0 +1,22 @@
+{
+  "id": "src-360",
+  "title": "Vance Islamabad trip postponement confirmed by NYT, Euronews, NPR",
+  "url": "https://www.euronews.com/2026/04/21/vance-islamabad-postponed-iran-talks-stall",
+  "snippet": "Euronews confirms Vance postponement, citing NYT and NPR. No additional details beyond Axios/CNBC coverage.",
+  "source_name": "Euronews",
+  "language": "en",
+  "discovered_date": "2026-04-21",
+  "tag": "reported",
+  "related_report": "2026-04-21/src-358",
+  "related_item": "src-358",
+  "tag_reason": "Axios(src-358)와 동일한 밴스 연기 사실 확인 보도. 추가 정보 없음.",
+  "entities": [
+    {"id": "ent-041", "type": "Person", "name": "JD Vance", "role": "US Vice President"},
+    {"id": "temp-005", "type": "Event", "name": "Vance Islamabad Trip Postponement (Apr 21)", "date": "2026-04-21"},
+    {"id": "ent-051", "type": "Location", "name": "Islamabad", "role": "planned talks venue"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran", "role": "state"}
+  ],
+  "relations": [
+    {"subject": "ent-041", "predicate": "participatesIn", "object": "temp-005"}
+  ]
+}

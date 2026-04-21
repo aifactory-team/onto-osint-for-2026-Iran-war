@@ -555,3 +555,54 @@
 ### 스키마 변경 없음
 - 4개 새 엔티티 모두 기존 클래스(Person, Event)로 분류 가능
 - 27개 새 관계(명시적) + 5개 추론 모두 기존 관계 유형으로 표현 가능
+
+---
+
+## 2026-04-21 추론 결과
+
+### 추론 #61: event_chain (휴전 연장 ← 이슬라마바드 결렬 인과 체인)
+- **입력:** (ent-054/Islamabad Talks, 결렬) → (ent-063/Blockade Declaration) → (ent-095/Blockade Fully Implemented) → (ent-140/Iran Rejects Talks) → (ent-158/Ceasefire Extension Indefinite)
+- **추론:** (ent-158/Trump Ceasefire Extension, causalChain, ent-054/Islamabad Talks)
+- **신뢰도:** 0.72 (5단계 체인, 0.5배 감쇠)
+- **상태:** 확정
+- **비고:** 이슬라마바드 결렬 → 봉쇄 선언 → 완전 시행 → 이란 회담 거부 → 트럼프 무기한 연장. 트럼프의 180도 선회(4/20 "highly unlikely" → 4/21 무기한 연장)는 이란의 완전 거부에 대한 전술적 대응. 봉쇄는 유지하면서 시간을 번다는 전략은 이란 내부 분열("seriously fractured")이 자연스럽게 타협파를 강화할 것이라는 계산에 기반. 핵심: 파키스탄(Munir+Sharif)의 요청을 직접 인용함으로써 중재 채널 보존.
+
+### 추론 #62: event_chain (헤즈볼라 로켓 ← 레바논 휴전 인과 체인)
+- **입력:** (ent-109/Lebanon Ceasefire Apr 16) → (ent-120/Lebanon Ceasefire Violations Apr 17) → (ent-143/Israel Yellow Line Apr 19) → (ent-161/Hezbollah First Rockets Apr 21)
+- **추론:** (ent-161/Hezbollah First Rocket Fire, causalChain, ent-109/Israel-Lebanon Ceasefire)
+- **신뢰도:** 0.72 (4단계 체인, 0.5배 감쇠)
+- **상태:** 확정
+- **비고:** 레바논 휴전(4/16) → 이스라엘 위반(4/17, 1명 사망) → 옐로 라인 10km 점령(4/19, 55개 마을) → 헤즈볼라 최초 로켓(4/21). 5일 만에 휴전 붕괴 경로에 진입. 헤즈볼라가 220+ 이스라엘 위반을 명분으로 사용한 것은 "조건부 수용"(4/16 Moussawi)의 조건이 충족되지 않았다는 판단. Legal Agenda의 220회 위반/3명 사망 통계가 이를 뒷받침. 이는 레바논 휴전(4/26 만료)이 이란-미국 휴전보다 먼저 붕괴될 수 있음을 시사.
+
+### 추론 #63: event_chain (이스라엘-미국 전쟁 준비 ← 이슬라마바드 인과 체인)
+- **입력:** (ent-054/Islamabad Talks, 결렬) → (ent-140/Iran Rejects Talks Apr 19) → (ent-160/Iran Official Refusal Apr 21) → (ent-162/Israel-US Joint Attack Planning)
+- **추론:** (ent-162/Israel-US Joint Attack Planning, causalChain, ent-054/Islamabad Talks)
+- **신뢰도:** 0.72 (4단계 체인, 0.5배 감쇠)
+- **상태:** 확정
+- **비고:** 이슬라마바드 결렬 → 이란 거부 → 공식 거부 → 이스라엘-미국 공동 전쟁 준비. Kan 보도의 "jointly preparing with Washington for war's resumption"은 이란 딜 회의론이 군사적 대안 모색으로 직결됨을 보여준다. 트럼프가 휴전을 연장하면서도 이스라엘과 공동 전쟁 준비를 진행하는 것은 "당근과 채찍"의 전형적 구조. 이스라엘 입장에서는 레바논 휴전 위반(옐로 라인)과 이란 딜 실패가 겹치면서 전쟁 재개의 명분과 동기가 모두 강화.
+
+### 추론 #64: event_chain (유가 변동 ← 재폐쇄 인과 체인)
+- **입력:** (ent-128/Hormuz Re-closure Apr 18) → (ent-139/Touska Seizure) → (ent-144/Oil Surge Apr 19) → (ent-163/Oil Movements Apr 21)
+- **추론:** (ent-163/Oil Price Movements Apr 21, causalChain, ent-128/Hormuz Re-closure)
+- **신뢰도:** 0.72 (4단계 체인)
+- **상태:** 확정
+- **비고:** 재폐쇄 → Touska 나포 → 유가 +7%(4/19) → Brent $98.48/WTI $92.13(4/21) → 장 마감 후 휴전 연장에 하락(WTI $88.60). 5일 연속 대형 변동으로 에너지 시장 불확실성 극대화. 장중 상승(이란 회담 거부·밴스 연기)과 장후 하락(휴전 연장)이 같은 날 교차하는 것은 시장이 매 시간 뉴스에 반응하는 "뉴스 트레이딩" 구조에 완전히 진입했음을 확인.
+
+### 추론 #65: co_participation (이스라엘-미국 공동 참여)
+- **입력:** (ent-004/Israel, participatesIn, ent-162/Joint Attack Planning), (ent-003/US Military, participatesIn, ent-162)
+- **추론:** (ent-004/Israel, potentialRelation, ent-003/US Military)
+- **신뢰도:** 0.85
+- **상태:** 확정
+- **비고:** 이스라엘과 미군이 전쟁 재개를 공동으로 준비한다는 것은 기존 cooperatesWith 관계의 강화. 이란 딜 무산 시 즉각적인 공동 군사 작전 가능성. 이는 이란의 협상 레버리지를 약화시키는 동시에, 이스라엘의 레바논 군사 행동에 대한 미국의 암묵적 용인 가능성도 시사.
+
+### 추론 #66: co_participation (파키스탄 Munir-Sharif 공동 참여)
+- **입력:** (ent-028/Asim Munir, participatesIn, ent-158/Ceasefire Extension), (ent-027/Shehbaz Sharif, participatesIn, ent-158)
+- **추론:** (ent-028/Asim Munir, potentialRelation, ent-027/Shehbaz Sharif)
+- **신뢰도:** 0.85
+- **상태:** 확정
+- **비고:** 트럼프가 Munir과 Sharif를 모두 이름으로 인용한 것은 파키스탄의 군-정 이원 중재 구조가 미국에서 인정받고 있음을 확인. Munir(군사 채널, IRGC 접근) + Sharif(정치 채널, Pezeshkian 접근)의 이중 트랙이 유일한 작동 가능 외교 경로로 재확인.
+
+### 스키마 변경 없음
+- 6개 새 엔티티 모두 기존 클래스(Event)로 분류 가능
+- 30개 새 관계(명시적) + 6개 추론 모두 기존 관계 유형(participatesIn, follows, causedBy, relatedTo, locatedIn, opposes, cooperatesWith, causalChain, potentialRelation)으로 표현 가능
+- 레바논 휴전 붕괴, 이스라엘-미국 공동 전쟁 준비 모두 기존 온톨로지 구조로 모델링 가능

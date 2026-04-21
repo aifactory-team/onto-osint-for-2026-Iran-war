@@ -1,0 +1,26 @@
+{
+  "id": "src-368",
+  "title": "Hezbollah: responded to 220+ Israeli violations documented by Legal Agenda (Apr 17-19)",
+  "url": "https://www.gulfnews.com/world/mena/hezbollah-responded-220-israeli-violations-ceasefire-1.112938456",
+  "snippet": "Gulf News reports Hezbollah justified its attacks as a response to 220+ Israeli ceasefire violations documented by the Legal Agenda between April 17-19. Hezbollah claims 3 were killed and 7 wounded (including 4 paramedics) by Israeli forces during this period.",
+  "source_name": "Gulf News",
+  "language": "en",
+  "discovered_date": "2026-04-21",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "헤즈볼라의 공격 정당화 논리(이스라엘의 220+ 위반 대응)와 Legal Agenda의 구체적 집계(3명 사망, 7명 부상)는 신규 정보. 이전 이스라엘 위반 보도(4/17-20)를 근거로 한 헤즈볼라의 반격 명분 제시.",
+  "entities": [
+    {"id": "ent-047", "type": "Organization", "name": "Hezbollah", "role": "justifying attacks"},
+    {"id": "ent-004", "type": "Organization", "name": "Israel", "role": "accused violator"},
+    {"id": "temp-013", "type": "Organization", "name": "Legal Agenda", "role": "Lebanese legal monitoring organization"},
+    {"id": "temp-010", "type": "Event", "name": "Hezbollah First Attack Since Lebanon Ceasefire (Apr 21)", "date": "2026-04-21"},
+    {"id": "ent-109", "type": "Event", "name": "Israel-Lebanon 10-Day Ceasefire (Apr 16)", "role": "violated by both sides"},
+    {"id": "ent-050", "type": "Location", "name": "Lebanon", "role": "conflict zone"}
+  ],
+  "relations": [
+    {"subject": "ent-047", "predicate": "opposes", "object": "ent-004"},
+    {"subject": "temp-010", "predicate": "causedBy", "object": "ent-120"},
+    {"subject": "temp-013", "predicate": "relatedTo", "object": "ent-109"}
+  ]
+}
