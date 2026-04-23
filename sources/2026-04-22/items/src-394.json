@@ -1,0 +1,22 @@
+{
+  "id": "src-394",
+  "title": "Pezeshkian says Tehran remains open to deal, accuses US of obstruction",
+  "url": "https://www.aljazeera.com/news/2026/4/22/iran-war-whats-happening-on-day-54-as-trump-extends-ceasefire",
+  "snippet": "Iranian President Masoud Pezeshkian said Wednesday that Tehran remains open to a deal with Washington, but accused the United States of impacting progress through 'unconstructive and contradictory signals'. He cited 'deep historical mistrust' and said the US blockade is the main obstacle to 'genuine negotiations'. This is the first moderate signal from Iran's leadership since IRGC and Ghalibaf dismissed talks as 'waste of time'.",
+  "source_name": "Al Jazeera",
+  "language": "en",
+  "discovered_date": "2026-04-22",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "페제시키안의 '딜 개방' 발언은 IRGC/갈리바프 거부와 대조되는 신규 내용.",
+  "entities": [
+    {"id": "ent-149", "type": "Person", "name": "Masoud Pezeshkian"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "temp-016", "type": "Event", "name": "Pezeshkian Open to Deal Statement (Apr 22)"}
+  ],
+  "relations": [
+    {"subject": "ent-149", "predicate": "participatesIn", "object": "temp-016"},
+    {"subject": "ent-149", "predicate": "opposes", "object": "ent-005"}
+  ]
+}

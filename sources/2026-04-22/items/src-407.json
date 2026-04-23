@@ -1,0 +1,21 @@
+{
+  "id": "src-407",
+  "title": "Iran ambassador Moghadam calls on PM Sharif, discusses peace efforts",
+  "url": "https://www.pakistantoday.com.pk/2026/04/23/pm-iranian-envoy-discusses-regional-situation-peace-efforts",
+  "snippet": "Ambassador Reza Amiri Moghadam, Ambassador of the Islamic Republic of Iran, called on PM Sharif on April 22 to discuss the evolving regional situation and ongoing peace efforts. Pakistan continues mediation role despite Iranian media questioning neutrality.",
+  "source_name": "Pakistan Today",
+  "language": "en",
+  "discovered_date": "2026-04-22",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "이란 대사의 샤리프 방문은 금일 발생한 신규 외교 활동.",
+  "entities": [
+    {"id": "temp-013", "type": "Person", "name": "Reza Amiri Moghadam"},
+    {"id": "ent-027", "type": "Person", "name": "Shehbaz Sharif"},
+    {"id": "ent-029", "type": "Organization", "name": "Pakistan"}
+  ],
+  "relations": [
+    {"subject": "temp-013", "predicate": "relatedTo", "object": "ent-027"}
+  ]
+}

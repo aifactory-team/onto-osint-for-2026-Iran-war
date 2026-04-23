@@ -1,0 +1,24 @@
+{
+  "id": "src-381",
+  "title": "Iran seizes 2 ships in Strait of Hormuz after Trump extends ceasefire (MSC-Francesca, Epaminondas)",
+  "url": "https://www.washingtonpost.com/world/2026/04/22/hormuz-strait-us-iran-talks-war/",
+  "snippet": "Iran's Islamic Revolutionary Guard Corps said its naval forces seized two cargo vessels in the Strait of Hormuz — the Panama-flagged MSC-Francesca and the Liberia-flagged Epaminondas — and redirected them to the Iranian coast. The IRGC accused the crews of 'operating without necessary authorization' and 'manipulating their navigation systems'. The IRGC alleged MSC-Francesca was linked to Israel. A third vessel was also fired upon. UKMTO confirmed Iranian gunboat attacks off Oman coast.",
+  "source_name": "Washington Post",
+  "language": "en",
+  "discovered_date": "2026-04-22",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "이전 7일 소스에 동일/유사 항목 없음. IRGC 선박 나포는 금일 발생한 신규 사건.",
+  "entities": [
+    {"id": "ent-005", "type": "Organization", "name": "IRGC", "role": "seized ships"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-004", "type": "Organization", "name": "Israel", "note": "MSC-Francesca alleged Israel link"},
+    {"id": "temp-014", "type": "Event", "name": "IRGC Seizes 3 Ships in Hormuz (Apr 22)"}
+  ],
+  "relations": [
+    {"subject": "ent-005", "predicate": "participatesIn", "object": "temp-014"},
+    {"subject": "temp-014", "predicate": "locatedIn", "object": "ent-008"}
+  ]
+}

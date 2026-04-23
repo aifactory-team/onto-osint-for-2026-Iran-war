@@ -1,0 +1,41 @@
+{
+  "date": "2026-04-22",
+  "new_triples": [
+    {"subject": "ent-005", "predicate": "participatesIn", "object": "ent-164", "source_id": "src-381", "date": "2026-04-22", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-164", "predicate": "locatedIn", "object": "ent-008", "source_id": "src-381", "date": "2026-04-22", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-164", "predicate": "causedBy", "object": "ent-158", "source_id": "src-381", "date": "2026-04-22", "confidence": 0.80, "type": "explicit"},
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "ent-165", "source_id": "src-390", "date": "2026-04-22", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-001", "predicate": "opposes", "object": "ent-002", "source_id": "src-392", "date": "2026-04-22", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-149", "predicate": "participatesIn", "object": "ent-166", "source_id": "src-394", "date": "2026-04-22", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-167", "predicate": "causedBy", "object": "ent-164", "source_id": "src-400", "date": "2026-04-22", "confidence": 0.85, "type": "explicit"},
+    {"subject": "ent-168", "predicate": "causedBy", "object": "ent-158", "source_id": "src-398", "date": "2026-04-22", "confidence": 0.75, "type": "explicit"},
+    {"subject": "ent-047", "predicate": "opposes", "object": "ent-004", "source_id": "src-402", "date": "2026-04-22", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-170", "predicate": "participatesIn", "object": "ent-169", "source_id": "src-404", "date": "2026-04-22", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-077", "predicate": "participatesIn", "object": "ent-169", "source_id": "src-404", "date": "2026-04-22", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-078", "predicate": "participatesIn", "object": "ent-169", "source_id": "src-404", "date": "2026-04-22", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-079", "predicate": "participatesIn", "object": "ent-169", "source_id": "src-404", "date": "2026-04-22", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-169", "predicate": "follows", "object": "ent-060", "source_id": "src-404", "date": "2026-04-22", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-029", "predicate": "relatedTo", "object": "ent-002", "source_id": "src-407", "date": "2026-04-22", "confidence": 0.85, "type": "explicit"},
+    {"subject": "ent-027", "predicate": "relatedTo", "object": "ent-002", "source_id": "src-407", "date": "2026-04-22", "confidence": 0.80, "type": "explicit"},
+    {"subject": "ent-165", "predicate": "relatedTo", "object": "ent-008", "source_id": "src-392", "date": "2026-04-22", "confidence": 0.85, "type": "explicit"},
+    {"subject": "ent-149", "predicate": "opposes", "object": "ent-005", "source_id": "src-394", "date": "2026-04-22", "confidence": 0.75, "type": "explicit"},
+    {"subject": "ent-166", "predicate": "relatedTo", "object": "ent-160", "source_id": "src-394", "date": "2026-04-22", "confidence": 0.80, "type": "explicit"}
+  ],
+  "updated_triples": [
+    {"subject": "ent-001", "predicate": "opposes", "object": "ent-002", "source_id": "src-392", "date": "2026-04-22", "confidence": 0.90, "type": "explicit", "note": "강화: $500M/day 경제전 + 'no time frame' 장기전 시사"},
+    {"subject": "ent-047", "predicate": "opposes", "object": "ent-004", "source_id": "src-402", "date": "2026-04-22", "confidence": 0.95, "type": "explicit", "note": "강화: 2일 연속 공격으로 레바논 휴전 붕괴 가속"},
+    {"subject": "ent-005", "predicate": "opposes", "object": "ent-149", "source_id": "src-394", "date": "2026-04-22", "confidence": 0.80, "type": "explicit", "note": "강화: 페제시키안 '딜 개방' vs IRGC 선박 나포 — 민군 분열 심화"}
+  ],
+  "inferred_triples": [
+    {"subject": "ent-164", "predicate": "causalChain", "object": "ent-167", "rule": "event_chain", "confidence": 0.72, "type": "inferred", "reasoning": "IRGC 선박 나포(ent-164) → 호르무즈 불안 심화 → Brent $100 돌파(ent-167)"},
+    {"subject": "ent-158", "predicate": "causalChain", "object": "ent-164", "rule": "event_chain", "confidence": 0.72, "type": "inferred", "reasoning": "휴전 무기한 연장(ent-158) → IRGC 대응으로 선박 나포(ent-164) — '연장에도 불구하고' 에스컬레이션"},
+    {"subject": "ent-166", "predicate": "potentialRelation", "object": "ent-160", "rule": "co_participation", "confidence": 0.75, "type": "inferred", "reasoning": "페제시키안 '딜 개방'(ent-166)과 이란 '공식 거부'(ent-160)가 같은 시간대에 공존 — 이란 내부 분열의 공개적 표출"},
+    {"subject": "ent-168", "predicate": "potentialRelation", "object": "ent-167", "rule": "co_participation", "confidence": 0.70, "type": "inferred", "reasoning": "주가 사상최고(ent-168)와 유가 $100 돌파(ent-167)가 동시에 발생 — 자산시장 디커플링 현상"},
+    {"subject": "ent-169", "predicate": "potentialRelation", "object": "ent-161", "rule": "co_participation", "confidence": 0.72, "type": "inferred", "reasoning": "이스라엘-레바논 2차 회담(ent-169)과 헤즈볼라 로켓 공격(ent-161)이 동시 진행 — 외교와 군사가 병행하는 레바논 이중구조"}
+  ],
+  "stats": {
+    "new_nodes": 7,
+    "new_edges": 19,
+    "inferred_edges": 5
+  }
+}

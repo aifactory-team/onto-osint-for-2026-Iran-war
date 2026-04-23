@@ -1,0 +1,21 @@
+{
+  "id": "src-402",
+  "title": "Israel-Lebanon Ceasefire Frays as Hezbollah Fires on Israeli Forces",
+  "url": "https://www.democracynow.org/2026/4/22/headlines/israel_lebanon_ceasefire_frays_as_hezbollah_fires_on_israeli_forces",
+  "snippet": "Ceasefire showed new signs of collapse Tuesday as Hezbollah fired rockets and drones at Israeli forces. Both sides accused each other of breaking the truce. Hezbollah said Israeli violations exceeded 200 since ceasefire began. 2nd Washington talks Thursday.",
+  "source_name": "Democracy Now",
+  "language": "en",
+  "discovered_date": "2026-04-22",
+  "tag": "update",
+  "related_report": "2026-04-21",
+  "related_item": "src-365",
+  "tag_reason": "어제 보도된 헤즈볼라 최초 공격의 후속 — 금일 추가 공격으로 '붕괴 징후(signs of collapse)' 격상.",
+  "entities": [
+    {"id": "ent-047", "type": "Organization", "name": "Hezbollah"},
+    {"id": "ent-004", "type": "Organization", "name": "Israel"},
+    {"id": "ent-050", "type": "Location", "name": "Lebanon"}
+  ],
+  "relations": [
+    {"subject": "ent-047", "predicate": "opposes", "object": "ent-004"}
+  ]
+}

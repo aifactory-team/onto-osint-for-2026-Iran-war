@@ -1,0 +1,160 @@
+{
+  "date": "2026-04-22",
+  "collected_at": "2026-04-22T23:00:00Z",
+  "config_topic": "2026 Iran War",
+  "search_count": 11,
+  "total_results": 68,
+  "expanded_keywords": ["Iran ceasefire", "Trump Hormuz blockade", "IRGC ship seizure", "Hezbollah Lebanon ceasefire", "Pezeshkian", "oil Brent WTI", "Israel Lebanon Washington talks", "Pakistan mediation Munir Sharif", "이란 전쟁 휴전", "호르무즈 봉쇄 유가", "이란 선박 나포"],
+  "searches": [
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Iran war ceasefire April 22 2026",
+      "language": "en",
+      "timestamp": "2026-04-22T23:00:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "Iran war live: Israel attacks intensify on Lebanon; ships seized in Hormuz", "url": "https://www.aljazeera.com/news/liveblog/2026/4/22/iran-war-live-trump-says-ceasefire-extended-as-talks-with-tehran-in-limbo", "snippet": "Day 54 live updates, Iran seizes ships hours after Trump extends ceasefire", "source_name": "Al Jazeera"},
+        {"title": "Iran war: What's happening on day 54 as Trump extends ceasefire?", "url": "https://www.aljazeera.com/news/2026/4/22/iran-war-whats-happening-on-day-54-as-trump-extends-ceasefire", "snippet": "Overview of Day 54: Trump ceasefire extended, IRGC seizes ships, Pezeshkian signals openness", "source_name": "Al Jazeera"},
+        {"title": "Live updates: Iran war news, Trump says there is 'no time frame' on Iran war", "url": "https://www.cnn.com/2026/04/22/world/live-news/iran-war-us-trump-blockade-ceasefire", "snippet": "Trump tells Fox News 'no time frame', denies midterms driving decisions, Iran seizes ships", "source_name": "CNN"},
+        {"title": "Trump orders ceasefire extended after Iran peace talks cancelled in Pakistan", "url": "https://www.foxnews.com/live-news/iran-us-war-blockade-hormuz-april-22", "snippet": "Fox News live blog covering ceasefire extension, blockade, ship seizures", "source_name": "Fox News"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Trump Iran blockade Hormuz April 2026",
+      "language": "en",
+      "timestamp": "2026-04-22T23:01:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "Iran War: US, Iran Deadlocked Over Hormuz Blockade After Trump Extends Truce", "url": "https://www.bloomberg.com/news/articles/2026-04-22/us-and-iran-deadlocked-over-hormuz-after-trump-extends-truce", "snippet": "US and Iran locked in battle for control of Hormuz, both blocking waterway", "source_name": "Bloomberg"},
+        {"title": "Live updates: Iran seizes ships in Strait of Hormuz after Trump extends ceasefire", "url": "https://www.nbcnews.com/world/iran/live-blog/live-updates-iran-trump-ceasefire-hormuz-attack-peace-talks-israel-rcna341361", "snippet": "Iran attacks three ships, seizes two in Hormuz after ceasefire extension", "source_name": "NBC News"},
+        {"title": "Strait of Hormuz remains basically closed as Iran seizes ships after Trump ceasefire extension", "url": "https://www.cnbc.com/2026/04/22/iran-war-strait-hormuz-tanker-ship-trump-blockade.html", "snippet": "Ship traffic still way below normal, Iran seizes vessels", "source_name": "CNBC"},
+        {"title": "Iran says it seized ships in Strait of Hormuz as U.S. blockade continues amid ceasefire", "url": "https://www.npr.org/2026/04/22/nx-s1-5795405/iran-middle-east-updates", "snippet": "IRGC seizes MSC-Francesca and Epaminondas, accuses of AIS manipulation", "source_name": "NPR"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Iran seizes ships Strait of Hormuz April 22 2026 IRGC",
+      "language": "en",
+      "timestamp": "2026-04-22T23:02:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "Iran seizes 2 ships in Strait of Hormuz after Trump extends ceasefire", "url": "https://www.washingtonpost.com/world/2026/04/22/hormuz-strait-us-iran-talks-war/", "snippet": "IRGC seizes MSC-Francesca (Panama, alleged Israel link) and Epaminondas (Liberia)", "source_name": "Washington Post"},
+        {"title": "IRGC seizes Israeli ship, second vessel for violations in Strait of Hormuz", "url": "https://www.presstv.ir/Detail/2026/04/22/767348/IRGC-seizes-Israeli-ship,-second-vessel-in-Strait-of-Hormuz", "snippet": "IRGC claims ships operated without authorization, manipulated AIS", "source_name": "PressTV"},
+        {"title": "Iran says it has seized two ships in Strait of Hormuz after U.S. extends ceasefire", "url": "https://www.cnbc.com/2026/04/22/strait-of-hormuz-ships-attacked-iran-war.html", "snippet": "IRGC seizes two, fires on three vessels total", "source_name": "CNBC"},
+        {"title": "Three ships targeted in Hormuz, Iran seizes two: monitors, Guards", "url": "https://www.al-monitor.com/originals/2026/04/three-ships-targeted-hormuz-iran-seizes-two-monitors-guards", "snippet": "UKMTO confirms Iranian gunboat fire, three ships targeted, two seized", "source_name": "Al-Monitor"},
+        {"title": "Iran seizes two cargo ships in Hormuz after Trump extends ceasefire", "url": "https://www.al-monitor.com/originals/2026/04/iran-seizes-two-cargo-ships-hormuz-after-trump-extends-ceasefire", "snippet": "Ships redirected to Iranian coast", "source_name": "Al-Monitor"},
+        {"title": "Iran captures two vessels in Strait of Hormuz after ship comes under fire", "url": "https://www.aljazeera.com/news/2026/4/22/iranian-gunboat-fires-on-container-ship-off-oman-coast", "snippet": "Iranian gunboat fires on container ship off Oman coast", "source_name": "Al Jazeera"},
+        {"title": "Iran seizes two cargo ships in Strait of Hormuz after three vessels fired on", "url": "https://www.euronews.com/2026/04/22/trump-extends-ceasefire-with-iran-indefinitely-at-pakistans-request-to-allow-for-diplomati", "snippet": "Euronews coverage of ship seizures", "source_name": "Euronews"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Hezbollah Lebanon ceasefire Israel April 22 2026",
+      "language": "en",
+      "timestamp": "2026-04-22T23:03:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "Israel-Lebanon Ceasefire Frays as Hezbollah Fires on Israeli Forces", "url": "https://www.democracynow.org/2026/4/22/headlines/israel_lebanon_ceasefire_frays_as_hezbollah_fires_on_israeli_forces", "snippet": "Hezbollah fires rockets and drones for first time since ceasefire, ceasefire fraying", "source_name": "Democracy Now"},
+        {"title": "Hezbollah targets Israeli military site in response to ceasefire breaches", "url": "https://www.middleeastmonitor.com/20260422-lebanons-hezbollah-targets-israeli-military-site-in-response-to-ceasefire-breaches", "snippet": "Hezbollah says responding to continued Israeli violations", "source_name": "Middle East Monitor"},
+        {"title": "Lebanon hopes for extension of ceasefire at Washington meeting", "url": "https://www.al-monitor.com/originals/2026/04/lebanon-hopes-extension-ceasefire-washington-meeting", "snippet": "2nd round Israel-Lebanon talks Thursday, Lebanon hopes for ceasefire extension", "source_name": "Al-Monitor"},
+        {"title": "April 22: Iran dismisses Trump's claim that it scrapped executions at his request", "url": "https://www.timesofisrael.com/liveblog-april-22-2026/", "snippet": "Times of Israel liveblog covering day's events including execution dispute", "source_name": "Times of Israel"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Trump 'no time frame' Iran war midterms April 22 2026",
+      "language": "en",
+      "timestamp": "2026-04-22T23:04:00Z",
+      "result_count": 4,
+      "results": [
+        {"title": "Trump says there is 'no time frame' on Iran war and denies midterms driving decisions", "url": "https://www.cnn.com/2026/04/22/world/live-news/iran-war-us-trump-blockade-ceasefire", "snippet": "Trump tells Fox News' Martha MacCallum 'no time frame', denies midterms", "source_name": "CNN"},
+        {"title": "Trump's blown deadlines on Iran", "url": "https://edition.cnn.com/2026/04/22/politics/deadlines-iran-war-trump", "snippet": "CNN analysis: pattern of missed deadlines on Iran", "source_name": "CNN"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "oil prices Brent WTI April 22 2026 Iran",
+      "language": "en",
+      "timestamp": "2026-04-22T23:05:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "Oil price: WTI, Brent, Iran ceasefire extension clouds outlook", "url": "https://www.cnbc.com/2026/04/22/oil-price-wti-brent-iran-ceasefire-extension-clouds-outlook.html", "snippet": "Brent $101.91 (+3%), WTI $92.96", "source_name": "CNBC"},
+        {"title": "Crude oil spikes, Brent near $100 as US announces indefinite extension of ceasefire with Iran", "url": "https://gulfnews.com/business/energy/crude-oil-spikes-brent-near-100-as-us-announces-indefinite-extension-of-ceasefire-with-iran-1.500514864", "snippet": "Brent crosses $100 on ship seizure news", "source_name": "Gulf News"},
+        {"title": "Crude Oil Rates Today: Brent Crude Rate Drops After Crossing $100 Per Barrel", "url": "https://www.oneindia.com/india/crude-oil-rates-today-april-22-2026-brent-crude-rates-drop-after-crossing-100-per-barrel-check-8065663.html", "snippet": "Brent crosses $100 then drops back", "source_name": "OneIndia"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "S&P 500 Nasdaq records April 22 2026 markets",
+      "language": "en",
+      "timestamp": "2026-04-22T23:06:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "Stock market today: S&P 500 and Nasdaq hit fresh records as market rally resumes", "url": "https://finance.yahoo.com/markets/stocks/live/stock-market-today-wednesday-april-22-dow-sp-500-nasdaq-trump-us-iran-ceasefire-230429476.html", "snippet": "S&P 500 +1%, Nasdaq +1.6% new records, Dow +0.7%, Tesla earnings", "source_name": "Yahoo Finance"},
+        {"title": "Wall Street gains as Iran ceasefire extension and robust earnings bring relief", "url": "https://www.spokesman.com/stories/2026/apr/22/wall-street-gains-as-iran-ceasefire-extension-and-/", "snippet": "Wall Street rallies on ceasefire extension and strong earnings", "source_name": "The Spokesman-Review"},
+        {"title": "Wall Street rises on Iran ceasefire extension and solid earnings", "url": "https://www.detroitnews.com/story/business/2026/04/22/wall-street-gains-after-iran-ceasefire-extension-robust-earnings/89731873007/", "snippet": "Markets gain on ceasefire news and Q1 earnings season", "source_name": "Detroit News"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Israel Lebanon Washington talks second round April 24 2026",
+      "language": "en",
+      "timestamp": "2026-04-22T23:07:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "Israel, Lebanon to Hold Second Round of Talks in Washington on Thursday", "url": "https://www.haaretz.com/israel-news/israel-security/2026-04-20/ty-article/.premium/source-israel-lebanon-to-hold-second-round-of-talks-in-washington-on-thursday/0000019d-abc4-dbb2-a19d-bfd646bc0000", "snippet": "Haaretz: 2nd round confirmed for Thursday, Huckabee joining", "source_name": "Haaretz"},
+        {"title": "Lebanon, Israel to meet again Thursday for direct talks, US says", "url": "https://www.aljazeera.com/news/2026/4/20/lebanon-israel-to-meet-again-thursday-for-direct-talks-us-says", "snippet": "State Dept confirms Thursday meeting, Rubio and Huckabee in delegation", "source_name": "Al Jazeera"},
+        {"title": "Lebanon hopes for extension of ceasefire at Washington meeting", "url": "https://www.al-monitor.com/originals/2026/04/lebanon-hopes-extension-ceasefire-washington-meeting", "snippet": "Lebanon hopes for ceasefire extension beyond Apr 26 expiry", "source_name": "Al-Monitor"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Pakistan mediation Iran ceasefire Munir Sharif April 22 2026",
+      "language": "en",
+      "timestamp": "2026-04-22T23:08:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "PM Shehbaz hails Trump for extending Iran ceasefire as Pakistan continues mediation efforts", "url": "https://en.dailypakistan.com.pk/22-Apr-2026/pm-shehbaz-hails-trump-for-extending-iran-ceasefire-as-pakistan-continues-mediation-efforts", "snippet": "Sharif praises Trump ceasefire extension, Pakistan mediation continues", "source_name": "Daily Pakistan"},
+        {"title": "Pakistan-Iran Envoy Talks as US-Iran Ceasefire Extended", "url": "https://www.pakistantoday.com.pk/2026/04/23/pm-iranian-envoy-discusses-regional-situation-peace-efforts", "snippet": "Iran ambassador Moghadam meets PM Sharif to discuss regional situation", "source_name": "Pakistan Today"},
+        {"title": "Iranian news network casts aspersion on Pakistan's mediation role", "url": "https://aninews.in/news/world/middle-east/iranian-news-network-casts-aspersion-on-pakistans-mediation-role-even-as-trump-extends-ceasefire20260422115453/", "snippet": "Iranian media questions Pakistan's neutrality in mediation", "source_name": "ANI"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "이란 전쟁 휴전 2026년 4월",
+      "language": "ko",
+      "timestamp": "2026-04-22T23:09:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "미·이란 전쟁/경과/4월", "url": "https://namu.wiki/w/%EB%AF%B8%EA%B5%AD-%EC%9D%B4%EB%9E%80%20%EC%A0%84%EC%9F%81/%EA%B2%BD%EA%B3%BC/4%EC%9B%94", "snippet": "나무위키 미-이란 전쟁 4월 경과 문서", "source_name": "나무위키"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "호르무즈 이란 선박 나포 2026년 4월 22일",
+      "language": "ko",
+      "timestamp": "2026-04-22T23:10:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "이란군 \"호르무즈서 '무허가 통항' 선박 3척 나포\"", "url": "https://www.fnnews.com/news/202604221939230314", "snippet": "IRGC, 호르무즈 해협에서 무허가 통항 선박 3척 나포", "source_name": "파이낸셜뉴스"},
+        {"title": "이란, 트럼프 '휴전연장' 선언 직후 호르무즈 선박 공격", "url": "https://www.kukinews.com/article/view/kuk202604220190", "snippet": "휴전 연장 직후 IRGC 선박 공격", "source_name": "국민일보"},
+        {"title": "이란, 호르무즈서 화물선 3척에 발포...2척은 나포", "url": "https://www.ytn.co.kr/_ln/0104_202604222144336804", "snippet": "YTN: 혁명수비대 호르무즈 해협 선박 발포 및 나포", "source_name": "YTN"},
+        {"title": "이란 혁명수비대, \"호르무즈 해협서 무허가 선박 3척 나포\"", "url": "https://www.ajunews.com/view/20260422203031280", "snippet": "아주경제: IRGC 무허가 선박 나포 보도", "source_name": "아주경제"},
+        {"title": "유가, 다시 100달러 눈앞…미·이란 협상 지연에 상승 압박", "url": "https://www.fnnews.com/news/202604220512534337", "snippet": "파이낸셜뉴스: 유가 100달러 근접, 협상 지연", "source_name": "파이낸셜뉴스"},
+        {"title": "미·이란 '이슬라마바드 담판' 좌초… 호르무즈 봉쇄에 유가 배럴당 98달러", "url": "https://www.g-enews.com/article/Global-Biz/2026/04/2026042205225540572bd56fbc3c_1", "snippet": "이슬라마바드 담판 좌초, 유가 98달러", "source_name": "글로벌이코노믹"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "date": "2026-04-22",
+  "entities": [
+    {
+      "temp_id": "temp-001",
+      "matched_id": "ent-001",
+      "type": "Person",
+      "name": "Donald Trump",
+      "properties": {"role": "US President", "action_apr22": "'no time frame' on Iran war (Fox News Martha MacCallum); denies midterms driving decisions; Iran losing $500M/day; Leavitt: 'no firm deadline'; execution claims dispute"},
+      "source_ids": ["src-390", "src-391", "src-392", "src-395", "src-396", "src-414"],
+      "mention_count": 25
+    },
+    {
+      "temp_id": "temp-002",
+      "matched_id": "ent-002",
+      "type": "Organization",
+      "name": "Iran",
+      "properties": {"type": "state", "action_apr22": "IRGC seizes 3 ships in Hormuz (MSC-Francesca, Epaminondas, 3rd); Pezeshkian says 'open to deal' but accuses US of obstruction; dismisses Trump execution claims as 'false news'"},
+      "source_ids": ["src-381", "src-382", "src-394", "src-396"],
+      "mention_count": 30
+    },
+    {
+      "temp_id": "temp-003",
+      "matched_id": "ent-005",
+      "type": "Organization",
+      "name": "IRGC",
+      "properties": {"action_apr22": "seized MSC-Francesca (Panama, alleged Israel link) and Epaminondas (Liberia), fired on 3rd vessel; accused ships of AIS manipulation and operating without authorization; UKMTO confirmed Iranian gunboat attacks off Oman coast"},
+      "source_ids": ["src-381", "src-382", "src-383", "src-384"],
+      "mention_count": 18
+    },
+    {
+      "temp_id": "temp-004",
+      "matched_id": "ent-008",
+      "type": "Location",
+      "name": "Strait of Hormuz",
+      "properties": {"status_apr22": "IRGC seizes 3 ships, fires on all; Brent $101.91 (+3%) crossing $100; 'basically closed' per CNBC; dual blockade continues; $500M/day Iran losses per Trump"},
+      "source_ids": ["src-381", "src-388", "src-389", "src-400"],
+      "mention_count": 28
+    },
+    {
+      "temp_id": "temp-005",
+      "matched_id": "ent-149",
+      "type": "Person",
+      "name": "Masoud Pezeshkian",
+      "properties": {"role": "Iran President", "action_apr22": "says Tehran 'open to deal'; accuses US of obstruction and 'unconstructive signals'; cites 'deep historical mistrust'; blockade is main obstacle to 'genuine negotiations'"},
+      "source_ids": ["src-394"],
+      "mention_count": 6
+    },
+    {
+      "temp_id": "temp-006",
+      "matched_id": "ent-047",
+      "type": "Organization",
+      "name": "Hezbollah",
+      "properties": {"action_apr22": "continues firing on Israeli military sites; 'ceasefire frays'; Day 6 of Lebanon ceasefire"},
+      "source_ids": ["src-402", "src-403"],
+      "mention_count": 8
+    },
+    {
+      "temp_id": "temp-007",
+      "matched_id": "ent-004",
+      "type": "Organization",
+      "name": "Israel",
+      "properties": {"action_apr22": "2nd round Washington talks with Lebanon confirmed Thursday Apr 24; Huckabee joining delegation; ceasefire fraying with Hezbollah attacks"},
+      "source_ids": ["src-402", "src-404"],
+      "mention_count": 12
+    },
+    {
+      "temp_id": "temp-008",
+      "matched_id": "ent-050",
+      "type": "Location",
+      "name": "Lebanon",
+      "properties": {"status_apr22": "ceasefire day 6, fraying; 2nd Washington talks Thursday; hopes for ceasefire extension beyond Apr 26 expiry"},
+      "source_ids": ["src-402", "src-404", "src-405"],
+      "mention_count": 10
+    },
+    {
+      "temp_id": "temp-009",
+      "matched_id": "ent-029",
+      "type": "Organization",
+      "name": "Pakistan",
+      "properties": {"action_apr22": "Sharif hails Trump for ceasefire extension; Iran ambassador Moghadam visits Sharif; Iranian media questions Pakistan neutrality; continues mediation"},
+      "source_ids": ["src-406", "src-407", "src-408"],
+      "mention_count": 8
+    },
+    {
+      "temp_id": "temp-010",
+      "matched_id": "ent-027",
+      "type": "Person",
+      "name": "Shehbaz Sharif",
+      "properties": {"action_apr22": "hails Trump ceasefire extension; receives Iran ambassador Moghadam; continues mediation efforts"},
+      "source_ids": ["src-406", "src-407"],
+      "mention_count": 6
+    },
+    {
+      "temp_id": "temp-011",
+      "matched_id": "ent-106",
+      "type": "Person",
+      "name": "Karoline Leavitt",
+      "properties": {"action_apr22": "says 'president has not set a firm deadline to receive an Iranian proposal, unlike some of the reporting we've seen today'"},
+      "source_ids": ["src-395"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-012",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Mike Huckabee",
+      "properties": {"role": "US Ambassador to Israel", "affiliation": "United States", "action_apr22": "joining US delegation for 2nd round Israel-Lebanon Washington talks Thursday"},
+      "source_ids": ["src-404"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-013",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Reza Amiri Moghadam",
+      "properties": {"role": "Iran Ambassador to Pakistan", "affiliation": "Iran", "action_apr22": "called on PM Sharif to discuss regional situation and peace efforts"},
+      "source_ids": ["src-407"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-014",
+      "matched_id": null,
+      "type": "Event",
+      "name": "IRGC Seizes 3 Ships in Hormuz (Apr 22)",
+      "properties": {"date": "2026-04-22", "vessels": "MSC-Francesca (Panama, alleged Israel link), Epaminondas (Liberia), 3rd vessel", "detail": "IRGC fired on all 3 ships, seized 2 (MSC-Francesca and Epaminondas), redirected to Iranian coast. Accused of AIS manipulation and operating without authorization. UKMTO confirmed attacks. Hours after Trump ceasefire extension."},
+      "source_ids": ["src-381", "src-382", "src-383", "src-384", "src-385"],
+      "mention_count": 18
+    },
+    {
+      "temp_id": "temp-015",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Trump 'No Time Frame' Statement (Apr 22)",
+      "properties": {"date": "2026-04-22", "detail": "Trump tells Fox News' Martha MacCallum: 'no time frame' for ending war; denies midterms driving decisions; says Iran losing $500M/day from blockade; blockade 'absolutely destroying Iran'. Leavitt: 'no firm deadline' for Iranian proposal."},
+      "source_ids": ["src-390", "src-391", "src-392", "src-395"],
+      "mention_count": 12
+    },
+    {
+      "temp_id": "temp-016",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Pezeshkian Open to Deal Statement (Apr 22)",
+      "properties": {"date": "2026-04-22", "detail": "Iran President Pezeshkian says Tehran 'open to deal' but accuses US of 'unconstructive and contradictory signals'. Cites 'deep historical mistrust'. Blockade is main obstacle. First moderate signal from Iran leadership since IRGC/Ghalibaf 'waste of time' rejection."},
+      "source_ids": ["src-394"],
+      "mention_count": 6
+    },
+    {
+      "temp_id": "temp-017",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Oil Brent Crosses $100 Again (Apr 22)",
+      "properties": {"date": "2026-04-22", "brent": "$101.91 (+3%)", "wti": "$92.96 (+3%)", "cause": "IRGC ship seizures + ceasefire uncertainty", "note": "6th consecutive day of major swings. Physical crude still much higher."},
+      "source_ids": ["src-400", "src-401"],
+      "mention_count": 8
+    },
+    {
+      "temp_id": "temp-018",
+      "matched_id": null,
+      "type": "Event",
+      "name": "S&P 500 Nasdaq Fresh Records (Apr 22)",
+      "properties": {"date": "2026-04-22", "sp500": "+1% new record", "nasdaq": "+1.6% new record", "dow": "+0.7%", "driver": "ceasefire extension relief + Q1 earnings (Tesla)", "note": "Equities and oil moving in opposite directions — stocks cheer ceasefire while oil fears supply disruption"},
+      "source_ids": ["src-398", "src-399"],
+      "mention_count": 6
+    },
+    {
+      "temp_id": "temp-019",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Israel-Lebanon 2nd Washington Talks (Apr 24)",
+      "properties": {"date": "2026-04-24 (scheduled)", "location": "Washington, Department of State", "participants": "Israel (Yechiel Leiter), Lebanon (Nada Moawad), US (Marco Rubio, Mike Huckabee, Michel Issa, Michael Needham)", "purpose": "extend ceasefire beyond Apr 26 expiry, build on Apr 14 first round"},
+      "source_ids": ["src-404", "src-405"],
+      "mention_count": 8
+    },
+    {
+      "temp_id": "temp-020",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Iran Ambassador Visits Sharif (Apr 22)",
+      "properties": {"date": "2026-04-22", "detail": "Iran Ambassador Reza Amiri Moghadam meets PM Sharif to discuss regional situation and peace efforts. Pakistan continues mediation despite Iranian media questioning neutrality."},
+      "source_ids": ["src-407", "src-408"],
+      "mention_count": 4
+    }
+  ],
+  "relations": [
+    {"subject": "ent-005", "predicate": "participatesIn", "object": "temp-014", "source_ids": ["src-381"], "confidence": 0.95},
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "temp-015", "source_ids": ["src-390"], "confidence": 0.95},
+    {"subject": "ent-149", "predicate": "participatesIn", "object": "temp-016", "source_ids": ["src-394"], "confidence": 0.90},
+    {"subject": "temp-014", "predicate": "locatedIn", "object": "ent-008", "source_ids": ["src-381"], "confidence": 0.95},
+    {"subject": "temp-014", "predicate": "causedBy", "object": "ent-158", "source_ids": ["src-381", "src-382"], "confidence": 0.80},
+    {"subject": "temp-017", "predicate": "causedBy", "object": "temp-014", "source_ids": ["src-400"], "confidence": 0.85},
+    {"subject": "ent-047", "predicate": "opposes", "object": "ent-004", "source_ids": ["src-402", "src-403"], "confidence": 0.95},
+    {"subject": "temp-012", "predicate": "participatesIn", "object": "temp-019", "source_ids": ["src-404"], "confidence": 0.90},
+    {"subject": "ent-077", "predicate": "participatesIn", "object": "temp-019", "source_ids": ["src-404"], "confidence": 0.90},
+    {"subject": "temp-013", "predicate": "affiliatedWith", "object": "ent-002", "source_ids": ["src-407"], "confidence": 0.95},
+    {"subject": "temp-013", "predicate": "relatedTo", "object": "ent-027", "source_ids": ["src-407"], "confidence": 0.85},
+    {"subject": "ent-149", "predicate": "opposes", "object": "ent-005", "source_ids": ["src-394"], "confidence": 0.75},
+    {"subject": "temp-018", "predicate": "causedBy", "object": "ent-158", "source_ids": ["src-398"], "confidence": 0.75}
+  ],
+  "stats": {
+    "total_entities": 20,
+    "new_entities": 9,
+    "matched_entities": 11,
+    "total_relations": 13
+  }
+}

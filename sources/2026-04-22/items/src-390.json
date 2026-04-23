@@ -1,0 +1,21 @@
+{
+  "id": "src-390",
+  "title": "Trump says there is 'no time frame' on Iran war and denies midterms driving decisions",
+  "url": "https://www.cnn.com/2026/04/22/world/live-news/iran-war-us-trump-blockade-ceasefire",
+  "snippet": "Trump told Fox News' Martha MacCallum that people saying he wants to end the war because of the midterms is 'not true', while stating there was 'no time frame' for ending the war. He said Iran is losing $500 million per day due to the Hormuz blockade. White House press secretary Karoline Leavitt said 'the president has not set a firm deadline to receive an Iranian proposal.'",
+  "source_name": "CNN",
+  "language": "en",
+  "discovered_date": "2026-04-22",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "트럼프의 'no time frame' 발언과 중간선거 부인은 금일 새로 보도된 내용.",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"},
+    {"id": "ent-106", "type": "Person", "name": "Karoline Leavitt"},
+    {"id": "temp-015", "type": "Event", "name": "Trump 'No Time Frame' Statement (Apr 22)"}
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "temp-015"}
+  ]
+}

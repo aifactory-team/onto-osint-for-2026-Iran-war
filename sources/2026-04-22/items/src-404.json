@@ -1,0 +1,26 @@
+{
+  "id": "src-404",
+  "title": "Israel, Lebanon to Hold Second Round of Talks in Washington on Thursday",
+  "url": "https://www.haaretz.com/israel-news/israel-security/2026-04-20/ty-article/.premium/source-israel-lebanon-to-hold-second-round-of-talks-in-washington-on-thursday/0000019d-abc4-dbb2-a19d-bfd646bc0000",
+  "snippet": "Israel and Lebanon will hold a second round of talks in Washington on Thursday (Apr 24). US delegation includes Secretary Rubio, Ambassador to Israel Mike Huckabee, Ambassador to Lebanon Michel Issa, and counselor Michael Needham. Israel represented by Yechiel Leiter, Lebanon by Nada Moawad. Lebanon hopes for ceasefire extension beyond Apr 26 expiry.",
+  "source_name": "Haaretz",
+  "language": "en",
+  "discovered_date": "2026-04-22",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "2차 이스라엘-레바논 워싱턴 회담의 구체적 일정(목요일)과 참가자(허커비) 확인은 신규 정보.",
+  "entities": [
+    {"id": "ent-004", "type": "Organization", "name": "Israel"},
+    {"id": "ent-050", "type": "Location", "name": "Lebanon"},
+    {"id": "ent-077", "type": "Person", "name": "Marco Rubio"},
+    {"id": "temp-012", "type": "Person", "name": "Mike Huckabee"},
+    {"id": "ent-078", "type": "Person", "name": "Yechiel Leiter"},
+    {"id": "ent-079", "type": "Person", "name": "Nada Mouawad"},
+    {"id": "temp-019", "type": "Event", "name": "Israel-Lebanon 2nd Washington Talks (Apr 24)"}
+  ],
+  "relations": [
+    {"subject": "temp-012", "predicate": "participatesIn", "object": "temp-019"},
+    {"subject": "ent-077", "predicate": "participatesIn", "object": "temp-019"}
+  ]
+}

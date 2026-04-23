@@ -1,0 +1,19 @@
+{
+  "id": "src-398",
+  "title": "Stock market today: S&P 500 and Nasdaq hit fresh records, Tesla reports earnings",
+  "url": "https://finance.yahoo.com/markets/stocks/live/stock-market-today-wednesday-april-22-dow-sp-500-nasdaq-trump-us-iran-ceasefire-230429476.html",
+  "snippet": "US stocks rose to fresh record highs. S&P 500 rose more than 1% to hit a fresh record. Nasdaq Composite led higher, jumping 1.6% to close at a new high. Dow gained around 0.7%. Ceasefire extension and strong Q1 earnings (Tesla) boosted sentiment.",
+  "source_name": "Yahoo Finance",
+  "language": "en",
+  "discovered_date": "2026-04-22",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "금일 증시 사상 최고가 갱신은 신규 시장 이벤트.",
+  "entities": [
+    {"id": "temp-018", "type": "Event", "name": "S&P 500 Nasdaq Fresh Records (Apr 22)"}
+  ],
+  "relations": [
+    {"subject": "temp-018", "predicate": "causedBy", "object": "ent-158"}
+  ]
+}

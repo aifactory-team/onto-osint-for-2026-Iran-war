@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "알려진 엔티티 인스턴스 — 파이프라인 실행 시 자동으로 추가/업데이트된다.",
-  "last_updated": "2026-04-21",
+  "last_updated": "2026-04-22",
   "entities": [
     {
       "id": "ent-001",
@@ -9,17 +9,17 @@
       "name": "Donald Trump",
       "properties": { "role": "US President", "affiliation": "United States", "action_apr21": "morning CNBC 'I don't want to' extend ceasefire; ~4pm ET Truth Social reversal: extends ceasefire indefinitely 'until such time as their proposal is submitted'; cited Iran 'seriously fractured' and Pakistan (Munir+Sharif) request; blockade maintained: 'continue the Blockade and, in all other respects, remain ready and able'" },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-21",
-      "mention_count": 192
+      "last_seen": "2026-04-22",
+      "mention_count": 217
     },
     {
       "id": "ent-002",
       "type": "Organization",
       "name": "Iran",
-      "properties": { "type": "state", "location": "Middle East", "action_apr21": "officially refuses talks through Pakistani intermediary: 'waste of time'; cites (1) ceasefire not covering Lebanon, (2) excessive demands, (3) naval blockade; FM: blockade is 'act of war'; IRGC: 'strait will not be opened through ridiculous spectacle by president of US'" },
+      "properties": { "type": "state", "location": "Middle East", "action_apr22": "IRGC seizes 3 ships in Hormuz (MSC-Francesca, Epaminondas, 3rd); Pezeshkian says 'open to deal' but accuses US of 'unconstructive signals'; dismisses Trump execution claims as 'false news'; IRGC escalates naval aggression despite ceasefire extension" },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-21",
-      "mention_count": 240
+      "last_seen": "2026-04-22",
+      "mention_count": 270
     },
     {
       "id": "ent-003",
@@ -34,19 +34,19 @@
       "id": "ent-004",
       "type": "Organization",
       "name": "Israel",
-      "properties": { "type": "state", "location": "Middle East", "action_apr21": "doubts Iran deal; Kan: senior official says Israel 'jointly preparing with Washington for war resumption'; Yellow Line operations continue" },
+      "properties": { "type": "state", "location": "Middle East", "action_apr22": "2nd Washington talks with Lebanon confirmed Thursday Apr 24 (Huckabee joining); ceasefire fraying as Hezbollah continues attacks; continues joint war prep with US" },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-21",
-      "mention_count": 84
+      "last_seen": "2026-04-22",
+      "mention_count": 96
     },
     {
       "id": "ent-005",
       "type": "Organization",
       "name": "IRGC (Islamic Revolutionary Guard Corps)",
-      "properties": { "type": "military", "location": "Iran", "status_apr21": "dismisses ceasefire extension: 'the strait will not be opened to the enemies of this nation through the ridiculous spectacle by the president of the US'; full control confirmed; blocking all diplomatic engagement" },
+      "properties": { "type": "military", "location": "Iran", "action_apr22": "seized MSC-Francesca (Panama, alleged Israel link) and Epaminondas (Liberia), fired on 3rd vessel in Hormuz; accused ships of AIS manipulation; UKMTO confirmed gunboat attacks off Oman coast; most aggressive naval action since blockade began" },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-21",
-      "mention_count": 63
+      "last_seen": "2026-04-22",
+      "mention_count": 81
     },
     {
       "id": "ent-006",
@@ -70,10 +70,10 @@
       "id": "ent-008",
       "type": "Location",
       "name": "Strait of Hormuz",
-      "properties": { "type": "strait/waterway", "status_apr21": "blockade continues per Trump order; Brent $98.48 (+3%) / WTI $92.13 (+3%); after-hours: WTI $88.60, Brent $94.89 on ceasefire extension news; IRGC refuses to open" },
+      "properties": { "type": "strait/waterway", "status_apr22": "IRGC seizes 3 ships, fires on all; Brent $101.91 (+3%) crossing $100 again; 'basically closed' (CNBC); dual blockade continues; Trump: Iran losing $500M/day; 6th consecutive day of major price swings" },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-21",
-      "mention_count": 214
+      "last_seen": "2026-04-22",
+      "mention_count": 242
     },
     {
       "id": "ent-009",
@@ -421,10 +421,10 @@
       "id": "ent-047",
       "type": "Organization",
       "name": "Hezbollah",
-      "properties": { "type": "armed group", "location": "Lebanon", "affiliation": "Iran-backed", "action_apr21": "first rocket fire since Apr 16 ceasefire — rockets at Rab al-Thalathine, drone toward Israel; claims 220+ Israeli violations (Legal Agenda: 220 breaches Apr 17-19, 3 killed, 7 wounded)" },
+      "properties": { "type": "armed group", "location": "Lebanon", "affiliation": "Iran-backed", "action_apr22": "continues firing on Israeli military sites day 2; ceasefire 'fraying'; both sides accuse other of violations; 200+ violations cited since ceasefire began" },
       "first_seen": "2026-04-10",
-      "last_seen": "2026-04-21",
-      "mention_count": 50
+      "last_seen": "2026-04-22",
+      "mention_count": 58
     },
     {
       "id": "ent-048",
@@ -448,10 +448,10 @@
       "id": "ent-050",
       "type": "Location",
       "name": "Lebanon",
-      "properties": { "type": "country", "status_apr21": "Hezbollah fires first rockets since ceasefire at Rab al-Thalathine + drone; 220+ Israeli violations cited; Lebanon ceasefire day 5 increasingly fragile" },
+      "properties": { "type": "country", "status_apr22": "ceasefire day 6, fraying; Hezbollah continues attacks; 2nd Washington talks Thursday Apr 24; Lebanon hopes for ceasefire extension beyond Apr 26 expiry" },
       "first_seen": "2026-04-10",
-      "last_seen": "2026-04-21",
-      "mention_count": 76
+      "last_seen": "2026-04-22",
+      "mention_count": 86
     },
     {
       "id": "ent-051",
@@ -1343,10 +1343,10 @@
       "id": "ent-149",
       "type": "Person",
       "name": "Masoud Pezeshkian",
-      "properties": { "role": "Iran President", "affiliation": "Iran", "action_apr20": "45-min call with Sharif; criticized US 'hostile acts' as undermining negotiation sincerity; marginalized by IRGC/Vahidi; 'largely inaccessible' Mojtaba Khamenei depends on IRGC commanders" },
+      "properties": { "role": "Iran President", "affiliation": "Iran", "action_apr22": "says Tehran 'open to deal' but accuses US of 'unconstructive and contradictory signals'; cites 'deep historical mistrust'; blockade is main obstacle to 'genuine negotiations'; first moderate signal since IRGC/Ghalibaf 'waste of time'" },
       "first_seen": "2026-04-20",
-      "last_seen": "2026-04-20",
-      "mention_count": 6
+      "last_seen": "2026-04-22",
+      "mention_count": 12
     },
     {
       "id": "ent-150",
@@ -1430,6 +1430,70 @@
       "last_seen": "2026-04-21",
       "mention_count": 5
     }
+    ,
+    {
+      "id": "ent-164",
+      "type": "Event",
+      "name": "IRGC Seizes 3 Ships in Hormuz (Apr 22)",
+      "properties": { "date": "2026-04-22", "vessels": "MSC-Francesca (Panama, alleged Israel link), Epaminondas (Liberia), 3rd vessel", "detail": "IRGC fired on all 3 ships, seized 2 (MSC-Francesca and Epaminondas), redirected to Iranian coast. Accused of AIS manipulation and operating without authorization. UKMTO confirmed attacks. Hours after Trump ceasefire extension. Most aggressive IRGC naval action since blockade began." },
+      "first_seen": "2026-04-22",
+      "last_seen": "2026-04-22",
+      "mention_count": 18
+    },
+    {
+      "id": "ent-165",
+      "type": "Event",
+      "name": "Trump 'No Time Frame' Statement (Apr 22)",
+      "properties": { "date": "2026-04-22", "detail": "Trump tells Fox News' Martha MacCallum: 'no time frame' for ending war; denies midterms driving decisions; says Iran losing $500M/day from blockade; 'THE BLOCKADE is absolutely destroying Iran'. Leavitt: 'no firm deadline' for Iranian proposal. US officials initially said 3-5 day window but Leavitt contradicted." },
+      "first_seen": "2026-04-22",
+      "last_seen": "2026-04-22",
+      "mention_count": 12
+    },
+    {
+      "id": "ent-166",
+      "type": "Event",
+      "name": "Pezeshkian Open to Deal Statement (Apr 22)",
+      "properties": { "date": "2026-04-22", "detail": "Iran President Pezeshkian says Tehran 'open to deal' but accuses US of 'unconstructive and contradictory signals'. Cites 'deep historical mistrust'. Blockade is main obstacle to 'genuine negotiations'. First moderate signal from Iran leadership since IRGC/Ghalibaf 'waste of time' rejection — reveals civil-military split." },
+      "first_seen": "2026-04-22",
+      "last_seen": "2026-04-22",
+      "mention_count": 6
+    },
+    {
+      "id": "ent-167",
+      "type": "Event",
+      "name": "Oil Brent Crosses $100 Again (Apr 22)",
+      "properties": { "date": "2026-04-22", "brent": "$101.91 (+3%)", "wti": "$92.96 (+3%)", "cause": "IRGC ship seizures + Hormuz uncertainty", "note": "6th consecutive day of major price swings. Brent re-crosses $100 threshold. Physical crude still much higher." },
+      "first_seen": "2026-04-22",
+      "last_seen": "2026-04-22",
+      "mention_count": 8
+    },
+    {
+      "id": "ent-168",
+      "type": "Event",
+      "name": "S&P 500 Nasdaq Fresh Records (Apr 22)",
+      "properties": { "date": "2026-04-22", "sp500": "+1% new record", "nasdaq": "+1.6% new record", "dow": "+0.7%", "driver": "ceasefire extension relief + Q1 earnings (Tesla)", "note": "Equities and oil moving in opposite directions — stocks cheer ceasefire while oil fears supply disruption. Divergence is structurally significant." },
+      "first_seen": "2026-04-22",
+      "last_seen": "2026-04-22",
+      "mention_count": 6
+    },
+    {
+      "id": "ent-169",
+      "type": "Event",
+      "name": "Israel-Lebanon 2nd Washington Talks (Apr 24)",
+      "properties": { "date": "2026-04-24 (scheduled)", "location": "Washington, Department of State", "participants": "Israel (Yechiel Leiter), Lebanon (Nada Moawad), US (Marco Rubio, Mike Huckabee, Michel Issa, Michael Needham)", "purpose": "extend ceasefire beyond Apr 26 expiry, build on Apr 14 first round", "context": "ceasefire fraying with Hezbollah attacks, 10-day truce expires Sunday" },
+      "first_seen": "2026-04-22",
+      "last_seen": "2026-04-22",
+      "mention_count": 8
+    },
+    {
+      "id": "ent-170",
+      "type": "Person",
+      "name": "Mike Huckabee",
+      "properties": { "role": "US Ambassador to Israel", "affiliation": "United States", "action_apr22": "joining US delegation for 2nd round Israel-Lebanon Washington talks Thursday Apr 24" },
+      "first_seen": "2026-04-22",
+      "last_seen": "2026-04-22",
+      "mention_count": 3
+    }
   ],
-  "total_count": 163
+  "total_count": 170
 }

@@ -1,0 +1,21 @@
+{
+  "id": "src-382",
+  "title": "Iran says it seized ships in Strait of Hormuz as U.S. blockade continues amid ceasefire",
+  "url": "https://www.npr.org/2026/04/22/nx-s1-5795405/iran-middle-east-updates",
+  "snippet": "Iran attacked three ships in the Strait of Hormuz, saying its Revolutionary Guard seized two of them. IRGC named MSC-Francesca and Epaminondas. Accused of operating without authorization and manipulating AIS. Comes hours after Trump extended ceasefire.",
+  "source_name": "NPR",
+  "language": "en",
+  "discovered_date": "2026-04-22",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "NPR의 독자적 보도로 추가 세부사항(3척 공격, 2척 나포) 포함.",
+  "entities": [
+    {"id": "ent-005", "type": "Organization", "name": "IRGC"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "temp-014", "type": "Event", "name": "IRGC Seizes 3 Ships in Hormuz (Apr 22)"}
+  ],
+  "relations": [
+    {"subject": "ent-005", "predicate": "participatesIn", "object": "temp-014"}
+  ]
+}

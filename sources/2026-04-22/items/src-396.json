@@ -1,0 +1,18 @@
+{
+  "id": "src-396",
+  "title": "Iran's judiciary rejects Trump's claim on 'planned execution' of 8 women — 'false news'",
+  "url": "https://www.presstv.ir/Detail/2026/04/21/767308/Iran-Judiciary-rejects-Trump-claims-on-planned-execution-of-8-women",
+  "snippet": "Iran's Judiciary dismissed claims by Trump that 8 women face imminent execution: 'Trump was misled once again by fake news.' Some already released, others face charges that may lead to imprisonment, not execution. Iran calls it 'false news'. Trump had thanked Iran for cancelling executions, citing unverified activist post.",
+  "source_name": "PressTV",
+  "language": "en",
+  "discovered_date": "2026-04-22",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "트럼프-이란 사형 관련 분쟁은 금일 새로 보도된 사이드 이슈.",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"}
+  ],
+  "relations": []
+}

@@ -1,0 +1,21 @@
+{
+  "id": "src-392",
+  "title": "Trump: Iran is losing $500 million daily due to Hormuz blockade",
+  "url": "https://www.jns.org/news/u-s-news/trump-iran-is-losing-500-million-daily-due-to-hormuz-blockade",
+  "snippet": "Trump: 'THE BLOCKADE, which we will not take off until there is a DEAL, is absolutely destroying Iran. They are losing $500 Million Dollars a day, an unsustainable number, even in the short run.' Trump claims Iran collapsing financially.",
+  "source_name": "JNS",
+  "language": "en",
+  "discovered_date": "2026-04-22",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "$500M/일 손실 주장과 'absolutely destroying Iran' 발언은 금일 신규 내용.",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"}
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "opposes", "object": "ent-002"}
+  ]
+}

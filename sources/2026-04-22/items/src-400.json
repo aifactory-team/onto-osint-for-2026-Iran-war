@@ -1,0 +1,20 @@
+{
+  "id": "src-400",
+  "title": "Oil price: WTI, Brent surge — Brent crosses $100 to $101.91, Iran ceasefire extension clouds outlook",
+  "url": "https://www.cnbc.com/2026/04/22/oil-price-wti-brent-iran-ceasefire-extension-clouds-outlook.html",
+  "snippet": "Brent crude rose more than 3% to close at $101.91 per barrel, crossing the $100 threshold again. WTI advanced more than 3% to settle at $92.96. IRGC ship seizures and ongoing Hormuz uncertainty drove the surge. 6th consecutive day of major price swings.",
+  "source_name": "CNBC",
+  "language": "en",
+  "discovered_date": "2026-04-22",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Brent $100 재돌파는 금일 발생한 신규 유가 이벤트.",
+  "entities": [
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "temp-017", "type": "Event", "name": "Oil Brent Crosses $100 Again (Apr 22)"}
+  ],
+  "relations": [
+    {"subject": "temp-017", "predicate": "causedBy", "object": "temp-014"}
+  ]
+}
