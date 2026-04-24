@@ -1,0 +1,22 @@
+{
+  "id": "src-416",
+  "title": "Trump orders US Navy to 'shoot and kill' any boat laying mines in Strait of Hormuz",
+  "url": "https://www.aljazeera.com/news/2026/4/23/us-to-shoot-and-kill-iranian-boats-laying-mines-in-hormuz-trump-says",
+  "snippet": "Trump via Truth Social: 'I have ordered the United States Navy to shoot and kill any boat, small boats though they may be (Their naval ships are ALL, 159 of them, at the bottom of the sea!), that is putting mines in the waters of the Strait of Hormuz. There is to be no hesitation.' Also: mine sweepers tripled. US has 'total control' of Hormuz, 'Sealed up Tight, until such time as Iran is able to make a DEAL!!!' Ships need US Navy approval to transit.",
+  "source_name": "Al Jazeera",
+  "language": "en",
+  "discovered_date": "2026-04-23",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "New escalatory order from Trump — first shoot-to-kill ROE on mine-laying vessels. Major escalation of Hormuz confrontation.",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President"},
+    {"id": "ent-003", "type": "Organization", "name": "US Military"},
+    {"id": "ent-005", "type": "Organization", "name": "IRGC"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"}
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "opposes", "object": "ent-005"}
+  ]
+}

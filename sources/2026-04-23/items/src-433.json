@@ -1,0 +1,21 @@
+{
+  "id": "src-433",
+  "title": "Satellite images capture 33 IRGC fast-attack fleet near Kargan coast in Hormuz",
+  "url": "https://www.theweek.in/news/middle-east/2026/04/23/satellite-image-captures-unusual-activity-in-strait-of-hormuz-33-irgc-fast-attack-fleet-near-kargan-coast.html",
+  "snippet": "Sentinel-2 satellite image captured April 22 shows flotilla of 33 IRGCN fast-attack craft north of Hormuz near Kargan coast. Show-of-force deployment enforcing strait closure. 'Mosquito fleet' visible as cluster of wakes. Same day as MSC-Francesca and Epaminondas seizures. European Copernicus system imagery.",
+  "source_name": "The Week India",
+  "language": "en",
+  "discovered_date": "2026-04-23",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "New satellite intelligence: first imagery of IRGC fast-boat swarm in Hormuz. Contradicts Trump's claim of Iranian navy destroyed.",
+  "entities": [
+    {"id": "ent-005", "type": "Organization", "name": "IRGC"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "temp-023", "type": "Location", "name": "Kargan Coast"}
+  ],
+  "relations": [
+    {"subject": "ent-005", "predicate": "locatedIn", "object": "ent-008"}
+  ]
+}

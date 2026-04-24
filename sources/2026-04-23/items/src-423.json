@@ -1,0 +1,26 @@
+{
+  "id": "src-423",
+  "title": "Israel-Lebanon ceasefire extended by 3 weeks following White House peace talks, Trump says",
+  "url": "https://www.cbsnews.com/live-updates/iran-war-trump-video-strait-of-hormuz-ship-attack-ceasefire-lebanon/",
+  "snippet": "Trump announces 3-week extension of Israel-Lebanon ceasefire after 2nd round of WH talks. Was set to expire Sunday Apr 26. Rubio leads US delegation with Huckabee (US Amb to Israel), Needham (State Dept Counsellor), Issa (US Amb to Lebanon). Lebanese Amb Moawad and Israeli Amb Leiter met again. Trump: 'I look forward to hosting PM Netanyahu and President Aoun.' Lebanon asks for end to Israeli demolitions, IDF withdrawal, prisoner release.",
+  "source_name": "CBS News",
+  "language": "en",
+  "discovered_date": "2026-04-23",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "New development: 3-week ceasefire extension. Significant diplomatic outcome from 2nd round talks.",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"},
+    {"id": "ent-004", "type": "Organization", "name": "Israel"},
+    {"id": "ent-050", "type": "Location", "name": "Lebanon"},
+    {"id": "ent-077", "type": "Person", "name": "Marco Rubio"},
+    {"id": "ent-170", "type": "Person", "name": "Mike Huckabee"},
+    {"id": "ent-107", "type": "Person", "name": "Joseph Aoun"},
+    {"id": "ent-031", "type": "Person", "name": "Benjamin Netanyahu"}
+  ],
+  "relations": [
+    {"subject": "ent-004", "predicate": "cooperatesWith", "object": "ent-050"},
+    {"subject": "ent-077", "predicate": "participatesIn", "object": "temp-016"}
+  ]
+}

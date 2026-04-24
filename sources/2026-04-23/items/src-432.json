@@ -1,0 +1,19 @@
+{
+  "id": "src-432",
+  "title": "Brent oil tops $105 on report Iran's top negotiator resigned",
+  "url": "https://www.cnbc.com/2026/04/23/oil-price-iran-war-strait-hormuz.html",
+  "snippet": "Brent rose 3% to close at $105.07, spiking to $107 on Ghalibaf resignation report. WTI advanced 3% to close at $95.85, spiking to $98. Trump's shoot-to-kill mine order also drove prices. 7th day of consecutive major swings. S&P -0.41%, Nasdaq -0.89%, Dow -0.36% as oil surge weighed on equities.",
+  "source_name": "CNBC",
+  "language": "en",
+  "discovered_date": "2026-04-23",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Oil closes above $105 — highest since Hormuz crisis began. Brent re-crosses $100 threshold for 2nd day. Major market mover.",
+  "entities": [
+    {"id": "ent-045", "type": "Person", "name": "Mohammad Bagher Ghalibaf"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"}
+  ],
+  "relations": []
+}

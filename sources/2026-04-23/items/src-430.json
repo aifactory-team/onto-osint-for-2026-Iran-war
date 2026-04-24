@@ -1,0 +1,23 @@
+{
+  "id": "src-430",
+  "title": "Iran Parliament Speaker Ghalibaf resigns from negotiating team after IRGC intervention: reports",
+  "url": "https://www.freepressjournal.in/world/iran-parliament-speaker-ghalibaf-resigns-from-negotiating-team-after-irgc-intervention-reports",
+  "snippet": "Israeli Channel 12 reports that Ghalibaf resigned from leading negotiations with the US due to IRGC interference. Ghalibaf led the Islamabad delegation. IRGC inserted Zolghadr who filed complaint that Araghchi exceeded mandate. Iran denies report. Oil prices spiked to $107 on the news. Prediction market for Apr 30 peace deal drops to 9% YES.",
+  "source_name": "Free Press Journal",
+  "language": "en",
+  "discovered_date": "2026-04-23",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "New report of Ghalibaf resignation — major development for Iran's internal power dynamics and negotiation prospects. Unconfirmed but market-moving.",
+  "entities": [
+    {"id": "ent-045", "type": "Person", "name": "Mohammad Bagher Ghalibaf"},
+    {"id": "ent-005", "type": "Organization", "name": "IRGC"},
+    {"id": "ent-150", "type": "Person", "name": "Zolghadr"},
+    {"id": "ent-044", "type": "Person", "name": "Abbas Araghchi"}
+  ],
+  "relations": [
+    {"subject": "ent-005", "predicate": "opposes", "object": "ent-045"},
+    {"subject": "ent-005", "predicate": "opposes", "object": "ent-044"}
+  ]
+}

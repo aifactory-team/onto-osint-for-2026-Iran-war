@@ -1,0 +1,238 @@
+{
+  "date": "2026-04-23",
+  "entities": [
+    {
+      "temp_id": "temp-001",
+      "matched_id": "ent-001",
+      "type": "Person",
+      "name": "Donald Trump",
+      "properties": {"role": "US President", "action_apr23": "ordered Navy 'shoot and kill' mine-laying boats; 'total control' of Hormuz, 'Sealed up Tight'; 'Don't rush me' on timeline; announced Israel-Lebanon ceasefire 3-week extension; said no nukes in Iran war; Americans should expect higher gas prices 'for a little while'; tripled mine-sweeping operations"},
+      "source_ids": ["src-416", "src-421", "src-422", "src-423", "src-444"],
+      "mention_count": 18
+    },
+    {
+      "temp_id": "temp-002",
+      "matched_id": "ent-002",
+      "type": "Organization",
+      "name": "Iran",
+      "properties": {"action_apr23": "denies Ghalibaf resignation; says opening Hormuz 'impossible' while blockade persists; IRGC releases seizure video; Pezeshkian seeks 'dialogue and agreement' but blames blockade; Araghchi: 'aggressors responsible'"},
+      "source_ids": ["src-427", "src-430", "src-431", "src-435", "src-436"],
+      "mention_count": 20
+    },
+    {
+      "temp_id": "temp-003",
+      "matched_id": "ent-005",
+      "type": "Organization",
+      "name": "IRGC",
+      "properties": {"action_apr23": "releases dramatic video of MSC-Francesca and Epaminondas seizures; 33 fast-attack boats detected by satellite near Kargan coast ('mosquito fleet'); intervention caused Ghalibaf to resign from negotiating team (reported/denied)"},
+      "source_ids": ["src-427", "src-428", "src-429", "src-433", "src-434", "src-430"],
+      "mention_count": 15
+    },
+    {
+      "temp_id": "temp-004",
+      "matched_id": "ent-008",
+      "type": "Location",
+      "name": "Strait of Hormuz",
+      "properties": {"status_apr23": "Trump claims 'total control', 'sealed up tight'; orders shoot-to-kill on mine-laying boats; tripled mine-sweeping; IRGC 33-boat 'mosquito fleet' near Kargan; 7th consecutive day of major oil price swings; Brent $105.07"},
+      "source_ids": ["src-416", "src-422", "src-433", "src-432"],
+      "mention_count": 25
+    },
+    {
+      "temp_id": "temp-005",
+      "matched_id": "ent-045",
+      "type": "Person",
+      "name": "Mohammad Bagher Ghalibaf",
+      "properties": {"action_apr23": "Israeli Channel 12 reports Ghalibaf resigned from negotiating team due to IRGC interference; Iran denies; oil prices spiked $107 on report; peace deal market drops to 9% YES"},
+      "source_ids": ["src-430", "src-431", "src-432"],
+      "mention_count": 8
+    },
+    {
+      "temp_id": "temp-006",
+      "matched_id": "ent-004",
+      "type": "Organization",
+      "name": "Israel",
+      "properties": {"action_apr23": "agrees to 3-week ceasefire extension with Lebanon at White House; Leiter represents at 2nd round talks; Netanyahu and Aoun invited to White House 'in near future'"},
+      "source_ids": ["src-423", "src-424", "src-426"],
+      "mention_count": 10
+    },
+    {
+      "temp_id": "temp-007",
+      "matched_id": "ent-050",
+      "type": "Location",
+      "name": "Lebanon",
+      "properties": {"status_apr23": "ceasefire extended 3 weeks to mid-May; 2nd Washington talks held; asks for end to Israeli demolitions, IDF withdrawal, prisoner release; journalist killed by Israel (AJ liveblog)"},
+      "source_ids": ["src-423", "src-424", "src-426", "src-445"],
+      "mention_count": 12
+    },
+    {
+      "temp_id": "temp-008",
+      "matched_id": "ent-149",
+      "type": "Person",
+      "name": "Masoud Pezeshkian",
+      "properties": {"action_apr23": "says Tehran wants 'dialogue and agreement' but 'breach of commitments, blockade and threats' are main obstacles to 'genuine negotiations'"},
+      "source_ids": ["src-435"],
+      "mention_count": 4
+    },
+    {
+      "temp_id": "temp-009",
+      "matched_id": "ent-044",
+      "type": "Person",
+      "name": "Abbas Araghchi",
+      "properties": {"action_apr23": "says 'aggressors' responsible for war consequences; meets South Korean envoy; did NOT resign despite Ghalibaf report"},
+      "source_ids": ["src-436"],
+      "mention_count": 4
+    },
+    {
+      "temp_id": "temp-010",
+      "matched_id": "ent-027",
+      "type": "Person",
+      "name": "Shehbaz Sharif",
+      "properties": {"action_apr23": "meets Iranian ambassador Moghadam; reaffirms Pakistan mediation commitment"},
+      "source_ids": ["src-437"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-011",
+      "matched_id": "ent-077",
+      "type": "Person",
+      "name": "Marco Rubio",
+      "properties": {"action_apr23": "leads 2nd round Israel-Lebanon Washington talks; ambassador-level negotiations at WH"},
+      "source_ids": ["src-423", "src-424"],
+      "mention_count": 4
+    },
+    {
+      "temp_id": "temp-012",
+      "matched_id": "ent-170",
+      "type": "Person",
+      "name": "Mike Huckabee",
+      "properties": {"action_apr23": "joins US delegation for 2nd round Israel-Lebanon talks at WH as confirmed yesterday"},
+      "source_ids": ["src-423", "src-424"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-013",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Michel Issa",
+      "properties": {"role": "US Ambassador to Lebanon", "affiliation": "United States", "action_apr23": "joins US delegation for 2nd round Israel-Lebanon talks at WH"},
+      "source_ids": ["src-424"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-014",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Michael Needham",
+      "properties": {"role": "State Department Counsellor", "affiliation": "United States", "action_apr23": "joins US delegation for 2nd round Israel-Lebanon talks at WH"},
+      "source_ids": ["src-424"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-015",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Trump Shoot-to-Kill Order (Apr 23)",
+      "properties": {"date": "2026-04-23", "detail": "Trump orders US Navy to 'shoot and kill' any boat laying mines in Hormuz. 'No hesitation.' Tripled mine-sweeping operations. Claims US has 'total control' of strait, 'Sealed up Tight.' Said Iran's navy 'all 159 ships at the bottom of the sea.'"},
+      "source_ids": ["src-416", "src-417", "src-418", "src-419", "src-420"],
+      "mention_count": 12
+    },
+    {
+      "temp_id": "temp-016",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Israel-Lebanon Ceasefire 3-Week Extension (Apr 23)",
+      "properties": {"date": "2026-04-23", "detail": "Trump announces 3-week ceasefire extension after 2nd round White House talks. Was set to expire Apr 26. Now extends to mid-May. Rubio leads US delegation with Huckabee, Needham, Issa. Netanyahu and Aoun invited to WH 'in near future.' Lebanon asks end to IDF demolitions, troop withdrawal, prisoner release."},
+      "source_ids": ["src-423", "src-424", "src-425", "src-426"],
+      "mention_count": 15
+    },
+    {
+      "temp_id": "temp-017",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Ghalibaf Resignation Report (Apr 23)",
+      "properties": {"date": "2026-04-23", "detail": "Israeli Channel 12 reports Ghalibaf resigned from Iran's US negotiating team due to IRGC interference. Iran denies. Oil prices spiked (Brent to $107) on the report. Prediction market for Apr 30 peace deal drops to 9% YES. Deepens IRGC-pragmatist split narrative.", "status": "unconfirmed — Channel 12 report vs Iranian denial"},
+      "source_ids": ["src-430", "src-431", "src-432"],
+      "mention_count": 8
+    },
+    {
+      "temp_id": "temp-018",
+      "matched_id": null,
+      "type": "Event",
+      "name": "IRGC Seizure Video Release (Apr 23)",
+      "properties": {"date": "2026-04-23", "detail": "Iran releases dramatic video of masked IRGC fighters boarding MSC-Francesca via gunboat, climbing hull with rifles. Also shows Epaminondas seizure. Philippine government confirms 15 seafarers safe. Video used as propaganda/deterrent."},
+      "source_ids": ["src-427", "src-428", "src-429"],
+      "mention_count": 6
+    },
+    {
+      "temp_id": "temp-019",
+      "matched_id": null,
+      "type": "Event",
+      "name": "IRGC 33 Fast-Attack Boat Deployment (Apr 22-23)",
+      "properties": {"date": "2026-04-22", "detail": "Sentinel-2 satellite captures 33 IRGC fast-attack boats near Kargan coast in Hormuz. 'Mosquito fleet' show-of-force deployment. Copernicus/Sentinel-2 imagery analyzed by OSINT investigators. Contradicts Trump claim of Iranian navy destroyed.", "source": "Sentinel-2/Copernicus satellite imagery"},
+      "source_ids": ["src-433", "src-434"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": "temp-020",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Oil Price Surge (Apr 23)",
+      "properties": {"date": "2026-04-23", "brent_close": "$105.07 (+3%)", "brent_spike": "$107 (on Ghalibaf report)", "wti_close": "$95.85 (+3%)", "wti_spike": "$98 (on Ghalibaf report)", "cause": "Trump shoot-to-kill order + Ghalibaf resignation report + continued Hormuz disruption"},
+      "source_ids": ["src-432", "src-440"],
+      "mention_count": 6
+    },
+    {
+      "temp_id": "temp-021",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Stock Market Pullback (Apr 23)",
+      "properties": {"date": "2026-04-23", "sp500": "-0.41% (7,108.40)", "nasdaq": "-0.89% (24,438.50)", "dow": "-0.36% (49,310.32)", "detail": "Pullback from record highs. IBM -8%, ServiceNow -18%. Tech leads decline. Oil surge and Iran uncertainty weigh."},
+      "source_ids": ["src-440"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-022",
+      "matched_id": null,
+      "type": "Event",
+      "name": "US Military Buildup Continues (Apr 23)",
+      "properties": {"date": "2026-04-23", "detail": "Thousands more US forces heading to ME. Bush carrier group 6,000 + Boxer ARG 4,000+. Total ~60,000 in region. Largest buildup since 2003 Iraq invasion. Continued despite ceasefire."},
+      "source_ids": ["src-441"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-023",
+      "matched_id": null,
+      "type": "Location",
+      "name": "Kargan Coast",
+      "properties": {"type": "coastal area", "country": "Iran", "significance": "IRGC fast-attack boat staging area near Hormuz"},
+      "source_ids": ["src-433"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-024",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Reza Amiri Moghadam",
+      "properties": {"role": "Iranian Ambassador to Pakistan", "affiliation": "Iran", "action_apr23": "met PM Sharif to discuss peace efforts and ceasefire extension"},
+      "source_ids": ["src-437"],
+      "mention_count": 2
+    }
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "opposes", "object": "ent-005", "source_ids": ["src-416"], "confidence": 0.95},
+    {"subject": "ent-001", "predicate": "cooperatesWith", "object": "ent-004", "source_ids": ["src-423"], "confidence": 0.9},
+    {"subject": "ent-001", "predicate": "cooperatesWith", "object": "ent-029", "source_ids": ["src-437"], "confidence": 0.9},
+    {"subject": "ent-005", "predicate": "opposes", "object": "ent-045", "source_ids": ["src-430"], "confidence": 0.8},
+    {"subject": "ent-004", "predicate": "cooperatesWith", "object": "ent-050", "source_ids": ["src-423"], "confidence": 0.85},
+    {"subject": "ent-149", "predicate": "opposes", "object": "ent-005", "source_ids": ["src-435", "src-438"], "confidence": 0.75},
+    {"subject": "ent-077", "predicate": "participatesIn", "object": "temp-016", "source_ids": ["src-424"], "confidence": 0.95},
+    {"subject": "ent-027", "predicate": "cooperatesWith", "object": "temp-024", "source_ids": ["src-437"], "confidence": 0.85},
+    {"subject": "ent-045", "predicate": "participatesIn", "object": "temp-017", "source_ids": ["src-430"], "confidence": 0.7}
+  ],
+  "stats": {
+    "total_entities": 24,
+    "new_entities": 9,
+    "matched_entities": 15,
+    "total_relations": 9
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "date": "2026-04-23",
+  "new_triples": [
+    { "subject": "ent-001", "predicate": "participatesIn", "object": "ent-171", "source_id": "src-416", "date": "2026-04-23", "confidence": 0.95, "type": "explicit" },
+    { "subject": "ent-171", "predicate": "locatedIn", "object": "ent-008", "source_id": "src-416", "date": "2026-04-23", "confidence": 0.95, "type": "explicit" },
+    { "subject": "ent-171", "predicate": "follows", "object": "ent-165", "source_id": "src-416", "date": "2026-04-23", "confidence": 0.90, "type": "explicit" },
+    { "subject": "ent-005", "predicate": "opposes", "object": "ent-003", "source_id": "src-416", "date": "2026-04-23", "confidence": 0.95, "type": "explicit" },
+    { "subject": "ent-001", "predicate": "participatesIn", "object": "ent-172", "source_id": "src-423", "date": "2026-04-23", "confidence": 0.95, "type": "explicit" },
+    { "subject": "ent-004", "predicate": "participatesIn", "object": "ent-172", "source_id": "src-423", "date": "2026-04-23", "confidence": 0.95, "type": "explicit" },
+    { "subject": "ent-050", "predicate": "participatesIn", "object": "ent-172", "source_id": "src-423", "date": "2026-04-23", "confidence": 0.95, "type": "explicit" },
+    { "subject": "ent-077", "predicate": "participatesIn", "object": "ent-172", "source_id": "src-424", "date": "2026-04-23", "confidence": 0.95, "type": "explicit" },
+    { "subject": "ent-170", "predicate": "participatesIn", "object": "ent-172", "source_id": "src-424", "date": "2026-04-23", "confidence": 0.90, "type": "explicit" },
+    { "subject": "ent-175", "predicate": "participatesIn", "object": "ent-172", "source_id": "src-424", "date": "2026-04-23", "confidence": 0.90, "type": "explicit" },
+    { "subject": "ent-176", "predicate": "participatesIn", "object": "ent-172", "source_id": "src-424", "date": "2026-04-23", "confidence": 0.90, "type": "explicit" },
+    { "subject": "ent-172", "predicate": "follows", "object": "ent-109", "source_id": "src-423", "date": "2026-04-23", "confidence": 0.90, "type": "explicit" },
+    { "subject": "ent-045", "predicate": "participatesIn", "object": "ent-173", "source_id": "src-430", "date": "2026-04-23", "confidence": 0.70, "type": "explicit" },
+    { "subject": "ent-005", "predicate": "causedBy", "object": "ent-173", "source_id": "src-430", "date": "2026-04-23", "confidence": 0.75, "type": "explicit" },
+    { "subject": "ent-174", "predicate": "causedBy", "object": "ent-171", "source_id": "src-432", "date": "2026-04-23", "confidence": 0.80, "type": "explicit" },
+    { "subject": "ent-174", "predicate": "causedBy", "object": "ent-173", "source_id": "src-432", "date": "2026-04-23", "confidence": 0.75, "type": "explicit" },
+    { "subject": "ent-005", "predicate": "locatedIn", "object": "ent-177", "source_id": "src-433", "date": "2026-04-23", "confidence": 0.90, "type": "explicit" },
+    { "subject": "ent-177", "predicate": "locatedIn", "object": "ent-008", "source_id": "src-433", "date": "2026-04-23", "confidence": 0.95, "type": "explicit" },
+    { "subject": "ent-149", "predicate": "opposes", "object": "ent-001", "source_id": "src-435", "date": "2026-04-23", "confidence": 0.70, "type": "explicit" },
+    { "subject": "ent-027", "predicate": "cooperatesWith", "object": "ent-178", "source_id": "src-437", "date": "2026-04-23", "confidence": 0.85, "type": "explicit" },
+    { "subject": "ent-029", "predicate": "relatedTo", "object": "ent-002", "source_id": "src-437", "date": "2026-04-23", "confidence": 0.85, "type": "explicit" }
+  ],
+  "updated_triples": [],
+  "inferred_triples": [
+    { "subject": "ent-171", "predicate": "causalChain", "object": "ent-174", "date": "2026-04-23", "confidence": 0.72, "type": "inferred" },
+    { "subject": "ent-005", "predicate": "causalChain", "object": "ent-173", "date": "2026-04-23", "confidence": 0.75, "type": "inferred" },
+    { "subject": "ent-172", "predicate": "potentialRelation", "object": "ent-169", "date": "2026-04-23", "confidence": 0.80, "type": "inferred" },
+    { "subject": "ent-149", "predicate": "potentialRelation", "object": "ent-045", "date": "2026-04-23", "confidence": 0.72, "type": "inferred" }
+  ],
+  "stats": {
+    "new_nodes": 8,
+    "new_edges": 21,
+    "inferred_edges": 4
+  }
+}

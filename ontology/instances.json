@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "알려진 엔티티 인스턴스 — 파이프라인 실행 시 자동으로 추가/업데이트된다.",
-  "last_updated": "2026-04-22",
+  "last_updated": "2026-04-23",
   "entities": [
     {
       "id": "ent-001",
@@ -1493,7 +1493,79 @@
       "first_seen": "2026-04-22",
       "last_seen": "2026-04-22",
       "mention_count": 3
+    },
+    {
+      "id": "ent-171",
+      "type": "Event",
+      "name": "Trump Shoot-to-Kill Mine Order (Apr 23)",
+      "properties": { "date": "2026-04-23", "detail": "Trump orders US Navy to 'shoot and kill' any boat laying mines in Hormuz. 'No hesitation.' Tripled mine-sweeping. Claims 'total control' of Hormuz, 'Sealed up Tight.' Iran's navy 'all 159 ships at bottom of the sea.'" },
+      "first_seen": "2026-04-23",
+      "last_seen": "2026-04-23",
+      "mention_count": 12
+    },
+    {
+      "id": "ent-172",
+      "type": "Event",
+      "name": "Israel-Lebanon 3-Week Ceasefire Extension (Apr 23)",
+      "properties": { "date": "2026-04-23", "detail": "Trump announces 3-week extension after 2nd round WH talks. Was set to expire Apr 26. Rubio leads with Huckabee, Needham, Issa. Lebanon asks for end to IDF demolitions, withdrawal, prisoner release. Netanyahu and Aoun invited to WH.", "participants": "Israel (Leiter), Lebanon (Moawad), US (Rubio, Huckabee, Needham, Issa)" },
+      "first_seen": "2026-04-23",
+      "last_seen": "2026-04-23",
+      "mention_count": 15
+    },
+    {
+      "id": "ent-173",
+      "type": "Event",
+      "name": "Ghalibaf Resignation Report (Apr 23)",
+      "properties": { "date": "2026-04-23", "detail": "Israeli Channel 12 reports Ghalibaf resigned from negotiating team due to IRGC interference. Iran denies. Oil spiked to $107. Peace deal market drops to 9% YES.", "status": "unconfirmed" },
+      "first_seen": "2026-04-23",
+      "last_seen": "2026-04-23",
+      "mention_count": 8
+    },
+    {
+      "id": "ent-174",
+      "type": "Event",
+      "name": "Oil Price Surge (Apr 23)",
+      "properties": { "date": "2026-04-23", "brent_close": "$105.07 (+3%)", "brent_spike": "$107", "wti_close": "$95.85 (+3%)", "wti_spike": "$98", "cause": "shoot-to-kill order + Ghalibaf report + Hormuz disruption" },
+      "first_seen": "2026-04-23",
+      "last_seen": "2026-04-23",
+      "mention_count": 6
+    },
+    {
+      "id": "ent-175",
+      "type": "Person",
+      "name": "Michel Issa",
+      "properties": { "role": "US Ambassador to Lebanon", "affiliation": "United States" },
+      "first_seen": "2026-04-23",
+      "last_seen": "2026-04-23",
+      "mention_count": 2
+    },
+    {
+      "id": "ent-176",
+      "type": "Person",
+      "name": "Michael Needham",
+      "properties": { "role": "State Department Counsellor", "affiliation": "United States" },
+      "first_seen": "2026-04-23",
+      "last_seen": "2026-04-23",
+      "mention_count": 2
+    },
+    {
+      "id": "ent-177",
+      "type": "Location",
+      "name": "Kargan Coast",
+      "properties": { "type": "coastal area", "country": "Iran", "significance": "IRGC fast-attack boat staging area near Hormuz; 33 boats detected by Sentinel-2 satellite Apr 22" },
+      "first_seen": "2026-04-23",
+      "last_seen": "2026-04-23",
+      "mention_count": 2
+    },
+    {
+      "id": "ent-178",
+      "type": "Person",
+      "name": "Reza Amiri Moghadam",
+      "properties": { "role": "Iranian Ambassador to Pakistan", "affiliation": "Iran", "action_apr23": "met PM Sharif to discuss peace efforts" },
+      "first_seen": "2026-04-23",
+      "last_seen": "2026-04-23",
+      "mention_count": 2
     }
   ],
-  "total_count": 170
+  "total_count": 178
 }
