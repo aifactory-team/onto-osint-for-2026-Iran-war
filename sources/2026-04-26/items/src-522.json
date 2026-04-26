@@ -1,0 +1,42 @@
+{
+  "id": "src-522",
+  "title": "White House rejects latest Iranian offer as Pakistan peace talks fail",
+  "url": "https://www.foxnews.com/live-news/trump-pakistan-iran-blockade-hormuz-israel-april-26",
+  "snippet": "White House formally rejected Iran's latest peace proposal. Trump: 'they offered a lot but not enough'. Iran 5-point counter-proposal called 'unrealistic'. Includes end to attacks, security guarantees, war reparations, sovereignty over Hormuz. Trump rejects and says war will 'come to an end very soon'.",
+  "source_name": "Fox News",
+  "language": "en",
+  "discovered_date": "2026-04-26",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "New: formal rejection of latest Iranian offer + war ending soon claim",
+  "entities": [
+    {
+      "id": "ent-001",
+      "type": "Person",
+      "name": "Donald Trump"
+    },
+    {
+      "id": "ent-002",
+      "type": "Organization",
+      "name": "Iran"
+    },
+    {
+      "id": "temp-015",
+      "type": "Event",
+      "name": "Iran Proposal Rejected (Apr 26)"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "ent-001",
+      "predicate": "opposes",
+      "object": "temp-015"
+    },
+    {
+      "subject": "ent-002",
+      "predicate": "participatesIn",
+      "object": "temp-015"
+    }
+  ]
+}

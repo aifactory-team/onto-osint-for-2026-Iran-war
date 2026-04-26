@@ -1,0 +1,47 @@
+{
+  "id": "src-518",
+  "title": "Israeli strikes kill 14, wound 37 in southern Lebanon",
+  "url": "https://www.staradvertiser.com/2026/04/26/breaking-news/israeli-strikes-kill-14-wounds-37-in-lebanon/",
+  "snippet": "IDF strikes killed 14, wounded 37 in southern Lebanon. Dead include 2 women and 2 children. Strikes targeted Hezbollah fighters, rocket launchers, weapons depot. Retaliatory wave after Fooks killing. 7 towns given evacuation orders.",
+  "source_name": "AP",
+  "language": "en",
+  "discovered_date": "2026-04-26",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "New: Deadliest single day of strikes since ceasefire began — 14 killed, 37 wounded",
+  "entities": [
+    {
+      "id": "ent-004",
+      "type": "Organization",
+      "name": "Israel"
+    },
+    {
+      "id": "ent-050",
+      "type": "Organization",
+      "name": "Hezbollah"
+    },
+    {
+      "id": "ent-048",
+      "type": "Organization",
+      "name": "Lebanon"
+    },
+    {
+      "id": "temp-010",
+      "type": "Event",
+      "name": "IDF Retaliatory Strikes (Apr 26)"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "ent-004",
+      "predicate": "participatesIn",
+      "object": "temp-010"
+    },
+    {
+      "subject": "temp-010",
+      "predicate": "causedBy",
+      "object": "temp-009"
+    }
+  ]
+}

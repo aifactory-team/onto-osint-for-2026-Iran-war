@@ -1,0 +1,48 @@
+{
+  "id": "src-516",
+  "title": "IDF Sgt. Idan Fooks (19) killed in Hezbollah drone strike; 6 wounded",
+  "url": "https://www.timesofisrael.com/idf-soldier-killed-in-south-lebanon-drone-attack-as-israel-hezbollah-trade-blame/",
+  "snippet": "Sgt. Idan Fooks, 19, of 7th Armored Brigade's 77th Battalion, from Petah Tikva, killed by Hezbollah explosive drone in southern Lebanon. 1 officer + 3 troops seriously wounded, 1 moderately, 1 lightly. 3rd soldier killed during ceasefire, 1st in direct Hezbollah attack. IDF launched retaliatory wave of strikes.",
+  "source_name": "Times of Israel",
+  "language": "en",
+  "discovered_date": "2026-04-26",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "New: First IDF soldier killed in direct Hezbollah attack during ceasefire",
+  "entities": [
+    {
+      "id": "temp-008",
+      "type": "Person",
+      "name": "Idan Fooks",
+      "role": "IDF Sergeant, 7th Armored Brigade"
+    },
+    {
+      "id": "ent-050",
+      "type": "Organization",
+      "name": "Hezbollah"
+    },
+    {
+      "id": "ent-004",
+      "type": "Organization",
+      "name": "Israel"
+    },
+    {
+      "id": "temp-009",
+      "type": "Event",
+      "name": "Fooks Drone Strike (Apr 26)"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "ent-050",
+      "predicate": "participatesIn",
+      "object": "temp-009"
+    },
+    {
+      "subject": "temp-008",
+      "predicate": "affiliatedWith",
+      "object": "ent-004"
+    }
+  ]
+}

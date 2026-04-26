@@ -1,0 +1,32 @@
+{
+  "id": "src-529",
+  "title": "총기 난사에 꽉 막힌 호르무즈..휴전 붕괴 위기 고조",
+  "url": "https://www.4th.kr/news/articleView.html?idxno=2110700",
+  "snippet": "WHCD 총격과 호르무즈 위기를 연결하여 분석. 50일 경과한 무력 충돌에서 호르무즈 해협 긴장 재격화. 해상 충돌 이어지면서 상선 운항 중단, 에너지 공급망 흔들림.",
+  "source_name": "포쓰저널",
+  "language": "ko",
+  "discovered_date": "2026-04-26",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "한국어 신규 분석 기사: WHCD 총격-호르무즈 위기 연결",
+  "entities": [
+    {
+      "id": "ent-008",
+      "type": "Location",
+      "name": "Strait of Hormuz"
+    },
+    {
+      "id": "temp-002",
+      "type": "Event",
+      "name": "WHCD Shooting (Apr 25)"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "temp-002",
+      "predicate": "relatedTo",
+      "object": "ent-008"
+    }
+  ]
+}

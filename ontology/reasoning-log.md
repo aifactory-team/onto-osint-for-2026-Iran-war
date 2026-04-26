@@ -767,3 +767,45 @@
 - 7개 새 엔티티 모두 기존 클래스(Event, Location, Organization)로 분류 가능
 - 26개 새 관계(명시적) + 3개 업데이트 + 5개 추론 모두 기존 관계 유형으로 표현 가능
 - 오만(Organization/state)과 무스카트(Location/city)는 기존 클래스로 충분히 모델링됨
+
+---
+
+## 2026-04-26 추론 결과
+
+### 추론 #1: co_participation (오만-파키스탄 병렬 중재)
+- **입력:** (ent-044/Araghchi, locatedIn, ent-190/Oman) AND (ent-044/Araghchi, locatedIn, ent-029/Pakistan) — 같은 날 양국 방문
+- **추론:** (ent-190/Oman, potentialRelation, ent-029/Pakistan)
+- **신뢰도:** 0.75
+- **상태:** 확정
+- **비고:** 2015 JCPOA 비밀 협상에서 오만이 뒤채널 역할을 한 전례. 파키스탄(공식 중재자)과 오만(비공식 뒤채널)의 병렬 중재 구조 형성 중.
+
+### 추론 #2: event_chain (레바논 에스컬레이션 체인)
+- **입력:** (ent-199/강제 퇴거, follows, ent-191/네타냐후 공격 명령), (ent-201/Day 10 에스컬레이션, causedBy, ent-199/강제 퇴거)
+- **추론:** (ent-201/Day 10 에스컬레이션, causalChain, ent-109/Israel-Lebanon 10-Day Ceasefire)
+- **신뢰도:** 0.76
+- **상태:** 확정
+- **비고:** 4/16 휴전 → 4/23 3주 연장 → 4/25 네타냐후 공격 명령 → 4/26 Fooks 전사 + 14명 사살 + 7개 마을 퇴거. 10일 만에 휴전이 사실상 붕괴 상태로 전이.
+
+### 추론 #3: co_participation (영국-파키스탄 호르무즈 해법)
+- **입력:** (ent-202/Starmer, cooperatesWith, ent-001/Trump) on Hormuz shipping, (ent-029/Pakistan, cooperatesWith, ent-001/Trump) as sole mediator
+- **추론:** (ent-202/Starmer, potentialRelation, ent-029/Pakistan)
+- **신뢰도:** 0.72
+- **상태:** 확정
+- **비고:** 50국 해양 자유항행 이니셔티브(Starmer-Macron)와 파키스탄 중재 트랙은 별도이나, 호르무즈 해법이라는 공통 목표로 수렴 가능.
+
+### 추론 #4: co_participation (푸틴-아라그치 협력)
+- **입력:** (ent-198/Putin, participatesIn, Araghchi Moscow Trip), (ent-044/Araghchi, participatesIn, Araghchi Moscow Trip)
+- **추론:** (ent-198/Putin, potentialRelation, ent-044/Araghchi)
+- **신뢰도:** 0.80
+- **상태:** 확정
+- **비고:** 러시아는 이란 농축 우라늄 보관/재처리 제안. 푸틴-아라그치 회담은 러시아의 핵 딜 중재자 역할을 공식화할 수 있음.
+
+### 추론 #5: co_participation (WHCD 총격-이란전쟁 연관)
+- **입력:** (ent-195/Cole Allen, participatesIn, ent-196/WHCD Shooting), (ent-001/Trump, participatesIn, ent-196/WHCD Shooting), (ent-001/Trump, participatesIn, ent-015/2026 Iran War)
+- **추론:** (ent-195/Cole Allen, relatedTo, ent-015/2026 Iran War)
+- **신뢰도:** 0.50
+- **상태:** 잠정 (threshold 0.7 미달)
+- **비고:** 트럼프 본인이 이란전쟁 연관을 부인("I don't think so"). 매니페스토에서 이란전쟁 직접 언급 여부 미확인. 간접적 연관에 그침.
+
+### 스키마 변경 없음
+- 금일 발견된 모든 엔티티/관계는 기존 seed 스키마로 충분히 표현 가능

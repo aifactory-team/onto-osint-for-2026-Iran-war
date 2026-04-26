@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "OSINT 온톨로지 스키마 — config/osint-config.json의 seed로부터 초기화되고, 매일 파이프라인 실행 시 자동 확장된다.",
-  "last_updated": "2026-04-25",
+  "last_updated": "2026-04-26",
   "classes": [
     {
       "id": "Entity",
@@ -173,6 +173,13 @@
       "target": "7 new entities (ent-188~ent-194)",
       "reason": "트럼프 위트코프·쿠슈너 파키스탄행 전격 취소('We have all the cards'), 아라그치 이슬라마바드 출국→오만/러시아 순방, 트럼프 '10분 내 더 나은 제안서' 발언, 네타냐후 헤즈볼라 '강력 공격' 명령(Day 9 4명 사살), 페제시키안 '강제 협상 불가' 선언, 오만·무스카트 신규 장소 등장",
       "source_ids": ["src-476", "src-485", "src-487", "src-488", "src-490", "src-492", "src-493", "src-503"]
+    },
+    {
+      "date": "2026-04-26",
+      "action": "add_instances",
+      "target": "9 new entities (ent-195~ent-203)",
+      "reason": "WHCD 총격(Cole Allen), 술탄 하이삼 빈 타리크(오만), 푸틴(러시아), 아라그치-술탄 회담, 이스라엘 남부 레바논 7개 마을 강제 퇴거, Sgt. Idan Fooks 헤즈볼라 드론 전사, IDF 보복 공습(14명 사살), 트럼프-스타머 통화(50국 해양 이니셔티브), 유가 Brent $107.89",
+      "source_ids": ["src-506", "src-510", "src-513", "src-514", "src-516", "src-518", "src-519", "src-521", "src-522"]
     }
   ]
 }

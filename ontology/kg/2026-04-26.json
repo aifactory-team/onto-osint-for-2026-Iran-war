@@ -1,0 +1,41 @@
+{
+  "date": "2026-04-26",
+  "new_triples": [
+    {"subject": "ent-195", "predicate": "participatesIn", "object": "ent-196", "source_id": "src-506", "date": "2026-04-26", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "ent-196", "source_id": "src-506", "date": "2026-04-26", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-044", "predicate": "participatesIn", "object": "ent-197", "source_id": "src-510", "date": "2026-04-26", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-197", "predicate": "locatedIn", "object": "ent-189", "source_id": "src-510", "date": "2026-04-26", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-190", "predicate": "cooperatesWith", "object": "ent-002", "source_id": "src-510", "date": "2026-04-26", "confidence": 0.80, "type": "explicit"},
+    {"subject": "ent-044", "predicate": "participatesIn", "object": "ent-198", "source_id": "src-513", "date": "2026-04-26", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-009", "predicate": "cooperatesWith", "object": "ent-002", "source_id": "src-513", "date": "2026-04-26", "confidence": 0.85, "type": "explicit"},
+    {"subject": "ent-004", "predicate": "participatesIn", "object": "ent-199", "source_id": "src-514", "date": "2026-04-26", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-004", "predicate": "opposes", "object": "ent-050", "source_id": "src-514", "date": "2026-04-26", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-050", "predicate": "participatesIn", "object": "ent-201", "source_id": "src-516", "date": "2026-04-26", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-200", "predicate": "affiliatedWith", "object": "ent-004", "source_id": "src-516", "date": "2026-04-26", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-201", "predicate": "causedBy", "object": "ent-199", "source_id": "src-518", "date": "2026-04-26", "confidence": 0.85, "type": "explicit"},
+    {"subject": "ent-201", "predicate": "locatedIn", "object": "ent-048", "source_id": "src-518", "date": "2026-04-26", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-202", "predicate": "cooperatesWith", "object": "ent-001", "source_id": "src-519", "date": "2026-04-26", "confidence": 0.85, "type": "explicit"},
+    {"subject": "ent-203", "predicate": "relatedTo", "object": "ent-008", "source_id": "src-519", "date": "2026-04-26", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-001", "predicate": "opposes", "object": "ent-002", "source_id": "src-522", "date": "2026-04-26", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-044", "predicate": "locatedIn", "object": "ent-029", "source_id": "src-510", "date": "2026-04-26", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-031", "predicate": "participatesIn", "object": "ent-199", "source_id": "src-514", "date": "2026-04-26", "confidence": 0.85, "type": "explicit"},
+    {"subject": "ent-199", "predicate": "follows", "object": "ent-191", "source_id": "src-514", "date": "2026-04-26", "confidence": 0.80, "type": "explicit"}
+  ],
+  "updated_triples": [
+    {"subject": "ent-004", "predicate": "opposes", "object": "ent-050", "update": "reconfirmed with Day 10 escalation — Fooks killing + 14 killed retaliatory strikes + 7-town evacuation", "date": "2026-04-26"},
+    {"subject": "ent-009", "predicate": "cooperatesWith", "object": "ent-002", "update": "strengthened — Putin meeting confirmed Monday Apr 27", "date": "2026-04-26"},
+    {"subject": "ent-001", "predicate": "opposes", "object": "ent-002", "update": "Iran proposal formally rejected; Trump says war ends 'very soon'", "date": "2026-04-26"}
+  ],
+  "inferred_triples": [
+    {"subject": "ent-190", "predicate": "potentialRelation", "object": "ent-029", "rule": "co_participation", "confidence": 0.75, "reason": "Both Oman and Pakistan mediating US-Iran conflict via parallel channels; Araghchi visits both same day"},
+    {"subject": "ent-199", "predicate": "causalChain", "object": "ent-109", "rule": "event_chain", "confidence": 0.76, "reason": "Forced evacuation → retaliatory strikes → ceasefire erosion → original 10-day ceasefire chain"},
+    {"subject": "ent-202", "predicate": "potentialRelation", "object": "ent-029", "rule": "co_participation", "confidence": 0.72, "reason": "UK and Pakistan both working toward Hormuz resolution — Starmer 50-nation initiative + Pakistan sole mediator"},
+    {"subject": "ent-198", "predicate": "potentialRelation", "object": "ent-044", "rule": "co_participation", "confidence": 0.80, "reason": "Putin-Araghchi Monday meeting — Russia as Iran's diplomatic backer"},
+    {"subject": "ent-195", "predicate": "relatedTo", "object": "ent-015", "rule": "co_participation", "confidence": 0.50, "reason": "Trump doubts connection but WHCD shooting occurred during Iran war — tangential. Below threshold, marked tentative."}
+  ],
+  "stats": {
+    "new_nodes": 9,
+    "new_edges": 19,
+    "inferred_edges": 5
+  }
+}

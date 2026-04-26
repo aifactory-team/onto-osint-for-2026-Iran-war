@@ -1,0 +1,44 @@
+{
+  "id": "src-506",
+  "title": "WHCD Shooting: Cole Allen storms checkpoint targeting Trump officials",
+  "url": "https://www.washingtonpost.com/national-security/2026/04/26/whcd-shooting-suspect/",
+  "snippet": "Cole Tomas Allen, 31, California teacher/engineer, armed with shotgun/handgun/knives, stormed WHCD security checkpoint Saturday night. Called himself 'friendly federal assassin'. Targeted Trump admin officials. Trump rushed out by Secret Service. Federal charges: assault of federal officer + firearm crime.",
+  "source_name": "Washington Post",
+  "language": "en",
+  "discovered_date": "2026-04-26",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Entirely new domestic security event directly involving the war president",
+  "entities": [
+    {
+      "id": "temp-001",
+      "type": "Person",
+      "name": "Cole Tomas Allen",
+      "role": "WHCD shooting suspect"
+    },
+    {
+      "id": "ent-001",
+      "type": "Person",
+      "name": "Donald Trump",
+      "role": "US President"
+    },
+    {
+      "id": "temp-002",
+      "type": "Event",
+      "name": "WHCD Shooting (Apr 25)"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "temp-001",
+      "predicate": "participatesIn",
+      "object": "temp-002"
+    },
+    {
+      "subject": "ent-001",
+      "predicate": "participatesIn",
+      "object": "temp-002"
+    }
+  ]
+}

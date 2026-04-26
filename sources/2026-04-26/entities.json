@@ -1,0 +1,164 @@
+{
+  "date": "2026-04-26",
+  "entities": [
+    {
+      "temp_id": "temp-001",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Cole Tomas Allen",
+      "properties": {"role": "WHCD shooting suspect", "age": 31, "origin": "California", "occupation": "teacher/engineer", "education": "CalTech BS mechanical engineering 2017, Cal State MS computer science", "manifesto": "targeted Trump admin officials, called himself 'friendly federal assassin'"},
+      "source_ids": ["src-506", "src-507", "src-508", "src-509"],
+      "mention_count": 6
+    },
+    {
+      "temp_id": "temp-002",
+      "matched_id": null,
+      "type": "Event",
+      "name": "WHCD Shooting (Apr 25-26)",
+      "properties": {"date": "2026-04-25 (Saturday night)", "location": "Washington Hilton", "detail": "Cole Allen stormed security checkpoint with shotgun/handgun/knives. Exchanged fire with law enforcement. Trump rushed out by Secret Service. Allen in custody. Federal charges: assault of federal officer + firearm crime.", "trump_response": "doubts Iran war connection, says won't deter from winning war"},
+      "source_ids": ["src-506", "src-507", "src-508", "src-509", "src-529"],
+      "mention_count": 8
+    },
+    {
+      "temp_id": "temp-003",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Sultan Haitham bin Tariq",
+      "properties": {"role": "Sultan of Oman", "affiliation": "Oman", "action": "met Araghchi in Muscat Apr 26, discussed Hormuz and Iran mediation"},
+      "source_ids": ["src-510", "src-511", "src-512"],
+      "mention_count": 4
+    },
+    {
+      "temp_id": "temp-004",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Vladimir Putin",
+      "properties": {"role": "President of Russia", "affiliation": "Russia", "action": "will meet Araghchi Monday Apr 27 in St. Petersburg"},
+      "source_ids": ["src-510", "src-513"],
+      "mention_count": 4
+    },
+    {
+      "temp_id": "temp-005",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Araghchi-Sultan Haitham Meeting (Apr 26)",
+      "properties": {"date": "2026-04-26", "location": "Muscat, Oman", "participants": "Araghchi, Sultan Haitham bin Tariq", "topics": "bilateral relations, regional developments, Hormuz toll proposal (rejected by Oman), mediation efforts"},
+      "source_ids": ["src-510", "src-511", "src-512"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": "temp-006",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Araghchi Moscow Trip (Apr 27)",
+      "properties": {"date": "2026-04-27 (expected)", "location": "St. Petersburg, Russia", "detail": "Araghchi will meet Putin. Discusses bilateral, regional and international developments. Moscow as key diplomatic backer of Tehran."},
+      "source_ids": ["src-513"],
+      "mention_count": 4
+    },
+    {
+      "temp_id": "temp-007",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Israel Forced Evacuation Orders (Apr 26)",
+      "properties": {"date": "2026-04-26", "location": "Southern Lebanon, north of Litani River", "detail": "Israel ordered residents of 7 towns beyond buffer zone to evacuate. Towns north of Litani, outside 10km security zone. Major ceasefire escalation.", "towns": "7 towns beyond buffer zone"},
+      "source_ids": ["src-514", "src-515"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": "temp-008",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Idan Fooks",
+      "properties": {"role": "IDF Sergeant, 7th Armored Brigade 77th Battalion", "age": 19, "origin": "Petah Tikva", "status": "killed 2026-04-26 by Hezbollah drone in southern Lebanon", "significance": "3rd soldier killed during ceasefire, 1st in direct Hezbollah attack"},
+      "source_ids": ["src-516", "src-517"],
+      "mention_count": 4
+    },
+    {
+      "temp_id": "temp-009",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Hezbollah Drone Strike Kills Fooks (Apr 26)",
+      "properties": {"date": "2026-04-26", "location": "Southern Lebanon", "casualties": "1 killed (Fooks), 1 officer + 3 troops seriously wounded, 1 moderately, 1 lightly", "perpetrator": "Hezbollah", "significance": "Triggered retaliatory IDF wave of strikes"},
+      "source_ids": ["src-516", "src-517"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": "temp-010",
+      "matched_id": null,
+      "type": "Event",
+      "name": "IDF Retaliatory Strikes (Apr 26)",
+      "properties": {"date": "2026-04-26", "location": "Southern Lebanon", "casualties": "14 killed (incl. 2 women, 2 children), 37 wounded", "targets": "Hezbollah fighters, rocket launchers, weapons depot", "context": "Retaliatory wave after Fooks killing + evacuation orders for 7 towns"},
+      "source_ids": ["src-518"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-011",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Keir Starmer",
+      "properties": {"role": "UK Prime Minister", "affiliation": "United Kingdom", "action": "called Trump Apr 26 re Hormuz shipping, co-chairs 50-nation Maritime Freedom of Navigation Initiative with Macron"},
+      "source_ids": ["src-519", "src-520"],
+      "mention_count": 4
+    },
+    {
+      "temp_id": "temp-012",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Emmanuel Macron",
+      "properties": {"role": "French President", "affiliation": "France", "action": "co-chairs Maritime Freedom of Navigation Initiative with Starmer, 50+ countries"},
+      "source_ids": ["src-519"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-013",
+      "matched_id": null,
+      "type": "Concept",
+      "name": "Starmer-Macron Maritime Freedom of Navigation Initiative",
+      "properties": {"domain": "maritime/diplomacy", "detail": "50+ country initiative co-chaired by UK PM Starmer and French President Macron to restore freedom of navigation in Strait of Hormuz once hostilities cease. 'Practical plan' discussed with Trump."},
+      "source_ids": ["src-519", "src-520"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-014",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Oil Price Surge (Apr 26)",
+      "properties": {"date": "2026-04-26", "brent": "$107.89 (+2%)", "wti": "$96.63 (+2%)", "cause": "2nd round talks collapsed, continued Hormuz disruptions"},
+      "source_ids": ["src-521"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-015",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Iran Proposal Formally Rejected (Apr 26)",
+      "properties": {"date": "2026-04-26", "detail": "White House formally rejected Iran's latest 5-point counter-proposal as 'unrealistic'. Iran demands: end attacks, security guarantees, reparations, Hormuz sovereignty. Trump: 'offered a lot but not enough'. Trump says war will 'come to an end very soon'."},
+      "source_ids": ["src-522", "src-533"],
+      "mention_count": 4
+    }
+  ],
+  "relations": [
+    {"subject": "temp-001", "predicate": "participatesIn", "object": "temp-002", "source_ids": ["src-506"], "confidence": 0.95},
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "temp-002", "source_ids": ["src-506"], "confidence": 0.90},
+    {"subject": "ent-044", "predicate": "participatesIn", "object": "temp-005", "source_ids": ["src-510"], "confidence": 0.95},
+    {"subject": "temp-003", "predicate": "participatesIn", "object": "temp-005", "source_ids": ["src-510"], "confidence": 0.95},
+    {"subject": "ent-190", "predicate": "cooperatesWith", "object": "ent-002", "source_ids": ["src-510"], "confidence": 0.80},
+    {"subject": "ent-044", "predicate": "participatesIn", "object": "temp-006", "source_ids": ["src-513"], "confidence": 0.90},
+    {"subject": "temp-004", "predicate": "participatesIn", "object": "temp-006", "source_ids": ["src-513"], "confidence": 0.85},
+    {"subject": "ent-009", "predicate": "cooperatesWith", "object": "ent-002", "source_ids": ["src-513"], "confidence": 0.85},
+    {"subject": "ent-004", "predicate": "participatesIn", "object": "temp-007", "source_ids": ["src-514"], "confidence": 0.95},
+    {"subject": "ent-004", "predicate": "opposes", "object": "ent-050", "source_ids": ["src-514", "src-516"], "confidence": 0.95},
+    {"subject": "ent-050", "predicate": "participatesIn", "object": "temp-009", "source_ids": ["src-516"], "confidence": 0.95},
+    {"subject": "temp-010", "predicate": "causedBy", "object": "temp-009", "source_ids": ["src-518"], "confidence": 0.90},
+    {"subject": "temp-010", "predicate": "follows", "object": "temp-007", "source_ids": ["src-518", "src-514"], "confidence": 0.85},
+    {"subject": "temp-011", "predicate": "cooperatesWith", "object": "ent-001", "source_ids": ["src-519"], "confidence": 0.85},
+    {"subject": "temp-011", "predicate": "cooperatesWith", "object": "temp-012", "source_ids": ["src-519"], "confidence": 0.90},
+    {"subject": "ent-001", "predicate": "opposes", "object": "temp-015", "source_ids": ["src-522"], "confidence": 0.90}
+  ],
+  "stats": {
+    "total_entities": 15,
+    "new_entities": 15,
+    "matched_entities": 0,
+    "total_relations": 16
+  }
+}

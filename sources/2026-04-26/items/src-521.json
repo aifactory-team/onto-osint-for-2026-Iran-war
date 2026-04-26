@@ -1,0 +1,32 @@
+{
+  "id": "src-521",
+  "title": "Brent oil tops $107 per barrel after Iran peace talks stall",
+  "url": "https://www.cnbc.com/2026/04/26/oil-price-iran-war-strait-hormuz.html",
+  "snippet": "Brent $107.89 (+2%), WTI $96.63 (+2%). Oil jumped after 2nd round peace talks unraveled. Brent up from $105.33 Friday close. Continued Hormuz disruptions and failed diplomatic efforts support elevated prices.",
+  "source_name": "CNBC",
+  "language": "en",
+  "discovered_date": "2026-04-26",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "New price level: Brent $107.89, highest since Apr 24 peak",
+  "entities": [
+    {
+      "id": "ent-008",
+      "type": "Location",
+      "name": "Strait of Hormuz"
+    },
+    {
+      "id": "temp-014",
+      "type": "Event",
+      "name": "Oil Price Surge (Apr 26)"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "temp-014",
+      "predicate": "relatedTo",
+      "object": "ent-008"
+    }
+  ]
+}

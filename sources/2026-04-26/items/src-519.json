@@ -1,0 +1,59 @@
+{
+  "id": "src-519",
+  "title": "UK's Starmer and Trump Discuss 'Urgent Need' to Restore Shipping in Strait of Hormuz",
+  "url": "https://www.usnews.com/news/world/articles/2026-04-26/uks-starmer-and-trump-discuss-urgent-need-to-restore-shipping-in-strait-of-hormuz",
+  "snippet": "Starmer and Trump discussed 'urgent need to get shipping moving again' in Hormuz. Starmer shared progress on joint initiative with Macron — 50-nation Maritime Freedom of Navigation Initiative. 'Practical plan' to restore shipping once hostilities cease.",
+  "source_name": "US News",
+  "language": "en",
+  "discovered_date": "2026-04-26",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "New: Trump-Starmer call, 50-nation maritime initiative revealed",
+  "entities": [
+    {
+      "id": "ent-001",
+      "type": "Person",
+      "name": "Donald Trump"
+    },
+    {
+      "id": "temp-011",
+      "type": "Person",
+      "name": "Keir Starmer",
+      "role": "UK Prime Minister"
+    },
+    {
+      "id": "temp-012",
+      "type": "Person",
+      "name": "Emmanuel Macron",
+      "role": "French President"
+    },
+    {
+      "id": "ent-008",
+      "type": "Location",
+      "name": "Strait of Hormuz"
+    },
+    {
+      "id": "temp-013",
+      "type": "Concept",
+      "name": "Starmer-Macron Maritime Freedom of Navigation Initiative"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "temp-011",
+      "predicate": "cooperatesWith",
+      "object": "ent-001"
+    },
+    {
+      "subject": "temp-011",
+      "predicate": "cooperatesWith",
+      "object": "temp-012"
+    },
+    {
+      "subject": "temp-013",
+      "predicate": "relatedTo",
+      "object": "ent-008"
+    }
+  ]
+}

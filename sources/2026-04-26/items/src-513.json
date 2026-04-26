@@ -1,0 +1,47 @@
+{
+  "id": "src-513",
+  "title": "Iran's foreign minister leaves Pakistan, heads to Russia for more talks",
+  "url": "https://www.aljazeera.com/news/2026/4/26/irans-foreign-minister-leaves-pakistan-en-route-to-russia-for-more-talks",
+  "snippet": "Araghchi departs Islamabad for Moscow. Will meet Putin in St. Petersburg Monday. Underscores Moscow's role as key diplomatic backer. Tehran conveyed written messages to US via Pakistani mediators addressing red lines on nuclear program and Hormuz blockade.",
+  "source_name": "Al Jazeera",
+  "language": "en",
+  "discovered_date": "2026-04-26",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "New: Araghchi departs for Moscow, Putin meeting confirmed for Monday",
+  "entities": [
+    {
+      "id": "ent-044",
+      "type": "Person",
+      "name": "Abbas Araghchi"
+    },
+    {
+      "id": "temp-004",
+      "type": "Person",
+      "name": "Vladimir Putin"
+    },
+    {
+      "id": "ent-009",
+      "type": "Organization",
+      "name": "Russia"
+    },
+    {
+      "id": "ent-029",
+      "type": "Organization",
+      "name": "Pakistan"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "ent-044",
+      "predicate": "participatesIn",
+      "object": "temp-006"
+    },
+    {
+      "subject": "ent-009",
+      "predicate": "cooperatesWith",
+      "object": "ent-002"
+    }
+  ]
+}

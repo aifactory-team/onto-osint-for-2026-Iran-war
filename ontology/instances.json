@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "알려진 엔티티 인스턴스 — 파이프라인 실행 시 자동으로 추가/업데이트된다.",
-  "last_updated": "2026-04-25",
+  "last_updated": "2026-04-26",
   "entities": [
     {
       "id": "ent-001",
@@ -9,8 +9,8 @@
       "name": "Donald Trump",
       "properties": { "role": "US President", "affiliation": "United States", "action_apr21": "morning CNBC 'I don't want to' extend ceasefire; ~4pm ET Truth Social reversal: extends ceasefire indefinitely 'until such time as their proposal is submitted'; cited Iran 'seriously fractured' and Pakistan (Munir+Sharif) request; blockade maintained: 'continue the Blockade and, in all other respects, remain ready and able'" },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-24",
-      "mention_count": 232
+      "last_seen": "2026-04-26",
+      "mention_count": 247
     },
     {
       "id": "ent-002",
@@ -18,8 +18,8 @@
       "name": "Iran",
       "properties": { "type": "state", "location": "Middle East", "action_apr22": "IRGC seizes 3 ships in Hormuz (MSC-Francesca, Epaminondas, 3rd); Pezeshkian says 'open to deal' but accuses US of 'unconstructive signals'; dismisses Trump execution claims as 'false news'; IRGC escalates naval aggression despite ceasefire extension" },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-24",
-      "mention_count": 282
+      "last_seen": "2026-04-26",
+      "mention_count": 294
     },
     {
       "id": "ent-003",
@@ -36,8 +36,8 @@
       "name": "Israel",
       "properties": { "type": "state", "location": "Middle East", "action_apr22": "2nd Washington talks with Lebanon confirmed Thursday Apr 24 (Huckabee joining); ceasefire fraying as Hezbollah continues attacks; continues joint war prep with US" },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-24",
-      "mention_count": 104
+      "last_seen": "2026-04-26",
+      "mention_count": 114
     },
     {
       "id": "ent-005",
@@ -45,8 +45,8 @@
       "name": "IRGC (Islamic Revolutionary Guard Corps)",
       "properties": { "type": "military", "location": "Iran", "action_apr22": "seized MSC-Francesca (Panama, alleged Israel link) and Epaminondas (Liberia), fired on 3rd vessel in Hormuz; accused ships of AIS manipulation; UKMTO confirmed gunboat attacks off Oman coast; most aggressive naval action since blockade began" },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-24",
-      "mention_count": 87
+      "last_seen": "2026-04-26",
+      "mention_count": 90
     },
     {
       "id": "ent-006",
@@ -72,8 +72,8 @@
       "name": "Strait of Hormuz",
       "properties": { "type": "strait/waterway", "status_apr22": "IRGC seizes 3 ships, fires on all; Brent $101.91 (+3%) crossing $100 again; 'basically closed' (CNBC); dual blockade continues; Trump: Iran losing $500M/day; 6th consecutive day of major price swings" },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-24",
-      "mention_count": 257
+      "last_seen": "2026-04-26",
+      "mention_count": 265
     },
     {
       "id": "ent-009",
@@ -81,8 +81,8 @@
       "name": "Russia",
       "properties": { "type": "state" },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-14",
-      "mention_count": 6
+      "last_seen": "2026-04-26",
+      "mention_count": 11
     },
     {
       "id": "ent-010",
@@ -261,8 +261,8 @@
       "name": "Pakistan",
       "properties": { "type": "state", "role": "sole mediator in Iran war (WH confirmed)", "action_apr21": "Munir + Sharif requested ceasefire extension from Trump — cited by Trump in extension announcement; racing against time as Iran boycotts talks" },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-24",
-      "mention_count": 96
+      "last_seen": "2026-04-26",
+      "mention_count": 102
     },
     {
       "id": "ent-030",
@@ -279,8 +279,8 @@
       "name": "Benjamin Netanyahu",
       "properties": { "role": "Israel Prime Minister", "affiliation": "Israel", "action_apr17": "claimed Hezbollah fight 'not over' despite ceasefire; publicly rebuked by Trump 'PROHIBITED from bombing'" },
       "first_seen": "2026-04-07",
-      "last_seen": "2026-04-17",
-      "mention_count": 20
+      "last_seen": "2026-04-26",
+      "mention_count": 24
     },
     {
       "id": "ent-032",
@@ -396,8 +396,8 @@
       "name": "Abbas Araghchi",
       "properties": { "role": "Iran Foreign Minister", "affiliation": "Iran", "status_apr19": "rift with IRGC deepens further; Vahidi identification as 'power behind the throne' confirms structural marginalization of diplomatic track" },
       "first_seen": "2026-04-10",
-      "last_seen": "2026-04-24",
-      "mention_count": 70
+      "last_seen": "2026-04-26",
+      "mention_count": 82
     },
     {
       "id": "ent-045",
@@ -450,8 +450,8 @@
       "name": "Lebanon",
       "properties": { "type": "country", "status_apr22": "ceasefire day 6, fraying; Hezbollah continues attacks; 2nd Washington talks Thursday Apr 24; Lebanon hopes for ceasefire extension beyond Apr 26 expiry" },
       "first_seen": "2026-04-10",
-      "last_seen": "2026-04-24",
-      "mention_count": 94
+      "last_seen": "2026-04-26",
+      "mention_count": 102
     },
     {
       "id": "ent-051",
@@ -1710,7 +1710,88 @@
       "first_seen": "2026-04-25",
       "last_seen": "2026-04-25",
       "mention_count": 3
+    },
+    {
+      "id": "ent-195",
+      "type": "Person",
+      "name": "Cole Tomas Allen",
+      "properties": { "role": "WHCD shooting suspect", "age": 31, "origin": "California", "occupation": "teacher/engineer", "education": "CalTech BS 2017, Cal State MS CS", "action": "stormed WHCD security checkpoint with shotgun/handgun/knives Apr 25, targeted Trump officials, called self 'friendly federal assassin'" },
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "mention_count": 6
+    },
+    {
+      "id": "ent-196",
+      "type": "Event",
+      "name": "WHCD Shooting (Apr 25)",
+      "properties": { "date": "2026-04-25", "location": "Washington Hilton", "detail": "Cole Allen storms security checkpoint, exchanges fire with law enforcement. Trump rushed out by Secret Service. Allen in custody. Federal charges filed. Trump doubts Iran war connection, says won't deter from 'winning war'.", "casualties": "no deaths, shooter wounded/captured" },
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "mention_count": 8
+    },
+    {
+      "id": "ent-197",
+      "type": "Person",
+      "name": "Sultan Haitham bin Tariq",
+      "properties": { "role": "Sultan of Oman", "affiliation": "Oman", "action": "met Araghchi in Muscat Apr 26, discussed Hormuz and Iran mediation, rejected Hormuz toll proposal" },
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "mention_count": 4
+    },
+    {
+      "id": "ent-198",
+      "type": "Person",
+      "name": "Vladimir Putin",
+      "properties": { "role": "President of Russia", "affiliation": "Russia", "action": "will meet Araghchi Monday Apr 27 in St. Petersburg, Moscow as key diplomatic backer of Tehran" },
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "mention_count": 4
+    },
+    {
+      "id": "ent-199",
+      "type": "Event",
+      "name": "Israel Forced Evacuation 7 Towns (Apr 26)",
+      "properties": { "date": "2026-04-26", "location": "Southern Lebanon, north of Litani River", "detail": "Israel orders residents of 7 towns beyond buffer zone to evacuate. Towns outside 10km security zone. Major ceasefire escalation — de facto occupation expansion." },
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "mention_count": 5
+    },
+    {
+      "id": "ent-200",
+      "type": "Person",
+      "name": "Idan Fooks",
+      "properties": { "role": "IDF Sergeant, 7th Armored Brigade 77th Battalion", "age": 19, "origin": "Petah Tikva", "status": "killed 2026-04-26 by Hezbollah drone in southern Lebanon", "significance": "3rd soldier killed during ceasefire, 1st in direct Hezbollah attack" },
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "mention_count": 4
+    },
+    {
+      "id": "ent-201",
+      "type": "Event",
+      "name": "Lebanon Day 10: Fooks Killed + IDF 14 Killed Retaliatory Strikes (Apr 26)",
+      "properties": { "date": "2026-04-26", "detail": "Hezbollah drone killed Fooks + 6 wounded. IDF retaliatory strikes kill 14 (incl. 2 women, 2 children), wound 37. Deadliest day since ceasefire began. Israel issues forced evacuation orders for 7 towns. Home Front Command limits gatherings in northern Israel." },
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "mention_count": 10
+    },
+    {
+      "id": "ent-202",
+      "type": "Person",
+      "name": "Keir Starmer",
+      "properties": { "role": "UK Prime Minister", "affiliation": "United Kingdom", "action": "called Trump Apr 26 re Hormuz shipping, co-chairs 50-nation Maritime Freedom of Navigation Initiative with Macron" },
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "mention_count": 4
+    },
+    {
+      "id": "ent-203",
+      "type": "Concept",
+      "name": "Starmer-Macron Maritime Freedom of Navigation Initiative",
+      "properties": { "domain": "maritime/diplomacy", "detail": "50+ country initiative co-chaired by UK PM Starmer and French President Macron to restore freedom of navigation in Strait of Hormuz once hostilities cease. 'Practical plan' discussed with Trump Apr 26." },
+      "first_seen": "2026-04-26",
+      "last_seen": "2026-04-26",
+      "mention_count": 3
     }
   ],
-  "total_count": 194
+  "total_count": 203
 }

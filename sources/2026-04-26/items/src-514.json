@@ -1,0 +1,47 @@
+{
+  "id": "src-514",
+  "title": "Israel issues forced evacuation orders for 7 southern Lebanon towns beyond buffer zone",
+  "url": "https://www.aljazeera.com/news/2026/4/26/israel-issues-forced-evacuation-orders-for-southern-lebanon-in-escalation",
+  "snippet": "Israel ordered residents of 7 towns north of Litani River, beyond its 'buffer zone', to evacuate. IDF spokesperson said Hezbollah was violating ceasefire and Israel would act. Towns lie outside the 10km zone where Israeli forces remain. Major escalation during US-brokered ceasefire.",
+  "source_name": "Al Jazeera",
+  "language": "en",
+  "discovered_date": "2026-04-26",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "New escalation: Israel extends operations beyond buffer zone during ceasefire",
+  "entities": [
+    {
+      "id": "ent-004",
+      "type": "Organization",
+      "name": "Israel"
+    },
+    {
+      "id": "ent-050",
+      "type": "Organization",
+      "name": "Hezbollah"
+    },
+    {
+      "id": "ent-048",
+      "type": "Organization",
+      "name": "Lebanon"
+    },
+    {
+      "id": "temp-007",
+      "type": "Event",
+      "name": "Forced Evacuation Orders (Apr 26)"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "ent-004",
+      "predicate": "participatesIn",
+      "object": "temp-007"
+    },
+    {
+      "subject": "ent-004",
+      "predicate": "opposes",
+      "object": "ent-050"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": "src-510",
+  "title": "Araghchi returns to Islamabad after Oman visit; met Sultan Haitham; will meet Putin Monday",
+  "url": "https://fortune.com/2026/04/26/iran-foreign-minister-pakistan-us-ceasefire-strait-of-hormuz-toll-oman/",
+  "snippet": "Araghchi met Sultan Haitham bin Tariq in Muscat, returned to Islamabad for 2nd visit in 24 hours. Discussed Hormuz toll proposal with Oman (rejected by Oman). Will head to Moscow to meet Putin Monday in St. Petersburg. Iran negotiating team reassembling in Islamabad.",
+  "source_name": "Fortune",
+  "language": "en",
+  "discovered_date": "2026-04-26",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "New diplomatic moves: Sultan Haitham meeting, 2nd Islamabad return, Putin meeting confirmed",
+  "entities": [
+    {
+      "id": "ent-044",
+      "type": "Person",
+      "name": "Abbas Araghchi"
+    },
+    {
+      "id": "temp-003",
+      "type": "Person",
+      "name": "Sultan Haitham bin Tariq",
+      "role": "Sultan of Oman"
+    },
+    {
+      "id": "ent-190",
+      "type": "Organization",
+      "name": "Oman"
+    },
+    {
+      "id": "ent-189",
+      "type": "Location",
+      "name": "Muscat"
+    },
+    {
+      "id": "ent-009",
+      "type": "Organization",
+      "name": "Russia"
+    },
+    {
+      "id": "temp-004",
+      "type": "Person",
+      "name": "Vladimir Putin",
+      "role": "President of Russia"
+    },
+    {
+      "id": "ent-029",
+      "type": "Organization",
+      "name": "Pakistan"
+    }
+  ],
+  "relations": [
+    {
+      "subject": "ent-044",
+      "predicate": "participatesIn",
+      "object": "temp-005"
+    },
+    {
+      "subject": "temp-003",
+      "predicate": "participatesIn",
+      "object": "temp-005"
+    },
+    {
+      "subject": "ent-190",
+      "predicate": "cooperatesWith",
+      "object": "ent-002"
+    },
+    {
+      "subject": "ent-044",
+      "predicate": "locatedIn",
+      "object": "ent-189"
+    }
+  ]
+}
