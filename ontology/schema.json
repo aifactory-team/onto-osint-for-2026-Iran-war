@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "OSINT 온톨로지 스키마 — config/osint-config.json의 seed로부터 초기화되고, 매일 파이프라인 실행 시 자동 확장된다.",
-  "last_updated": "2026-04-29",
+  "last_updated": "2026-04-30",
   "classes": [
     {
       "id": "Entity",
@@ -201,6 +201,13 @@
       "target": "7 new entities (ent-223~ent-229)",
       "reason": "에얄 자미르 IDF 참모총장('휴전 없다' 선언), 헤그세스 의회 청문회(전쟁 이후 첫 청문·$25B 비용 공개), FOMC 8-4 역사적 분열(금리 동결·전쟁 불확실성 언급), 이란 '실질 행동' 위협(Press TV 익명 소스), 레바논 구조대원 이중타격 공습(Day 13·3명 사망), 제롬 파월(Fed 의장·무기한 잔류), 존 가라멘디(하원의원·헤그세스 '거짓말' 비난)",
       "source_ids": ["src-601", "src-602", "src-603", "src-604", "src-606", "src-607", "src-608", "src-611"]
+    },
+    {
+      "date": "2026-04-30",
+      "action": "add_instances",
+      "target": "10 new entities (ent-230~ent-239)",
+      "reason": "팀 케인 상원의원(WPR 시계 정지 반박), 수전 콜린스(첫 공화당 WPR 이탈표), 마이크 존슨('전쟁 아니다' 주장), 브래드 쿠퍼(CENTCOM 사령관·군사옵션 브리핑), 헤그세스 상원 청문회(WPR 시계 정지 주장), 상원 WPR 6차 부결(50-47·Collins 이탈), CENTCOM 군사옵션 브리핑(3가지 옵션), 검은 수요일(레바논 28명 사망·Day 14), 유가 $126 4년 최고→$111 급반전, 그림자 함대(봉쇄 회피 202건)",
+      "source_ids": ["src-632", "src-633", "src-634", "src-635", "src-636", "src-637", "src-638", "src-639", "src-640", "src-641", "src-642"]
     }
   ]
 }

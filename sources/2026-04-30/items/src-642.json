@@ -1,0 +1,22 @@
+{
+  "id": "src-642",
+  "title": "S&P 500 +1.02% to 7,209 new all-time high; Alphabet +10% on earnings",
+  "url": "https://www.thestreet.com/latest-news/stock-market-today-apr-30-2026-updates",
+  "snippet": "S&P 500 rose 1.02% to 7,209 — first close above 7,200. April gained 10.4%, best month since Nov 2020. Alphabet rallied ~10% on earnings beat. Microsoft -4%, Meta -9% on AI capex concerns. Caterpillar +10%. Oil $126→$111 reversal contributed to afternoon rally.",
+  "source_name": "TheStreet",
+  "language": "en",
+  "discovered_date": "2026-04-30",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "New all-time high, first above 7,200; April best month since Nov 2020; distinct from 4/29 -0.04%",
+  "entities": [
+    {"id": "ent-186", "type": "Organization", "name": "S&P 500"},
+    {"id": "temp-018", "type": "Organization", "name": "Alphabet (Google)"},
+    {"id": "ent-015", "type": "Event", "name": "2026 Iran War"},
+    {"id": "ent-225", "type": "Event", "name": "FOMC April 2026 Decision"}
+  ],
+  "relations": [
+    {"subject": "ent-186", "predicate": "relatedTo", "object": "ent-015"}
+  ]
+}

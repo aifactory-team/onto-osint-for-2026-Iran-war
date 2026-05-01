@@ -1,0 +1,24 @@
+{
+  "id": "src-636",
+  "title": "Israel braces for Iran war to resume as early as next week",
+  "url": "https://www.timesofisrael.com/liveblog_entry/report-israel-braces-for-iran-fighting-to-resume-as-early-as-next-week-as-trump-briefed-on-military-options/",
+  "snippet": "Channel 12 reports Israeli officials bracing for negotiations collapse as early as start of next week. Israeli officials held intensive consultations amid growing momentum toward military decision in Washington. CENTCOM's Cooper briefing Trump on same day.",
+  "source_name": "Times of Israel",
+  "language": "en",
+  "discovered_date": "2026-04-30",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "First report of Israel preparing for war resumption next week; new escalation indicator",
+  "entities": [
+    {"id": "ent-004", "type": "Organization", "name": "Israel"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"},
+    {"id": "temp-009", "type": "Person", "name": "Brad Cooper"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "temp-011", "type": "Event", "name": "Israel War Resumption Prep (Apr 30)"}
+  ],
+  "relations": [
+    {"subject": "ent-004", "predicate": "opposes", "object": "ent-002"},
+    {"subject": "ent-004", "predicate": "cooperatesWith", "object": "ent-001"}
+  ]
+}

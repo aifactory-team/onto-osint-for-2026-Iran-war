@@ -1,0 +1,26 @@
+{
+  "id": "src-633",
+  "title": "Senate Rejects Measure to Restrict Iran War Hours Before Key Legal Deadline (50-47, Collins flips)",
+  "url": "https://time.com/article/2026/04/30/senate-rejects-measure-to-curb-iran-war-hours-before-key-legal-deadline/",
+  "snippet": "Senate rejected Democratic-led WPR effort 50-47. Sen. Susan Collins (R-ME) voted with Democrats for first time since war began. Rand Paul (R-KY) also voted yes. Fetterman (D-PA) sole Democrat voting against. Adam Schiff and Schumer forced vote on eve of May 1 deadline.",
+  "source_name": "Time",
+  "language": "en",
+  "discovered_date": "2026-04-30",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "6th WPR vote with new Republican defection (Collins); distinct from previous 5th vote (4/23)",
+  "entities": [
+    {"id": "temp-002", "type": "Person", "name": "Susan Collins", "role": "Senator (R-ME)"},
+    {"id": "temp-005", "type": "Person", "name": "Rand Paul", "role": "Senator (R-KY)"},
+    {"id": "temp-006", "type": "Person", "name": "John Fetterman", "role": "Senator (D-PA)"},
+    {"id": "temp-007", "type": "Person", "name": "Adam Schiff", "role": "Senator (D-CA)"},
+    {"id": "temp-004", "type": "Event", "name": "Senate WPR Vote 6 (50-47)", "date": "2026-04-30"},
+    {"id": "ent-181", "type": "Concept", "name": "War Powers Resolution"}
+  ],
+  "relations": [
+    {"subject": "temp-002", "predicate": "participatesIn", "object": "temp-004"},
+    {"subject": "temp-007", "predicate": "participatesIn", "object": "temp-004"},
+    {"subject": "temp-006", "predicate": "opposes", "object": "temp-004"}
+  ]
+}

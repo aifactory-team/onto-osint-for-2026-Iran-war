@@ -1,0 +1,27 @@
+{
+  "id": "src-635",
+  "title": "Trump to be briefed on new Iran military options Thursday (CENTCOM)",
+  "url": "https://www.axios.com/2026/04/30/trump-military-plans-iran-briefing-centcom",
+  "snippet": "CENTCOM head Adm. Brad Cooper to brief Trump on military options including: (1) 'short and powerful' wave of strikes on Iranian infrastructure, (2) ground forces operation to secure part of Strait of Hormuz, (3) special forces operation to seize Iran's enriched uranium stockpile. Hegseth and Joint Chiefs Chair Dan Caine attending.",
+  "source_name": "Axios",
+  "language": "en",
+  "discovered_date": "2026-04-30",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "First report of CENTCOM military options briefing with specific strike plans; new escalation signal",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"},
+    {"id": "temp-009", "type": "Person", "name": "Brad Cooper", "role": "CENTCOM Commander (Admiral)"},
+    {"id": "ent-098", "type": "Person", "name": "Pete Hegseth"},
+    {"id": "ent-120", "type": "Person", "name": "Dan Caine", "role": "Joint Chiefs Chairman"},
+    {"id": "temp-010", "type": "Event", "name": "CENTCOM Military Briefing (Apr 30)", "date": "2026-04-30"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"}
+  ],
+  "relations": [
+    {"subject": "temp-009", "predicate": "participatesIn", "object": "temp-010"},
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "temp-010"},
+    {"subject": "temp-010", "predicate": "relatedTo", "object": "ent-015"}
+  ]
+}

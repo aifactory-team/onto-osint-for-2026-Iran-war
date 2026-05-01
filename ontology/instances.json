@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "알려진 엔티티 인스턴스 — 파이프라인 실행 시 자동으로 추가/업데이트된다.",
-  "last_updated": "2026-04-29",
+  "last_updated": "2026-04-30",
   "entities": [
     {
       "id": "ent-001",
@@ -2029,6 +2029,96 @@
   "properties": { "role": "US Representative (D-CA)", "affiliation": "Democratic Party / House Armed Services Committee", "action_apr29": "confronted Hegseth: 'Secretary Hegseth, you have been lying to the American public about this war from day one, and so has the President'" },
   "first_seen": "2026-04-29",
   "last_seen": "2026-04-29",
+  "mention_count": 3
+},
+{
+  "id": "ent-230",
+  "type": "Person",
+  "name": "Tim Kaine",
+  "properties": { "role": "Senator (D-VA)", "affiliation": "US Senate Armed Services Committee", "action_apr30": "challenged Hegseth WPR clock-pause claim: 'I do not believe the statute would support that'" },
+  "first_seen": "2026-04-30",
+  "last_seen": "2026-04-30",
+  "mention_count": 3
+},
+{
+  "id": "ent-231",
+  "type": "Person",
+  "name": "Susan Collins",
+  "properties": { "role": "Senator (R-ME)", "affiliation": "US Senate", "action_apr30": "first Republican to vote with Democrats on WPR since war began; 6th vote 50-47" },
+  "first_seen": "2026-04-30",
+  "last_seen": "2026-04-30",
+  "mention_count": 6
+},
+{
+  "id": "ent-232",
+  "type": "Person",
+  "name": "Mike Johnson",
+  "properties": { "role": "House Speaker (R-LA)", "affiliation": "US House of Representatives", "action_apr30": "'We are not at war' with Iran; 'We're policing the Strait of Hormuz and trying to get a peace'; contradicts Trump's own 'war' language" },
+  "first_seen": "2026-04-30",
+  "last_seen": "2026-04-30",
+  "mention_count": 8
+},
+{
+  "id": "ent-233",
+  "type": "Person",
+  "name": "Brad Cooper",
+  "properties": { "role": "CENTCOM Commander (Admiral)", "affiliation": "US Central Command", "action_apr30": "briefed Trump on military options: short strikes, Hormuz ground op, uranium seizure special forces op" },
+  "first_seen": "2026-04-30",
+  "last_seen": "2026-04-30",
+  "mention_count": 8
+},
+{
+  "id": "ent-234",
+  "type": "Event",
+  "name": "Hegseth Senate Hearing (Apr 30)",
+  "properties": { "date": "2026-04-30", "location": "Senate Armed Services Committee", "key_claim": "ceasefire 'pauses or stops' WPR 60-day clock", "participants": "Hegseth, Caine, Kaine" },
+  "first_seen": "2026-04-30",
+  "last_seen": "2026-04-30",
+  "mention_count": 15
+},
+{
+  "id": "ent-235",
+  "type": "Event",
+  "name": "Senate WPR Vote 6 (50-47)",
+  "properties": { "date": "2026-04-30", "result": "failed 50-47", "significance": "Collins first GOP defection; Fetterman sole Dem opposing; eve of May 1 deadline" },
+  "first_seen": "2026-04-30",
+  "last_seen": "2026-04-30",
+  "mention_count": 10
+},
+{
+  "id": "ent-236",
+  "type": "Event",
+  "name": "CENTCOM Military Briefing (Apr 30)",
+  "properties": { "date": "2026-04-30", "location": "White House", "options": "short powerful strikes on infrastructure; Hormuz ground forces operation; special forces uranium seizure", "participants": "Trump, Cooper, Hegseth, Caine" },
+  "first_seen": "2026-04-30",
+  "last_seen": "2026-04-30",
+  "mention_count": 10
+},
+{
+  "id": "ent-237",
+  "type": "Event",
+  "name": "Black Wednesday Lebanon (Apr 30)",
+  "properties": { "date": "2026-04-30", "casualties": "28 killed (incl 2 Lebanese army soldiers, 3 paramedics)", "injured": "70+", "significance": "deadliest day since ceasefire extension; Day 14" },
+  "first_seen": "2026-04-30",
+  "last_seen": "2026-04-30",
+  "mention_count": 8
+},
+{
+  "id": "ent-238",
+  "type": "Event",
+  "name": "Oil $126 Wartime High (Apr 30)",
+  "properties": { "date": "2026-04-30", "peak": "$126/bbl Brent (4-year high)", "close": "~$111/bbl", "reversal": "pulled back after CENTCOM briefing report", "us_gas": "4-year high" },
+  "first_seen": "2026-04-30",
+  "last_seen": "2026-04-30",
+  "mention_count": 12
+},
+{
+  "id": "ent-239",
+  "type": "Concept",
+  "name": "Shadow Fleet",
+  "properties": { "domain": "maritime/sanctions evasion", "scale": "202 voyages, 185 vessels, 26 confirmed blockade breaches (Mar 1 - Apr 15)", "source": "Al Jazeera/Lloyd's List investigation" },
+  "first_seen": "2026-04-30",
+  "last_seen": "2026-04-30",
   "mention_count": 3
 }
 ]

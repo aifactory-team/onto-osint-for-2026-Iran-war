@@ -1,0 +1,22 @@
+{
+  "id": "src-641",
+  "title": "Mirroring Gaza, Israel is destroying towns and villages in southern Lebanon",
+  "url": "https://www.npr.org/2026/04/30/g-s1-119210/lebanon-israel-war",
+  "snippet": "Satellite imagery shows complete leveling of previously damaged towns in southern Lebanon, mirroring Gaza destruction. No access for residents or journalists. IDF holds 10km-deep security zone. Large swaths effectively wiped off the map.",
+  "source_name": "NPR",
+  "language": "en",
+  "discovered_date": "2026-04-30",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "First satellite imagery analysis comparing Lebanon destruction to Gaza; new evidence of scale",
+  "entities": [
+    {"id": "ent-004", "type": "Organization", "name": "Israel"},
+    {"id": "ent-046", "type": "Organization", "name": "Lebanon"},
+    {"id": "ent-047", "type": "Organization", "name": "Hezbollah"},
+    {"id": "temp-017", "type": "Concept", "name": "Gaza-Lebanon Parallel"}
+  ],
+  "relations": [
+    {"subject": "ent-004", "predicate": "opposes", "object": "ent-046"}
+  ]
+}

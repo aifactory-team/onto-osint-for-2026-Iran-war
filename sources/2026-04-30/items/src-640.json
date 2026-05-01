@@ -1,0 +1,22 @@
+{
+  "id": "src-640",
+  "title": "Could the US-Iran war become a protracted 'frozen' conflict?",
+  "url": "https://www.aljazeera.com/news/2026/4/30/could-the-us-iran-war-become-a-protracted-frozen-conflict",
+  "snippet": "Analysis: two months after surprise attack, negotiations deadlocked. Competing blockades continue disrupting global energy. Washington betting on sustained economic/diplomatic pressure. Iran leveraging Hormuz until US prefers negotiated settlement. UNDP reports employment/livelihood disruption in Iran.",
+  "source_name": "Al Jazeera",
+  "language": "en",
+  "discovered_date": "2026-04-30",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "First 'frozen conflict' framing of Iran war; new analytical framework",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "temp-016", "type": "Concept", "name": "Frozen Conflict"}
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "opposes", "object": "ent-002"}
+  ]
+}

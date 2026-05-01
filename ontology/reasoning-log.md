@@ -936,3 +936,46 @@
 ### 스키마 변경 없음
 - 7개 새 엔티티 모두 기존 클래스(Person 3개, Event 4개)로 분류 가능
 - 13개 새 관계(명시적) + 2개 업데이트 + 5개 추론 모두 기존 관계 유형(participatesIn, follows, causedBy, opposes, affiliatedWith, relatedTo, mentions, causalChain, potentialRelation)으로 표현 가능
+
+---
+
+## 2026-04-30 추론 결과
+
+### 추론 #77: event_chain (Hegseth 청문회 ← WPR 6차 표결)
+- **입력:** (ent-234/Hegseth Senate Hearing, date=2026-04-30), (ent-235/Senate WPR Vote 6, date=2026-04-30, relatedTo ent-181/WPR)
+- **추론:** (ent-234/Hegseth Senate Hearing, causedBy, ent-235/Senate WPR Vote 6)
+- **신뢰도:** 0.82
+- **상태:** 확정
+- **비고:** 상원 군사위 청문회와 WPR 6차 표결이 같은 날(May 1 전야) 동시 진행. 헤그세스의 '시계 정지' 주장은 내일 데드라인에 대한 법적 방어를 위한 것. 청문회-표결-데드라인이 삼중으로 맞물리며 법적 위기 최고조.
+
+### 추론 #78: event_chain (CENTCOM 브리핑 ← 이란 '실질 행동' 위협)
+- **입력:** (ent-226/Iran Practical Action Threat, date=2026-04-29), (ent-236/CENTCOM Military Briefing, date=2026-04-30)
+- **추론:** (ent-236/CENTCOM Briefing, causedBy, ent-226/Iran Practical Action Threat)
+- **신뢰도:** 0.78
+- **상태:** 확정
+- **비고:** 이란의 '전례 없는 실질 행동' 위협(4/29) 다음 날 트럼프가 CENTCOM으로부터 군사옵션 브리핑을 받은 것은 직접적 인과 관계. 3가지 옵션(단기 공습, 호르무즈 지상작전, 우라늄 탈취)은 모두 이란 '실질 행동'에 대한 선제적/대응적 성격.
+
+### 추론 #79: event_chain (검은 수요일 ← 자미르 '휴전 없다')
+- **입력:** (ent-223/Zamir 'no ceasefire', date=2026-04-29), (ent-237/Black Wednesday, date=2026-04-30, 28 killed)
+- **추론:** (ent-237/Black Wednesday, causalChain, ent-223/Zamir 'no ceasefire')
+- **신뢰도:** 0.80
+- **상태:** 확정
+- **비고:** IDF 참모총장의 '휴전 없다' 공식 선언(4/29) 직후 Day 14에 28명 사망(휴전 후 최다). 군 최고사령관의 지시가 현장에서 즉시 실행되는 명령-실행 인과 체인. 레바논 군인 2명 사망은 새로운 에스컬레이션 — 비전투원/민간인을 넘어 국가 군대가 타격받은 것은 사실상 국가 간 충돌.
+
+### 추론 #80: event_chain (유가 급반전 ← CENTCOM 브리핑)
+- **입력:** (ent-238/Oil $126 High, date=2026-04-30, peak then reversal), (ent-236/CENTCOM Briefing report)
+- **추론:** (ent-238/Oil Price Reversal, causedBy, ent-236/CENTCOM Briefing)
+- **신뢰도:** 0.75
+- **상태:** 확정
+- **비고:** Brent가 $126(4년 최고)에서 CENTCOM 브리핑 보도 직후 $111로 급반전(-12%). 시장은 군사행동 가능성을 역설적으로 '교착 해결책'으로 해석. 봉쇄 장기화보다 단기 군사 충격 후 협상을 선호하는 시장 심리 반영.
+
+### 추론 #81: co_participation (Johnson-Hegseth WPR 공동 방어)
+- **입력:** (ent-232/Johnson, action='not at war'), (ent-098/Hegseth, action='clock pauses'), 같은 날 동시 발언
+- **추론:** (ent-232/Johnson, cooperatesWith, ent-098/Hegseth)
+- **신뢰도:** 0.80
+- **상태:** 확정
+- **비고:** 존슨 '전쟁이 아니다' + 헤그세스 '시계가 정지된다' = 행정부-의회 공화당의 협조된 WPR 방어 전략. 두 가지 상호 보완적 법적 논리: (1) 전쟁 자체를 부정하여 WPR 적용 자체를 회피, (2) 설사 전쟁이라도 휴전으로 시계가 정지되었다는 차선 논리.
+
+### 스키마 변경 없음
+- 10개 새 엔티티 모두 기존 클래스(Person 4개, Event 5개, Concept 1개)로 분류 가능
+- 14개 새 관계(명시적) + 2개 업데이트 + 5개 추론 모두 기존 관계 유형으로 표현 가능

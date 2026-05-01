@@ -1,0 +1,160 @@
+{
+  "date": "2026-04-30",
+  "entities": [
+    {
+      "temp_id": "temp-001",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Tim Kaine",
+      "properties": {"role": "Senator (D-VA)", "affiliation": "US Senate", "action": "Challenged Hegseth WPR clock-pause claim: 'I do not believe the statute would support that'"},
+      "source_ids": ["src-632"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-002",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Susan Collins",
+      "properties": {"role": "Senator (R-ME)", "affiliation": "US Senate", "action": "First Republican to vote with Democrats on WPR since war began"},
+      "source_ids": ["src-632", "src-633"],
+      "mention_count": 6
+    },
+    {
+      "temp_id": "temp-003",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Hegseth Senate Hearing (Apr 30)",
+      "properties": {"date": "2026-04-30", "location": "US Senate Armed Services Committee", "participants": "Hegseth, Caine, Kaine, Collins"},
+      "source_ids": ["src-632", "src-647", "src-648", "src-649", "src-650", "src-651", "src-652", "src-662"],
+      "mention_count": 15
+    },
+    {
+      "temp_id": "temp-004",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Senate WPR Vote 6 (50-47)",
+      "properties": {"date": "2026-04-30", "result": "failed 50-47", "significance": "Collins first GOP defection; eve of May 1 deadline"},
+      "source_ids": ["src-632", "src-633", "src-653", "src-670"],
+      "mention_count": 10
+    },
+    {
+      "temp_id": "temp-005",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Rand Paul",
+      "properties": {"role": "Senator (R-KY)", "affiliation": "US Senate", "action": "Voted with Democrats on WPR (consistent with prior votes)"},
+      "source_ids": ["src-633"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-006",
+      "matched_id": null,
+      "type": "Person",
+      "name": "John Fetterman",
+      "properties": {"role": "Senator (D-PA)", "affiliation": "US Senate", "action": "Sole Democrat voting against WPR (consistent with prior votes)"},
+      "source_ids": ["src-633"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-007",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Adam Schiff",
+      "properties": {"role": "Senator (D-CA)", "affiliation": "US Senate", "action": "Co-forced WPR vote with Schumer: 'At 60 days, this war is illegal'"},
+      "source_ids": ["src-633", "src-670"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-008",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Mike Johnson",
+      "properties": {"role": "House Speaker (R-LA)", "affiliation": "US House", "action": "'We are not at war' with Iran; 'policing the Strait of Hormuz'"},
+      "source_ids": ["src-634", "src-654", "src-655"],
+      "mention_count": 8
+    },
+    {
+      "temp_id": "temp-009",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Brad Cooper",
+      "properties": {"role": "CENTCOM Commander (Admiral)", "affiliation": "US Military", "action": "Briefed Trump on military options including strikes, Hormuz ground op, uranium seizure"},
+      "source_ids": ["src-635", "src-636", "src-656", "src-671"],
+      "mention_count": 8
+    },
+    {
+      "temp_id": "temp-010",
+      "matched_id": null,
+      "type": "Event",
+      "name": "CENTCOM Military Briefing (Apr 30)",
+      "properties": {"date": "2026-04-30", "location": "White House", "participants": "Trump, Cooper, Hegseth, Caine", "options": "short strikes, Hormuz ground op, uranium seizure"},
+      "source_ids": ["src-635", "src-636", "src-656"],
+      "mention_count": 10
+    },
+    {
+      "temp_id": "temp-011",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Israel War Resumption Prep (Apr 30)",
+      "properties": {"date": "2026-04-30", "source": "Channel 12", "timeline": "as early as next week"},
+      "source_ids": ["src-636"],
+      "mention_count": 4
+    },
+    {
+      "temp_id": "temp-012",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Oil $126 Wartime High (Apr 30)",
+      "properties": {"date": "2026-04-30", "peak": "$126/bbl Brent", "close": "~$111/bbl", "significance": "4-year high since 2022 Russia invasion"},
+      "source_ids": ["src-637", "src-657", "src-658", "src-659"],
+      "mention_count": 12
+    },
+    {
+      "temp_id": "temp-013",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Black Wednesday Lebanon (Apr 30)",
+      "properties": {"date": "2026-04-30", "casualties": "28 killed (incl 2 soldiers, 3 paramedics)", "injured": "70+", "significance": "deadliest day since ceasefire extension"},
+      "source_ids": ["src-638", "src-660", "src-661"],
+      "mention_count": 8
+    },
+    {
+      "temp_id": "temp-015",
+      "matched_id": null,
+      "type": "Concept",
+      "name": "Shadow Fleet",
+      "properties": {"domain": "maritime/sanctions evasion", "scale": "202 voyages / 185 vessels / 26 confirmed blockade breaches"},
+      "source_ids": ["src-639"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-016",
+      "matched_id": null,
+      "type": "Concept",
+      "name": "Frozen Conflict",
+      "properties": {"domain": "conflict analysis", "application": "US-Iran war as protracted deadlock by design"},
+      "source_ids": ["src-640"],
+      "mention_count": 2
+    }
+  ],
+  "relations": [
+    {"subject": "ent-098", "predicate": "participatesIn", "object": "temp-003", "source_ids": ["src-632"], "confidence": 0.95},
+    {"subject": "temp-001", "predicate": "opposes", "object": "ent-098", "source_ids": ["src-632"], "confidence": 0.90},
+    {"subject": "temp-002", "predicate": "participatesIn", "object": "temp-004", "source_ids": ["src-633"], "confidence": 0.95},
+    {"subject": "temp-008", "predicate": "cooperatesWith", "object": "ent-001", "source_ids": ["src-634"], "confidence": 0.85},
+    {"subject": "temp-009", "predicate": "participatesIn", "object": "temp-010", "source_ids": ["src-635"], "confidence": 0.95},
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "temp-010", "source_ids": ["src-635"], "confidence": 0.95},
+    {"subject": "ent-004", "predicate": "participatesIn", "object": "temp-011", "source_ids": ["src-636"], "confidence": 0.85},
+    {"subject": "temp-012", "predicate": "causedBy", "object": "ent-008", "source_ids": ["src-637"], "confidence": 0.90},
+    {"subject": "ent-004", "predicate": "participatesIn", "object": "temp-013", "source_ids": ["src-638"], "confidence": 0.95},
+    {"subject": "temp-013", "predicate": "follows", "object": "ent-227", "source_ids": ["src-638"], "confidence": 0.90},
+    {"subject": "ent-002", "predicate": "relatedTo", "object": "temp-015", "source_ids": ["src-639"], "confidence": 0.85},
+    {"subject": "temp-003", "predicate": "relatedTo", "object": "ent-181", "source_ids": ["src-632"], "confidence": 0.95}
+  ],
+  "stats": {
+    "total_entities": 15,
+    "new_entities": 15,
+    "matched_entities": 0,
+    "total_relations": 12
+  }
+}

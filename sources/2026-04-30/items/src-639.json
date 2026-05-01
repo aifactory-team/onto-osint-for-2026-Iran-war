@@ -1,0 +1,24 @@
+{
+  "id": "src-639",
+  "title": "Tracking the shadow fleet: How Iran evaded the US naval blockade in Hormuz",
+  "url": "https://www.aljazeera.com/economy/2026/4/30/tracking-the-shadow-fleet-how-iran-evaded-the-us-naval-blockade-in-hormuz",
+  "snippet": "Al Jazeera investigation tracked 202 voyages by 185 vessels through Hormuz between March 1 and April 15. At least 26 ships bypassed US blockade line per Lloyd's List. Evasion tactics: fake flags, shell companies, disabled AIS trackers, coastal routes. Iranian cargo '13448' broke blockade via Karachi. Panama-flagged Manali crossed twice (Apr 14, Apr 17 to Mumbai).",
+  "source_name": "Al Jazeera",
+  "language": "en",
+  "discovered_date": "2026-04-30",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "First comprehensive investigation quantifying blockade evasion; 202 voyages / 185 vessels data new",
+  "entities": [
+    {"id": "ent-005", "type": "Organization", "name": "IRGC"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "ent-003", "type": "Organization", "name": "US Military"},
+    {"id": "temp-015", "type": "Concept", "name": "Shadow Fleet"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"}
+  ],
+  "relations": [
+    {"subject": "ent-002", "predicate": "opposes", "object": "ent-003"},
+    {"subject": "temp-015", "predicate": "relatedTo", "object": "ent-008"}
+  ]
+}

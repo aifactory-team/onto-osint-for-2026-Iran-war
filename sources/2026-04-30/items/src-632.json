@@ -1,0 +1,28 @@
+{
+  "id": "src-632",
+  "title": "Ceasefire 'stops' War Powers clock on Iran, Hegseth claims — Senate Day 2 hearing",
+  "url": "https://www.militarytimes.com/news/pentagon-congress/2026/04/30/ceasefire-stops-war-powers-clock-on-iran-hegseth-claims/",
+  "snippet": "Defense Secretary Pete Hegseth argued the ceasefire 'pauses or stops' the WPR 60-day clock in Senate Armed Services hearing. Sen. Tim Kaine pushed back: 'I do not believe the statute would support that.' Hegseth again called congressional critics 'biggest adversary.' For 6th time, Senate failed to advance WPR by 50-47 vote. Collins (R-ME) voted with Democrats for first time.",
+  "source_name": "Military Times",
+  "language": "en",
+  "discovered_date": "2026-04-30",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "First report of Hegseth Senate Armed Services Day 2 hearing and WPR clock-pause claim; distinct from yesterday's House hearing",
+  "entities": [
+    {"id": "ent-098", "type": "Person", "name": "Pete Hegseth", "role": "Defense Secretary"},
+    {"id": "temp-001", "type": "Person", "name": "Tim Kaine", "role": "Senator (D-VA)"},
+    {"id": "temp-002", "type": "Person", "name": "Susan Collins", "role": "Senator (R-ME)"},
+    {"id": "temp-003", "type": "Event", "name": "Hegseth Senate Hearing (Apr 30)", "date": "2026-04-30"},
+    {"id": "temp-004", "type": "Event", "name": "Senate WPR Vote 6 (50-47)", "date": "2026-04-30"},
+    {"id": "ent-181", "type": "Concept", "name": "War Powers Resolution"},
+    {"id": "ent-015", "type": "Event", "name": "2026 Iran War"}
+  ],
+  "relations": [
+    {"subject": "ent-098", "predicate": "participatesIn", "object": "temp-003"},
+    {"subject": "temp-001", "predicate": "opposes", "object": "ent-098"},
+    {"subject": "temp-002", "predicate": "participatesIn", "object": "temp-004"},
+    {"subject": "temp-003", "predicate": "relatedTo", "object": "ent-181"}
+  ]
+}

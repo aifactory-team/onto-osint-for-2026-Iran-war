@@ -1,0 +1,35 @@
+{
+  "date": "2026-04-30",
+  "new_triples": [
+    {"subject": "ent-098", "predicate": "participatesIn", "object": "ent-234", "source_id": "src-632", "date": "2026-04-30", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-230", "predicate": "opposes", "object": "ent-098", "source_id": "src-632", "date": "2026-04-30", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-231", "predicate": "participatesIn", "object": "ent-235", "source_id": "src-633", "date": "2026-04-30", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-232", "predicate": "cooperatesWith", "object": "ent-001", "source_id": "src-634", "date": "2026-04-30", "confidence": 0.85, "type": "explicit"},
+    {"subject": "ent-233", "predicate": "participatesIn", "object": "ent-236", "source_id": "src-635", "date": "2026-04-30", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "ent-236", "source_id": "src-635", "date": "2026-04-30", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-004", "predicate": "participatesIn", "object": "ent-237", "source_id": "src-638", "date": "2026-04-30", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-047", "predicate": "opposes", "object": "ent-004", "source_id": "src-638", "date": "2026-04-30", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-238", "predicate": "causedBy", "object": "ent-008", "source_id": "src-637", "date": "2026-04-30", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-002", "predicate": "relatedTo", "object": "ent-239", "source_id": "src-639", "date": "2026-04-30", "confidence": 0.85, "type": "explicit"},
+    {"subject": "ent-237", "predicate": "follows", "object": "ent-227", "source_id": "src-638", "date": "2026-04-30", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-234", "predicate": "relatedTo", "object": "ent-181", "source_id": "src-632", "date": "2026-04-30", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-235", "predicate": "relatedTo", "object": "ent-181", "source_id": "src-633", "date": "2026-04-30", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-236", "predicate": "relatedTo", "object": "ent-015", "source_id": "src-635", "date": "2026-04-30", "confidence": 0.95, "type": "explicit"}
+  ],
+  "updated_triples": [
+    {"subject": "ent-004", "predicate": "opposes", "object": "ent-046", "source_id": "src-638", "date": "2026-04-30", "confidence": 0.95, "type": "explicit", "note": "updated: Black Wednesday 28 killed"},
+    {"subject": "ent-001", "predicate": "opposes", "object": "ent-002", "source_id": "src-635", "date": "2026-04-30", "confidence": 0.95, "type": "explicit", "note": "updated: CENTCOM military options briefing"}
+  ],
+  "inferred_triples": [
+    {"subject": "ent-234", "predicate": "causedBy", "object": "ent-235", "source_id": null, "date": "2026-04-30", "confidence": 0.82, "type": "inferred", "rule": "event_chain", "reasoning": "Hegseth Senate hearing (Apr 30) directly motivated by WPR vote approaching May 1 deadline; hearing and vote on same day"},
+    {"subject": "ent-236", "predicate": "causedBy", "object": "ent-226", "source_id": null, "date": "2026-04-30", "confidence": 0.78, "type": "inferred", "rule": "event_chain", "reasoning": "Iran 'practical action' threat (Apr 29) → Trump seeks military options (Apr 30); causal escalation chain"},
+    {"subject": "ent-237", "predicate": "causalChain", "object": "ent-223", "source_id": null, "date": "2026-04-30", "confidence": 0.80, "type": "inferred", "rule": "event_chain", "reasoning": "Zamir 'no ceasefire' (Apr 29) → Black Wednesday 28 killed (Apr 30); military command → field execution chain"},
+    {"subject": "ent-238", "predicate": "causedBy", "object": "ent-236", "source_id": null, "date": "2026-04-30", "confidence": 0.75, "type": "inferred", "rule": "event_chain", "reasoning": "Oil $126 high reversed to $111 AFTER CENTCOM briefing news broke; market interpreted military options as potential resolution"},
+    {"subject": "ent-232", "predicate": "cooperatesWith", "object": "ent-098", "source_id": null, "date": "2026-04-30", "confidence": 0.80, "type": "inferred", "rule": "co_participation", "reasoning": "Johnson 'not at war' + Hegseth 'clock pauses' = coordinated WPR defense strategy"}
+  ],
+  "stats": {
+    "new_nodes": 10,
+    "new_edges": 14,
+    "inferred_edges": 5
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "src-637",
+  "title": "Brent oil pulls back after climbing to $126 per barrel — 4-year high on U.S.-Iran escalation",
+  "url": "https://www.cnbc.com/2026/04/30/oil-prices-today-brent-wti-us-iran-war-trump.html",
+  "snippet": "Brent crude briefly hit $126/bbl overnight — highest since 2022 Russian invasion. Then pulled back to ~$111 after report Trump to be briefed on military options (paradoxically seen as potential resolution). US gas prices at 4-year high. Iran losing $500M/day per White House. Iran oil loadings collapsed from 2.1M bpd pre-war to 567K bpd.",
+  "source_name": "CNBC",
+  "language": "en",
+  "discovered_date": "2026-04-30",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Brent $126 is new wartime/4-year high, distinct from yesterday's $119; wild intraday reversal to $111",
+  "entities": [
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"},
+    {"id": "temp-012", "type": "Event", "name": "Oil $126 Wartime High (Apr 30)"},
+    {"id": "ent-015", "type": "Event", "name": "2026 Iran War"}
+  ],
+  "relations": [
+    {"subject": "ent-008", "predicate": "causedBy", "object": "ent-015"},
+    {"subject": "temp-012", "predicate": "causedBy", "object": "ent-008"}
+  ]
+}

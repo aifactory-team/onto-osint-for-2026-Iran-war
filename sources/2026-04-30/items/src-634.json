@@ -1,0 +1,24 @@
+{
+  "id": "src-634",
+  "title": "House Speaker Mike Johnson says the U.S. is 'not at war' with Iran",
+  "url": "https://www.nbcnews.com/politics/congress/house-speaker-mike-johnson-says-us-not-war-iran-white-house-approaches-rcna342868",
+  "snippet": "Johnson stated 'We are not at war' and 'We're policing the Strait of Hormuz and trying to get a peace.' Contradicts Trump's own use of 'war' language. Johnson said no active kinetic military bombing or firing. Comes on eve of WPR 60-day deadline May 1.",
+  "source_name": "NBC News",
+  "language": "en",
+  "discovered_date": "2026-04-30",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "First report of Johnson 'not at war' claim; new legal framing contradicting Trump's own rhetoric",
+  "entities": [
+    {"id": "temp-008", "type": "Person", "name": "Mike Johnson", "role": "House Speaker (R-LA)"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "ent-181", "type": "Concept", "name": "War Powers Resolution"},
+    {"id": "ent-015", "type": "Event", "name": "2026 Iran War"}
+  ],
+  "relations": [
+    {"subject": "temp-008", "predicate": "opposes", "object": "ent-181"},
+    {"subject": "temp-008", "predicate": "cooperatesWith", "object": "ent-001"}
+  ]
+}

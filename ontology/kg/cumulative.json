@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "누적 지식그래프 — 모든 트리플을 포함하는 전체 그래프",
-  "last_updated": "2026-04-29",
+  "last_updated": "2026-04-30",
   "nodes": [
     {
       "id": "ent-001",
@@ -1104,6 +1104,56 @@
       "type": "Person",
       "name": "John Garamendi",
       "first_seen": "2026-04-29"
+    },
+    {
+      "id": "ent-230",
+      "type": "Person",
+      "label": "Tim Kaine"
+    },
+    {
+      "id": "ent-231",
+      "type": "Person",
+      "label": "Susan Collins"
+    },
+    {
+      "id": "ent-232",
+      "type": "Person",
+      "label": "Mike Johnson"
+    },
+    {
+      "id": "ent-233",
+      "type": "Person",
+      "label": "Brad Cooper"
+    },
+    {
+      "id": "ent-234",
+      "type": "Event",
+      "label": "Hegseth Senate Hearing (Apr 30)"
+    },
+    {
+      "id": "ent-235",
+      "type": "Event",
+      "label": "Senate WPR Vote 6"
+    },
+    {
+      "id": "ent-236",
+      "type": "Event",
+      "label": "CENTCOM Military Briefing (Apr 30)"
+    },
+    {
+      "id": "ent-237",
+      "type": "Event",
+      "label": "Black Wednesday Lebanon (Apr 30)"
+    },
+    {
+      "id": "ent-238",
+      "type": "Event",
+      "label": "Oil $126 Wartime High (Apr 30)"
+    },
+    {
+      "id": "ent-239",
+      "type": "Concept",
+      "label": "Shadow Fleet"
     }
   ],
   "edges": [
@@ -5900,11 +5950,182 @@
       "date": "2026-04-28",
       "confidence": 0.8,
       "type": "inferred"
+    },
+    {
+      "subject": "ent-098",
+      "predicate": "participatesIn",
+      "object": "ent-234",
+      "source_id": "src-632",
+      "date": "2026-04-30",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-230",
+      "predicate": "opposes",
+      "object": "ent-098",
+      "source_id": "src-632",
+      "date": "2026-04-30",
+      "confidence": 0.90,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-231",
+      "predicate": "participatesIn",
+      "object": "ent-235",
+      "source_id": "src-633",
+      "date": "2026-04-30",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-232",
+      "predicate": "cooperatesWith",
+      "object": "ent-001",
+      "source_id": "src-634",
+      "date": "2026-04-30",
+      "confidence": 0.85,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-233",
+      "predicate": "participatesIn",
+      "object": "ent-236",
+      "source_id": "src-635",
+      "date": "2026-04-30",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-001",
+      "predicate": "participatesIn",
+      "object": "ent-236",
+      "source_id": "src-635",
+      "date": "2026-04-30",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-004",
+      "predicate": "participatesIn",
+      "object": "ent-237",
+      "source_id": "src-638",
+      "date": "2026-04-30",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-047",
+      "predicate": "opposes",
+      "object": "ent-004",
+      "source_id": "src-638",
+      "date": "2026-04-30",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-238",
+      "predicate": "causedBy",
+      "object": "ent-008",
+      "source_id": "src-637",
+      "date": "2026-04-30",
+      "confidence": 0.90,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-002",
+      "predicate": "relatedTo",
+      "object": "ent-239",
+      "source_id": "src-639",
+      "date": "2026-04-30",
+      "confidence": 0.85,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-237",
+      "predicate": "follows",
+      "object": "ent-227",
+      "source_id": "src-638",
+      "date": "2026-04-30",
+      "confidence": 0.90,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-234",
+      "predicate": "relatedTo",
+      "object": "ent-181",
+      "source_id": "src-632",
+      "date": "2026-04-30",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-235",
+      "predicate": "relatedTo",
+      "object": "ent-181",
+      "source_id": "src-633",
+      "date": "2026-04-30",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-236",
+      "predicate": "relatedTo",
+      "object": "ent-015",
+      "source_id": "src-635",
+      "date": "2026-04-30",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-234",
+      "predicate": "causedBy",
+      "object": "ent-235",
+      "source_id": null,
+      "date": "2026-04-30",
+      "confidence": 0.82,
+      "type": "inferred"
+    },
+    {
+      "subject": "ent-236",
+      "predicate": "causedBy",
+      "object": "ent-226",
+      "source_id": null,
+      "date": "2026-04-30",
+      "confidence": 0.78,
+      "type": "inferred"
+    },
+    {
+      "subject": "ent-237",
+      "predicate": "causalChain",
+      "object": "ent-223",
+      "source_id": null,
+      "date": "2026-04-30",
+      "confidence": 0.80,
+      "type": "inferred"
+    },
+    {
+      "subject": "ent-238",
+      "predicate": "causedBy",
+      "object": "ent-236",
+      "source_id": null,
+      "date": "2026-04-30",
+      "confidence": 0.75,
+      "type": "inferred"
+    },
+    {
+      "subject": "ent-232",
+      "predicate": "cooperatesWith",
+      "object": "ent-098",
+      "source_id": null,
+      "date": "2026-04-30",
+      "confidence": 0.80,
+      "type": "inferred"
     }
   ],
   "stats": {
-    "total_nodes": 223,
-    "total_edges": 567,
-    "total_triples": 567
+    "total_nodes": 233,
+    "total_edges": 586,
+    "total_triples": 586
   }
 }
