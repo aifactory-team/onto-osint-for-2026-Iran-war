@@ -1,0 +1,158 @@
+{
+  "date": "2026-05-02",
+  "entities": [
+    {
+      "temp_id": "temp-001",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Iran 14-Point Proposal (May 2)",
+      "properties": {"date": "2026-05-02", "participants": "Iran, US, Pakistan (mediator)", "details": "14-point counter to US 9-point proposal; demands US withdrawal, lifting blockade, frozen assets, reparations, sanctions lifting, end of war on all fronts including Lebanon, new Hormuz control mechanism; 30-day timeline vs US 2-month request; Tasnim/Fars (IRGC-linked) outlets report"},
+      "source_ids": ["src-714", "src-715", "src-726", "src-728", "src-729"],
+      "mention_count": 12
+    },
+    {
+      "temp_id": "temp-002",
+      "matched_id": null,
+      "type": "Event",
+      "name": "$8.6B Arms Sales Fast-Track",
+      "properties": {"date": "2026-05-02", "participants": "US, Israel, Qatar, UAE, Kuwait", "details": "Trump bypasses Congress via emergency provision; air defense systems for Kuwait/Qatar; laser-guided rockets for Qatar/UAE/Israel; rewarding allies who helped against Iran"},
+      "source_ids": ["src-715", "src-722"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": "temp-003",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Mohammad Jafar Asadi",
+      "properties": {"role": "Deputy of Military Headquarters", "affiliation": "Iranian Armed Forces", "statement": "War with US 'likely' to resume; evidence shows US not committed to agreements; US actions 'primarily media-driven'"},
+      "source_ids": ["src-716"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-004",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Spirit Airlines Shutdown",
+      "properties": {"date": "2026-05-02", "details": "First US airline casualty of Iran war; jet fuel $4.51/gal (from $2.24 assumption); sought $500M bailout from Trump admin, failed; 5% of US flights; no carrier this size liquidated in 20+ years; Sean Duffy tried to find buyers, no takers"},
+      "source_ids": ["src-717"],
+      "mention_count": 8
+    },
+    {
+      "temp_id": "temp-005",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Lebanon Day 16 (May 2)",
+      "properties": {"date": "2026-05-02", "location": "Southern Lebanon", "details": "41 killed in 24h (worst single-day since Day 14 'Black Wednesday'); IDF struck ~50 Hezbollah sites; cumulative: 2,659 dead, 8,183 injured since Mar 2"},
+      "source_ids": ["src-718"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": "temp-006",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Trump 'Pirates' Statement",
+      "properties": {"date": "2026-05-02", "location": "Florida rally", "details": "Trump: 'We land on top of it and we took over the ship. We took over the cargo, took over the oil. It's a very profitable business'; US gas $4.39/gallon"},
+      "source_ids": ["src-719"],
+      "mention_count": 8
+    },
+    {
+      "temp_id": "temp-007",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Roger Wicker",
+      "properties": {"role": "Chair, Senate Armed Services Committee", "affiliation": "US Senate (R)", "statement": "'Wrong signal to Putin'; opposes Germany troop withdrawal"},
+      "source_ids": ["src-721"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-008",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Mike Rogers",
+      "properties": {"role": "Chair, House Armed Services Committee", "affiliation": "US House (R)", "statement": "Joint statement with Wicker opposing withdrawal"},
+      "source_ids": ["src-721"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-009",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Sean Duffy",
+      "properties": {"role": "Transportation Secretary", "affiliation": "US Government", "action": "Tried to find buyers for Spirit Airlines, no takers"},
+      "source_ids": ["src-717"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-010",
+      "matched_id": null,
+      "type": "Concept",
+      "name": "Strait Chessboard Strategy",
+      "properties": {"domain": "Geopolitics", "details": "Fortune analysis: Iran war part of larger US-China cold war over global chokepoints — Panama Canal to Malacca Strait to Hormuz"},
+      "source_ids": ["src-723"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-011",
+      "matched_id": null,
+      "type": "Organization",
+      "name": "Spirit Airlines",
+      "properties": {"type": "airline", "location": "United States", "status": "ceased operations 2026-05-02"},
+      "source_ids": ["src-717"],
+      "mention_count": 8
+    },
+    {
+      "temp_id": "temp-012",
+      "matched_id": "ent-001",
+      "type": "Person",
+      "name": "Donald Trump",
+      "properties": {"action_may2": "reviewing 14-point proposal; warns of restarting strikes; 'like pirates' rally comment; fast-tracks $8.6B arms; blockade maintained"},
+      "source_ids": ["src-714", "src-715", "src-719", "src-722", "src-726"],
+      "mention_count": 18
+    },
+    {
+      "temp_id": "temp-013",
+      "matched_id": "ent-002",
+      "type": "Organization",
+      "name": "Iran",
+      "properties": {"action_may2": "14-point proposal details; military warns war 'likely' to resume; Asadi via Fars: US not committed"},
+      "source_ids": ["src-714", "src-716", "src-720"],
+      "mention_count": 15
+    },
+    {
+      "temp_id": "temp-014",
+      "matched_id": "ent-004",
+      "type": "Organization",
+      "name": "Israel",
+      "properties": {"action_may2": "struck ~50 Hezbollah sites; 41 killed in 24h in Lebanon; receives part of $8.6B arms package"},
+      "source_ids": ["src-718", "src-722"],
+      "mention_count": 8
+    },
+    {
+      "temp_id": "temp-015",
+      "matched_id": "ent-008",
+      "type": "Location",
+      "name": "Strait of Hormuz",
+      "properties": {"status_may2": "48 ships turned around in 20 days; 3 ships redirected in past 20h; gas $4.39/gal; Trump 'pirates' comment; Fortune: part of global chessboard"},
+      "source_ids": ["src-719", "src-723", "src-726"],
+      "mention_count": 12
+    }
+  ],
+  "relations": [
+    {"subject": "temp-001", "predicate": "relatedTo", "object": "ent-002", "source_ids": ["src-714"], "confidence": 0.95},
+    {"subject": "ent-001", "predicate": "opposes", "object": "temp-001", "source_ids": ["src-715"], "confidence": 0.90},
+    {"subject": "temp-002", "predicate": "relatedTo", "object": "ent-001", "source_ids": ["src-722"], "confidence": 0.95},
+    {"subject": "temp-002", "predicate": "relatedTo", "object": "ent-004", "source_ids": ["src-722"], "confidence": 0.90},
+    {"subject": "temp-003", "predicate": "affiliatedWith", "object": "ent-002", "source_ids": ["src-716"], "confidence": 0.90},
+    {"subject": "temp-004", "predicate": "causedBy", "object": "ent-008", "source_ids": ["src-717"], "confidence": 0.85},
+    {"subject": "temp-005", "predicate": "locatedIn", "object": "ent-004", "source_ids": ["src-718"], "confidence": 0.95},
+    {"subject": "temp-006", "predicate": "relatedTo", "object": "ent-008", "source_ids": ["src-719"], "confidence": 0.90},
+    {"subject": "temp-007", "predicate": "opposes", "object": "ent-243", "source_ids": ["src-721"], "confidence": 0.90},
+    {"subject": "temp-008", "predicate": "opposes", "object": "ent-243", "source_ids": ["src-721"], "confidence": 0.90}
+  ],
+  "stats": {
+    "total_entities": 15,
+    "new_entities": 11,
+    "matched_entities": 4,
+    "total_relations": 10
+  }
+}

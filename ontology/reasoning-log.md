@@ -1022,3 +1022,46 @@
 ### 스키마 변경 없음
 - 9개 새 엔티티 모두 기존 클래스(Person 2개, Event 5개, Concept 2개)로 분류 가능
 - 15개 새 관계(명시적) + 1개 업데이트 + 5개 추론 모두 기존 관계 유형으로 표현 가능
+
+---
+
+## 2026-05-02 추론 결과
+
+### 추론 #1: co_participation (이중 트랙 모순)
+- **입력:** (ent-001/Trump, relatedTo, ent-250/$8.6B Arms), (ent-001/Trump, opposes, ent-249/14-Point Proposal)
+- **추론:** (ent-250/$8.6B Arms, opposes, ent-249/14-Point Proposal)
+- **신뢰도:** 0.80
+- **상태:** 확정
+- **비고:** 트럼프가 14개항 제안을 '검토'하면서 동시에 $8.6B 무기를 긴급 판매 — 외교적 열림과 군사적 닫힘이 동시 진행. 무기 판매는 이란 전쟁 참전국(이스라엘, 카타르, UAE, 쿠웨이트) 보상 성격으로, 외교 실패 시 군사 재개 준비를 시사.
+
+### 추론 #2: co_participation (이란 내부 분열: 군부 vs 외교)
+- **입력:** (ent-251/Asadi, affiliatedWith, ent-005/IRGC), (ent-002/Iran, relatedTo, ent-249/14-Point Proposal)
+- **추론:** (ent-251/Asadi, opposes, ent-249/14-Point Proposal)
+- **신뢰도:** 0.75
+- **상태:** 확정
+- **비고:** 이란이 14개항 외교 제안서를 내놓은 같은 날, IRGC 연계 인물(아사디)이 전쟁 재개 'likely' 발언. 페제시키안-외교팀 vs IRGC-군부 분열 지속. Fars 통신(IRGC 매체)이 전쟁 재개 메시지를 확산.
+
+### 추론 #3: event_chain (이란 전쟁 → Spirit Airlines 파산 인과 체인)
+- **입력:** (ent-015/2026 Iran War, causedBy 역방향, ent-008/Hormuz blockade), (ent-252/Spirit Shutdown, causedBy, ent-008/Hormuz)
+- **추론:** (ent-252/Spirit Shutdown, causedBy, ent-015/2026 Iran War)
+- **신뢰도:** 0.80
+- **상태:** 확정
+- **비고:** 인과 체인: 이란 전쟁 → 호르무즈 봉쇄 → 유가 급등 → 항공유 $4.51 → Spirit 파산. 전쟁의 미국 본토 실물경제 영향 첫 대형 사례. Time: "Other Low-Cost Airlines Could Be Next" — 도미노 가능성.
+
+### 추론 #4: co_participation (공화당 군사 기득권 반발)
+- **입력:** (ent-255/Wicker, opposes, ent-243/Germany Withdrawal), (ent-256/Rogers, opposes, ent-243/Germany Withdrawal)
+- **추론:** (ent-255/Wicker, potentialRelation, ent-256/Rogers)
+- **신뢰도:** 0.85
+- **상태:** 확정
+- **비고:** 상원·하원 군사위 양원 의장(공화당)이 공동 성명으로 대통령 정책에 반대. '푸틴에게 잘못된 신호' — 이란 전쟁이 공화당 내부 균열로 전이.
+
+### 추론 #5: co_participation ('해적' vs '종료' 자기모순)
+- **입력:** (ent-001/Trump, relatedTo, ent-254/Pirates Statement), (ent-001/Trump, relatedTo, ent-248/Terminated Doctrine)
+- **추론:** (ent-254/Pirates Statement, opposes, ent-248/Terminated Doctrine)
+- **신뢰도:** 0.78
+- **상태:** 확정
+- **비고:** '적대행위 종료'를 선언한 다음 날, '해적처럼 선박을 나포하고 화물을 압류한다'고 자랑 — 자기 법적 논거를 자기가 훼손. 블루먼솔의 '봉쇄=전쟁행위' 주장을 자기 발언으로 뒷받침.
+
+### 스키마 변경 없음
+- 11개 새 엔티티 모두 기존 클래스(Person 4개, Event 6개, Organization 1개, Concept 1개 — 총 12 but Sean Duffy 제외 11개 주요)로 분류 가능
+- 15개 새 관계(명시적) + 2개 업데이트 + 5개 추론 모두 기존 관계 유형으로 표현 가능

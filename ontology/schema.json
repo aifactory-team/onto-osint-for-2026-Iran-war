@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "OSINT 온톨로지 스키마 — config/osint-config.json의 seed로부터 초기화되고, 매일 파이프라인 실행 시 자동 확장된다.",
-  "last_updated": "2026-05-01",
+  "last_updated": "2026-05-02",
   "classes": [
     {
       "id": "Entity",
@@ -215,6 +215,13 @@
       "target": "9 new entities (ent-240~ent-248)",
       "reason": "'적대행위 종료' 서한(트럼프→의회, WPR 60일 시한 회피), 이란 수정 제안서(파키스탄 경유, 호르무즈 우선·핵 후순위, 트럼프·루비오 거부), 테헤란 방공망 가동(드론 대응 20분), 독일 주둔 5,000명 철수 확정(이탈리아·스페인 위협 확대), 블루먼솔 상원의원('봉쇄=전쟁행위'), 그래슬리 상원의장(서한 수신), 레바논 Day 15(12+명 사망), 다크이글 극초음속 미사일(펜타곤 검토), '적대행위 종료' 독트린(법적 선례 없는 신규 이론)",
       "source_ids": ["src-672", "src-673", "src-674", "src-675", "src-676", "src-677", "src-678", "src-679", "src-680", "src-681", "src-682", "src-683"]
+    },
+    {
+      "date": "2026-05-02",
+      "action": "add_instances",
+      "target": "11 new entities (ent-249~ent-259)",
+      "reason": "이란 14개항 역제안(US 9개항 대비, 30일 시한, 철수·배상·동결자산·제재해제 요구), $8.6B 중동 무기 긴급판매(의회 우회), 아사디 이란 군부 전쟁 재개 'likely' 경고, Spirit Airlines 폐업(이란 전쟁 첫 항공사 파산·항공유 $4.51), 레바논 Day 16(24시간 41명 사망·Black Wednesday 초과), 트럼프 '해적' 발언(Florida 집회), Wicker/Rogers 공화당 군사위 양원 의장 독일 철수 반대, Sean Duffy 교통장관(Spirit 구제 실패), 해협 체스판 전략(미-중 냉전 프레임)",
+      "source_ids": ["src-714", "src-715", "src-716", "src-717", "src-718", "src-719", "src-720", "src-721", "src-722", "src-723", "src-724"]
     }
   ]
 }

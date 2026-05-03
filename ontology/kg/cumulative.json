@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "누적 지식그래프 — 모든 트리플을 포함하는 전체 그래프",
-  "last_updated": "2026-05-01",
+  "last_updated": "2026-05-02",
   "nodes": [
     {
       "id": "ent-001",
@@ -1154,7 +1154,18 @@
       "id": "ent-239",
       "type": "Concept",
       "label": "Shadow Fleet"
-    }
+    },
+    {"id": "ent-249", "type": "Event", "label": "Iran 14-Point Proposal (May 2)"},
+    {"id": "ent-250", "type": "Event", "label": "$8.6B Arms Sales Fast-Track"},
+    {"id": "ent-251", "type": "Person", "label": "Mohammad Jafar Asadi"},
+    {"id": "ent-252", "type": "Event", "label": "Spirit Airlines Shutdown"},
+    {"id": "ent-253", "type": "Event", "label": "Lebanon Day 16 (May 2)"},
+    {"id": "ent-254", "type": "Event", "label": "Trump Pirates Statement"},
+    {"id": "ent-255", "type": "Person", "label": "Roger Wicker"},
+    {"id": "ent-256", "type": "Person", "label": "Mike Rogers"},
+    {"id": "ent-257", "type": "Person", "label": "Sean Duffy"},
+    {"id": "ent-258", "type": "Organization", "label": "Spirit Airlines"},
+    {"id": "ent-259", "type": "Concept", "label": "Strait Chessboard Strategy"}
   ],
   "edges": [
     {
@@ -6292,11 +6303,31 @@
       "date": "2026-05-01",
       "confidence": 0.80,
       "type": "inferred"
-    }
+    },
+    {"subject": "ent-002", "predicate": "relatedTo", "object": "ent-249", "source_id": "src-714", "date": "2026-05-02", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-001", "predicate": "opposes", "object": "ent-249", "source_id": "src-715", "date": "2026-05-02", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-001", "predicate": "relatedTo", "object": "ent-250", "source_id": "src-722", "date": "2026-05-02", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-004", "predicate": "relatedTo", "object": "ent-250", "source_id": "src-722", "date": "2026-05-02", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-251", "predicate": "affiliatedWith", "object": "ent-005", "source_id": "src-716", "date": "2026-05-02", "confidence": 0.85, "type": "explicit"},
+    {"subject": "ent-251", "predicate": "affiliatedWith", "object": "ent-002", "source_id": "src-716", "date": "2026-05-02", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-252", "predicate": "causedBy", "object": "ent-008", "source_id": "src-717", "date": "2026-05-02", "confidence": 0.85, "type": "explicit"},
+    {"subject": "ent-004", "predicate": "relatedTo", "object": "ent-253", "source_id": "src-718", "date": "2026-05-02", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-253", "predicate": "follows", "object": "ent-246", "source_id": "src-718", "date": "2026-05-02", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-001", "predicate": "relatedTo", "object": "ent-254", "source_id": "src-719", "date": "2026-05-02", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-254", "predicate": "relatedTo", "object": "ent-008", "source_id": "src-719", "date": "2026-05-02", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-255", "predicate": "opposes", "object": "ent-243", "source_id": "src-721", "date": "2026-05-02", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-256", "predicate": "opposes", "object": "ent-243", "source_id": "src-721", "date": "2026-05-02", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-249", "predicate": "follows", "object": "ent-241", "source_id": "src-714", "date": "2026-05-02", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-258", "predicate": "relatedTo", "object": "ent-252", "source_id": "src-717", "date": "2026-05-02", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-250", "predicate": "opposes", "object": "ent-249", "source_id": null, "date": "2026-05-02", "confidence": 0.80, "type": "inferred"},
+    {"subject": "ent-251", "predicate": "opposes", "object": "ent-249", "source_id": null, "date": "2026-05-02", "confidence": 0.75, "type": "inferred"},
+    {"subject": "ent-252", "predicate": "causedBy", "object": "ent-015", "source_id": null, "date": "2026-05-02", "confidence": 0.80, "type": "inferred"},
+    {"subject": "ent-255", "predicate": "potentialRelation", "object": "ent-256", "source_id": null, "date": "2026-05-02", "confidence": 0.85, "type": "inferred"},
+    {"subject": "ent-254", "predicate": "opposes", "object": "ent-248", "source_id": null, "date": "2026-05-02", "confidence": 0.78, "type": "inferred"}
   ],
   "stats": {
-    "total_nodes": 242,
-    "total_edges": 606,
-    "total_triples": 606
+    "total_nodes": 253,
+    "total_edges": 626,
+    "total_triples": 626
   }
 }

@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "알려진 엔티티 인스턴스 — 파이프라인 실행 시 자동으로 추가/업데이트된다.",
-  "last_updated": "2026-05-01",
+  "last_updated": "2026-05-02",
   "entities": [
     {
       "id": "ent-001",
@@ -2201,6 +2201,105 @@
   "first_seen": "2026-05-01",
   "last_seen": "2026-05-01",
   "mention_count": 8
+},
+{
+  "id": "ent-249",
+  "type": "Event",
+  "name": "Iran 14-Point Proposal (May 2)",
+  "properties": { "date": "2026-05-02", "details": "14-point counter to US 9-point proposal via Pakistan; demands: US withdrawal, blockade lifting, frozen assets, reparations, sanctions lifting, end of war on all fronts incl Lebanon, new Hormuz control mechanism; 30-day timeline vs US 2-month; Tasnim/Fars (IRGC-linked) report; Trump 'reviewing' but 'not satisfied'" },
+  "first_seen": "2026-05-02",
+  "last_seen": "2026-05-02",
+  "mention_count": 12
+},
+{
+  "id": "ent-250",
+  "type": "Event",
+  "name": "$8.6B Arms Sales Fast-Track (May 2)",
+  "properties": { "date": "2026-05-02", "details": "Trump bypasses Congress via emergency provision; air defense systems for Kuwait/Qatar; laser-guided rockets for Qatar/UAE/Israel; rewarding Iran war allies; $8.6B total" },
+  "first_seen": "2026-05-02",
+  "last_seen": "2026-05-02",
+  "mention_count": 5
+},
+{
+  "id": "ent-251",
+  "type": "Person",
+  "name": "Mohammad Jafar Asadi",
+  "properties": { "role": "Deputy of Military Headquarters", "affiliation": "Iranian Armed Forces/IRGC", "statement": "War with US 'likely' to resume; evidence shows US not committed to agreements; US actions 'primarily media-driven'; relayed via Fars news agency" },
+  "first_seen": "2026-05-02",
+  "last_seen": "2026-05-02",
+  "mention_count": 3
+},
+{
+  "id": "ent-252",
+  "type": "Event",
+  "name": "Spirit Airlines Shutdown (May 2)",
+  "properties": { "date": "2026-05-02", "details": "First US airline casualty of Iran war; jet fuel $4.51/gal (from $2.24 assumption); sought $500M federal bailout failed; 5% of US flights; no carrier this size liquidated in 20+ years; Sean Duffy tried to find buyers, no takers" },
+  "first_seen": "2026-05-02",
+  "last_seen": "2026-05-02",
+  "mention_count": 8
+},
+{
+  "id": "ent-253",
+  "type": "Event",
+  "name": "Lebanon Day 16 (May 2)",
+  "properties": { "date": "2026-05-02", "casualties": "41 killed in 24h", "idf_strikes": "~50 Hezbollah sites", "cumulative": "2,659 killed, 8,183 injured since Mar 2", "note": "Worst 24h since Black Wednesday (Day 14, 28 killed); China UN envoy: 'lesser fire not ceasefire'" },
+  "first_seen": "2026-05-02",
+  "last_seen": "2026-05-02",
+  "mention_count": 5
+},
+{
+  "id": "ent-254",
+  "type": "Event",
+  "name": "Trump 'Pirates' Statement (May 2)",
+  "properties": { "date": "2026-05-02", "location": "Florida rally", "quote": "We land on top of it and we took over the ship. We took over the cargo, took over the oil. It's a very profitable business", "context": "US gas $4.39/gallon" },
+  "first_seen": "2026-05-02",
+  "last_seen": "2026-05-02",
+  "mention_count": 8
+},
+{
+  "id": "ent-255",
+  "type": "Person",
+  "name": "Roger Wicker",
+  "properties": { "role": "Chair, Senate Armed Services Committee", "affiliation": "US Senate (R-MS)", "statement": "'Very concerned' by Germany withdrawal; 'wrong signal to Putin'; joint statement with Rogers" },
+  "first_seen": "2026-05-02",
+  "last_seen": "2026-05-02",
+  "mention_count": 3
+},
+{
+  "id": "ent-256",
+  "type": "Person",
+  "name": "Mike Rogers (House Armed Services)",
+  "properties": { "role": "Chair, House Armed Services Committee", "affiliation": "US House (R-AL)", "statement": "Joint statement with Wicker opposing Germany withdrawal" },
+  "first_seen": "2026-05-02",
+  "last_seen": "2026-05-02",
+  "mention_count": 3
+},
+{
+  "id": "ent-257",
+  "type": "Person",
+  "name": "Sean Duffy",
+  "properties": { "role": "Transportation Secretary", "affiliation": "US Government", "action": "Tried to find buyers for Spirit Airlines, no takers; bailout talks failed" },
+  "first_seen": "2026-05-02",
+  "last_seen": "2026-05-02",
+  "mention_count": 1
+},
+{
+  "id": "ent-258",
+  "type": "Organization",
+  "name": "Spirit Airlines",
+  "properties": { "type": "airline", "location": "United States", "status": "ceased operations 2026-05-02; first Iran war airline casualty; 5% of US flights" },
+  "first_seen": "2026-05-02",
+  "last_seen": "2026-05-02",
+  "mention_count": 8
+},
+{
+  "id": "ent-259",
+  "type": "Concept",
+  "name": "Strait Chessboard Strategy",
+  "properties": { "domain": "geopolitics", "description": "Fortune analysis: Iran war as part of larger US-China cold war over global chokepoints — Panama Canal to Malacca Strait to Hormuz" },
+  "first_seen": "2026-05-02",
+  "last_seen": "2026-05-02",
+  "mention_count": 1
 }
 ]
 }

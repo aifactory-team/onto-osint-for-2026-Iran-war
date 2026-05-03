@@ -1,0 +1,36 @@
+{
+  "date": "2026-05-02",
+  "new_triples": [
+    {"subject": "ent-002", "predicate": "relatedTo", "object": "ent-249", "source_id": "src-714", "date": "2026-05-02", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-001", "predicate": "opposes", "object": "ent-249", "source_id": "src-715", "date": "2026-05-02", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-001", "predicate": "relatedTo", "object": "ent-250", "source_id": "src-722", "date": "2026-05-02", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-004", "predicate": "relatedTo", "object": "ent-250", "source_id": "src-722", "date": "2026-05-02", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-251", "predicate": "affiliatedWith", "object": "ent-005", "source_id": "src-716", "date": "2026-05-02", "confidence": 0.85, "type": "explicit"},
+    {"subject": "ent-251", "predicate": "affiliatedWith", "object": "ent-002", "source_id": "src-716", "date": "2026-05-02", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-252", "predicate": "causedBy", "object": "ent-008", "source_id": "src-717", "date": "2026-05-02", "confidence": 0.85, "type": "explicit"},
+    {"subject": "ent-004", "predicate": "relatedTo", "object": "ent-253", "source_id": "src-718", "date": "2026-05-02", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-253", "predicate": "follows", "object": "ent-246", "source_id": "src-718", "date": "2026-05-02", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-001", "predicate": "relatedTo", "object": "ent-254", "source_id": "src-719", "date": "2026-05-02", "confidence": 0.95, "type": "explicit"},
+    {"subject": "ent-254", "predicate": "relatedTo", "object": "ent-008", "source_id": "src-719", "date": "2026-05-02", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-255", "predicate": "opposes", "object": "ent-243", "source_id": "src-721", "date": "2026-05-02", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-256", "predicate": "opposes", "object": "ent-243", "source_id": "src-721", "date": "2026-05-02", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-249", "predicate": "follows", "object": "ent-241", "source_id": "src-714", "date": "2026-05-02", "confidence": 0.90, "type": "explicit"},
+    {"subject": "ent-258", "predicate": "relatedTo", "object": "ent-252", "source_id": "src-717", "date": "2026-05-02", "confidence": 0.95, "type": "explicit"}
+  ],
+  "updated_triples": [
+    {"subject": "ent-001", "predicate": "opposes", "object": "ent-002", "source_id": "src-715", "date": "2026-05-02", "confidence": 0.95, "type": "explicit", "note": "reinforced: Trump reviewing but dissatisfied + arms sale signal"},
+    {"subject": "ent-008", "predicate": "relatedTo", "object": "ent-002", "source_id": "src-726", "date": "2026-05-02", "confidence": 0.95, "type": "explicit", "note": "48 ships turned around; blockade continues"}
+  ],
+  "inferred_triples": [
+    {"subject": "ent-250", "predicate": "opposes", "object": "ent-249", "source_id": null, "date": "2026-05-02", "confidence": 0.80, "type": "inferred", "rule": "co_participation", "reasoning": "$8.6B arms fast-track while 'reviewing' 14-point proposal = diplomacy contradicted by military preparation"},
+    {"subject": "ent-251", "predicate": "opposes", "object": "ent-249", "source_id": null, "date": "2026-05-02", "confidence": 0.75, "type": "inferred", "rule": "co_participation", "reasoning": "Asadi war 'likely' statement undermines Iran's own diplomatic proposal — internal division between military and diplomatic tracks"},
+    {"subject": "ent-252", "predicate": "causedBy", "object": "ent-015", "source_id": null, "date": "2026-05-02", "confidence": 0.80, "type": "inferred", "rule": "event_chain", "reasoning": "2026 Iran War → Hormuz blockade → oil spike → jet fuel $4.51 → Spirit Airlines bankruptcy. Causal chain."},
+    {"subject": "ent-255", "predicate": "potentialRelation", "object": "ent-256", "source_id": null, "date": "2026-05-02", "confidence": 0.85, "type": "inferred", "rule": "co_participation", "reasoning": "Joint statement opposing Germany withdrawal — bipartisan military establishment resistance to Trump"},
+    {"subject": "ent-254", "predicate": "opposes", "object": "ent-248", "source_id": null, "date": "2026-05-02", "confidence": 0.78, "type": "inferred", "rule": "co_participation", "reasoning": "'Pirates' boast of seizing ships contradicts 'hostilities terminated' doctrine — Trump self-undermines his own legal argument"}
+  ],
+  "stats": {
+    "new_nodes": 11,
+    "new_edges": 15,
+    "inferred_edges": 5
+  }
+}
