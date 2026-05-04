@@ -1,13 +1,17 @@
 {
   "version": "1.0.0",
   "description": "알려진 엔티티 인스턴스 — 파이프라인 실행 시 자동으로 추가/업데이트된다.",
-  "last_updated": "2026-05-02",
+  "last_updated": "2026-05-03",
   "entities": [
     {
       "id": "ent-001",
       "type": "Person",
       "name": "Donald Trump",
-      "properties": { "role": "US President", "affiliation": "United States", "action_apr21": "morning CNBC 'I don't want to' extend ceasefire; ~4pm ET Truth Social reversal: extends ceasefire indefinitely 'until such time as their proposal is submitted'; cited Iran 'seriously fractured' and Pakistan (Munir+Sharif) request; blockade maintained: 'continue the Blockade and, in all other respects, remain ready and able'" },
+      "properties": {
+        "role": "US President",
+        "affiliation": "United States",
+        "action_apr21": "morning CNBC 'I don't want to' extend ceasefire; ~4pm ET Truth Social reversal: extends ceasefire indefinitely 'until such time as their proposal is submitted'; cited Iran 'seriously fractured' and Pakistan (Munir+Sharif) request; blockade maintained: 'continue the Blockade and, in all other respects, remain ready and able'"
+      },
       "first_seen": "2026-04-07",
       "last_seen": "2026-04-26",
       "mention_count": 247
@@ -16,7 +20,11 @@
       "id": "ent-002",
       "type": "Organization",
       "name": "Iran",
-      "properties": { "type": "state", "location": "Middle East", "action_apr22": "IRGC seizes 3 ships in Hormuz (MSC-Francesca, Epaminondas, 3rd); Pezeshkian says 'open to deal' but accuses US of 'unconstructive signals'; dismisses Trump execution claims as 'false news'; IRGC escalates naval aggression despite ceasefire extension" },
+      "properties": {
+        "type": "state",
+        "location": "Middle East",
+        "action_apr22": "IRGC seizes 3 ships in Hormuz (MSC-Francesca, Epaminondas, 3rd); Pezeshkian says 'open to deal' but accuses US of 'unconstructive signals'; dismisses Trump execution claims as 'false news'; IRGC escalates naval aggression despite ceasefire extension"
+      },
       "first_seen": "2026-04-07",
       "last_seen": "2026-04-26",
       "mention_count": 294
@@ -25,7 +33,10 @@
       "id": "ent-003",
       "type": "Organization",
       "name": "US Military",
-      "properties": { "type": "military", "location": "United States" },
+      "properties": {
+        "type": "military",
+        "location": "United States"
+      },
       "first_seen": "2026-04-07",
       "last_seen": "2026-04-19",
       "mention_count": 52
@@ -34,7 +45,11 @@
       "id": "ent-004",
       "type": "Organization",
       "name": "Israel",
-      "properties": { "type": "state", "location": "Middle East", "action_apr22": "2nd Washington talks with Lebanon confirmed Thursday Apr 24 (Huckabee joining); ceasefire fraying as Hezbollah continues attacks; continues joint war prep with US" },
+      "properties": {
+        "type": "state",
+        "location": "Middle East",
+        "action_apr22": "2nd Washington talks with Lebanon confirmed Thursday Apr 24 (Huckabee joining); ceasefire fraying as Hezbollah continues attacks; continues joint war prep with US"
+      },
       "first_seen": "2026-04-07",
       "last_seen": "2026-04-26",
       "mention_count": 114
@@ -43,7 +58,11 @@
       "id": "ent-005",
       "type": "Organization",
       "name": "IRGC (Islamic Revolutionary Guard Corps)",
-      "properties": { "type": "military", "location": "Iran", "action_apr22": "seized MSC-Francesca (Panama, alleged Israel link) and Epaminondas (Liberia), fired on 3rd vessel in Hormuz; accused ships of AIS manipulation; UKMTO confirmed gunboat attacks off Oman coast; most aggressive naval action since blockade began" },
+      "properties": {
+        "type": "military",
+        "location": "Iran",
+        "action_apr22": "seized MSC-Francesca (Panama, alleged Israel link) and Epaminondas (Liberia), fired on 3rd vessel in Hormuz; accused ships of AIS manipulation; UKMTO confirmed gunboat attacks off Oman coast; most aggressive naval action since blockade began"
+      },
       "first_seen": "2026-04-07",
       "last_seen": "2026-04-26",
       "mention_count": 90
@@ -52,7 +71,11 @@
       "id": "ent-006",
       "type": "Person",
       "name": "Majid Khademi",
-      "properties": { "role": "IRGC Intelligence Chief", "affiliation": "IRGC", "status": "killed 2026-04-07" },
+      "properties": {
+        "role": "IRGC Intelligence Chief",
+        "affiliation": "IRGC",
+        "status": "killed 2026-04-07"
+      },
       "first_seen": "2026-04-07",
       "last_seen": "2026-04-07",
       "mention_count": 1
@@ -61,7 +84,10 @@
       "id": "ent-007",
       "type": "Location",
       "name": "Kharg Island",
-      "properties": { "type": "island/oil hub", "coordinates": "29.2333°N, 50.3167°E" },
+      "properties": {
+        "type": "island/oil hub",
+        "coordinates": "29.2333°N, 50.3167°E"
+      },
       "first_seen": "2026-04-07",
       "last_seen": "2026-04-07",
       "mention_count": 7
@@ -70,7 +96,10 @@
       "id": "ent-008",
       "type": "Location",
       "name": "Strait of Hormuz",
-      "properties": { "type": "strait/waterway", "status_apr22": "IRGC seizes 3 ships, fires on all; Brent $101.91 (+3%) crossing $100 again; 'basically closed' (CNBC); dual blockade continues; Trump: Iran losing $500M/day; 6th consecutive day of major price swings" },
+      "properties": {
+        "type": "strait/waterway",
+        "status_apr22": "IRGC seizes 3 ships, fires on all; Brent $101.91 (+3%) crossing $100 again; 'basically closed' (CNBC); dual blockade continues; Trump: Iran losing $500M/day; 6th consecutive day of major price swings"
+      },
       "first_seen": "2026-04-07",
       "last_seen": "2026-04-26",
       "mention_count": 265
@@ -79,7 +108,9 @@
       "id": "ent-009",
       "type": "Organization",
       "name": "Russia",
-      "properties": { "type": "state" },
+      "properties": {
+        "type": "state"
+      },
       "first_seen": "2026-04-07",
       "last_seen": "2026-04-26",
       "mention_count": 11
@@ -88,7 +119,9 @@
       "id": "ent-010",
       "type": "Organization",
       "name": "China",
-      "properties": { "type": "state" },
+      "properties": {
+        "type": "state"
+      },
       "first_seen": "2026-04-07",
       "last_seen": "2026-04-14",
       "mention_count": 22
@@ -97,7 +130,9 @@
       "id": "ent-011",
       "type": "Organization",
       "name": "UN Security Council",
-      "properties": { "type": "international organization" },
+      "properties": {
+        "type": "international organization"
+      },
       "first_seen": "2026-04-07",
       "last_seen": "2026-04-07",
       "mention_count": 4
@@ -106,7 +141,9 @@
       "id": "ent-012",
       "type": "Organization",
       "name": "US Air Force",
-      "properties": { "type": "military branch" },
+      "properties": {
+        "type": "military branch"
+      },
       "first_seen": "2026-04-07",
       "last_seen": "2026-04-07",
       "mention_count": 3
@@ -115,7 +152,9 @@
       "id": "ent-013",
       "type": "Location",
       "name": "Tel Aviv",
-      "properties": { "type": "city" },
+      "properties": {
+        "type": "city"
+      },
       "first_seen": "2026-04-07",
       "last_seen": "2026-04-07",
       "mention_count": 2
@@ -124,7 +163,9 @@
       "id": "ent-014",
       "type": "Location",
       "name": "Haifa",
-      "properties": { "type": "city" },
+      "properties": {
+        "type": "city"
+      },
       "first_seen": "2026-04-07",
       "last_seen": "2026-04-07",
       "mention_count": 2
@@ -133,7 +174,12 @@
       "id": "ent-015",
       "type": "Event",
       "name": "2026 Iran War",
-      "properties": { "date": "2026-02-28~", "location": "Iran/Middle East", "participants": "US, Israel, Iran", "day49_status": "ceasefire day 10, Lebanon ceasefire day 1 (with violations), blockade day 5, Iran Hormuz 'open' but US blockade stays, 2nd round Monday Apr 21 confirmed, oil -11%" },
+      "properties": {
+        "date": "2026-02-28~",
+        "location": "Iran/Middle East",
+        "participants": "US, Israel, Iran",
+        "day49_status": "ceasefire day 10, Lebanon ceasefire day 1 (with violations), blockade day 5, Iran Hormuz 'open' but US blockade stays, 2nd round Monday Apr 21 confirmed, oil -11%"
+      },
       "first_seen": "2026-04-07",
       "last_seen": "2026-04-17",
       "mention_count": 80
@@ -142,7 +188,10 @@
       "id": "ent-016",
       "type": "Event",
       "name": "Ceasefire Negotiations",
-      "properties": { "date": "2026-04-06~10", "participants": "US, Iran, Pakistan (mediator)" },
+      "properties": {
+        "date": "2026-04-06~10",
+        "participants": "US, Iran, Pakistan (mediator)"
+      },
       "first_seen": "2026-04-07",
       "last_seen": "2026-04-10",
       "mention_count": 25
@@ -151,7 +200,10 @@
       "id": "ent-017",
       "type": "Event",
       "name": "Kharg Island Strikes (Apr 7)",
-      "properties": { "date": "2026-04-07", "location": "Kharg Island" },
+      "properties": {
+        "date": "2026-04-07",
+        "location": "Kharg Island"
+      },
       "first_seen": "2026-04-07",
       "last_seen": "2026-04-07",
       "mention_count": 6
@@ -160,7 +212,10 @@
       "id": "ent-018",
       "type": "Event",
       "name": "F-15E Shoot Down & Rescue",
-      "properties": { "date": "2026-04-03~05", "location": "Iran" },
+      "properties": {
+        "date": "2026-04-03~05",
+        "location": "Iran"
+      },
       "first_seen": "2026-04-07",
       "last_seen": "2026-04-07",
       "mention_count": 3
@@ -169,7 +224,9 @@
       "id": "ent-019",
       "type": "Event",
       "name": "Iran 10-Point Peace Plan",
-      "properties": { "date": "2026-04-06" },
+      "properties": {
+        "date": "2026-04-06"
+      },
       "first_seen": "2026-04-07",
       "last_seen": "2026-04-10",
       "mention_count": 6
@@ -178,7 +235,10 @@
       "id": "ent-020",
       "type": "Event",
       "name": "Trump Hormuz Deadline",
-      "properties": { "date": "2026-04-08 20:00 ET", "status": "superseded by 2-week ceasefire" },
+      "properties": {
+        "date": "2026-04-08 20:00 ET",
+        "status": "superseded by 2-week ceasefire"
+      },
       "first_seen": "2026-04-07",
       "last_seen": "2026-04-07",
       "mention_count": 10
@@ -187,7 +247,10 @@
       "id": "ent-021",
       "type": "Event",
       "name": "IRGC Intelligence Chief Assassination",
-      "properties": { "date": "2026-04-07", "target": "Majid Khademi" },
+      "properties": {
+        "date": "2026-04-07",
+        "target": "Majid Khademi"
+      },
       "first_seen": "2026-04-07",
       "last_seen": "2026-04-07",
       "mention_count": 1
@@ -196,7 +259,11 @@
       "id": "ent-022",
       "type": "Event",
       "name": "UN Security Council Vote on Hormuz (Vetoed)",
-      "properties": { "date": "2026-04-07", "result": "vetoed by Russia and China", "vote": "11-2-2" },
+      "properties": {
+        "date": "2026-04-07",
+        "result": "vetoed by Russia and China",
+        "vote": "11-2-2"
+      },
       "first_seen": "2026-04-07",
       "last_seen": "2026-04-07",
       "mention_count": 4
@@ -205,7 +272,10 @@
       "id": "ent-023",
       "type": "Event",
       "name": "Iran Retaliatory Strikes on Gulf/Israel",
-      "properties": { "date": "2026-04-07", "targets": "Tel Aviv, Haifa, Gulf oil facilities" },
+      "properties": {
+        "date": "2026-04-07",
+        "targets": "Tel Aviv, Haifa, Gulf oil facilities"
+      },
       "first_seen": "2026-04-07",
       "last_seen": "2026-04-07",
       "mention_count": 5
@@ -214,7 +284,9 @@
       "id": "ent-024",
       "type": "Event",
       "name": "Tehran Severs Diplomatic Ties with US",
-      "properties": { "date": "2026-04-07" },
+      "properties": {
+        "date": "2026-04-07"
+      },
       "first_seen": "2026-04-07",
       "last_seen": "2026-04-07",
       "mention_count": 1
@@ -223,7 +295,9 @@
       "id": "ent-025",
       "type": "Concept",
       "name": "Nuclear Program",
-      "properties": { "domain": "military/energy" },
+      "properties": {
+        "domain": "military/energy"
+      },
       "first_seen": "2026-04-07",
       "last_seen": "2026-04-12",
       "mention_count": 22
@@ -232,7 +306,9 @@
       "id": "ent-026",
       "type": "Concept",
       "name": "Strait of Hormuz Blockade",
-      "properties": { "domain": "maritime/energy" },
+      "properties": {
+        "domain": "maritime/energy"
+      },
       "first_seen": "2026-04-07",
       "last_seen": "2026-04-10",
       "mention_count": 18
@@ -241,7 +317,11 @@
       "id": "ent-027",
       "type": "Person",
       "name": "Shehbaz Sharif",
-      "properties": { "role": "Pakistan Prime Minister", "affiliation": "Pakistan", "action_apr21": "requested ceasefire extension from Trump (cited in Truth Social announcement); racing against time as Iran boycotts and Vance postpones" },
+      "properties": {
+        "role": "Pakistan Prime Minister",
+        "affiliation": "Pakistan",
+        "action_apr21": "requested ceasefire extension from Trump (cited in Truth Social announcement); racing against time as Iran boycotts and Vance postpones"
+      },
       "first_seen": "2026-04-07",
       "last_seen": "2026-04-21",
       "mention_count": 34
@@ -250,7 +330,11 @@
       "id": "ent-028",
       "type": "Person",
       "name": "Asim Munir",
-      "properties": { "role": "Pakistan Field Marshal / Army Chief", "affiliation": "Pakistan", "action_apr21": "requested ceasefire extension from Trump alongside Sharif — cited by name in Trump Truth Social announcement; Pakistan's military-diplomatic dual track continues" },
+      "properties": {
+        "role": "Pakistan Field Marshal / Army Chief",
+        "affiliation": "Pakistan",
+        "action_apr21": "requested ceasefire extension from Trump alongside Sharif — cited by name in Trump Truth Social announcement; Pakistan's military-diplomatic dual track continues"
+      },
       "first_seen": "2026-04-07",
       "last_seen": "2026-04-21",
       "mention_count": 37
@@ -259,7 +343,11 @@
       "id": "ent-029",
       "type": "Organization",
       "name": "Pakistan",
-      "properties": { "type": "state", "role": "sole mediator in Iran war (WH confirmed)", "action_apr21": "Munir + Sharif requested ceasefire extension from Trump — cited by Trump in extension announcement; racing against time as Iran boycotts talks" },
+      "properties": {
+        "type": "state",
+        "role": "sole mediator in Iran war (WH confirmed)",
+        "action_apr21": "Munir + Sharif requested ceasefire extension from Trump — cited by Trump in extension announcement; racing against time as Iran boycotts talks"
+      },
       "first_seen": "2026-04-07",
       "last_seen": "2026-04-26",
       "mention_count": 102
@@ -268,7 +356,12 @@
       "id": "ent-030",
       "type": "Event",
       "name": "2-Week Ceasefire Agreement",
-      "properties": { "date": "2026-04-07~08", "participants": "US, Iran, Pakistan (mediator)", "condition": "Iran reopens Strait of Hormuz", "status": "in effect but fragile" },
+      "properties": {
+        "date": "2026-04-07~08",
+        "participants": "US, Iran, Pakistan (mediator)",
+        "condition": "Iran reopens Strait of Hormuz",
+        "status": "in effect but fragile"
+      },
       "first_seen": "2026-04-07",
       "last_seen": "2026-04-10",
       "mention_count": 22
@@ -277,7 +370,11 @@
       "id": "ent-031",
       "type": "Person",
       "name": "Benjamin Netanyahu",
-      "properties": { "role": "Israel Prime Minister", "affiliation": "Israel", "action_apr17": "claimed Hezbollah fight 'not over' despite ceasefire; publicly rebuked by Trump 'PROHIBITED from bombing'" },
+      "properties": {
+        "role": "Israel Prime Minister",
+        "affiliation": "Israel",
+        "action_apr17": "claimed Hezbollah fight 'not over' despite ceasefire; publicly rebuked by Trump 'PROHIBITED from bombing'"
+      },
       "first_seen": "2026-04-07",
       "last_seen": "2026-04-26",
       "mention_count": 24
@@ -286,7 +383,10 @@
       "id": "ent-032",
       "type": "Event",
       "name": "Israel Railway Bridge Strikes",
-      "properties": { "date": "2026-04-07", "locations": "Tehran, Karaj, Tabriz, Kashan, Qom" },
+      "properties": {
+        "date": "2026-04-07",
+        "locations": "Tehran, Karaj, Tabriz, Kashan, Qom"
+      },
       "first_seen": "2026-04-07",
       "last_seen": "2026-04-07",
       "mention_count": 5
@@ -295,7 +395,10 @@
       "id": "ent-033",
       "type": "Event",
       "name": "IRGC Operation Sadeq 4 (Gulf Energy Strikes)",
-      "properties": { "date": "2026-04-07", "targets": "Habshan UAE, Al Ruwais UAE, Sitrah Bahrain, Shuaiba Kuwait" },
+      "properties": {
+        "date": "2026-04-07",
+        "targets": "Habshan UAE, Al Ruwais UAE, Sitrah Bahrain, Shuaiba Kuwait"
+      },
       "first_seen": "2026-04-07",
       "last_seen": "2026-04-07",
       "mention_count": 3
@@ -304,7 +407,10 @@
       "id": "ent-034",
       "type": "Event",
       "name": "Iran Ballistic Missile Strikes on Israel (Apr 7)",
-      "properties": { "date": "2026-04-07", "targets": "central and southern Israel" },
+      "properties": {
+        "date": "2026-04-07",
+        "targets": "central and southern Israel"
+      },
       "first_seen": "2026-04-07",
       "last_seen": "2026-04-07",
       "mention_count": 2
@@ -313,7 +419,10 @@
       "id": "ent-035",
       "type": "Organization",
       "name": "UAE (United Arab Emirates)",
-      "properties": { "type": "state", "location": "Middle East/Gulf" },
+      "properties": {
+        "type": "state",
+        "location": "Middle East/Gulf"
+      },
       "first_seen": "2026-04-07",
       "last_seen": "2026-04-10",
       "mention_count": 5
@@ -322,7 +431,10 @@
       "id": "ent-036",
       "type": "Organization",
       "name": "Bahrain",
-      "properties": { "type": "state", "location": "Middle East/Gulf" },
+      "properties": {
+        "type": "state",
+        "location": "Middle East/Gulf"
+      },
       "first_seen": "2026-04-07",
       "last_seen": "2026-04-07",
       "mention_count": 2
@@ -331,7 +443,10 @@
       "id": "ent-037",
       "type": "Organization",
       "name": "Kuwait",
-      "properties": { "type": "state", "location": "Middle East/Gulf" },
+      "properties": {
+        "type": "state",
+        "location": "Middle East/Gulf"
+      },
       "first_seen": "2026-04-07",
       "last_seen": "2026-04-07",
       "mention_count": 2
@@ -340,7 +455,10 @@
       "id": "ent-038",
       "type": "Location",
       "name": "Kashan",
-      "properties": { "type": "city", "country": "Iran" },
+      "properties": {
+        "type": "city",
+        "country": "Iran"
+      },
       "first_seen": "2026-04-07",
       "last_seen": "2026-04-07",
       "mention_count": 2
@@ -349,7 +467,10 @@
       "id": "ent-039",
       "type": "Location",
       "name": "Qom",
-      "properties": { "type": "city", "country": "Iran" },
+      "properties": {
+        "type": "city",
+        "country": "Iran"
+      },
       "first_seen": "2026-04-07",
       "last_seen": "2026-04-07",
       "mention_count": 1
@@ -358,7 +479,10 @@
       "id": "ent-040",
       "type": "Location",
       "name": "Mashhad",
-      "properties": { "type": "city", "country": "Iran" },
+      "properties": {
+        "type": "city",
+        "country": "Iran"
+      },
       "first_seen": "2026-04-07",
       "last_seen": "2026-04-07",
       "mention_count": 1
@@ -367,7 +491,11 @@
       "id": "ent-041",
       "type": "Person",
       "name": "JD Vance",
-      "properties": { "role": "US Vice President", "affiliation": "United States", "action_apr21": "did NOT fly to Islamabad; trip 'postponed indefinitely' (Axios) as Iran boycotts 2nd round" },
+      "properties": {
+        "role": "US Vice President",
+        "affiliation": "United States",
+        "action_apr21": "did NOT fly to Islamabad; trip 'postponed indefinitely' (Axios) as Iran boycotts 2nd round"
+      },
       "first_seen": "2026-04-10",
       "last_seen": "2026-04-24",
       "mention_count": 92
@@ -376,7 +504,10 @@
       "id": "ent-042",
       "type": "Person",
       "name": "Jared Kushner",
-      "properties": { "role": "Trump adviser/son-in-law", "affiliation": "United States" },
+      "properties": {
+        "role": "Trump adviser/son-in-law",
+        "affiliation": "United States"
+      },
       "first_seen": "2026-04-10",
       "last_seen": "2026-04-24",
       "mention_count": 13
@@ -385,7 +516,10 @@
       "id": "ent-043",
       "type": "Person",
       "name": "Steve Witkoff",
-      "properties": { "role": "US Middle East Special Envoy", "affiliation": "United States" },
+      "properties": {
+        "role": "US Middle East Special Envoy",
+        "affiliation": "United States"
+      },
       "first_seen": "2026-04-10",
       "last_seen": "2026-04-24",
       "mention_count": 13
@@ -394,7 +528,11 @@
       "id": "ent-044",
       "type": "Person",
       "name": "Abbas Araghchi",
-      "properties": { "role": "Iran Foreign Minister", "affiliation": "Iran", "status_apr19": "rift with IRGC deepens further; Vahidi identification as 'power behind the throne' confirms structural marginalization of diplomatic track" },
+      "properties": {
+        "role": "Iran Foreign Minister",
+        "affiliation": "Iran",
+        "status_apr19": "rift with IRGC deepens further; Vahidi identification as 'power behind the throne' confirms structural marginalization of diplomatic track"
+      },
       "first_seen": "2026-04-10",
       "last_seen": "2026-04-26",
       "mention_count": 82
@@ -403,7 +541,11 @@
       "id": "ent-045",
       "type": "Person",
       "name": "Mohammad Bagher Ghalibaf",
-      "properties": { "role": "Iran Parliament Speaker, delegation leader", "affiliation": "Iran", "action_apr21": "adviser says: 'Trump's ceasefire extension means nothing, the losing side cannot dictate terms'" },
+      "properties": {
+        "role": "Iran Parliament Speaker, delegation leader",
+        "affiliation": "Iran",
+        "action_apr21": "adviser says: 'Trump's ceasefire extension means nothing, the losing side cannot dictate terms'"
+      },
       "first_seen": "2026-04-10",
       "last_seen": "2026-04-24",
       "mention_count": 49
@@ -412,7 +554,11 @@
       "id": "ent-046",
       "type": "Person",
       "name": "Mojtaba Khamenei",
-      "properties": { "role": "Iran Supreme Leader (since 2026-03-08)", "affiliation": "Iran", "note": "Son of late Ali Khamenei" },
+      "properties": {
+        "role": "Iran Supreme Leader (since 2026-03-08)",
+        "affiliation": "Iran",
+        "note": "Son of late Ali Khamenei"
+      },
       "first_seen": "2026-04-10",
       "last_seen": "2026-04-10",
       "mention_count": 6
@@ -421,7 +567,12 @@
       "id": "ent-047",
       "type": "Organization",
       "name": "Hezbollah",
-      "properties": { "type": "armed group", "location": "Lebanon", "affiliation": "Iran-backed", "action_apr22": "continues firing on Israeli military sites day 2; ceasefire 'fraying'; both sides accuse other of violations; 200+ violations cited since ceasefire began" },
+      "properties": {
+        "type": "armed group",
+        "location": "Lebanon",
+        "affiliation": "Iran-backed",
+        "action_apr22": "continues firing on Israeli military sites day 2; ceasefire 'fraying'; both sides accuse other of violations; 200+ violations cited since ceasefire began"
+      },
       "first_seen": "2026-04-10",
       "last_seen": "2026-04-24",
       "mention_count": 66
@@ -430,7 +581,9 @@
       "id": "ent-048",
       "type": "Organization",
       "name": "United Kingdom",
-      "properties": { "type": "state" },
+      "properties": {
+        "type": "state"
+      },
       "first_seen": "2026-04-10",
       "last_seen": "2026-04-10",
       "mention_count": 2
@@ -439,7 +592,9 @@
       "id": "ent-049",
       "type": "Organization",
       "name": "European Union",
-      "properties": { "type": "international organization" },
+      "properties": {
+        "type": "international organization"
+      },
       "first_seen": "2026-04-10",
       "last_seen": "2026-04-10",
       "mention_count": 2
@@ -448,7 +603,10 @@
       "id": "ent-050",
       "type": "Location",
       "name": "Lebanon",
-      "properties": { "type": "country", "status_apr22": "ceasefire day 6, fraying; Hezbollah continues attacks; 2nd Washington talks Thursday Apr 24; Lebanon hopes for ceasefire extension beyond Apr 26 expiry" },
+      "properties": {
+        "type": "country",
+        "status_apr22": "ceasefire day 6, fraying; Hezbollah continues attacks; 2nd Washington talks Thursday Apr 24; Lebanon hopes for ceasefire extension beyond Apr 26 expiry"
+      },
       "first_seen": "2026-04-10",
       "last_seen": "2026-04-26",
       "mention_count": 102
@@ -457,7 +615,10 @@
       "id": "ent-051",
       "type": "Location",
       "name": "Islamabad",
-      "properties": { "type": "city", "country": "Pakistan" },
+      "properties": {
+        "type": "city",
+        "country": "Pakistan"
+      },
       "first_seen": "2026-04-10",
       "last_seen": "2026-04-11",
       "mention_count": 25
@@ -466,7 +627,10 @@
       "id": "ent-052",
       "type": "Location",
       "name": "Beirut",
-      "properties": { "type": "city", "country": "Lebanon" },
+      "properties": {
+        "type": "city",
+        "country": "Lebanon"
+      },
       "first_seen": "2026-04-10",
       "last_seen": "2026-04-10",
       "mention_count": 5
@@ -475,7 +639,12 @@
       "id": "ent-053",
       "type": "Event",
       "name": "Israel Lebanon Attacks (Apr 8)",
-      "properties": { "date": "2026-04-08~11", "location": "Lebanon", "casualties": "357+ killed (revised), 1100+ wounded; 10 more killed Apr 11", "context": "Hours after Iran ceasefire declared, 'Operation Eternal Darkness', 'Black Wednesday'" },
+      "properties": {
+        "date": "2026-04-08~11",
+        "location": "Lebanon",
+        "casualties": "357+ killed (revised), 1100+ wounded; 10 more killed Apr 11",
+        "context": "Hours after Iran ceasefire declared, 'Operation Eternal Darkness', 'Black Wednesday'"
+      },
       "first_seen": "2026-04-10",
       "last_seen": "2026-04-11",
       "mention_count": 25
@@ -484,7 +653,15 @@
       "id": "ent-054",
       "type": "Event",
       "name": "Islamabad Peace Talks",
-      "properties": { "date": "2026-04-11~12", "duration": "21 hours", "location": "Islamabad, Serena Hotel", "participants": "US (Vance, Witkoff, Kushner), Iran (Araghchi, Ghalibaf ~70 people), Pakistan (host/mediator)", "status": "collapsed — no agreement reached", "format": "direct face-to-face (first since 1979)", "sticking_points": "nuclear (900 lbs enriched uranium), Hormuz control, frozen assets" },
+      "properties": {
+        "date": "2026-04-11~12",
+        "duration": "21 hours",
+        "location": "Islamabad, Serena Hotel",
+        "participants": "US (Vance, Witkoff, Kushner), Iran (Araghchi, Ghalibaf ~70 people), Pakistan (host/mediator)",
+        "status": "collapsed — no agreement reached",
+        "format": "direct face-to-face (first since 1979)",
+        "sticking_points": "nuclear (900 lbs enriched uranium), Hormuz control, frozen assets"
+      },
       "first_seen": "2026-04-10",
       "last_seen": "2026-04-14",
       "mention_count": 91
@@ -493,7 +670,10 @@
       "id": "ent-055",
       "type": "Event",
       "name": "Hormuz Toll Dispute",
-      "properties": { "date": "2026-04-08~11", "detail": "Iran charges $1-2M per ship, Trump demands toll-free passage, 'serious disagreement' in Islamabad talks" },
+      "properties": {
+        "date": "2026-04-08~11",
+        "detail": "Iran charges $1-2M per ship, Trump demands toll-free passage, 'serious disagreement' in Islamabad talks"
+      },
       "first_seen": "2026-04-10",
       "last_seen": "2026-04-11",
       "mention_count": 17
@@ -502,7 +682,10 @@
       "id": "ent-056",
       "type": "Event",
       "name": "Mojtaba Khamenei 'Decisive Victory' Declaration",
-      "properties": { "date": "2026-04-09", "context": "40th day after Ali Khamenei death, declares 'new phase' in Hormuz management" },
+      "properties": {
+        "date": "2026-04-09",
+        "context": "40th day after Ali Khamenei death, declares 'new phase' in Hormuz management"
+      },
       "first_seen": "2026-04-10",
       "last_seen": "2026-04-10",
       "mention_count": 6
@@ -511,7 +694,10 @@
       "id": "ent-057",
       "type": "Concept",
       "name": "Hormuz Toll/Management",
-      "properties": { "domain": "maritime/sovereignty", "detail": "$1/barrel oil toll in cryptocurrency" },
+      "properties": {
+        "domain": "maritime/sovereignty",
+        "detail": "$1/barrel oil toll in cryptocurrency"
+      },
       "first_seen": "2026-04-10",
       "last_seen": "2026-04-10",
       "mention_count": 10
@@ -520,7 +706,12 @@
       "id": "ent-058",
       "type": "Event",
       "name": "US Navy Hormuz Transit (Apr 11)",
-      "properties": { "date": "2026-04-11", "vessels": "USS Frank E. Peterson, USS Michael Murphy (Arleigh Burke-class)", "mission": "mine clearance, establish merchant route", "iran_response": "called ceasefire violation, threatened attack" },
+      "properties": {
+        "date": "2026-04-11",
+        "vessels": "USS Frank E. Peterson, USS Michael Murphy (Arleigh Burke-class)",
+        "mission": "mine clearance, establish merchant route",
+        "iran_response": "called ceasefire violation, threatened attack"
+      },
       "first_seen": "2026-04-11",
       "last_seen": "2026-04-11",
       "mention_count": 12
@@ -529,7 +720,10 @@
       "id": "ent-059",
       "type": "Organization",
       "name": "CENTCOM (US Central Command)",
-      "properties": { "type": "military command", "location": "United States" },
+      "properties": {
+        "type": "military command",
+        "location": "United States"
+      },
       "first_seen": "2026-04-11",
       "last_seen": "2026-04-16",
       "mention_count": 38
@@ -538,7 +732,15 @@
       "id": "ent-060",
       "type": "Event",
       "name": "Israel-Lebanon Washington Talks",
-      "properties": { "date": "2026-04-14", "location": "Washington, Department of State", "participants": "Israel (Ambassador Yechiel Leiter), Lebanon (Ambassador Nada Mouawad), US (Secretary Marco Rubio, mediator)", "duration": "2 hours", "start_time": "11:00 ET", "outcome": "agreed to hold further talks at mutually agreed time and venue", "context": "first direct talks since 1993, Hezbollah stepped up fire during talks" },
+      "properties": {
+        "date": "2026-04-14",
+        "location": "Washington, Department of State",
+        "participants": "Israel (Ambassador Yechiel Leiter), Lebanon (Ambassador Nada Mouawad), US (Secretary Marco Rubio, mediator)",
+        "duration": "2 hours",
+        "start_time": "11:00 ET",
+        "outcome": "agreed to hold further talks at mutually agreed time and venue",
+        "context": "first direct talks since 1993, Hezbollah stepped up fire during talks"
+      },
       "first_seen": "2026-04-11",
       "last_seen": "2026-04-14",
       "mention_count": 25
@@ -547,7 +749,10 @@
       "id": "ent-061",
       "type": "Concept",
       "name": "Iran 4 Red Lines",
-      "properties": { "domain": "diplomacy/negotiation", "items": "Hormuz sovereignty, frozen assets ($6B), war reparations, region-wide ceasefire" },
+      "properties": {
+        "domain": "diplomacy/negotiation",
+        "items": "Hormuz sovereignty, frozen assets ($6B), war reparations, region-wide ceasefire"
+      },
       "first_seen": "2026-04-11",
       "last_seen": "2026-04-11",
       "mention_count": 6
@@ -556,17 +761,25 @@
       "id": "ent-062",
       "type": "Concept",
       "name": "Frozen Assets ($6B)",
-      "properties": { "domain": "finance/sanctions", "amount": "$6 billion", "context": "Iran demands release as negotiation precondition" },
+      "properties": {
+        "domain": "finance/sanctions",
+        "amount": "$6 billion",
+        "context": "Iran demands release as negotiation precondition"
+      },
       "first_seen": "2026-04-11",
       "last_seen": "2026-04-11",
       "mention_count": 5
-    }
-    ,
+    },
     {
       "id": "ent-063",
       "type": "Event",
       "name": "Trump Hormuz Naval Blockade Declaration",
-      "properties": { "date": "2026-04-12", "detail": "Effective immediately, complete blockade of all ships entering/leaving Hormuz; interdict vessels that paid Iran tolls; begin mine clearing; 50% tariff on Iran-assisting countries", "trigger": "Islamabad talks collapse", "implementation": "2026-04-13 10:00 ET, 15 warships deployed" },
+      "properties": {
+        "date": "2026-04-12",
+        "detail": "Effective immediately, complete blockade of all ships entering/leaving Hormuz; interdict vessels that paid Iran tolls; begin mine clearing; 50% tariff on Iran-assisting countries",
+        "trigger": "Islamabad talks collapse",
+        "implementation": "2026-04-13 10:00 ET, 15 warships deployed"
+      },
       "first_seen": "2026-04-12",
       "last_seen": "2026-04-14",
       "mention_count": 60
@@ -575,7 +788,10 @@
       "id": "ent-064",
       "type": "Concept",
       "name": "Enriched Uranium Issue (900 lbs at Isfahan)",
-      "properties": { "domain": "nuclear/nonproliferation", "detail": "US demanded Iran hand over or destroy ~900 lbs (400kg) of near-bomb-grade enriched uranium at Isfahan; Iran refused; Trump: 'the only point that really mattered, NUCLEAR, was not'" },
+      "properties": {
+        "domain": "nuclear/nonproliferation",
+        "detail": "US demanded Iran hand over or destroy ~900 lbs (400kg) of near-bomb-grade enriched uranium at Isfahan; Iran refused; Trump: 'the only point that really mattered, NUCLEAR, was not'"
+      },
       "first_seen": "2026-04-12",
       "last_seen": "2026-04-12",
       "mention_count": 15
@@ -584,7 +800,11 @@
       "id": "ent-065",
       "type": "Person",
       "name": "Ishaq Dar",
-      "properties": { "role": "Pakistan Deputy PM & Foreign Minister", "affiliation": "Pakistan", "action": "urged continued ceasefire, said Pakistan will facilitate new round of dialogue" },
+      "properties": {
+        "role": "Pakistan Deputy PM & Foreign Minister",
+        "affiliation": "Pakistan",
+        "action": "urged continued ceasefire, said Pakistan will facilitate new round of dialogue"
+      },
       "first_seen": "2026-04-12",
       "last_seen": "2026-04-12",
       "mention_count": 4
@@ -593,7 +813,11 @@
       "id": "ent-066",
       "type": "Person",
       "name": "Esmail Baghaei",
-      "properties": { "role": "Iran Foreign Ministry Spokesman", "affiliation": "Iran", "statement": "gaps remain on several major issues" },
+      "properties": {
+        "role": "Iran Foreign Ministry Spokesman",
+        "affiliation": "Iran",
+        "statement": "gaps remain on several major issues"
+      },
       "first_seen": "2026-04-12",
       "last_seen": "2026-04-12",
       "mention_count": 3
@@ -602,7 +826,13 @@
       "id": "ent-067",
       "type": "Event",
       "name": "Oil Price Surge (Apr 12)",
-      "properties": { "date": "2026-04-12", "brent": "$102 (+8%)", "wti": "$104 (+8%)", "us_gas_avg": "$4.12/gal (+38% since war start)", "cause": "Trump Hormuz blockade announcement" },
+      "properties": {
+        "date": "2026-04-12",
+        "brent": "$102 (+8%)",
+        "wti": "$104 (+8%)",
+        "us_gas_avg": "$4.12/gal (+38% since war start)",
+        "cause": "Trump Hormuz blockade announcement"
+      },
       "first_seen": "2026-04-12",
       "last_seen": "2026-04-12",
       "mention_count": 5
@@ -611,17 +841,26 @@
       "id": "ent-068",
       "type": "Concept",
       "name": "50% Tariff Threat",
-      "properties": { "domain": "trade/sanctions", "detail": "Trump threatens 50% tariff on any country assisting Iran, including potentially China" },
+      "properties": {
+        "domain": "trade/sanctions",
+        "detail": "Trump threatens 50% tariff on any country assisting Iran, including potentially China"
+      },
       "first_seen": "2026-04-12",
       "last_seen": "2026-04-12",
       "mention_count": 4
-    }
-    ,
+    },
     {
       "id": "ent-069",
       "type": "Event",
       "name": "US Hormuz Blockade Implementation (Apr 13)",
-      "properties": { "date": "2026-04-13 10:00 ET", "vessels": "15 warships", "protocol": "intercept/divert/capture unauthorized vessels", "scope": "all maritime traffic to/from Iranian ports", "exemption": "non-Iran traffic transiting Hormuz", "first_vessel": "sanctioned tanker Elpis passed through; Ostria turned back" },
+      "properties": {
+        "date": "2026-04-13 10:00 ET",
+        "vessels": "15 warships",
+        "protocol": "intercept/divert/capture unauthorized vessels",
+        "scope": "all maritime traffic to/from Iranian ports",
+        "exemption": "non-Iran traffic transiting Hormuz",
+        "first_vessel": "sanctioned tanker Elpis passed through; Ostria turned back"
+      },
       "first_seen": "2026-04-13",
       "last_seen": "2026-04-13",
       "mention_count": 18
@@ -630,7 +869,10 @@
       "id": "ent-070",
       "type": "Concept",
       "name": "Islamabad MoU (near-agreement)",
-      "properties": { "domain": "diplomacy", "detail": "Araghchi claims US and Iran were 'inches away' from signing a memorandum of understanding. Clearest signal both sides came closer to formal agreement than publicly acknowledged. Blamed US 'maximalism, shifting goalposts, and blockade'." },
+      "properties": {
+        "domain": "diplomacy",
+        "detail": "Araghchi claims US and Iran were 'inches away' from signing a memorandum of understanding. Clearest signal both sides came closer to formal agreement than publicly acknowledged. Blamed US 'maximalism, shifting goalposts, and blockade'."
+      },
       "first_seen": "2026-04-13",
       "last_seen": "2026-04-13",
       "mention_count": 6
@@ -639,7 +881,10 @@
       "id": "ent-071",
       "type": "Concept",
       "name": "20-Year Enrichment Moratorium Proposal",
-      "properties": { "domain": "nuclear/nonproliferation", "detail": "US proposed Iran accept 20-year moratorium on all uranium enrichment and remove all HEU from country. Iran counter-offered 'monitored process of down-blending' existing stockpile." },
+      "properties": {
+        "domain": "nuclear/nonproliferation",
+        "detail": "US proposed Iran accept 20-year moratorium on all uranium enrichment and remove all HEU from country. Iran counter-offered 'monitored process of down-blending' existing stockpile."
+      },
       "first_seen": "2026-04-13",
       "last_seen": "2026-04-14",
       "mention_count": 9
@@ -648,7 +893,11 @@
       "id": "ent-072",
       "type": "Person",
       "name": "Wafiq Safa",
-      "properties": { "role": "Senior Hezbollah Political Council member", "affiliation": "Hezbollah", "statement": "As for the outcomes of this negotiation between Lebanon and the Israeli enemy, we are not interested in or concerned with them at all." },
+      "properties": {
+        "role": "Senior Hezbollah Political Council member",
+        "affiliation": "Hezbollah",
+        "statement": "As for the outcomes of this negotiation between Lebanon and the Israeli enemy, we are not interested in or concerned with them at all."
+      },
       "first_seen": "2026-04-13",
       "last_seen": "2026-04-14",
       "mention_count": 5
@@ -657,7 +906,11 @@
       "id": "ent-073",
       "type": "Person",
       "name": "Naim Qassem",
-      "properties": { "role": "Hezbollah Secretary-General", "affiliation": "Hezbollah", "statement": "Called on Lebanon to cancel April 15 Washington meeting with Israel. Described talks as pointless." },
+      "properties": {
+        "role": "Hezbollah Secretary-General",
+        "affiliation": "Hezbollah",
+        "statement": "Called on Lebanon to cancel April 15 Washington meeting with Israel. Described talks as pointless."
+      },
       "first_seen": "2026-04-13",
       "last_seen": "2026-04-14",
       "mention_count": 6
@@ -666,7 +919,10 @@
       "id": "ent-074",
       "type": "Event",
       "name": "Hezbollah Rejects Israel-Lebanon Washington Talks",
-      "properties": { "date": "2026-04-13", "detail": "Wafiq Safa: won't abide by any agreements. Naim Qassem: cancel April 15 talks. Over 2000 killed and 1M displaced in Lebanon since war. Hezbollah entered war firing missiles into Israel from March 2." },
+      "properties": {
+        "date": "2026-04-13",
+        "detail": "Wafiq Safa: won't abide by any agreements. Naim Qassem: cancel April 15 talks. Over 2000 killed and 1M displaced in Lebanon since war. Hezbollah entered war firing missiles into Israel from March 2."
+      },
       "first_seen": "2026-04-13",
       "last_seen": "2026-04-13",
       "mention_count": 8
@@ -675,7 +931,10 @@
       "id": "ent-075",
       "type": "Concept",
       "name": "Dual Blockade (이중 봉쇄)",
-      "properties": { "domain": "maritime/military", "detail": "Hormuz faces dual blockade: Iran blocks free passage (tolls/mines) while US blocks Iran-bound traffic. Pre-war 135 ships/day → 4-10 ships/day. Near-total maritime paralysis." },
+      "properties": {
+        "domain": "maritime/military",
+        "detail": "Hormuz faces dual blockade: Iran blocks free passage (tolls/mines) while US blocks Iran-bound traffic. Pre-war 135 ships/day → 4-10 ships/day. Near-total maritime paralysis."
+      },
       "first_seen": "2026-04-13",
       "last_seen": "2026-04-14",
       "mention_count": 8
@@ -684,7 +943,10 @@
       "id": "ent-076",
       "type": "Event",
       "name": "FAO Global Food Crisis Warning",
-      "properties": { "date": "2026-04-13", "detail": "UN FAO warns global food crisis could develop if normal Hormuz traffic doesn't resume. Substantial proportions of world farming products choked off. Largest oil supply disruption in history." },
+      "properties": {
+        "date": "2026-04-13",
+        "detail": "UN FAO warns global food crisis could develop if normal Hormuz traffic doesn't resume. Substantial proportions of world farming products choked off. Largest oil supply disruption in history."
+      },
       "first_seen": "2026-04-13",
       "last_seen": "2026-04-13",
       "mention_count": 3
@@ -693,7 +955,11 @@
       "id": "ent-077",
       "type": "Person",
       "name": "Marco Rubio",
-      "properties": { "role": "US Secretary of State", "affiliation": "United States", "action": "mediated Israel-Lebanon Washington talks (Apr 14)" },
+      "properties": {
+        "role": "US Secretary of State",
+        "affiliation": "United States",
+        "action": "mediated Israel-Lebanon Washington talks (Apr 14)"
+      },
       "first_seen": "2026-04-14",
       "last_seen": "2026-04-14",
       "mention_count": 8
@@ -702,7 +968,10 @@
       "id": "ent-078",
       "type": "Person",
       "name": "Yechiel Leiter",
-      "properties": { "role": "Israeli Ambassador to US", "affiliation": "Israel" },
+      "properties": {
+        "role": "Israeli Ambassador to US",
+        "affiliation": "Israel"
+      },
       "first_seen": "2026-04-14",
       "last_seen": "2026-04-14",
       "mention_count": 4
@@ -711,7 +980,10 @@
       "id": "ent-079",
       "type": "Person",
       "name": "Nada Mouawad",
-      "properties": { "role": "Lebanese Ambassador to US", "affiliation": "Lebanon" },
+      "properties": {
+        "role": "Lebanese Ambassador to US",
+        "affiliation": "Lebanon"
+      },
       "first_seen": "2026-04-14",
       "last_seen": "2026-04-14",
       "mention_count": 4
@@ -720,7 +992,11 @@
       "id": "ent-080",
       "type": "Organization",
       "name": "India",
-      "properties": { "type": "state", "oil_import": "5.5 mb/d (85%+ imported, world's 3rd largest)", "hormuz_impact": "lost ~3 mb/d from disruption" },
+      "properties": {
+        "type": "state",
+        "oil_import": "5.5 mb/d (85%+ imported, world's 3rd largest)",
+        "hormuz_impact": "lost ~3 mb/d from disruption"
+      },
       "first_seen": "2026-04-14",
       "last_seen": "2026-04-14",
       "mention_count": 3
@@ -729,7 +1005,9 @@
       "id": "ent-081",
       "type": "Organization",
       "name": "IMF (International Monetary Fund)",
-      "properties": { "type": "international organization" },
+      "properties": {
+        "type": "international organization"
+      },
       "first_seen": "2026-04-14",
       "last_seen": "2026-04-14",
       "mention_count": 6
@@ -738,7 +1016,9 @@
       "id": "ent-082",
       "type": "Organization",
       "name": "IEA (International Energy Agency)",
-      "properties": { "type": "international organization" },
+      "properties": {
+        "type": "international organization"
+      },
       "first_seen": "2026-04-14",
       "last_seen": "2026-04-14",
       "mention_count": 5
@@ -747,7 +1027,11 @@
       "id": "ent-083",
       "type": "Person",
       "name": "António Guterres",
-      "properties": { "role": "UN Secretary-General", "affiliation": "United Nations", "statement": "'Highly probable' that peace talks will restart" },
+      "properties": {
+        "role": "UN Secretary-General",
+        "affiliation": "United Nations",
+        "statement": "'Highly probable' that peace talks will restart"
+      },
       "first_seen": "2026-04-14",
       "last_seen": "2026-04-14",
       "mention_count": 2
@@ -756,7 +1040,13 @@
       "id": "ent-084",
       "type": "Event",
       "name": "Oil Price Reversal (Apr 14)",
-      "properties": { "date": "2026-04-14", "wti": "$91.28 (-8%)", "brent": "$94.79 (-4%)", "cause": "Trump hints at talks resumption", "note": "Physical crude still near $150/bbl (IEA), futures-physical disconnect widens" },
+      "properties": {
+        "date": "2026-04-14",
+        "wti": "$91.28 (-8%)",
+        "brent": "$94.79 (-4%)",
+        "cause": "Trump hints at talks resumption",
+        "note": "Physical crude still near $150/bbl (IEA), futures-physical disconnect widens"
+      },
       "first_seen": "2026-04-14",
       "last_seen": "2026-04-14",
       "mention_count": 4
@@ -765,7 +1055,16 @@
       "id": "ent-085",
       "type": "Event",
       "name": "IMF Growth Forecast Downgrade (Apr 14)",
-      "properties": { "date": "2026-04-14", "global_growth": "3.1% (-0.2pp from Jan)", "mena_growth": "1.1%", "iran_growth": "-6.1%", "global_inflation": "4.4%", "us_growth": "2.3%", "saudi_growth": "3.1% (from 4.5%)", "adverse_scenario": "growth 2.5%, inflation 5.4%" },
+      "properties": {
+        "date": "2026-04-14",
+        "global_growth": "3.1% (-0.2pp from Jan)",
+        "mena_growth": "1.1%",
+        "iran_growth": "-6.1%",
+        "global_inflation": "4.4%",
+        "us_growth": "2.3%",
+        "saudi_growth": "3.1% (from 4.5%)",
+        "adverse_scenario": "growth 2.5%, inflation 5.4%"
+      },
       "first_seen": "2026-04-14",
       "last_seen": "2026-04-14",
       "mention_count": 8
@@ -774,7 +1073,15 @@
       "id": "ent-086",
       "type": "Event",
       "name": "IEA April Oil Market Report",
-      "properties": { "date": "2026-04-14", "supply_drop": "10.1 mb/d to 97 mb/d (March)", "hormuz_flow": "3.8 mb/d (from 20+ mb/d pre-war)", "physical_crude": "near $150/bbl", "demand_forecast": "-80 kb/d in 2026", "assessment": "largest energy security threat in history", "refinery_cuts": "ME/Asia refineries cut 6 mb/d to 77.2 mb/d" },
+      "properties": {
+        "date": "2026-04-14",
+        "supply_drop": "10.1 mb/d to 97 mb/d (March)",
+        "hormuz_flow": "3.8 mb/d (from 20+ mb/d pre-war)",
+        "physical_crude": "near $150/bbl",
+        "demand_forecast": "-80 kb/d in 2026",
+        "assessment": "largest energy security threat in history",
+        "refinery_cuts": "ME/Asia refineries cut 6 mb/d to 77.2 mb/d"
+      },
       "first_seen": "2026-04-14",
       "last_seen": "2026-04-14",
       "mention_count": 6
@@ -783,7 +1090,12 @@
       "id": "ent-087",
       "type": "Event",
       "name": "Sanctioned Tankers Defy Blockade (Apr 14)",
-      "properties": { "date": "2026-04-14", "vessels": "Rich Starry (Chinese, sanctioned 2023), Elpis", "total_transits": "at least 9 commercial vessels since Monday", "centcom_claim": "no ships bound for Iran ports crossed blockade line" },
+      "properties": {
+        "date": "2026-04-14",
+        "vessels": "Rich Starry (Chinese, sanctioned 2023), Elpis",
+        "total_transits": "at least 9 commercial vessels since Monday",
+        "centcom_claim": "no ships bound for Iran ports crossed blockade line"
+      },
       "first_seen": "2026-04-14",
       "last_seen": "2026-04-14",
       "mention_count": 5
@@ -792,7 +1104,11 @@
       "id": "ent-088",
       "type": "Event",
       "name": "Trump Hints at 2nd Round Talks (Apr 14)",
-      "properties": { "date": "2026-04-14", "detail": "Trump told NY Post 'something could be happening over next two days'. NBC: talks could resume this week, possibly April 16. UN SG Guterres: 'highly probable'. Iran counter-offered 3-5 year moratorium vs US 20-year demand.", "location": "Pakistan (Islamabad)" },
+      "properties": {
+        "date": "2026-04-14",
+        "detail": "Trump told NY Post 'something could be happening over next two days'. NBC: talks could resume this week, possibly April 16. UN SG Guterres: 'highly probable'. Iran counter-offered 3-5 year moratorium vs US 20-year demand.",
+        "location": "Pakistan (Islamabad)"
+      },
       "first_seen": "2026-04-14",
       "last_seen": "2026-04-14",
       "mention_count": 18
@@ -801,7 +1117,11 @@
       "id": "ent-089",
       "type": "Concept",
       "name": "Russian Oil Waiver Expiry",
-      "properties": { "domain": "energy/sanctions", "date": "2026-04-11", "detail": "US waiver allowing countries to buy Russian crude expired, removing key supply source especially for India" },
+      "properties": {
+        "domain": "energy/sanctions",
+        "date": "2026-04-11",
+        "detail": "US waiver allowing countries to buy Russian crude expired, removing key supply source especially for India"
+      },
       "first_seen": "2026-04-14",
       "last_seen": "2026-04-14",
       "mention_count": 2
@@ -810,7 +1130,10 @@
       "id": "ent-090",
       "type": "Concept",
       "name": "Lebanon Internal Divisions",
-      "properties": { "domain": "politics/governance", "detail": "Lebanese government and Hezbollah clash over Israel negotiations, sectarian tensions re-emerging" },
+      "properties": {
+        "domain": "politics/governance",
+        "detail": "Lebanese government and Hezbollah clash over Israel negotiations, sectarian tensions re-emerging"
+      },
       "first_seen": "2026-04-14",
       "last_seen": "2026-04-14",
       "mention_count": 2
@@ -819,7 +1142,11 @@
       "id": "ent-091",
       "type": "Person",
       "name": "Ali Abdollahi",
-      "properties": { "role": "Commander, Khatam al-Anbiya Central HQ", "affiliation": "Iran Armed Forces", "action": "issued first formal Red Sea blockade threat (Apr 15)" },
+      "properties": {
+        "role": "Commander, Khatam al-Anbiya Central HQ",
+        "affiliation": "Iran Armed Forces",
+        "action": "issued first formal Red Sea blockade threat (Apr 15)"
+      },
       "first_seen": "2026-04-15",
       "last_seen": "2026-04-15",
       "mention_count": 6
@@ -828,7 +1155,11 @@
       "id": "ent-092",
       "type": "Person",
       "name": "Mohsin Naqvi",
-      "properties": { "role": "Pakistan Interior Minister", "affiliation": "Pakistan", "action": "accompanied Munir to Tehran for mediation (Apr 15)" },
+      "properties": {
+        "role": "Pakistan Interior Minister",
+        "affiliation": "Pakistan",
+        "action": "accompanied Munir to Tehran for mediation (Apr 15)"
+      },
       "first_seen": "2026-04-15",
       "last_seen": "2026-04-15",
       "mention_count": 2
@@ -837,7 +1168,11 @@
       "id": "ent-093",
       "type": "Person",
       "name": "Brad Cooper",
-      "properties": { "role": "Admiral, CENTCOM Commander", "affiliation": "CENTCOM/US Military", "statement": "blockade 'fully implemented', trade 'completely halted'" },
+      "properties": {
+        "role": "Admiral, CENTCOM Commander",
+        "affiliation": "CENTCOM/US Military",
+        "statement": "blockade 'fully implemented', trade 'completely halted'"
+      },
       "first_seen": "2026-04-15",
       "last_seen": "2026-04-15",
       "mention_count": 3
@@ -846,7 +1181,11 @@
       "id": "ent-094",
       "type": "Event",
       "name": "Trump 'War Close to Over' Declaration (Apr 15)",
-      "properties": { "date": "2026-04-15", "detail": "Trump told Fox Business war is 'very close to over' and stock market 'is going to boom'. Told NY Post talks could resume 'within two days' in Pakistan. Strongest language yet on war ending.", "context": "Day 47 of conflict, day 8 of ceasefire, 6 days to expiry" },
+      "properties": {
+        "date": "2026-04-15",
+        "detail": "Trump told Fox Business war is 'very close to over' and stock market 'is going to boom'. Told NY Post talks could resume 'within two days' in Pakistan. Strongest language yet on war ending.",
+        "context": "Day 47 of conflict, day 8 of ceasefire, 6 days to expiry"
+      },
       "first_seen": "2026-04-15",
       "last_seen": "2026-04-15",
       "mention_count": 14
@@ -855,7 +1194,11 @@
       "id": "ent-095",
       "type": "Event",
       "name": "CENTCOM Blockade Fully Implemented (Apr 15)",
-      "properties": { "date": "2026-04-15", "detail": "CENTCOM declares blockade 'fully implemented' in less than 36 hours, completely halting Iran's economic sea trade. 10,000+ US personnel deployed. 6 merchant ships turned back. No ships made it past.", "commander": "Admiral Brad Cooper" },
+      "properties": {
+        "date": "2026-04-15",
+        "detail": "CENTCOM declares blockade 'fully implemented' in less than 36 hours, completely halting Iran's economic sea trade. 10,000+ US personnel deployed. 6 merchant ships turned back. No ships made it past.",
+        "commander": "Admiral Brad Cooper"
+      },
       "first_seen": "2026-04-15",
       "last_seen": "2026-04-15",
       "mention_count": 10
@@ -864,7 +1207,11 @@
       "id": "ent-096",
       "type": "Event",
       "name": "Iran Red Sea Blockade Threat (Apr 15)",
-      "properties": { "date": "2026-04-15", "detail": "Khatam al-Anbiya Central HQ Commander Ali Abdollahi threatens to block ALL trade through Persian Gulf, Gulf of Oman, AND Red Sea unless US lifts blockade. First formal Red Sea blockade threat from Iran.", "significance": "Qualitative escalation — extends conflict zone from Hormuz to global shipping lanes" },
+      "properties": {
+        "date": "2026-04-15",
+        "detail": "Khatam al-Anbiya Central HQ Commander Ali Abdollahi threatens to block ALL trade through Persian Gulf, Gulf of Oman, AND Red Sea unless US lifts blockade. First formal Red Sea blockade threat from Iran.",
+        "significance": "Qualitative escalation — extends conflict zone from Hormuz to global shipping lanes"
+      },
       "first_seen": "2026-04-15",
       "last_seen": "2026-04-15",
       "mention_count": 8
@@ -873,7 +1220,11 @@
       "id": "ent-097",
       "type": "Event",
       "name": "Asim Munir Tehran Visit (Apr 15)",
-      "properties": { "date": "2026-04-15", "detail": "Pakistan FM Asim Munir arrives in Tehran with Interior Min Mohsin Naqvi, carrying US message. Met FM Araghchi. Aim: persuade Iran to return to negotiating table for 2nd round.", "significance": "Munir has rapport with Trump ('favorite field marshal') and knows IRGC leadership from intel service days" },
+      "properties": {
+        "date": "2026-04-15",
+        "detail": "Pakistan FM Asim Munir arrives in Tehran with Interior Min Mohsin Naqvi, carrying US message. Met FM Araghchi. Aim: persuade Iran to return to negotiating table for 2nd round.",
+        "significance": "Munir has rapport with Trump ('favorite field marshal') and knows IRGC leadership from intel service days"
+      },
       "first_seen": "2026-04-15",
       "last_seen": "2026-04-15",
       "mention_count": 12
@@ -882,7 +1233,11 @@
       "id": "ent-098",
       "type": "Event",
       "name": "Iran $270B War Losses Claim (Apr 15)",
-      "properties": { "date": "2026-04-15", "amount": "$270 billion (preliminary)", "detail": "Iran government estimates total war losses. Demands reparations from US, Israel, and 5 Arab states (Bahrain, Saudi Arabia, Qatar, UAE, Jordan) accused of allowing territory for attacks." },
+      "properties": {
+        "date": "2026-04-15",
+        "amount": "$270 billion (preliminary)",
+        "detail": "Iran government estimates total war losses. Demands reparations from US, Israel, and 5 Arab states (Bahrain, Saudi Arabia, Qatar, UAE, Jordan) accused of allowing territory for attacks."
+      },
       "first_seen": "2026-04-15",
       "last_seen": "2026-04-15",
       "mention_count": 6
@@ -891,7 +1246,12 @@
       "id": "ent-099",
       "type": "Event",
       "name": "S&P 500 Record High (Apr 15)",
-      "properties": { "date": "2026-04-15", "level": "7,005.78 (exceeds Jan 28 peak of 7,002.28)", "detail": "First intraday record since war began. S&P up 9.8% since Mar 30. Nasdaq +2%, Dow +0.7%. Market erased all war-related losses.", "driver": "Trump 'war close to over' comments, 2nd round talks expectations" },
+      "properties": {
+        "date": "2026-04-15",
+        "level": "7,005.78 (exceeds Jan 28 peak of 7,002.28)",
+        "detail": "First intraday record since war began. S&P up 9.8% since Mar 30. Nasdaq +2%, Dow +0.7%. Market erased all war-related losses.",
+        "driver": "Trump 'war close to over' comments, 2nd round talks expectations"
+      },
       "first_seen": "2026-04-15",
       "last_seen": "2026-04-15",
       "mention_count": 8
@@ -900,7 +1260,13 @@
       "id": "ent-100",
       "type": "Event",
       "name": "Oil Prices Stabilize (Apr 15)",
-      "properties": { "date": "2026-04-15", "wti": "$91.29/bbl", "brent": "$94.93-95.27/bbl", "trend": "stable after previous day's -8% plunge, slight uptick", "context": "Physical crude still near $150/bbl, futures-physical disconnect persists" },
+      "properties": {
+        "date": "2026-04-15",
+        "wti": "$91.29/bbl",
+        "brent": "$94.93-95.27/bbl",
+        "trend": "stable after previous day's -8% plunge, slight uptick",
+        "context": "Physical crude still near $150/bbl, futures-physical disconnect persists"
+      },
       "first_seen": "2026-04-15",
       "last_seen": "2026-04-15",
       "mention_count": 5
@@ -909,7 +1275,12 @@
       "id": "ent-101",
       "type": "Concept",
       "name": "Iran War Reparations Demand ($270B)",
-      "properties": { "domain": "diplomacy/finance", "amount": "$270 billion (preliminary)", "targets": "US, Israel, Bahrain, Saudi Arabia, Qatar, UAE, Jordan", "basis": "territory used for launching attacks on Iran" },
+      "properties": {
+        "domain": "diplomacy/finance",
+        "amount": "$270 billion (preliminary)",
+        "targets": "US, Israel, Bahrain, Saudi Arabia, Qatar, UAE, Jordan",
+        "basis": "territory used for launching attacks on Iran"
+      },
       "first_seen": "2026-04-15",
       "last_seen": "2026-04-15",
       "mention_count": 6
@@ -918,7 +1289,10 @@
       "id": "ent-102",
       "type": "Concept",
       "name": "Red Sea Blockade Threat",
-      "properties": { "domain": "maritime/military", "detail": "Iran's first formal threat to extend blockade beyond Hormuz to Red Sea and Gulf of Oman. Qualitative escalation from regional to global shipping disruption." },
+      "properties": {
+        "domain": "maritime/military",
+        "detail": "Iran's first formal threat to extend blockade beyond Hormuz to Red Sea and Gulf of Oman. Qualitative escalation from regional to global shipping disruption."
+      },
       "first_seen": "2026-04-15",
       "last_seen": "2026-04-15",
       "mention_count": 8
@@ -927,7 +1301,12 @@
       "id": "ent-103",
       "type": "Concept",
       "name": "War Death Toll (~6,000)",
-      "properties": { "domain": "humanitarian", "figure": "nearly 6,000 killed since Feb 28", "scope": "Middle East total", "lebanon_toll": "2,124+ killed, 1.1M displaced" },
+      "properties": {
+        "domain": "humanitarian",
+        "figure": "nearly 6,000 killed since Feb 28",
+        "scope": "Middle East total",
+        "lebanon_toll": "2,124+ killed, 1.1M displaced"
+      },
       "first_seen": "2026-04-15",
       "last_seen": "2026-04-15",
       "mention_count": 3
@@ -936,7 +1315,11 @@
       "id": "ent-104",
       "type": "Person",
       "name": "Pete Hegseth",
-      "properties": { "role": "US Defense Secretary", "affiliation": "United States", "statement": "blockade 'as long as it takes', US 'maximally postured' to resume military operations, 'if Iran chooses poorly, bombs on infrastructure'" },
+      "properties": {
+        "role": "US Defense Secretary",
+        "affiliation": "United States",
+        "statement": "blockade 'as long as it takes', US 'maximally postured' to resume military operations, 'if Iran chooses poorly, bombs on infrastructure'"
+      },
       "first_seen": "2026-04-16",
       "last_seen": "2026-04-24",
       "mention_count": 24
@@ -945,7 +1328,11 @@
       "id": "ent-105",
       "type": "Person",
       "name": "Dan Caine",
-      "properties": { "role": "Chairman of the Joint Chiefs of Staff", "affiliation": "US Military", "statement": "blockade applies to ALL ships regardless of nationality, US will use force if ships don't comply, 13 ships turned back, contraband includes weapons/nuclear materials/oil/metals" },
+      "properties": {
+        "role": "Chairman of the Joint Chiefs of Staff",
+        "affiliation": "US Military",
+        "statement": "blockade applies to ALL ships regardless of nationality, US will use force if ships don't comply, 13 ships turned back, contraband includes weapons/nuclear materials/oil/metals"
+      },
       "first_seen": "2026-04-16",
       "last_seen": "2026-04-24",
       "mention_count": 16
@@ -954,7 +1341,11 @@
       "id": "ent-106",
       "type": "Person",
       "name": "Karoline Leavitt",
-      "properties": { "role": "White House Press Secretary", "affiliation": "United States", "statement": "ceasefire extension 'not true at this moment', Pakistan is 'the only mediator', 2nd round talks 'very likely'" },
+      "properties": {
+        "role": "White House Press Secretary",
+        "affiliation": "United States",
+        "statement": "ceasefire extension 'not true at this moment', Pakistan is 'the only mediator', 2nd round talks 'very likely'"
+      },
       "first_seen": "2026-04-16",
       "last_seen": "2026-04-16",
       "mention_count": 5
@@ -963,7 +1354,11 @@
       "id": "ent-107",
       "type": "Person",
       "name": "Joseph Aoun",
-      "properties": { "role": "President of Lebanon", "affiliation": "Lebanon", "action": "agreed to 10-day ceasefire with Israel, spoke with Trump, invited to White House" },
+      "properties": {
+        "role": "President of Lebanon",
+        "affiliation": "Lebanon",
+        "action": "agreed to 10-day ceasefire with Israel, spoke with Trump, invited to White House"
+      },
       "first_seen": "2026-04-16",
       "last_seen": "2026-04-16",
       "mention_count": 8
@@ -972,7 +1367,11 @@
       "id": "ent-108",
       "type": "Person",
       "name": "Ibrahim al-Moussawi",
-      "properties": { "role": "Hezbollah lawmaker/MP", "affiliation": "Hezbollah", "statement": "'We will be respecting the ceasefire' on condition Israel stops all attacks and assassinations" },
+      "properties": {
+        "role": "Hezbollah lawmaker/MP",
+        "affiliation": "Hezbollah",
+        "statement": "'We will be respecting the ceasefire' on condition Israel stops all attacks and assassinations"
+      },
       "first_seen": "2026-04-16",
       "last_seen": "2026-04-16",
       "mention_count": 4
@@ -981,7 +1380,12 @@
       "id": "ent-109",
       "type": "Event",
       "name": "Israel-Lebanon 10-Day Ceasefire (Apr 16)",
-      "properties": { "date": "2026-04-16 17:00 ET", "participants": "Israel (Netanyahu), Lebanon (Aoun), US (Trump, mediator)", "detail": "10-day ceasefire as Israeli 'gesture of goodwill'. May extend if progress demonstrated. Trump invites both leaders to White House. First ceasefire since 1983. Israel keeps 'security strip' in south Lebanon.", "hezbollah_stance": "conditional acceptance via Moussawi — if Israel stops all attacks" },
+      "properties": {
+        "date": "2026-04-16 17:00 ET",
+        "participants": "Israel (Netanyahu), Lebanon (Aoun), US (Trump, mediator)",
+        "detail": "10-day ceasefire as Israeli 'gesture of goodwill'. May extend if progress demonstrated. Trump invites both leaders to White House. First ceasefire since 1983. Israel keeps 'security strip' in south Lebanon.",
+        "hezbollah_stance": "conditional acceptance via Moussawi — if Israel stops all attacks"
+      },
       "first_seen": "2026-04-16",
       "last_seen": "2026-04-16",
       "mention_count": 25
@@ -990,7 +1394,10 @@
       "id": "ent-110",
       "type": "Event",
       "name": "Hegseth Blockade Warning (Apr 16)",
-      "properties": { "date": "2026-04-16", "detail": "Defense Secretary Hegseth: blockade 'as long as it takes'. US 'locked and loaded' for attacks on Iran energy facilities. 'If Iran chooses poorly, blockade AND bombs on infrastructure.' US 'maximally postured' to resume military operations." },
+      "properties": {
+        "date": "2026-04-16",
+        "detail": "Defense Secretary Hegseth: blockade 'as long as it takes'. US 'locked and loaded' for attacks on Iran energy facilities. 'If Iran chooses poorly, blockade AND bombs on infrastructure.' US 'maximally postured' to resume military operations."
+      },
       "first_seen": "2026-04-16",
       "last_seen": "2026-04-16",
       "mention_count": 12
@@ -999,7 +1406,10 @@
       "id": "ent-111",
       "type": "Event",
       "name": "Global Blockade Expansion (Apr 16)",
-      "properties": { "date": "2026-04-16", "detail": "Gen. Dan Caine: US military can intercept any Iran-linked ship worldwide, broadening beyond Hormuz. Contraband: weapons, nuclear materials, oil, metals, electronics. 13 ships turned back (up from 6). No boarding yet. Pacific operations targeting pre-blockade departures." },
+      "properties": {
+        "date": "2026-04-16",
+        "detail": "Gen. Dan Caine: US military can intercept any Iran-linked ship worldwide, broadening beyond Hormuz. Contraband: weapons, nuclear materials, oil, metals, electronics. 13 ships turned back (up from 6). No boarding yet. Pacific operations targeting pre-blockade departures."
+      },
       "first_seen": "2026-04-16",
       "last_seen": "2026-04-16",
       "mention_count": 10
@@ -1008,7 +1418,11 @@
       "id": "ent-112",
       "type": "Event",
       "name": "Munir Khatam al-Anbiya HQ Visit (Apr 16)",
-      "properties": { "date": "2026-04-16", "detail": "Field Marshal Munir visits Khatam al-Anbiya Central HQ. Received by Abdollahi. Iranian official says visit narrowed differences on nuclear/Hormuz/reparations. Pakistani sources report 'major breakthrough' on nuclear programme. Munir engaged both civil and military leadership.", "significance": "Key mediator engaging Iran's military establishment directly" },
+      "properties": {
+        "date": "2026-04-16",
+        "detail": "Field Marshal Munir visits Khatam al-Anbiya Central HQ. Received by Abdollahi. Iranian official says visit narrowed differences on nuclear/Hormuz/reparations. Pakistani sources report 'major breakthrough' on nuclear programme. Munir engaged both civil and military leadership.",
+        "significance": "Key mediator engaging Iran's military establishment directly"
+      },
       "first_seen": "2026-04-16",
       "last_seen": "2026-04-16",
       "mention_count": 14
@@ -1017,7 +1431,12 @@
       "id": "ent-113",
       "type": "Event",
       "name": "Sharif Regional Diplomatic Tour (Apr 14-17)",
-      "properties": { "date": "2026-04-14~17", "itinerary": "Saudi Arabia → Qatar → Turkey", "detail": "PM Sharif met Saudi Crown Prince MBS, discussed mediation and regional stability. Arrived Doha Apr 16. Met Qatar Minister. 4-day tour to align regional support for Hormuz reopening and Iran talks.", "participants": "Sharif, MBS, Qatar officials" },
+      "properties": {
+        "date": "2026-04-14~17",
+        "itinerary": "Saudi Arabia → Qatar → Turkey",
+        "detail": "PM Sharif met Saudi Crown Prince MBS, discussed mediation and regional stability. Arrived Doha Apr 16. Met Qatar Minister. 4-day tour to align regional support for Hormuz reopening and Iran talks.",
+        "participants": "Sharif, MBS, Qatar officials"
+      },
       "first_seen": "2026-04-16",
       "last_seen": "2026-04-16",
       "mention_count": 6
@@ -1026,7 +1445,14 @@
       "id": "ent-114",
       "type": "Event",
       "name": "Markets Rally / Oil Below $100 (Apr 16)",
-      "properties": { "date": "2026-04-16", "wti": "~$91/bbl", "brent": "~$95/bbl", "sp500": "rally continues toward records", "nasdaq": "+2%", "detail": "Oil dips below $100. Stocks rally on Lebanon ceasefire and Iran deal optimism. Physical crude still near $150." },
+      "properties": {
+        "date": "2026-04-16",
+        "wti": "~$91/bbl",
+        "brent": "~$95/bbl",
+        "sp500": "rally continues toward records",
+        "nasdaq": "+2%",
+        "detail": "Oil dips below $100. Stocks rally on Lebanon ceasefire and Iran deal optimism. Physical crude still near $150."
+      },
       "first_seen": "2026-04-16",
       "last_seen": "2026-04-16",
       "mention_count": 6
@@ -1035,7 +1461,10 @@
       "id": "ent-115",
       "type": "Concept",
       "name": "Pakistan Sole Mediator",
-      "properties": { "domain": "diplomacy", "detail": "White House formally identifies Pakistan as 'the only mediator' in US-Iran negotiations. Karoline Leavitt: 'many countries offered help but president wants to streamline through Pakistanis'. Dual track: Munir in Tehran (military), Sharif in Gulf (political)." },
+      "properties": {
+        "domain": "diplomacy",
+        "detail": "White House formally identifies Pakistan as 'the only mediator' in US-Iran negotiations. Karoline Leavitt: 'many countries offered help but president wants to streamline through Pakistanis'. Dual track: Munir in Tehran (military), Sharif in Gulf (political)."
+      },
       "first_seen": "2026-04-16",
       "last_seen": "2026-04-16",
       "mention_count": 8
@@ -1044,7 +1473,10 @@
       "id": "ent-116",
       "type": "Concept",
       "name": "Nuclear Breakthrough Reports",
-      "properties": { "domain": "nuclear/nonproliferation", "detail": "Pakistani sources report 'major breakthrough' on Iran nuclear programme after Munir's Tehran visit. Iranian official says gaps narrowed on nuclear issue among 3 unresolved areas (nuclear, Hormuz, reparations). US 20-year vs Iran 3-5 year moratorium gap may be narrowing." },
+      "properties": {
+        "domain": "nuclear/nonproliferation",
+        "detail": "Pakistani sources report 'major breakthrough' on Iran nuclear programme after Munir's Tehran visit. Iranian official says gaps narrowed on nuclear issue among 3 unresolved areas (nuclear, Hormuz, reparations). US 20-year vs Iran 3-5 year moratorium gap may be narrowing."
+      },
       "first_seen": "2026-04-16",
       "last_seen": "2026-04-16",
       "mention_count": 6
@@ -1053,7 +1485,12 @@
       "id": "ent-117",
       "type": "Event",
       "name": "Iran Hormuz Opening Declaration (Apr 17)",
-      "properties": { "date": "2026-04-17", "detail": "Araghchi: Hormuz 'completely open' for commercial vessels during ceasefire. Conditions: commercial only, no hostile country cargo, designated routes via Larak island, coordinated with Iran Ports and Maritime Organisation. Duration tied to ceasefire period.", "trigger": "Lebanon ceasefire", "trump_response": "Thanks but US blockade 'will remain in full force' until peace deal" },
+      "properties": {
+        "date": "2026-04-17",
+        "detail": "Araghchi: Hormuz 'completely open' for commercial vessels during ceasefire. Conditions: commercial only, no hostile country cargo, designated routes via Larak island, coordinated with Iran Ports and Maritime Organisation. Duration tied to ceasefire period.",
+        "trigger": "Lebanon ceasefire",
+        "trump_response": "Thanks but US blockade 'will remain in full force' until peace deal"
+      },
       "first_seen": "2026-04-17",
       "last_seen": "2026-04-17",
       "mention_count": 25
@@ -1062,7 +1499,10 @@
       "id": "ent-118",
       "type": "Event",
       "name": "IRGC Hormuz Re-closure Threat (Apr 17)",
-      "properties": { "date": "2026-04-17", "detail": "IRGC-affiliated Fars News citing SNSC source: Iran will close Hormuz again if US blockade not lifted. IRGC considers US blockade ceasefire violation. Contradicts Araghchi's opening — reveals hardliner/pragmatist tension within Iran." },
+      "properties": {
+        "date": "2026-04-17",
+        "detail": "IRGC-affiliated Fars News citing SNSC source: Iran will close Hormuz again if US blockade not lifted. IRGC considers US blockade ceasefire violation. Contradicts Araghchi's opening — reveals hardliner/pragmatist tension within Iran."
+      },
       "first_seen": "2026-04-17",
       "last_seen": "2026-04-17",
       "mention_count": 4
@@ -1071,7 +1511,13 @@
       "id": "ent-119",
       "type": "Event",
       "name": "2nd Round Talks Confirmed Monday Apr 21",
-      "properties": { "date": "2026-04-21 (expected)", "location": "Pakistan", "detail": "CNN: Iranian sources confirm next round Monday in Pakistan. Both delegations arriving over weekend. Trump: expects deal 'in coming days'. Coincides with ceasefire expiry.", "format": "direct face-to-face (2nd since 1979)", "status_apr21": "effectively collapsed — Iran boycotts ('waste of time'), Vance did not fly ('postponed indefinitely'), replaced by indefinite ceasefire extension" },
+      "properties": {
+        "date": "2026-04-21 (expected)",
+        "location": "Pakistan",
+        "detail": "CNN: Iranian sources confirm next round Monday in Pakistan. Both delegations arriving over weekend. Trump: expects deal 'in coming days'. Coincides with ceasefire expiry.",
+        "format": "direct face-to-face (2nd since 1979)",
+        "status_apr21": "effectively collapsed — Iran boycotts ('waste of time'), Vance did not fly ('postponed indefinitely'), replaced by indefinite ceasefire extension"
+      },
       "first_seen": "2026-04-17",
       "last_seen": "2026-04-21",
       "mention_count": 22
@@ -1080,7 +1526,12 @@
       "id": "ent-120",
       "type": "Event",
       "name": "Lebanon Ceasefire Violations (Apr 17)",
-      "properties": { "date": "2026-04-17", "perpetrator": "Israel", "detail": "Lebanese army reports Israeli shelling of southern villages. Machinegun/artillery at ambulance team in Kunin (Nabatieh). 1 killed, 2 wounded in Kounine (motorcycle struck). Israeli military warns residents north of Litani.", "casualties": "1 killed, 2 wounded" },
+      "properties": {
+        "date": "2026-04-17",
+        "perpetrator": "Israel",
+        "detail": "Lebanese army reports Israeli shelling of southern villages. Machinegun/artillery at ambulance team in Kunin (Nabatieh). 1 killed, 2 wounded in Kounine (motorcycle struck). Israeli military warns residents north of Litani.",
+        "casualties": "1 killed, 2 wounded"
+      },
       "first_seen": "2026-04-17",
       "last_seen": "2026-04-17",
       "mention_count": 8
@@ -1089,7 +1540,11 @@
       "id": "ent-121",
       "type": "Event",
       "name": "Trump 'PROHIBITED' Warning to Israel (Apr 17)",
-      "properties": { "date": "2026-04-17", "detail": "After Netanyahu said Hezbollah fight 'not over', Trump publicly stated Israel 'PROHIBITED' from bombing Lebanon during ceasefire. Rare public rebuke of allied leader.", "significance": "US enforcement of Lebanon ceasefire against own ally; signals Trump prioritizes deal over Israeli preferences" },
+      "properties": {
+        "date": "2026-04-17",
+        "detail": "After Netanyahu said Hezbollah fight 'not over', Trump publicly stated Israel 'PROHIBITED' from bombing Lebanon during ceasefire. Rare public rebuke of allied leader.",
+        "significance": "US enforcement of Lebanon ceasefire against own ally; signals Trump prioritizes deal over Israeli preferences"
+      },
       "first_seen": "2026-04-17",
       "last_seen": "2026-04-17",
       "mention_count": 6
@@ -1098,7 +1553,13 @@
       "id": "ent-122",
       "type": "Event",
       "name": "Oil Price Crash (Apr 17)",
-      "properties": { "date": "2026-04-17", "wti": "$83.85 (-11.4%)", "brent": "$87.94-$90.38 (-9% to -11.5%)", "cause": "Iran Hormuz opening declaration", "note": "Biggest single-day drop since war began. WTI lowest since Mar 10. S&P 500 +1.2% (weekly +4.5%), Nasdaq +1.5% (weekly +6.8%), both at new record highs." },
+      "properties": {
+        "date": "2026-04-17",
+        "wti": "$83.85 (-11.4%)",
+        "brent": "$87.94-$90.38 (-9% to -11.5%)",
+        "cause": "Iran Hormuz opening declaration",
+        "note": "Biggest single-day drop since war began. WTI lowest since Mar 10. S&P 500 +1.2% (weekly +4.5%), Nasdaq +1.5% (weekly +6.8%), both at new record highs."
+      },
       "first_seen": "2026-04-17",
       "last_seen": "2026-04-17",
       "mention_count": 10
@@ -1107,7 +1568,10 @@
       "id": "ent-123",
       "type": "Event",
       "name": "Lebanon Ceasefire Celebrations (Apr 17)",
-      "properties": { "date": "2026-04-17", "detail": "Lebanese civilians celebrate first quiet day since March 2 after 6+ weeks of war. 2,196 killed, 1M+ displaced in Lebanon." },
+      "properties": {
+        "date": "2026-04-17",
+        "detail": "Lebanese civilians celebrate first quiet day since March 2 after 6+ weeks of war. 2,196 killed, 1M+ displaced in Lebanon."
+      },
       "first_seen": "2026-04-17",
       "last_seen": "2026-04-17",
       "mention_count": 5
@@ -1116,7 +1580,11 @@
       "id": "ent-124",
       "type": "Event",
       "name": "Sharif Antalya Diplomacy Forum (Apr 17)",
-      "properties": { "date": "2026-04-17", "location": "Antalya, Turkey", "detail": "Sharif arrives last leg of Saudi-Qatar-Turkey tour. Bilateral with Erdogan. FMs of Turkey, Pakistan, Saudi Arabia, Egypt meet on sidelines to discuss war and Hormuz blockade." },
+      "properties": {
+        "date": "2026-04-17",
+        "location": "Antalya, Turkey",
+        "detail": "Sharif arrives last leg of Saudi-Qatar-Turkey tour. Bilateral with Erdogan. FMs of Turkey, Pakistan, Saudi Arabia, Egypt meet on sidelines to discuss war and Hormuz blockade."
+      },
       "first_seen": "2026-04-17",
       "last_seen": "2026-04-17",
       "mention_count": 6
@@ -1125,7 +1593,10 @@
       "id": "ent-125",
       "type": "Concept",
       "name": "Iran Third-Party Nuclear Monitoring Proposal",
-      "properties": { "domain": "nuclear/nonproliferation", "detail": "Pakistan-proposed: 4 countries + IAEA monitor Iran nuclear programme. Iran agreed in principle, conveyed acceptance to Munir. US not yet formally responded. Options for 440kg enriched uranium: send abroad to third party or downblend to 3%." },
+      "properties": {
+        "domain": "nuclear/nonproliferation",
+        "detail": "Pakistan-proposed: 4 countries + IAEA monitor Iran nuclear programme. Iran agreed in principle, conveyed acceptance to Munir. US not yet formally responded. Options for 440kg enriched uranium: send abroad to third party or downblend to 3%."
+      },
       "first_seen": "2026-04-17",
       "last_seen": "2026-04-17",
       "mention_count": 6
@@ -1134,7 +1605,10 @@
       "id": "ent-126",
       "type": "Concept",
       "name": "Hormuz Conditional Opening",
-      "properties": { "domain": "maritime/sovereignty", "detail": "Iran's 'opening' has 3 conditions: (1) commercial vessels only, (2) cargo/ships not linked to hostile countries, (3) designated routes via Larak island (Iran's side). Only handful of ships actually transit — shipowners wary. Duration tied to ceasefire." },
+      "properties": {
+        "domain": "maritime/sovereignty",
+        "detail": "Iran's 'opening' has 3 conditions: (1) commercial vessels only, (2) cargo/ships not linked to hostile countries, (3) designated routes via Larak island (Iran's side). Only handful of ships actually transit — shipowners wary. Duration tied to ceasefire."
+      },
       "first_seen": "2026-04-17",
       "last_seen": "2026-04-17",
       "mention_count": 12
@@ -1143,17 +1617,23 @@
       "id": "ent-127",
       "type": "Person",
       "name": "Recep Tayyip Erdogan",
-      "properties": { "role": "President of Turkey", "affiliation": "Turkey", "statement": "'No negotiating with clenched fists'; Turkey working to extend ceasefire and maintain talks" },
+      "properties": {
+        "role": "President of Turkey",
+        "affiliation": "Turkey",
+        "statement": "'No negotiating with clenched fists'; Turkey working to extend ceasefire and maintain talks"
+      },
       "first_seen": "2026-04-17",
       "last_seen": "2026-04-17",
       "mention_count": 5
-    }
-    ,
+    },
     {
       "id": "ent-128",
       "type": "Event",
       "name": "Iran Hormuz Re-closure (Apr 18)",
-      "properties": { "date": "2026-04-18", "detail": "IRGC declares Hormuz 'returned to previous state' under strict military control, reversing Araghchi's opening within 24 hours. Cited continued US blockade as ceasefire violation. IRGC warned 'no vessel should make any movement from anchorage' and approaching Hormuz 'will be considered cooperation with the enemy'." },
+      "properties": {
+        "date": "2026-04-18",
+        "detail": "IRGC declares Hormuz 'returned to previous state' under strict military control, reversing Araghchi's opening within 24 hours. Cited continued US blockade as ceasefire violation. IRGC warned 'no vessel should make any movement from anchorage' and approaching Hormuz 'will be considered cooperation with the enemy'."
+      },
       "first_seen": "2026-04-18",
       "last_seen": "2026-04-18",
       "mention_count": 20
@@ -1162,7 +1642,12 @@
       "id": "ent-129",
       "type": "Event",
       "name": "IRGC Fires on Ships in Hormuz (Apr 18)",
-      "properties": { "date": "2026-04-18", "detail": "Iranian gunboats fired on at least 2-3 commercial vessels including Indian-flagged VLCC Sanmar Herald despite prior clearance to transit. UKMTO confirmed attacks by IRGC fast boats. At least one ship hit with some damage, no injuries. India summoned Iran ambassador.", "vessels": "VLCC Sanmar Herald (Indian-flagged), at least 1 other Indian ship", "casualties": "no injuries, some ship damage" },
+      "properties": {
+        "date": "2026-04-18",
+        "detail": "Iranian gunboats fired on at least 2-3 commercial vessels including Indian-flagged VLCC Sanmar Herald despite prior clearance to transit. UKMTO confirmed attacks by IRGC fast boats. At least one ship hit with some damage, no injuries. India summoned Iran ambassador.",
+        "vessels": "VLCC Sanmar Herald (Indian-flagged), at least 1 other Indian ship",
+        "casualties": "no injuries, some ship damage"
+      },
       "first_seen": "2026-04-18",
       "last_seen": "2026-04-18",
       "mention_count": 15
@@ -1171,7 +1656,11 @@
       "id": "ent-130",
       "type": "Event",
       "name": "$20B Cash-for-Uranium Deal Proposal",
-      "properties": { "date": "2026-04-17~18", "detail": "Axios/CNN scoop: US considering unfreezing $20B in Iranian assets in exchange for surrender of enriched uranium stockpile. 3-page MoU under discussion. Under compromise, some HEU shipped to third country, some down-blended in Iran under international monitoring. Iran has asked for sanctions relief north of $20B.", "amount": "$20 billion" },
+      "properties": {
+        "date": "2026-04-17~18",
+        "detail": "Axios/CNN scoop: US considering unfreezing $20B in Iranian assets in exchange for surrender of enriched uranium stockpile. 3-page MoU under discussion. Under compromise, some HEU shipped to third country, some down-blended in Iran under international monitoring. Iran has asked for sanctions relief north of $20B.",
+        "amount": "$20 billion"
+      },
       "first_seen": "2026-04-18",
       "last_seen": "2026-04-18",
       "mention_count": 8
@@ -1180,7 +1669,10 @@
       "id": "ent-131",
       "type": "Event",
       "name": "Rubio European Sanctions Push (Apr 18)",
-      "properties": { "date": "2026-04-18", "detail": "Secretary of State Rubio urged European countries to quickly reimpose sanctions on Iran, warning Iran violating agreement and nearing nuclear weapon capability." },
+      "properties": {
+        "date": "2026-04-18",
+        "detail": "Secretary of State Rubio urged European countries to quickly reimpose sanctions on Iran, warning Iran violating agreement and nearing nuclear weapon capability."
+      },
       "first_seen": "2026-04-18",
       "last_seen": "2026-04-18",
       "mention_count": 3
@@ -1189,7 +1681,10 @@
       "id": "ent-132",
       "type": "Event",
       "name": "India Summons Iran Ambassador (Apr 18)",
-      "properties": { "date": "2026-04-18", "detail": "India's foreign ministry summoned Iran's ambassador over 'serious incident' of firing on two India-flagged merchant ships in Hormuz, especially after Iran earlier let several India-bound ships through." },
+      "properties": {
+        "date": "2026-04-18",
+        "detail": "India's foreign ministry summoned Iran's ambassador over 'serious incident' of firing on two India-flagged merchant ships in Hormuz, especially after Iran earlier let several India-bound ships through."
+      },
       "first_seen": "2026-04-18",
       "last_seen": "2026-04-18",
       "mention_count": 3
@@ -1198,7 +1693,10 @@
       "id": "ent-133",
       "type": "Event",
       "name": "Israel Demands PROHIBITED Explanation (Apr 18)",
-      "properties": { "date": "2026-04-18", "detail": "Israel 'shocked' by Trump's PROHIBITED warning, formally demands explanation from White House. Netanyahu government questions whether Lebanon is even included in the ceasefire." },
+      "properties": {
+        "date": "2026-04-18",
+        "detail": "Israel 'shocked' by Trump's PROHIBITED warning, formally demands explanation from White House. Netanyahu government questions whether Lebanon is even included in the ceasefire."
+      },
       "first_seen": "2026-04-18",
       "last_seen": "2026-04-18",
       "mention_count": 4
@@ -1207,7 +1705,11 @@
       "id": "ent-134",
       "type": "Event",
       "name": "Lebanon Ceasefire Day 2 (Apr 18)",
-      "properties": { "date": "2026-04-18", "detail": "Largely holding. Israeli bulldozers continue demolition and land-clearing in south. Shelling around Beit Lif, al-Qantara, Toul. Displaced Lebanese cautiously attempting to return. Israel maintains 'extensive security zone' to Syrian border.", "status": "holding with violations" },
+      "properties": {
+        "date": "2026-04-18",
+        "detail": "Largely holding. Israeli bulldozers continue demolition and land-clearing in south. Shelling around Beit Lif, al-Qantara, Toul. Displaced Lebanese cautiously attempting to return. Israel maintains 'extensive security zone' to Syrian border.",
+        "status": "holding with violations"
+      },
       "first_seen": "2026-04-18",
       "last_seen": "2026-04-18",
       "mention_count": 6
@@ -1216,7 +1718,10 @@
       "id": "ent-135",
       "type": "Concept",
       "name": "IRGC-Diplomatic Rift (Araghchi 'idiot')",
-      "properties": { "domain": "internal politics", "detail": "IRGC-affiliated sources called Foreign Minister Araghchi an 'idiot' for opening Hormuz, then reversed his decision within 24 hours. Most dramatic public display of hardliner-pragmatist split in Iran's power structure during the war." },
+      "properties": {
+        "domain": "internal politics",
+        "detail": "IRGC-affiliated sources called Foreign Minister Araghchi an 'idiot' for opening Hormuz, then reversed his decision within 24 hours. Most dramatic public display of hardliner-pragmatist split in Iran's power structure during the war."
+      },
       "first_seen": "2026-04-18",
       "last_seen": "2026-04-18",
       "mention_count": 5
@@ -1225,7 +1730,10 @@
       "id": "ent-136",
       "type": "Concept",
       "name": "Cash-for-Uranium Framework ($20B)",
-      "properties": { "domain": "diplomacy/nuclear/finance", "detail": "US offers $20B frozen assets release for Iran's enriched uranium. 3-page MoU. Options: HEU to third country or down-blend to 3% under monitoring. Supersedes/complements 20-year moratorium demand. Iran wants more than $20B." },
+      "properties": {
+        "domain": "diplomacy/nuclear/finance",
+        "detail": "US offers $20B frozen assets release for Iran's enriched uranium. 3-page MoU. Options: HEU to third country or down-blend to 3% under monitoring. Supersedes/complements 20-year moratorium demand. Iran wants more than $20B."
+      },
       "first_seen": "2026-04-18",
       "last_seen": "2026-04-18",
       "mention_count": 8
@@ -1234,7 +1742,10 @@
       "id": "ent-137",
       "type": "Event",
       "name": "Oil Price Rebound (Apr 18)",
-      "properties": { "date": "2026-04-18", "detail": "Oil prices rose after Iran re-closed Hormuz, partially reversing Thursday's 11% crash. Market whipsawed by 24-hour open-close cycle." },
+      "properties": {
+        "date": "2026-04-18",
+        "detail": "Oil prices rose after Iran re-closed Hormuz, partially reversing Thursday's 11% crash. Market whipsawed by 24-hour open-close cycle."
+      },
       "first_seen": "2026-04-18",
       "last_seen": "2026-04-18",
       "mention_count": 4
@@ -1243,7 +1754,11 @@
       "id": "ent-138",
       "type": "Person",
       "name": "Ahmad Vahidi",
-      "properties": { "role": "IRGC Commander-in-Chief (since 2026-03-01)", "affiliation": "IRGC / Iran", "action_apr20": "confirmed as controlling military junta; inserted Zolghadr into Islamabad delegation to monitor diplomats; blocking Pezeshkian; 'power behind the throne' confirmed by multiple outlets" },
+      "properties": {
+        "role": "IRGC Commander-in-Chief (since 2026-03-01)",
+        "affiliation": "IRGC / Iran",
+        "action_apr20": "confirmed as controlling military junta; inserted Zolghadr into Islamabad delegation to monitor diplomats; blocking Pezeshkian; 'power behind the throne' confirmed by multiple outlets"
+      },
       "first_seen": "2026-04-19",
       "last_seen": "2026-04-20",
       "mention_count": 16
@@ -1252,7 +1767,12 @@
       "id": "ent-139",
       "type": "Event",
       "name": "US Navy Seizes Touska (Apr 19)",
-      "properties": { "date": "2026-04-19", "detail": "USS Spruance fired on engine room of Iranian cargo ship 'Touska' after 6 hours of warnings. First US seizure of Iranian vessel since blockade began. Iran calls it 'armed piracy' and threatens military response.", "vessel": "USS Spruance (DDG-111)", "target": "Touska (Iranian cargo ship)" },
+      "properties": {
+        "date": "2026-04-19",
+        "detail": "USS Spruance fired on engine room of Iranian cargo ship 'Touska' after 6 hours of warnings. First US seizure of Iranian vessel since blockade began. Iran calls it 'armed piracy' and threatens military response.",
+        "vessel": "USS Spruance (DDG-111)",
+        "target": "Touska (Iranian cargo ship)"
+      },
       "first_seen": "2026-04-19",
       "last_seen": "2026-04-19",
       "mention_count": 15
@@ -1261,7 +1781,11 @@
       "id": "ent-140",
       "type": "Event",
       "name": "Iran Rejects 2nd Round Talks (Apr 19)",
-      "properties": { "date": "2026-04-19", "detail": "IRNA: Iran won't participate in 2nd round due to 'excessive demands' and US blockade. But Trump sending Witkoff/Kushner to Islamabad anyway (Monday night). Vance skipping.", "source": "IRNA" },
+      "properties": {
+        "date": "2026-04-19",
+        "detail": "IRNA: Iran won't participate in 2nd round due to 'excessive demands' and US blockade. But Trump sending Witkoff/Kushner to Islamabad anyway (Monday night). Vance skipping.",
+        "source": "IRNA"
+      },
       "first_seen": "2026-04-19",
       "last_seen": "2026-04-19",
       "mention_count": 12
@@ -1270,7 +1794,10 @@
       "id": "ent-141",
       "type": "Event",
       "name": "Trump 'Total Violation' Accusation (Apr 19)",
-      "properties": { "date": "2026-04-19", "detail": "Trump accuses Iran of 'total violation' of ceasefire, threatens to destroy infrastructure. Linked to IRGC actions at Hormuz." },
+      "properties": {
+        "date": "2026-04-19",
+        "detail": "Trump accuses Iran of 'total violation' of ceasefire, threatens to destroy infrastructure. Linked to IRGC actions at Hormuz."
+      },
       "first_seen": "2026-04-19",
       "last_seen": "2026-04-19",
       "mention_count": 8
@@ -1279,7 +1806,10 @@
       "id": "ent-142",
       "type": "Event",
       "name": "Operation Economic Fury",
-      "properties": { "date": "2026-04-19", "detail": "US global ship seizure operations expanding beyond Hormuz. Follow-on to Caine's Apr 16 global blockade expansion declaration. Multiple seizure operations worldwide targeting Iran-linked vessels." },
+      "properties": {
+        "date": "2026-04-19",
+        "detail": "US global ship seizure operations expanding beyond Hormuz. Follow-on to Caine's Apr 16 global blockade expansion declaration. Multiple seizure operations worldwide targeting Iran-linked vessels."
+      },
       "first_seen": "2026-04-19",
       "last_seen": "2026-04-19",
       "mention_count": 6
@@ -1288,7 +1818,10 @@
       "id": "ent-143",
       "type": "Event",
       "name": "Israel Yellow Line in Lebanon (Apr 19)",
-      "properties": { "date": "2026-04-19", "detail": "Israel establishes 10km 'Yellow Line' military zone in southern Lebanon, 55 villages, razing homes 'like Gaza' during ceasefire day 3. De facto occupation expansion under ceasefire cover." },
+      "properties": {
+        "date": "2026-04-19",
+        "detail": "Israel establishes 10km 'Yellow Line' military zone in southern Lebanon, 55 villages, razing homes 'like Gaza' during ceasefire day 3. De facto occupation expansion under ceasefire cover."
+      },
       "first_seen": "2026-04-19",
       "last_seen": "2026-04-19",
       "mention_count": 10
@@ -1297,7 +1830,13 @@
       "id": "ent-144",
       "type": "Event",
       "name": "Oil Price Surge (Apr 19)",
-      "properties": { "date": "2026-04-19", "wti": "$89.74 (+7%)", "brent": "$95.59 (+5.8%)", "cause": "Touska seizure + zero Hormuz transits", "note": "Third major swing in 3 days (crash → rebound → surge)" },
+      "properties": {
+        "date": "2026-04-19",
+        "wti": "$89.74 (+7%)",
+        "brent": "$95.59 (+5.8%)",
+        "cause": "Touska seizure + zero Hormuz transits",
+        "note": "Third major swing in 3 days (crash → rebound → surge)"
+      },
       "first_seen": "2026-04-19",
       "last_seen": "2026-04-19",
       "mention_count": 6
@@ -1306,7 +1845,11 @@
       "id": "ent-145",
       "type": "Event",
       "name": "Sanmar Herald Audio Release (Apr 19)",
-      "properties": { "date": "2026-04-19", "detail": "Audio recording of Sanmar Herald crew: 'You gave me clearance' — then fired upon by IRGC. Second ship Jag Arnav also attacked. Evidence of IRGC arbitrary fire despite prior transit authorization.", "vessel": "Sanmar Herald (Indian-flagged VLCC)" },
+      "properties": {
+        "date": "2026-04-19",
+        "detail": "Audio recording of Sanmar Herald crew: 'You gave me clearance' — then fired upon by IRGC. Second ship Jag Arnav also attacked. Evidence of IRGC arbitrary fire despite prior transit authorization.",
+        "vessel": "Sanmar Herald (Indian-flagged VLCC)"
+      },
       "first_seen": "2026-04-19",
       "last_seen": "2026-04-19",
       "mention_count": 5
@@ -1315,7 +1858,10 @@
       "id": "ent-146",
       "type": "Concept",
       "name": "Hormuz Total Shipping Halt",
-      "properties": { "domain": "maritime/energy", "detail": "Zero tanker transits on Sunday Apr 19 — first time in modern history that no tanker has passed through Hormuz. Complete paralysis of world's most critical energy chokepoint." },
+      "properties": {
+        "domain": "maritime/energy",
+        "detail": "Zero tanker transits on Sunday Apr 19 — first time in modern history that no tanker has passed through Hormuz. Complete paralysis of world's most critical energy chokepoint."
+      },
       "first_seen": "2026-04-19",
       "last_seen": "2026-04-19",
       "mention_count": 8
@@ -1324,7 +1870,10 @@
       "id": "ent-147",
       "type": "Event",
       "name": "Trump Infrastructure Destruction Threat (Apr 19)",
-      "properties": { "date": "2026-04-19", "detail": "Trump threatens to destroy 'every single Power Plant and Bridge in Iran'. Linked to 'total violation' accusation. Most specific infrastructure targeting language since war began." },
+      "properties": {
+        "date": "2026-04-19",
+        "detail": "Trump threatens to destroy 'every single Power Plant and Bridge in Iran'. Linked to 'total violation' accusation. Most specific infrastructure targeting language since war began."
+      },
       "first_seen": "2026-04-19",
       "last_seen": "2026-04-19",
       "mention_count": 7
@@ -1333,17 +1882,23 @@
       "id": "ent-148",
       "type": "Event",
       "name": "Ghalibaf 'Impossible' Statement (Apr 19)",
-      "properties": { "date": "2026-04-19", "detail": "Ghalibaf: 'impossible for others to pass Hormuz while we cannot'. Acknowledges progress but says 'many gaps remain'. Partial alignment with IRGC line but with diplomatic reservation." },
+      "properties": {
+        "date": "2026-04-19",
+        "detail": "Ghalibaf: 'impossible for others to pass Hormuz while we cannot'. Acknowledges progress but says 'many gaps remain'. Partial alignment with IRGC line but with diplomatic reservation."
+      },
       "first_seen": "2026-04-19",
       "last_seen": "2026-04-19",
       "mention_count": 4
-    }
-    ,
+    },
     {
       "id": "ent-149",
       "type": "Person",
       "name": "Masoud Pezeshkian",
-      "properties": { "role": "Iran President", "affiliation": "Iran", "action_apr22": "says Tehran 'open to deal' but accuses US of 'unconstructive and contradictory signals'; cites 'deep historical mistrust'; blockade is main obstacle to 'genuine negotiations'; first moderate signal since IRGC/Ghalibaf 'waste of time'" },
+      "properties": {
+        "role": "Iran President",
+        "affiliation": "Iran",
+        "action_apr22": "says Tehran 'open to deal' but accuses US of 'unconstructive and contradictory signals'; cites 'deep historical mistrust'; blockade is main obstacle to 'genuine negotiations'; first moderate signal since IRGC/Ghalibaf 'waste of time'"
+      },
       "first_seen": "2026-04-20",
       "last_seen": "2026-04-22",
       "mention_count": 12
@@ -1352,7 +1907,11 @@
       "id": "ent-150",
       "type": "Person",
       "name": "Zolghadr",
-      "properties": { "role": "IRGC representative inserted into Iranian negotiating delegation", "affiliation": "IRGC", "action": "inserted by Vahidi despite Ghalibaf/Araghchi protests; filed complaint that Araghchi exceeded mandate by showing flexibility on Axis of Resistance" },
+      "properties": {
+        "role": "IRGC representative inserted into Iranian negotiating delegation",
+        "affiliation": "IRGC",
+        "action": "inserted by Vahidi despite Ghalibaf/Araghchi protests; filed complaint that Araghchi exceeded mandate by showing flexibility on Axis of Resistance"
+      },
       "first_seen": "2026-04-20",
       "last_seen": "2026-04-20",
       "mention_count": 3
@@ -1361,7 +1920,11 @@
       "id": "ent-151",
       "type": "Person",
       "name": "Scott Bessent",
-      "properties": { "role": "US Treasury Secretary", "affiliation": "United States", "action_apr20": "attended Trump emergency meeting on Iran" },
+      "properties": {
+        "role": "US Treasury Secretary",
+        "affiliation": "United States",
+        "action_apr20": "attended Trump emergency meeting on Iran"
+      },
       "first_seen": "2026-04-20",
       "last_seen": "2026-04-20",
       "mention_count": 2
@@ -1370,17 +1933,25 @@
       "id": "ent-152",
       "type": "Person",
       "name": "John Ratcliffe",
-      "properties": { "role": "CIA Director", "affiliation": "United States", "action_apr20": "attended Trump emergency meeting on Iran" },
+      "properties": {
+        "role": "CIA Director",
+        "affiliation": "United States",
+        "action_apr20": "attended Trump emergency meeting on Iran"
+      },
       "first_seen": "2026-04-20",
       "last_seen": "2026-04-20",
       "mention_count": 2
-    }
-    ,
+    },
     {
       "id": "ent-158",
       "type": "Event",
       "name": "Trump Ceasefire Extension Indefinite (Apr 21)",
-      "properties": { "date": "2026-04-21 ~4pm ET", "detail": "Trump reverses from 'highly unlikely' (Apr 20) and 'I don't want to' (morning CNBC Apr 21) to indefinite extension via Truth Social: 'until such time as their proposal is submitted'. Cited Iran 'seriously fractured' and Pakistan (Munir + Sharif) request. Blockade maintained: 'continue the Blockade and, in all other respects, remain ready and able.'", "participants": "Trump, Pakistan (Munir, Sharif)", "significance": "Averts Apr 22 ceasefire expiry and war resumption; but blockade stays, IRGC dismisses as 'ridiculous spectacle'" },
+      "properties": {
+        "date": "2026-04-21 ~4pm ET",
+        "detail": "Trump reverses from 'highly unlikely' (Apr 20) and 'I don't want to' (morning CNBC Apr 21) to indefinite extension via Truth Social: 'until such time as their proposal is submitted'. Cited Iran 'seriously fractured' and Pakistan (Munir + Sharif) request. Blockade maintained: 'continue the Blockade and, in all other respects, remain ready and able.'",
+        "participants": "Trump, Pakistan (Munir, Sharif)",
+        "significance": "Averts Apr 22 ceasefire expiry and war resumption; but blockade stays, IRGC dismisses as 'ridiculous spectacle'"
+      },
       "first_seen": "2026-04-21",
       "last_seen": "2026-04-21",
       "mention_count": 18
@@ -1389,7 +1960,11 @@
       "id": "ent-159",
       "type": "Event",
       "name": "Vance Trip Postponed Indefinitely (Apr 21)",
-      "properties": { "date": "2026-04-21", "detail": "Axios: Vance did NOT fly to Islamabad; trip 'postponed indefinitely' as Iran boycotts 2nd round talks. Was scheduled to lead 300-member delegation for face-to-face 2nd round.", "significance": "2nd round of US-Iran talks effectively collapsed" },
+      "properties": {
+        "date": "2026-04-21",
+        "detail": "Axios: Vance did NOT fly to Islamabad; trip 'postponed indefinitely' as Iran boycotts 2nd round talks. Was scheduled to lead 300-member delegation for face-to-face 2nd round.",
+        "significance": "2nd round of US-Iran talks effectively collapsed"
+      },
       "first_seen": "2026-04-21",
       "last_seen": "2026-04-21",
       "mention_count": 8
@@ -1398,7 +1973,11 @@
       "id": "ent-160",
       "type": "Event",
       "name": "Iran Official Talk Refusal via Pakistani Intermediary (Apr 21)",
-      "properties": { "date": "2026-04-21", "detail": "Iran officially refuses talks through Pakistani intermediary: negotiations 'waste of time'. Three reasons: (1) ceasefire not covering Lebanon, (2) excessive demands, (3) naval blockade. Ghalibaf adviser: 'Trump's ceasefire extension means nothing, losing side cannot dictate terms.' FM: US blockade is 'act of war.'", "significance": "Strongest rejection yet — escalation from Apr 19 'no plans' to Apr 21 formal refusal with stated reasons" },
+      "properties": {
+        "date": "2026-04-21",
+        "detail": "Iran officially refuses talks through Pakistani intermediary: negotiations 'waste of time'. Three reasons: (1) ceasefire not covering Lebanon, (2) excessive demands, (3) naval blockade. Ghalibaf adviser: 'Trump's ceasefire extension means nothing, losing side cannot dictate terms.' FM: US blockade is 'act of war.'",
+        "significance": "Strongest rejection yet — escalation from Apr 19 'no plans' to Apr 21 formal refusal with stated reasons"
+      },
       "first_seen": "2026-04-21",
       "last_seen": "2026-04-21",
       "mention_count": 12
@@ -1407,7 +1986,12 @@
       "id": "ent-161",
       "type": "Event",
       "name": "Hezbollah First Rocket Fire Since Ceasefire (Apr 21)",
-      "properties": { "date": "2026-04-21", "location": "Rab al-Thalathine, southern Lebanon", "detail": "Hezbollah fires rockets at Rab al-Thalathine + drone toward Israel. First Hezbollah attack since Apr 16 ceasefire. Claims 220+ Israeli violations. Legal Agenda: 220 breaches Apr 17-19, 3 killed, 7 wounded.", "significance": "Threshold crossing — transforms Lebanon ceasefire from 'violations' to 'active combat resumption'" },
+      "properties": {
+        "date": "2026-04-21",
+        "location": "Rab al-Thalathine, southern Lebanon",
+        "detail": "Hezbollah fires rockets at Rab al-Thalathine + drone toward Israel. First Hezbollah attack since Apr 16 ceasefire. Claims 220+ Israeli violations. Legal Agenda: 220 breaches Apr 17-19, 3 killed, 7 wounded.",
+        "significance": "Threshold crossing — transforms Lebanon ceasefire from 'violations' to 'active combat resumption'"
+      },
       "first_seen": "2026-04-21",
       "last_seen": "2026-04-21",
       "mention_count": 10
@@ -1416,7 +2000,11 @@
       "id": "ent-162",
       "type": "Event",
       "name": "Israel-US Joint Attack Planning (Apr 21)",
-      "properties": { "date": "2026-04-21", "detail": "Kan broadcaster: senior Israeli security official says Israel is 'jointly preparing with Washington for war's resumption'. Skepticism about Iran deal as driver.", "significance": "First explicit report of joint war resumption planning during ceasefire period" },
+      "properties": {
+        "date": "2026-04-21",
+        "detail": "Kan broadcaster: senior Israeli security official says Israel is 'jointly preparing with Washington for war's resumption'. Skepticism about Iran deal as driver.",
+        "significance": "First explicit report of joint war resumption planning during ceasefire period"
+      },
       "first_seen": "2026-04-21",
       "last_seen": "2026-04-21",
       "mention_count": 6
@@ -1425,17 +2013,27 @@
       "id": "ent-163",
       "type": "Event",
       "name": "Oil Price Movements Apr 21",
-      "properties": { "date": "2026-04-21", "brent": "$98.48 (+3%)", "wti": "$92.13 (+3%)", "after_hours": "WTI $88.60, Brent $94.89 on ceasefire extension news", "equities": "S&P/Nasdaq/Dow down ~0.6%", "note": "4th consecutive day of major swings" },
+      "properties": {
+        "date": "2026-04-21",
+        "brent": "$98.48 (+3%)",
+        "wti": "$92.13 (+3%)",
+        "after_hours": "WTI $88.60, Brent $94.89 on ceasefire extension news",
+        "equities": "S&P/Nasdaq/Dow down ~0.6%",
+        "note": "4th consecutive day of major swings"
+      },
       "first_seen": "2026-04-21",
       "last_seen": "2026-04-21",
       "mention_count": 5
-    }
-    ,
+    },
     {
       "id": "ent-164",
       "type": "Event",
       "name": "IRGC Seizes 3 Ships in Hormuz (Apr 22)",
-      "properties": { "date": "2026-04-22", "vessels": "MSC-Francesca (Panama, alleged Israel link), Epaminondas (Liberia), 3rd vessel", "detail": "IRGC fired on all 3 ships, seized 2 (MSC-Francesca and Epaminondas), redirected to Iranian coast. Accused of AIS manipulation and operating without authorization. UKMTO confirmed attacks. Hours after Trump ceasefire extension. Most aggressive IRGC naval action since blockade began." },
+      "properties": {
+        "date": "2026-04-22",
+        "vessels": "MSC-Francesca (Panama, alleged Israel link), Epaminondas (Liberia), 3rd vessel",
+        "detail": "IRGC fired on all 3 ships, seized 2 (MSC-Francesca and Epaminondas), redirected to Iranian coast. Accused of AIS manipulation and operating without authorization. UKMTO confirmed attacks. Hours after Trump ceasefire extension. Most aggressive IRGC naval action since blockade began."
+      },
       "first_seen": "2026-04-22",
       "last_seen": "2026-04-22",
       "mention_count": 18
@@ -1444,7 +2042,10 @@
       "id": "ent-165",
       "type": "Event",
       "name": "Trump 'No Time Frame' Statement (Apr 22)",
-      "properties": { "date": "2026-04-22", "detail": "Trump tells Fox News' Martha MacCallum: 'no time frame' for ending war; denies midterms driving decisions; says Iran losing $500M/day from blockade; 'THE BLOCKADE is absolutely destroying Iran'. Leavitt: 'no firm deadline' for Iranian proposal. US officials initially said 3-5 day window but Leavitt contradicted." },
+      "properties": {
+        "date": "2026-04-22",
+        "detail": "Trump tells Fox News' Martha MacCallum: 'no time frame' for ending war; denies midterms driving decisions; says Iran losing $500M/day from blockade; 'THE BLOCKADE is absolutely destroying Iran'. Leavitt: 'no firm deadline' for Iranian proposal. US officials initially said 3-5 day window but Leavitt contradicted."
+      },
       "first_seen": "2026-04-22",
       "last_seen": "2026-04-22",
       "mention_count": 12
@@ -1453,7 +2054,10 @@
       "id": "ent-166",
       "type": "Event",
       "name": "Pezeshkian Open to Deal Statement (Apr 22)",
-      "properties": { "date": "2026-04-22", "detail": "Iran President Pezeshkian says Tehran 'open to deal' but accuses US of 'unconstructive and contradictory signals'. Cites 'deep historical mistrust'. Blockade is main obstacle to 'genuine negotiations'. First moderate signal from Iran leadership since IRGC/Ghalibaf 'waste of time' rejection — reveals civil-military split." },
+      "properties": {
+        "date": "2026-04-22",
+        "detail": "Iran President Pezeshkian says Tehran 'open to deal' but accuses US of 'unconstructive and contradictory signals'. Cites 'deep historical mistrust'. Blockade is main obstacle to 'genuine negotiations'. First moderate signal from Iran leadership since IRGC/Ghalibaf 'waste of time' rejection — reveals civil-military split."
+      },
       "first_seen": "2026-04-22",
       "last_seen": "2026-04-22",
       "mention_count": 6
@@ -1462,7 +2066,13 @@
       "id": "ent-167",
       "type": "Event",
       "name": "Oil Brent Crosses $100 Again (Apr 22)",
-      "properties": { "date": "2026-04-22", "brent": "$101.91 (+3%)", "wti": "$92.96 (+3%)", "cause": "IRGC ship seizures + Hormuz uncertainty", "note": "6th consecutive day of major price swings. Brent re-crosses $100 threshold. Physical crude still much higher." },
+      "properties": {
+        "date": "2026-04-22",
+        "brent": "$101.91 (+3%)",
+        "wti": "$92.96 (+3%)",
+        "cause": "IRGC ship seizures + Hormuz uncertainty",
+        "note": "6th consecutive day of major price swings. Brent re-crosses $100 threshold. Physical crude still much higher."
+      },
       "first_seen": "2026-04-22",
       "last_seen": "2026-04-22",
       "mention_count": 8
@@ -1471,7 +2081,14 @@
       "id": "ent-168",
       "type": "Event",
       "name": "S&P 500 Nasdaq Fresh Records (Apr 22)",
-      "properties": { "date": "2026-04-22", "sp500": "+1% new record", "nasdaq": "+1.6% new record", "dow": "+0.7%", "driver": "ceasefire extension relief + Q1 earnings (Tesla)", "note": "Equities and oil moving in opposite directions — stocks cheer ceasefire while oil fears supply disruption. Divergence is structurally significant." },
+      "properties": {
+        "date": "2026-04-22",
+        "sp500": "+1% new record",
+        "nasdaq": "+1.6% new record",
+        "dow": "+0.7%",
+        "driver": "ceasefire extension relief + Q1 earnings (Tesla)",
+        "note": "Equities and oil moving in opposite directions — stocks cheer ceasefire while oil fears supply disruption. Divergence is structurally significant."
+      },
       "first_seen": "2026-04-22",
       "last_seen": "2026-04-22",
       "mention_count": 6
@@ -1480,7 +2097,13 @@
       "id": "ent-169",
       "type": "Event",
       "name": "Israel-Lebanon 2nd Washington Talks (Apr 24)",
-      "properties": { "date": "2026-04-24 (scheduled)", "location": "Washington, Department of State", "participants": "Israel (Yechiel Leiter), Lebanon (Nada Moawad), US (Marco Rubio, Mike Huckabee, Michel Issa, Michael Needham)", "purpose": "extend ceasefire beyond Apr 26 expiry, build on Apr 14 first round", "context": "ceasefire fraying with Hezbollah attacks, 10-day truce expires Sunday" },
+      "properties": {
+        "date": "2026-04-24 (scheduled)",
+        "location": "Washington, Department of State",
+        "participants": "Israel (Yechiel Leiter), Lebanon (Nada Moawad), US (Marco Rubio, Mike Huckabee, Michel Issa, Michael Needham)",
+        "purpose": "extend ceasefire beyond Apr 26 expiry, build on Apr 14 first round",
+        "context": "ceasefire fraying with Hezbollah attacks, 10-day truce expires Sunday"
+      },
       "first_seen": "2026-04-22",
       "last_seen": "2026-04-22",
       "mention_count": 8
@@ -1489,7 +2112,11 @@
       "id": "ent-170",
       "type": "Person",
       "name": "Mike Huckabee",
-      "properties": { "role": "US Ambassador to Israel", "affiliation": "United States", "action_apr22": "joining US delegation for 2nd round Israel-Lebanon Washington talks Thursday Apr 24" },
+      "properties": {
+        "role": "US Ambassador to Israel",
+        "affiliation": "United States",
+        "action_apr22": "joining US delegation for 2nd round Israel-Lebanon Washington talks Thursday Apr 24"
+      },
       "first_seen": "2026-04-22",
       "last_seen": "2026-04-22",
       "mention_count": 3
@@ -1498,7 +2125,10 @@
       "id": "ent-171",
       "type": "Event",
       "name": "Trump Shoot-to-Kill Mine Order (Apr 23)",
-      "properties": { "date": "2026-04-23", "detail": "Trump orders US Navy to 'shoot and kill' any boat laying mines in Hormuz. 'No hesitation.' Tripled mine-sweeping. Claims 'total control' of Hormuz, 'Sealed up Tight.' Iran's navy 'all 159 ships at bottom of the sea.'" },
+      "properties": {
+        "date": "2026-04-23",
+        "detail": "Trump orders US Navy to 'shoot and kill' any boat laying mines in Hormuz. 'No hesitation.' Tripled mine-sweeping. Claims 'total control' of Hormuz, 'Sealed up Tight.' Iran's navy 'all 159 ships at bottom of the sea.'"
+      },
       "first_seen": "2026-04-23",
       "last_seen": "2026-04-23",
       "mention_count": 12
@@ -1507,7 +2137,11 @@
       "id": "ent-172",
       "type": "Event",
       "name": "Israel-Lebanon 3-Week Ceasefire Extension (Apr 23)",
-      "properties": { "date": "2026-04-23", "detail": "Trump announces 3-week extension after 2nd round WH talks. Was set to expire Apr 26. Rubio leads with Huckabee, Needham, Issa. Lebanon asks for end to IDF demolitions, withdrawal, prisoner release. Netanyahu and Aoun invited to WH.", "participants": "Israel (Leiter), Lebanon (Moawad), US (Rubio, Huckabee, Needham, Issa)" },
+      "properties": {
+        "date": "2026-04-23",
+        "detail": "Trump announces 3-week extension after 2nd round WH talks. Was set to expire Apr 26. Rubio leads with Huckabee, Needham, Issa. Lebanon asks for end to IDF demolitions, withdrawal, prisoner release. Netanyahu and Aoun invited to WH.",
+        "participants": "Israel (Leiter), Lebanon (Moawad), US (Rubio, Huckabee, Needham, Issa)"
+      },
       "first_seen": "2026-04-23",
       "last_seen": "2026-04-23",
       "mention_count": 15
@@ -1516,7 +2150,11 @@
       "id": "ent-173",
       "type": "Event",
       "name": "Ghalibaf Resignation Report (Apr 23)",
-      "properties": { "date": "2026-04-23", "detail": "Israeli Channel 12 reports Ghalibaf resigned from negotiating team due to IRGC interference. Iran denies. Oil spiked to $107. Peace deal market drops to 9% YES.", "status": "unconfirmed" },
+      "properties": {
+        "date": "2026-04-23",
+        "detail": "Israeli Channel 12 reports Ghalibaf resigned from negotiating team due to IRGC interference. Iran denies. Oil spiked to $107. Peace deal market drops to 9% YES.",
+        "status": "unconfirmed"
+      },
       "first_seen": "2026-04-23",
       "last_seen": "2026-04-23",
       "mention_count": 8
@@ -1525,7 +2163,14 @@
       "id": "ent-174",
       "type": "Event",
       "name": "Oil Price Surge (Apr 23)",
-      "properties": { "date": "2026-04-23", "brent_close": "$105.07 (+3%)", "brent_spike": "$107", "wti_close": "$95.85 (+3%)", "wti_spike": "$98", "cause": "shoot-to-kill order + Ghalibaf report + Hormuz disruption" },
+      "properties": {
+        "date": "2026-04-23",
+        "brent_close": "$105.07 (+3%)",
+        "brent_spike": "$107",
+        "wti_close": "$95.85 (+3%)",
+        "wti_spike": "$98",
+        "cause": "shoot-to-kill order + Ghalibaf report + Hormuz disruption"
+      },
       "first_seen": "2026-04-23",
       "last_seen": "2026-04-23",
       "mention_count": 6
@@ -1534,7 +2179,10 @@
       "id": "ent-175",
       "type": "Person",
       "name": "Michel Issa",
-      "properties": { "role": "US Ambassador to Lebanon", "affiliation": "United States" },
+      "properties": {
+        "role": "US Ambassador to Lebanon",
+        "affiliation": "United States"
+      },
       "first_seen": "2026-04-23",
       "last_seen": "2026-04-23",
       "mention_count": 2
@@ -1543,7 +2191,10 @@
       "id": "ent-176",
       "type": "Person",
       "name": "Michael Needham",
-      "properties": { "role": "State Department Counsellor", "affiliation": "United States" },
+      "properties": {
+        "role": "State Department Counsellor",
+        "affiliation": "United States"
+      },
       "first_seen": "2026-04-23",
       "last_seen": "2026-04-23",
       "mention_count": 2
@@ -1552,7 +2203,11 @@
       "id": "ent-177",
       "type": "Location",
       "name": "Kargan Coast",
-      "properties": { "type": "coastal area", "country": "Iran", "significance": "IRGC fast-attack boat staging area near Hormuz; 33 boats detected by Sentinel-2 satellite Apr 22" },
+      "properties": {
+        "type": "coastal area",
+        "country": "Iran",
+        "significance": "IRGC fast-attack boat staging area near Hormuz; 33 boats detected by Sentinel-2 satellite Apr 22"
+      },
       "first_seen": "2026-04-23",
       "last_seen": "2026-04-23",
       "mention_count": 2
@@ -1561,7 +2216,11 @@
       "id": "ent-178",
       "type": "Person",
       "name": "Reza Amiri Moghadam",
-      "properties": { "role": "Iranian Ambassador to Pakistan", "affiliation": "Iran", "action_apr23": "met PM Sharif to discuss peace efforts" },
+      "properties": {
+        "role": "Iranian Ambassador to Pakistan",
+        "affiliation": "Iran",
+        "action_apr23": "met PM Sharif to discuss peace efforts"
+      },
       "first_seen": "2026-04-23",
       "last_seen": "2026-04-23",
       "mention_count": 2
@@ -1570,7 +2229,11 @@
       "id": "ent-179",
       "type": "Person",
       "name": "Saeed Jalili",
-      "properties": { "role": "Potential replacement for Ghalibaf as negotiation lead", "affiliation": "Iran", "note": "Hardliner, former nuclear negotiator (2007-2013), former SNSC secretary. If confirmed, signals Iran negotiation stance hardening." },
+      "properties": {
+        "role": "Potential replacement for Ghalibaf as negotiation lead",
+        "affiliation": "Iran",
+        "note": "Hardliner, former nuclear negotiator (2007-2013), former SNSC secretary. If confirmed, signals Iran negotiation stance hardening."
+      },
       "first_seen": "2026-04-24",
       "last_seen": "2026-04-24",
       "mention_count": 6
@@ -1579,7 +2242,11 @@
       "id": "ent-180",
       "type": "Person",
       "name": "Ali Fayyad",
-      "properties": { "role": "Hezbollah lawmaker", "affiliation": "Hezbollah/Lebanon", "statement": "'The ceasefire is meaningless in light of Israel's insistence on hostile acts, including assassinations, shelling, and gunfire'" },
+      "properties": {
+        "role": "Hezbollah lawmaker",
+        "affiliation": "Hezbollah/Lebanon",
+        "statement": "'The ceasefire is meaningless in light of Israel's insistence on hostile acts, including assassinations, shelling, and gunfire'"
+      },
       "first_seen": "2026-04-24",
       "last_seen": "2026-04-24",
       "mention_count": 5
@@ -1588,7 +2255,10 @@
       "id": "ent-181",
       "type": "Concept",
       "name": "War Powers Resolution May 1 Deadline",
-      "properties": { "domain": "US constitutional law/war powers", "detail": "60-day deadline for congressional authorization of Iran war. Trump notified Congress Mar 2, deadline May 1. Must seek approval or certify 30-day withdrawal extension. Senate defeated WPR 5 times (52-47 party-line). Legal debate on whether ceasefire pauses the clock." },
+      "properties": {
+        "domain": "US constitutional law/war powers",
+        "detail": "60-day deadline for congressional authorization of Iran war. Trump notified Congress Mar 2, deadline May 1. Must seek approval or certify 30-day withdrawal extension. Senate defeated WPR 5 times (52-47 party-line). Legal debate on whether ceasefire pauses the clock."
+      },
       "first_seen": "2026-04-24",
       "last_seen": "2026-04-24",
       "mention_count": 8
@@ -1597,7 +2267,11 @@
       "id": "ent-182",
       "type": "Event",
       "name": "Hegseth-Caine Pentagon Briefing (Apr 24)",
-      "properties": { "date": "2026-04-24", "detail": "Hegseth: 'shoot to destroy' any ship laying mines, Iran navy 'gang of pirates with a flag,' blockade 'as long as it takes.' Criticized Europe/Asia for 'freeriding' on US Hormuz action. Gen. Caine: blockade fully operational. Joint press briefing at Pentagon.", "participants": "Pete Hegseth, Gen. Dan Caine" },
+      "properties": {
+        "date": "2026-04-24",
+        "detail": "Hegseth: 'shoot to destroy' any ship laying mines, Iran navy 'gang of pirates with a flag,' blockade 'as long as it takes.' Criticized Europe/Asia for 'freeriding' on US Hormuz action. Gen. Caine: blockade fully operational. Joint press briefing at Pentagon.",
+        "participants": "Pete Hegseth, Gen. Dan Caine"
+      },
       "first_seen": "2026-04-24",
       "last_seen": "2026-04-24",
       "mention_count": 12
@@ -1606,7 +2280,11 @@
       "id": "ent-183",
       "type": "Event",
       "name": "Araghchi Islamabad Visit (Apr 24)",
-      "properties": { "date": "2026-04-24", "detail": "Iranian FM Araghchi arrives Islamabad Friday night with small delegation. IRNA says visit is 'bilateral' (not for US meeting). Expected to go to Muscat then Moscow. Possible US meeting Monday if Araghchi stays. Represents de facto reversal of Iran's Apr 19 official talk refusal.", "participants": "Abbas Araghchi, Pakistan officials" },
+      "properties": {
+        "date": "2026-04-24",
+        "detail": "Iranian FM Araghchi arrives Islamabad Friday night with small delegation. IRNA says visit is 'bilateral' (not for US meeting). Expected to go to Muscat then Moscow. Possible US meeting Monday if Araghchi stays. Represents de facto reversal of Iran's Apr 19 official talk refusal.",
+        "participants": "Abbas Araghchi, Pakistan officials"
+      },
       "first_seen": "2026-04-24",
       "last_seen": "2026-04-24",
       "mention_count": 10
@@ -1615,7 +2293,11 @@
       "id": "ent-184",
       "type": "Event",
       "name": "2nd Islamabad Talks Preparation (Apr 25)",
-      "properties": { "date": "2026-04-25 (Saturday departure)", "detail": "White House confirms Witkoff and Kushner heading to Pakistan Saturday morning for direct talks with Iranian counterparts, 'intermediated by Pakistanis.' Vance 'on standby' but not attending. Leavitt: 'move the ball forward towards a deal.' Iran denies direct meeting planned.", "participants": "Steve Witkoff, Jared Kushner, Karoline Leavitt" },
+      "properties": {
+        "date": "2026-04-25 (Saturday departure)",
+        "detail": "White House confirms Witkoff and Kushner heading to Pakistan Saturday morning for direct talks with Iranian counterparts, 'intermediated by Pakistanis.' Vance 'on standby' but not attending. Leavitt: 'move the ball forward towards a deal.' Iran denies direct meeting planned.",
+        "participants": "Steve Witkoff, Jared Kushner, Karoline Leavitt"
+      },
       "first_seen": "2026-04-24",
       "last_seen": "2026-04-24",
       "mention_count": 15
@@ -1624,7 +2306,15 @@
       "id": "ent-185",
       "type": "Event",
       "name": "Oil Price $106 (Apr 24)",
-      "properties": { "date": "2026-04-24", "brent": "$106+ intraday, $107.38 mid-morning Europe spike, $104.50 close", "wti": "similar pattern", "weekly_gain": "~18%", "ytd_gain": "Brent +73%, WTI +65%", "driver": "Hegseth 'as long as it takes,' Ghalibaf resignation, Hormuz deadlock", "pullback_driver": "Pakistan talks hope" },
+      "properties": {
+        "date": "2026-04-24",
+        "brent": "$106+ intraday, $107.38 mid-morning Europe spike, $104.50 close",
+        "wti": "similar pattern",
+        "weekly_gain": "~18%",
+        "ytd_gain": "Brent +73%, WTI +65%",
+        "driver": "Hegseth 'as long as it takes,' Ghalibaf resignation, Hormuz deadlock",
+        "pullback_driver": "Pakistan talks hope"
+      },
       "first_seen": "2026-04-24",
       "last_seen": "2026-04-24",
       "mention_count": 8
@@ -1633,7 +2323,11 @@
       "id": "ent-186",
       "type": "Event",
       "name": "Lebanon Ceasefire Day 8 Violations (Apr 24)",
-      "properties": { "date": "2026-04-24", "detail": "Israel killed 6 Hezbollah fighters in exchange of fire in Bint Jbeil area. 2 killed in IDF airstrike on Touline (southern Lebanon). Hezbollah fired rockets at Shtula settlement. All within 24 hours of 3-week extension announcement. Hezbollah lawmaker Ali Fayyad called extension 'meaningless.'", "casualties": "8 killed (6 Hezbollah fighters + 2 in Touline)" },
+      "properties": {
+        "date": "2026-04-24",
+        "detail": "Israel killed 6 Hezbollah fighters in exchange of fire in Bint Jbeil area. 2 killed in IDF airstrike on Touline (southern Lebanon). Hezbollah fired rockets at Shtula settlement. All within 24 hours of 3-week extension announcement. Hezbollah lawmaker Ali Fayyad called extension 'meaningless.'",
+        "casualties": "8 killed (6 Hezbollah fighters + 2 in Touline)"
+      },
       "first_seen": "2026-04-24",
       "last_seen": "2026-04-24",
       "mention_count": 10
@@ -1642,17 +2336,24 @@
       "id": "ent-187",
       "type": "Event",
       "name": "Senate WPR Vote 5th Defeat (Apr 23)",
-      "properties": { "date": "2026-04-23", "detail": "Senate Republicans defeated bipartisan Iran War Powers Resolution for 5th time, 52-47 party-line vote. Failed to curb Trump's authority to conduct military operations against Iran. 60-day WPR deadline is May 1.", "vote": "52-47" },
+      "properties": {
+        "date": "2026-04-23",
+        "detail": "Senate Republicans defeated bipartisan Iran War Powers Resolution for 5th time, 52-47 party-line vote. Failed to curb Trump's authority to conduct military operations against Iran. 60-day WPR deadline is May 1.",
+        "vote": "52-47"
+      },
       "first_seen": "2026-04-24",
       "last_seen": "2026-04-24",
       "mention_count": 5
-    }
-    ,
+    },
     {
       "id": "ent-188",
       "type": "Event",
       "name": "Trump Cancels Pakistan Trip (Apr 25)",
-      "properties": { "date": "2026-04-25", "detail": "Trump abruptly cancelled Witkoff/Kushner trip to Pakistan for 2nd round Iran talks. Blamed Iran 'infighting' and said meeting delayed to Tuesday. 'We have all the cards.' 'Too much time wasted on traveling.' After cancellation Iran sent 'much better' paper within 10 minutes. Araghchi had already departed Islamabad for Oman.", "participants": "Trump, Witkoff, Kushner (cancelled)" },
+      "properties": {
+        "date": "2026-04-25",
+        "detail": "Trump abruptly cancelled Witkoff/Kushner trip to Pakistan for 2nd round Iran talks. Blamed Iran 'infighting' and said meeting delayed to Tuesday. 'We have all the cards.' 'Too much time wasted on traveling.' After cancellation Iran sent 'much better' paper within 10 minutes. Araghchi had already departed Islamabad for Oman.",
+        "participants": "Trump, Witkoff, Kushner (cancelled)"
+      },
       "first_seen": "2026-04-25",
       "last_seen": "2026-04-25",
       "mention_count": 12
@@ -1661,7 +2362,10 @@
       "id": "ent-189",
       "type": "Location",
       "name": "Muscat",
-      "properties": { "type": "city", "country": "Oman" },
+      "properties": {
+        "type": "city",
+        "country": "Oman"
+      },
       "first_seen": "2026-04-25",
       "last_seen": "2026-04-25",
       "mention_count": 2
@@ -1670,7 +2374,11 @@
       "id": "ent-190",
       "type": "Organization",
       "name": "Oman",
-      "properties": { "type": "state", "location": "Middle East/Gulf", "role": "diplomatic intermediary for Iran-US back-channel" },
+      "properties": {
+        "type": "state",
+        "location": "Middle East/Gulf",
+        "role": "diplomatic intermediary for Iran-US back-channel"
+      },
       "first_seen": "2026-04-25",
       "last_seen": "2026-04-25",
       "mention_count": 2
@@ -1679,7 +2387,11 @@
       "id": "ent-191",
       "type": "Event",
       "name": "Netanyahu Orders Forceful Strikes on Hezbollah (Apr 25)",
-      "properties": { "date": "2026-04-25", "detail": "Netanyahu ordered IDF to strike Hezbollah targets in Lebanon 'with force' after Hezbollah fired 2 projectiles (1 intercepted, 1 open area) + explosive drones at IDF troops south of Forward Defense Line. Triggered sirens in Manara, Margaliot, Misgav Am. 2nd Hezbollah ceasefire violation. Israel told US to pressure Lebanon or risk ceasefire collapse.", "casualties_day9": "4 killed in Israeli strikes on southern Lebanon" },
+      "properties": {
+        "date": "2026-04-25",
+        "detail": "Netanyahu ordered IDF to strike Hezbollah targets in Lebanon 'with force' after Hezbollah fired 2 projectiles (1 intercepted, 1 open area) + explosive drones at IDF troops south of Forward Defense Line. Triggered sirens in Manara, Margaliot, Misgav Am. 2nd Hezbollah ceasefire violation. Israel told US to pressure Lebanon or risk ceasefire collapse.",
+        "casualties_day9": "4 killed in Israeli strikes on southern Lebanon"
+      },
       "first_seen": "2026-04-25",
       "last_seen": "2026-04-25",
       "mention_count": 6
@@ -1688,7 +2400,11 @@
       "id": "ent-192",
       "type": "Event",
       "name": "Araghchi Departs Islamabad for Oman/Russia (Apr 25)",
-      "properties": { "date": "2026-04-25", "detail": "Iran FM Araghchi departed Islamabad Saturday afternoon after meeting Munir and Interior Minister Mohsin Naqvi. Delivered Tehran's list of demands for ending war to Pakistani officials. Traveled to Muscat, then planned Moscow visit. 'No direct talks with US' maintained.", "destinations": "Muscat (Oman) → Moscow (Russia)" },
+      "properties": {
+        "date": "2026-04-25",
+        "detail": "Iran FM Araghchi departed Islamabad Saturday afternoon after meeting Munir and Interior Minister Mohsin Naqvi. Delivered Tehran's list of demands for ending war to Pakistani officials. Traveled to Muscat, then planned Moscow visit. 'No direct talks with US' maintained.",
+        "destinations": "Muscat (Oman) → Moscow (Russia)"
+      },
       "first_seen": "2026-04-25",
       "last_seen": "2026-04-25",
       "mention_count": 5
@@ -1697,7 +2413,11 @@
       "id": "ent-193",
       "type": "Event",
       "name": "Pezeshkian Rejects 'Forced Negotiations' (Apr 25)",
-      "properties": { "date": "2026-04-25", "detail": "Iran President Pezeshkian said Tehran will not enter 'forced negotiations' while facing pressure and threats. Demanded Washington first remove 'operational obstacles, including the blockade' before talks. Reversal from Apr 22 'open to deal' signal. Reflects IRGC influence over presidential messaging.", "stance": "hardened from Apr 22" },
+      "properties": {
+        "date": "2026-04-25",
+        "detail": "Iran President Pezeshkian said Tehran will not enter 'forced negotiations' while facing pressure and threats. Demanded Washington first remove 'operational obstacles, including the blockade' before talks. Reversal from Apr 22 'open to deal' signal. Reflects IRGC influence over presidential messaging.",
+        "stance": "hardened from Apr 22"
+      },
       "first_seen": "2026-04-25",
       "last_seen": "2026-04-25",
       "mention_count": 3
@@ -1706,7 +2426,11 @@
       "id": "ent-194",
       "type": "Event",
       "name": "Iran Sends 'Better Paper' After Cancellation (Apr 25)",
-      "properties": { "date": "2026-04-25", "detail": "Trump: 'They gave us a paper that should have been better and interestingly the minute I cancelled it, within 10 minutes, we got a new paper that was much better…they offered a lot but not enough.' Reiterated Iran cannot get nuclear weapon. Suggested future talks by telephone.", "significance": "Cancellation as negotiation tactic; Iran responsive" },
+      "properties": {
+        "date": "2026-04-25",
+        "detail": "Trump: 'They gave us a paper that should have been better and interestingly the minute I cancelled it, within 10 minutes, we got a new paper that was much better…they offered a lot but not enough.' Reiterated Iran cannot get nuclear weapon. Suggested future talks by telephone.",
+        "significance": "Cancellation as negotiation tactic; Iran responsive"
+      },
       "first_seen": "2026-04-25",
       "last_seen": "2026-04-25",
       "mention_count": 3
@@ -1715,7 +2439,14 @@
       "id": "ent-195",
       "type": "Person",
       "name": "Cole Tomas Allen",
-      "properties": { "role": "WHCD shooting suspect", "age": 31, "origin": "California", "occupation": "teacher/engineer", "education": "CalTech BS 2017, Cal State MS CS", "action": "stormed WHCD security checkpoint with shotgun/handgun/knives Apr 25, targeted Trump officials, called self 'friendly federal assassin'" },
+      "properties": {
+        "role": "WHCD shooting suspect",
+        "age": 31,
+        "origin": "California",
+        "occupation": "teacher/engineer",
+        "education": "CalTech BS 2017, Cal State MS CS",
+        "action": "stormed WHCD security checkpoint with shotgun/handgun/knives Apr 25, targeted Trump officials, called self 'friendly federal assassin'"
+      },
       "first_seen": "2026-04-26",
       "last_seen": "2026-04-26",
       "mention_count": 6
@@ -1724,7 +2455,12 @@
       "id": "ent-196",
       "type": "Event",
       "name": "WHCD Shooting (Apr 25)",
-      "properties": { "date": "2026-04-25", "location": "Washington Hilton", "detail": "Cole Allen storms security checkpoint, exchanges fire with law enforcement. Trump rushed out by Secret Service. Allen in custody. Federal charges filed. Trump doubts Iran war connection, says won't deter from 'winning war'.", "casualties": "no deaths, shooter wounded/captured" },
+      "properties": {
+        "date": "2026-04-25",
+        "location": "Washington Hilton",
+        "detail": "Cole Allen storms security checkpoint, exchanges fire with law enforcement. Trump rushed out by Secret Service. Allen in custody. Federal charges filed. Trump doubts Iran war connection, says won't deter from 'winning war'.",
+        "casualties": "no deaths, shooter wounded/captured"
+      },
       "first_seen": "2026-04-26",
       "last_seen": "2026-04-26",
       "mention_count": 8
@@ -1733,7 +2469,11 @@
       "id": "ent-197",
       "type": "Person",
       "name": "Sultan Haitham bin Tariq",
-      "properties": { "role": "Sultan of Oman", "affiliation": "Oman", "action": "met Araghchi in Muscat Apr 26, discussed Hormuz and Iran mediation, rejected Hormuz toll proposal" },
+      "properties": {
+        "role": "Sultan of Oman",
+        "affiliation": "Oman",
+        "action": "met Araghchi in Muscat Apr 26, discussed Hormuz and Iran mediation, rejected Hormuz toll proposal"
+      },
       "first_seen": "2026-04-26",
       "last_seen": "2026-04-26",
       "mention_count": 4
@@ -1742,7 +2482,11 @@
       "id": "ent-198",
       "type": "Person",
       "name": "Vladimir Putin",
-      "properties": { "role": "President of Russia", "affiliation": "Russia", "action": "will meet Araghchi Monday Apr 27 in St. Petersburg, Moscow as key diplomatic backer of Tehran" },
+      "properties": {
+        "role": "President of Russia",
+        "affiliation": "Russia",
+        "action": "will meet Araghchi Monday Apr 27 in St. Petersburg, Moscow as key diplomatic backer of Tehran"
+      },
       "first_seen": "2026-04-26",
       "last_seen": "2026-04-26",
       "mention_count": 4
@@ -1751,7 +2495,11 @@
       "id": "ent-199",
       "type": "Event",
       "name": "Israel Forced Evacuation 7 Towns (Apr 26)",
-      "properties": { "date": "2026-04-26", "location": "Southern Lebanon, north of Litani River", "detail": "Israel orders residents of 7 towns beyond buffer zone to evacuate. Towns outside 10km security zone. Major ceasefire escalation — de facto occupation expansion." },
+      "properties": {
+        "date": "2026-04-26",
+        "location": "Southern Lebanon, north of Litani River",
+        "detail": "Israel orders residents of 7 towns beyond buffer zone to evacuate. Towns outside 10km security zone. Major ceasefire escalation — de facto occupation expansion."
+      },
       "first_seen": "2026-04-26",
       "last_seen": "2026-04-26",
       "mention_count": 5
@@ -1760,7 +2508,13 @@
       "id": "ent-200",
       "type": "Person",
       "name": "Idan Fooks",
-      "properties": { "role": "IDF Sergeant, 7th Armored Brigade 77th Battalion", "age": 19, "origin": "Petah Tikva", "status": "killed 2026-04-26 by Hezbollah drone in southern Lebanon", "significance": "3rd soldier killed during ceasefire, 1st in direct Hezbollah attack" },
+      "properties": {
+        "role": "IDF Sergeant, 7th Armored Brigade 77th Battalion",
+        "age": 19,
+        "origin": "Petah Tikva",
+        "status": "killed 2026-04-26 by Hezbollah drone in southern Lebanon",
+        "significance": "3rd soldier killed during ceasefire, 1st in direct Hezbollah attack"
+      },
       "first_seen": "2026-04-26",
       "last_seen": "2026-04-26",
       "mention_count": 4
@@ -1769,7 +2523,10 @@
       "id": "ent-201",
       "type": "Event",
       "name": "Lebanon Day 10: Fooks Killed + IDF 14 Killed Retaliatory Strikes (Apr 26)",
-      "properties": { "date": "2026-04-26", "detail": "Hezbollah drone killed Fooks + 6 wounded. IDF retaliatory strikes kill 14 (incl. 2 women, 2 children), wound 37. Deadliest day since ceasefire began. Israel issues forced evacuation orders for 7 towns. Home Front Command limits gatherings in northern Israel." },
+      "properties": {
+        "date": "2026-04-26",
+        "detail": "Hezbollah drone killed Fooks + 6 wounded. IDF retaliatory strikes kill 14 (incl. 2 women, 2 children), wound 37. Deadliest day since ceasefire began. Israel issues forced evacuation orders for 7 towns. Home Front Command limits gatherings in northern Israel."
+      },
       "first_seen": "2026-04-26",
       "last_seen": "2026-04-26",
       "mention_count": 10
@@ -1778,7 +2535,11 @@
       "id": "ent-202",
       "type": "Person",
       "name": "Keir Starmer",
-      "properties": { "role": "UK Prime Minister", "affiliation": "United Kingdom", "action": "called Trump Apr 26 re Hormuz shipping, co-chairs 50-nation Maritime Freedom of Navigation Initiative with Macron" },
+      "properties": {
+        "role": "UK Prime Minister",
+        "affiliation": "United Kingdom",
+        "action": "called Trump Apr 26 re Hormuz shipping, co-chairs 50-nation Maritime Freedom of Navigation Initiative with Macron"
+      },
       "first_seen": "2026-04-26",
       "last_seen": "2026-04-26",
       "mention_count": 4
@@ -1787,17 +2548,23 @@
       "id": "ent-203",
       "type": "Concept",
       "name": "Starmer-Macron Maritime Freedom of Navigation Initiative",
-      "properties": { "domain": "maritime/diplomacy", "detail": "50+ country initiative co-chaired by UK PM Starmer and French President Macron to restore freedom of navigation in Strait of Hormuz once hostilities cease. 'Practical plan' discussed with Trump Apr 26." },
+      "properties": {
+        "domain": "maritime/diplomacy",
+        "detail": "50+ country initiative co-chaired by UK PM Starmer and French President Macron to restore freedom of navigation in Strait of Hormuz once hostilities cease. 'Practical plan' discussed with Trump Apr 26."
+      },
       "first_seen": "2026-04-26",
       "last_seen": "2026-04-26",
       "mention_count": 3
-    }
-    ,
+    },
     {
       "id": "ent-204",
       "type": "Person",
       "name": "Marco Rubio",
-      "properties": { "role": "US Secretary of State", "affiliation": "United States", "action_apr27": "rejected Iran Hormuz proposal as 'unacceptable': 'Iranians don't get to decide who uses international waterways and how much you pay'. Called Iran's offer a system of 'coordinate with Iran, get our permission, or we'll blow you up'" },
+      "properties": {
+        "role": "US Secretary of State",
+        "affiliation": "United States",
+        "action_apr27": "rejected Iran Hormuz proposal as 'unacceptable': 'Iranians don't get to decide who uses international waterways and how much you pay'. Called Iran's offer a system of 'coordinate with Iran, get our permission, or we'll blow you up'"
+      },
       "first_seen": "2026-04-27",
       "last_seen": "2026-04-27",
       "mention_count": 6
@@ -1806,7 +2573,11 @@
       "id": "ent-205",
       "type": "Person",
       "name": "Friedrich Merz",
-      "properties": { "role": "German Chancellor", "affiliation": "Germany", "action_apr27": "spoke in Marsberg: US 'humiliated' by Iran, 'no truly convincing strategy'. Iran 'clearly stronger than one thought'. IRGC 'obviously negotiating very skilfully'. Compared to past US military debacles. European frustration over Hormuz economic impact" },
+      "properties": {
+        "role": "German Chancellor",
+        "affiliation": "Germany",
+        "action_apr27": "spoke in Marsberg: US 'humiliated' by Iran, 'no truly convincing strategy'. Iran 'clearly stronger than one thought'. IRGC 'obviously negotiating very skilfully'. Compared to past US military debacles. European frustration over Hormuz economic impact"
+      },
       "first_seen": "2026-04-27",
       "last_seen": "2026-04-27",
       "mention_count": 4
@@ -1815,7 +2586,11 @@
       "id": "ent-206",
       "type": "Person",
       "name": "Igor Kostyukov",
-      "properties": { "role": "GRU military intelligence chief", "affiliation": "Russia", "action_apr27": "present at Putin-Araghchi meeting in St. Petersburg — signals military intelligence-level engagement in Iran mediation" },
+      "properties": {
+        "role": "GRU military intelligence chief",
+        "affiliation": "Russia",
+        "action_apr27": "present at Putin-Araghchi meeting in St. Petersburg — signals military intelligence-level engagement in Iran mediation"
+      },
       "first_seen": "2026-04-27",
       "last_seen": "2026-04-27",
       "mention_count": 1
@@ -1824,7 +2599,11 @@
       "id": "ent-207",
       "type": "Person",
       "name": "Yury Ushakov",
-      "properties": { "role": "Kremlin foreign policy adviser", "affiliation": "Russia", "action_apr27": "present at Putin-Araghchi meeting in St. Petersburg" },
+      "properties": {
+        "role": "Kremlin foreign policy adviser",
+        "affiliation": "Russia",
+        "action_apr27": "present at Putin-Araghchi meeting in St. Petersburg"
+      },
       "first_seen": "2026-04-27",
       "last_seen": "2026-04-27",
       "mention_count": 1
@@ -1833,7 +2612,11 @@
       "id": "ent-208",
       "type": "Person",
       "name": "Sergei Lavrov",
-      "properties": { "role": "Russian Foreign Minister", "affiliation": "Russia", "action_apr27": "present at Putin-Araghchi meeting in St. Petersburg" },
+      "properties": {
+        "role": "Russian Foreign Minister",
+        "affiliation": "Russia",
+        "action_apr27": "present at Putin-Araghchi meeting in St. Petersburg"
+      },
       "first_seen": "2026-04-27",
       "last_seen": "2026-04-27",
       "mention_count": 2
@@ -1842,7 +2625,11 @@
       "id": "ent-209",
       "type": "Event",
       "name": "Iran Hormuz Reopening Proposal (Apr 27)",
-      "properties": { "date": "2026-04-27", "detail": "Iran proposes via Pakistani mediators: reopen Hormuz + end war first, nuclear talks deferred to later phase. Decouples nuclear from immediate crisis. Trump reviews with NSC. Rubio rejects as 'unacceptable' — Iran retaining control of international waterway. US position: nuclear must be on table.", "status": "rejected by Rubio" },
+      "properties": {
+        "date": "2026-04-27",
+        "detail": "Iran proposes via Pakistani mediators: reopen Hormuz + end war first, nuclear talks deferred to later phase. Decouples nuclear from immediate crisis. Trump reviews with NSC. Rubio rejects as 'unacceptable' — Iran retaining control of international waterway. US position: nuclear must be on table.",
+        "status": "rejected by Rubio"
+      },
       "first_seen": "2026-04-27",
       "last_seen": "2026-04-27",
       "mention_count": 10
@@ -1851,7 +2638,12 @@
       "id": "ent-210",
       "type": "Event",
       "name": "Araghchi-Putin St. Petersburg Meeting (Apr 27)",
-      "properties": { "date": "2026-04-27", "location": "St. Petersburg, Russia", "participants": "Araghchi, Putin, Lavrov (FM), Ushakov (Kremlin adviser), Kostyukov (GRU chief)", "detail": "Putin pledges support: 'we will do everything that serves your interests.' Confirms receiving message from Iran's Supreme Leader Khamenei. Araghchi briefs on Pakistan-mediated peace process. Putin sees Iran fighting 'bravely for independence and sovereignty.' GRU presence signals military intelligence engagement." },
+      "properties": {
+        "date": "2026-04-27",
+        "location": "St. Petersburg, Russia",
+        "participants": "Araghchi, Putin, Lavrov (FM), Ushakov (Kremlin adviser), Kostyukov (GRU chief)",
+        "detail": "Putin pledges support: 'we will do everything that serves your interests.' Confirms receiving message from Iran's Supreme Leader Khamenei. Araghchi briefs on Pakistan-mediated peace process. Putin sees Iran fighting 'bravely for independence and sovereignty.' GRU presence signals military intelligence engagement."
+      },
       "first_seen": "2026-04-27",
       "last_seen": "2026-04-27",
       "mention_count": 8
@@ -1860,7 +2652,11 @@
       "id": "ent-211",
       "type": "Event",
       "name": "IDF Beqaa Valley Strikes Day 11 (Apr 27)",
-      "properties": { "date": "2026-04-27", "location": "Beqaa Valley + southern Lebanon", "detail": "IDF strikes ~20 Hezbollah sites: first Beqaa Valley strike in 3 weeks. Weapon depots, rocket launchers, storage facilities targeted. Follows 14 killed Apr 26 retaliation. Ceasefire Day 11 — most geographically expanded Israeli strikes since ceasefire began." },
+      "properties": {
+        "date": "2026-04-27",
+        "location": "Beqaa Valley + southern Lebanon",
+        "detail": "IDF strikes ~20 Hezbollah sites: first Beqaa Valley strike in 3 weeks. Weapon depots, rocket launchers, storage facilities targeted. Follows 14 killed Apr 26 retaliation. Ceasefire Day 11 — most geographically expanded Israeli strikes since ceasefire began."
+      },
       "first_seen": "2026-04-27",
       "last_seen": "2026-04-27",
       "mention_count": 5
@@ -1869,17 +2665,23 @@
       "id": "ent-212",
       "type": "Concept",
       "name": "Nuclear Deferral Strategy",
-      "properties": { "domain": "diplomacy/nuclear", "detail": "Iran's new negotiation approach: decouple nuclear issue from immediate Hormuz/blockade/war crisis. Solve maritime/blockade first, nuclear in later phase. Strategic shift from previous all-in-one package. US rejects: Rubio insists nuclear must remain on table. Represents Iran's attempt to remove the biggest obstacle to a deal." },
+      "properties": {
+        "domain": "diplomacy/nuclear",
+        "detail": "Iran's new negotiation approach: decouple nuclear issue from immediate Hormuz/blockade/war crisis. Solve maritime/blockade first, nuclear in later phase. Strategic shift from previous all-in-one package. US rejects: Rubio insists nuclear must remain on table. Represents Iran's attempt to remove the biggest obstacle to a deal."
+      },
       "first_seen": "2026-04-27",
       "last_seen": "2026-04-27",
       "mention_count": 5
-    }
-    ,
+    },
     {
       "id": "ent-213",
       "type": "Organization",
       "name": "OPEC",
-      "properties": { "type": "international organization", "location": "Vienna", "action_apr28": "Loses UAE as member effective May 1; second exit after Qatar (2019); Saudi-led cartel influence weakened; Iran war caused 7.88M bbl/day supply loss" },
+      "properties": {
+        "type": "international organization",
+        "location": "Vienna",
+        "action_apr28": "Loses UAE as member effective May 1; second exit after Qatar (2019); Saudi-led cartel influence weakened; Iran war caused 7.88M bbl/day supply loss"
+      },
       "first_seen": "2026-04-28",
       "last_seen": "2026-04-28",
       "mention_count": 15
@@ -1888,7 +2690,11 @@
       "id": "ent-214",
       "type": "Person",
       "name": "Anwar Gargash",
-      "properties": { "role": "UAE Senior Foreign Policy Adviser", "affiliation": "United Arab Emirates", "action_apr28": "Slammed GCC response as 'weakest in history'; said containment of Iran 'failed miserably'; expected weak stance from Arab League but not GCC" },
+      "properties": {
+        "role": "UAE Senior Foreign Policy Adviser",
+        "affiliation": "United Arab Emirates",
+        "action_apr28": "Slammed GCC response as 'weakest in history'; said containment of Iran 'failed miserably'; expected weak stance from Arab League but not GCC"
+      },
       "first_seen": "2026-04-28",
       "last_seen": "2026-04-28",
       "mention_count": 4
@@ -1897,7 +2703,11 @@
       "id": "ent-215",
       "type": "Person",
       "name": "Mohammed bin Salman (MBS)",
-      "properties": { "role": "Saudi Crown Prince", "affiliation": "Saudi Arabia", "action_apr28": "Chaired GCC consultative summit in Jeddah — first in-person since war began" },
+      "properties": {
+        "role": "Saudi Crown Prince",
+        "affiliation": "Saudi Arabia",
+        "action_apr28": "Chaired GCC consultative summit in Jeddah — first in-person since war began"
+      },
       "first_seen": "2026-04-28",
       "last_seen": "2026-04-28",
       "mention_count": 5
@@ -1906,7 +2716,12 @@
       "id": "ent-216",
       "type": "Event",
       "name": "GCC Jeddah Summit (Apr 28)",
-      "properties": { "date": "2026-04-28", "location": "Jeddah, Saudi Arabia", "participants": "MBS (chair), Qatar Emir, Kuwait Crown Prince, Bahrain King, UAE FM", "significance": "First in-person GCC meeting since war; discusses response to Iranian attacks; amid UAE OPEC exit and Gargash criticism" },
+      "properties": {
+        "date": "2026-04-28",
+        "location": "Jeddah, Saudi Arabia",
+        "participants": "MBS (chair), Qatar Emir, Kuwait Crown Prince, Bahrain King, UAE FM",
+        "significance": "First in-person GCC meeting since war; discusses response to Iranian attacks; amid UAE OPEC exit and Gargash criticism"
+      },
       "first_seen": "2026-04-28",
       "last_seen": "2026-04-28",
       "mention_count": 6
@@ -1915,7 +2730,12 @@
       "id": "ent-217",
       "type": "Person",
       "name": "Alexey Mordashov",
-      "properties": { "role": "Russian billionaire / Severstal chairman", "affiliation": "Russia", "net_worth": "$37B", "action_apr28": "$500M superyacht Nord (142m) transited blockaded Hormuz from Dubai to Muscat over weekend; one of few vessels to pass since conflict began; sanctioned by US/EU" },
+      "properties": {
+        "role": "Russian billionaire / Severstal chairman",
+        "affiliation": "Russia",
+        "net_worth": "$37B",
+        "action_apr28": "$500M superyacht Nord (142m) transited blockaded Hormuz from Dubai to Muscat over weekend; one of few vessels to pass since conflict began; sanctioned by US/EU"
+      },
       "first_seen": "2026-04-28",
       "last_seen": "2026-04-28",
       "mention_count": 5
@@ -1924,7 +2744,11 @@
       "id": "ent-218",
       "type": "Person",
       "name": "Mohammad Akraminia",
-      "properties": { "role": "Iran Army Spokesperson", "affiliation": "Islamic Republic of Iran Army", "action_apr28": "Stated Iran's armed forces do not view war as fully over; military conditions still in place; IRGC and army 'fully prepared' for further attacks if provoked" },
+      "properties": {
+        "role": "Iran Army Spokesperson",
+        "affiliation": "Islamic Republic of Iran Army",
+        "action_apr28": "Stated Iran's armed forces do not view war as fully over; military conditions still in place; IRGC and army 'fully prepared' for further attacks if provoked"
+      },
       "first_seen": "2026-04-28",
       "last_seen": "2026-04-28",
       "mention_count": 2
@@ -1933,7 +2757,10 @@
       "id": "ent-219",
       "type": "Event",
       "name": "UAE OPEC Exit (Apr 28)",
-      "properties": { "date": "2026-04-28 (announced), 2026-05-01 (effective)", "significance": "Nearly 60 years of membership ending; plans to increase production 3.4M→5M bbl/day by 2027; second GCC exit after Qatar (2019); weakens Saudi-led cartel; driven by Gargash 'weakest response' frustration and Iran war realignment" },
+      "properties": {
+        "date": "2026-04-28 (announced), 2026-05-01 (effective)",
+        "significance": "Nearly 60 years of membership ending; plans to increase production 3.4M→5M bbl/day by 2027; second GCC exit after Qatar (2019); weakens Saudi-led cartel; driven by Gargash 'weakest response' frustration and Iran war realignment"
+      },
       "first_seen": "2026-04-28",
       "last_seen": "2026-04-28",
       "mention_count": 15
@@ -1942,7 +2769,10 @@
       "id": "ent-220",
       "type": "Event",
       "name": "Trump 'State of Collapse' Claim (Apr 28)",
-      "properties": { "date": "2026-04-28", "detail": "Trump Truth Social: 'Iran has just informed us that they are in a State of Collapse. They want us to Open the Hormuz Strait ASAP as they try to figure out their leadership situation.' Unconfirmed by Tehran. Iran losing >$400M/day. Iran army spokesman directly contradicted: 'still in war situation'." },
+      "properties": {
+        "date": "2026-04-28",
+        "detail": "Trump Truth Social: 'Iran has just informed us that they are in a State of Collapse. They want us to Open the Hormuz Strait ASAP as they try to figure out their leadership situation.' Unconfirmed by Tehran. Iran losing >$400M/day. Iran army spokesman directly contradicted: 'still in war situation'."
+      },
       "first_seen": "2026-04-28",
       "last_seen": "2026-04-28",
       "mention_count": 8
@@ -1951,7 +2781,10 @@
       "id": "ent-221",
       "type": "Event",
       "name": "UN Hormuz Reopening Call (Apr 28)",
-      "properties": { "date": "2026-04-28", "detail": "Guterres addressed UNSC calling for immediate/unimpeded Hormuz reopening. Warned of global food emergency. Dozens of countries joined call. 20% of global LNG/oil transit disrupted. Millions in Africa/South Asia at hunger risk." },
+      "properties": {
+        "date": "2026-04-28",
+        "detail": "Guterres addressed UNSC calling for immediate/unimpeded Hormuz reopening. Warned of global food emergency. Dozens of countries joined call. 20% of global LNG/oil transit disrupted. Millions in Africa/South Asia at hunger risk."
+      },
       "first_seen": "2026-04-28",
       "last_seen": "2026-04-28",
       "mention_count": 4
@@ -1960,346 +2793,115 @@
       "id": "ent-222",
       "type": "Event",
       "name": "Nord Superyacht Hormuz Transit (Apr 26-27)",
-      "properties": { "date": "2026-04-26~27", "detail": "Mordashov's $500M superyacht Nord (142m) departed Dubai Friday, arrived Muscat Sunday transiting blockaded Hormuz. One of few private vessels to pass. Raises questions about blockade enforcement consistency and Russia's privileged access." },
+      "properties": {
+        "date": "2026-04-26~27",
+        "detail": "Mordashov's $500M superyacht Nord (142m) departed Dubai Friday, arrived Muscat Sunday transiting blockaded Hormuz. One of few private vessels to pass. Raises questions about blockade enforcement consistency and Russia's privileged access."
+      },
       "first_seen": "2026-04-28",
       "last_seen": "2026-04-28",
       "mention_count": 5
+    },
+    {
+      "id": "ent-260",
+      "type": "Event",
+      "name": "Project Freedom (May 4)",
+      "properties": {
+        "date": "2026-05-04 (announced May 3)",
+        "detail": "Trump announces US military will escort neutral commercial ships out of Hormuz starting Monday. CENTCOM: guided-missile destroyers, 100+ aircraft, 15,000 service members. ~20,000 seafarers stranded.",
+        "participants": "US Military, CENTCOM"
+      },
+      "first_seen": "2026-05-03",
+      "last_seen": "2026-05-03",
+      "mention_count": 15
+    },
+    {
+      "id": "ent-261",
+      "type": "Person",
+      "name": "Ali Nikzad",
+      "properties": {
+        "role": "Iran Deputy Speaker of Parliament",
+        "affiliation": "Iran Parliament (Majlis)",
+        "statement": "Advancing Hormuz navigation legislation; Iran will never retreat from inherent rights"
+      },
+      "first_seen": "2026-05-03",
+      "last_seen": "2026-05-03",
+      "mention_count": 3
+    },
+    {
+      "id": "ent-262",
+      "type": "Event",
+      "name": "Iran Hormuz Navigation Law (May 3)",
+      "properties": {
+        "date": "2026-05-03",
+        "detail": "Iran parliament advancing legislation: Israeli ships banned, hostile countries denied, permits required, tolls charged, violators face seizure + 20% cargo confiscation",
+        "status": "draft advancing"
+      },
+      "first_seen": "2026-05-03",
+      "last_seen": "2026-05-03",
+      "mention_count": 4
+    },
+    {
+      "id": "ent-263",
+      "type": "Person",
+      "name": "Rodolphe Haykal",
+      "properties": {
+        "role": "Lebanese Army Chief",
+        "affiliation": "Lebanese Armed Forces"
+      },
+      "first_seen": "2026-05-03",
+      "last_seen": "2026-05-03",
+      "mention_count": 3
+    },
+    {
+      "id": "ent-264",
+      "type": "Person",
+      "name": "Joseph Clearfield",
+      "properties": {
+        "role": "US General, ceasefire monitoring committee head",
+        "affiliation": "US Military"
+      },
+      "first_seen": "2026-05-03",
+      "last_seen": "2026-05-03",
+      "mention_count": 3
+    },
+    {
+      "id": "ent-265",
+      "type": "Event",
+      "name": "Trump Rejects 14-Point Proposal (May 3)",
+      "properties": {
+        "date": "2026-05-03",
+        "detail": "Trump tells Kan News: not acceptable. Iran not paid big enough price. Warns strikes could resume. Witkoff: we're in conversation."
+      },
+      "first_seen": "2026-05-03",
+      "last_seen": "2026-05-03",
+      "mention_count": 12
+    },
+    {
+      "id": "ent-266",
+      "type": "Event",
+      "name": "Iran Reviews US Response (May 3)",
+      "properties": {
+        "date": "2026-05-03",
+        "detail": "Iran FM spokesperson confirms US responded to 14-point proposal via Pakistan. Tehran reviewing. First formal response cycle.",
+        "mediator": "Pakistan"
+      },
+      "first_seen": "2026-05-03",
+      "last_seen": "2026-05-03",
+      "mention_count": 5
+    },
+    {
+      "id": "ent-267",
+      "type": "Event",
+      "name": "Haykal-Clearfield Beirut Meeting (May 3)",
+      "properties": {
+        "date": "2026-05-03",
+        "location": "Beirut air base",
+        "detail": "Exceptional meeting on ceasefire monitoring. Both stress LAF support. Israel ordered 11-village displacement same day."
+      },
+      "first_seen": "2026-05-03",
+      "last_seen": "2026-05-03",
+      "mention_count": 4
     }
   ],
   "total_count": 229
-},
-{
-  "id": "ent-223",
-  "type": "Person",
-  "name": "Eyal Zamir",
-  "properties": { "role": "IDF Chief of Staff", "rank": "Lt. Gen.", "affiliation": "Israel Defense Forces", "action_apr29": "visited southern Lebanon, declared 'on the combat front, there is no ceasefire', ordered troops to act with 'freedom of action' including beyond Yellow Line and north of Litani River" },
-  "first_seen": "2026-04-29",
-  "last_seen": "2026-04-29",
-  "mention_count": 5
-},
-{
-  "id": "ent-224",
-  "type": "Event",
-  "name": "Hegseth Congressional Hearing (Apr 29)",
-  "properties": { "date": "2026-04-29", "location": "Rayburn House Office Building, Washington DC", "participants": "Pete Hegseth, Dan Caine, House Armed Services Committee", "detail": "First hearing since war began. War cost $25 billion disclosed. Rep. Garamendi: 'lying from day one'. Hegseth called Democrats 'biggest adversary'. Declined to provide victory timeline. Pentagon munitions drawdown criticized.", "cost": "$25 billion" },
-  "first_seen": "2026-04-29",
-  "last_seen": "2026-04-29",
-  "mention_count": 18
-},
-{
-  "id": "ent-225",
-  "type": "Event",
-  "name": "FOMC April 2026 Rate Decision",
-  "properties": { "date": "2026-04-29", "rate": "3.5%-3.75% (held)", "vote": "8-4", "detail": "First 4-member FOMC dissent since October 1992. 3 dissenters wanted easing bias removed, 1 (Miran) wanted 25bp cut. Statement: 'Inflation elevated, in part reflecting global energy prices'. Powell announced staying on Board indefinitely.", "significance": "Iran war cited as 'high level of uncertainty' for economic outlook" },
-  "first_seen": "2026-04-29",
-  "last_seen": "2026-04-29",
-  "mention_count": 10
-},
-{
-  "id": "ent-226",
-  "type": "Event",
-  "name": "Iran 'Practical Action' Threat (Apr 29)",
-  "properties": { "date": "2026-04-29", "source": "unnamed senior security source via Press TV", "detail": "Iran threatens 'practical and unprecedented action' against US naval blockade. Response to Trump's vow to maintain blockade until nuclear deal. No specifics given.", "significance": "Highest-level Iran military threat since IRGC ship seizures Apr 22" },
-  "first_seen": "2026-04-29",
-  "last_seen": "2026-04-29",
-  "mention_count": 5
-},
-{
-  "id": "ent-227",
-  "type": "Event",
-  "name": "Lebanon Double-Tap Strike on Rescue Workers (Apr 29)",
-  "properties": { "date": "2026-04-29", "location": "southern Lebanon", "detail": "Israeli strikes killed 8 including 3 Lebanese Civil Defence rescue workers in double-tap strike. PM slammed as 'war crimes'. Day 13 of ceasefire. Total war deaths: 2,534, wounded: 7,863.", "ceasefire_day": 13 },
-  "first_seen": "2026-04-29",
-  "last_seen": "2026-04-29",
-  "mention_count": 8
-},
-{
-  "id": "ent-228",
-  "type": "Person",
-  "name": "Jerome Powell",
-  "properties": { "role": "Federal Reserve Chair", "affiliation": "Federal Reserve", "action_apr29": "announced staying on Board of Governors indefinitely after FOMC decision; Trump's legal attacks 'left me no choice'" },
-  "first_seen": "2026-04-29",
-  "last_seen": "2026-04-29",
-  "mention_count": 6
-},
-{
-  "id": "ent-229",
-  "type": "Person",
-  "name": "John Garamendi",
-  "properties": { "role": "US Representative (D-CA)", "affiliation": "Democratic Party / House Armed Services Committee", "action_apr29": "confronted Hegseth: 'Secretary Hegseth, you have been lying to the American public about this war from day one, and so has the President'" },
-  "first_seen": "2026-04-29",
-  "last_seen": "2026-04-29",
-  "mention_count": 3
-},
-{
-  "id": "ent-230",
-  "type": "Person",
-  "name": "Tim Kaine",
-  "properties": { "role": "Senator (D-VA)", "affiliation": "US Senate Armed Services Committee", "action_apr30": "challenged Hegseth WPR clock-pause claim: 'I do not believe the statute would support that'" },
-  "first_seen": "2026-04-30",
-  "last_seen": "2026-04-30",
-  "mention_count": 3
-},
-{
-  "id": "ent-231",
-  "type": "Person",
-  "name": "Susan Collins",
-  "properties": { "role": "Senator (R-ME)", "affiliation": "US Senate", "action_apr30": "first Republican to vote with Democrats on WPR since war began; 6th vote 50-47" },
-  "first_seen": "2026-04-30",
-  "last_seen": "2026-04-30",
-  "mention_count": 6
-},
-{
-  "id": "ent-232",
-  "type": "Person",
-  "name": "Mike Johnson",
-  "properties": { "role": "House Speaker (R-LA)", "affiliation": "US House of Representatives", "action_apr30": "'We are not at war' with Iran; 'We're policing the Strait of Hormuz and trying to get a peace'; contradicts Trump's own 'war' language" },
-  "first_seen": "2026-04-30",
-  "last_seen": "2026-04-30",
-  "mention_count": 8
-},
-{
-  "id": "ent-233",
-  "type": "Person",
-  "name": "Brad Cooper",
-  "properties": { "role": "CENTCOM Commander (Admiral)", "affiliation": "US Central Command", "action_apr30": "briefed Trump on military options: short strikes, Hormuz ground op, uranium seizure special forces op" },
-  "first_seen": "2026-04-30",
-  "last_seen": "2026-04-30",
-  "mention_count": 8
-},
-{
-  "id": "ent-234",
-  "type": "Event",
-  "name": "Hegseth Senate Hearing (Apr 30)",
-  "properties": { "date": "2026-04-30", "location": "Senate Armed Services Committee", "key_claim": "ceasefire 'pauses or stops' WPR 60-day clock", "participants": "Hegseth, Caine, Kaine" },
-  "first_seen": "2026-04-30",
-  "last_seen": "2026-04-30",
-  "mention_count": 15
-},
-{
-  "id": "ent-235",
-  "type": "Event",
-  "name": "Senate WPR Vote 6 (50-47)",
-  "properties": { "date": "2026-04-30", "result": "failed 50-47", "significance": "Collins first GOP defection; Fetterman sole Dem opposing; eve of May 1 deadline" },
-  "first_seen": "2026-04-30",
-  "last_seen": "2026-04-30",
-  "mention_count": 10
-},
-{
-  "id": "ent-236",
-  "type": "Event",
-  "name": "CENTCOM Military Briefing (Apr 30)",
-  "properties": { "date": "2026-04-30", "location": "White House", "options": "short powerful strikes on infrastructure; Hormuz ground forces operation; special forces uranium seizure", "participants": "Trump, Cooper, Hegseth, Caine" },
-  "first_seen": "2026-04-30",
-  "last_seen": "2026-04-30",
-  "mention_count": 10
-},
-{
-  "id": "ent-237",
-  "type": "Event",
-  "name": "Black Wednesday Lebanon (Apr 30)",
-  "properties": { "date": "2026-04-30", "casualties": "28 killed (incl 2 Lebanese army soldiers, 3 paramedics)", "injured": "70+", "significance": "deadliest day since ceasefire extension; Day 14" },
-  "first_seen": "2026-04-30",
-  "last_seen": "2026-04-30",
-  "mention_count": 8
-},
-{
-  "id": "ent-238",
-  "type": "Event",
-  "name": "Oil $126 Wartime High (Apr 30)",
-  "properties": { "date": "2026-04-30", "peak": "$126/bbl Brent (4-year high)", "close": "~$111/bbl", "reversal": "pulled back after CENTCOM briefing report", "us_gas": "4-year high" },
-  "first_seen": "2026-04-30",
-  "last_seen": "2026-04-30",
-  "mention_count": 12
-},
-{
-  "id": "ent-239",
-  "type": "Concept",
-  "name": "Shadow Fleet",
-  "properties": { "domain": "maritime/sanctions evasion", "scale": "202 voyages, 185 vessels, 26 confirmed blockade breaches (Mar 1 - Apr 15)", "source": "Al Jazeera/Lloyd's List investigation" },
-  "first_seen": "2026-04-30",
-  "last_seen": "2026-04-30",
-  "mention_count": 3
-},
-{
-  "id": "ent-240",
-  "type": "Event",
-  "name": "Hostilities Terminated Letter (May 1)",
-  "properties": { "date": "2026-05-01", "author": "Donald Trump", "recipients": "Mike Johnson (Speaker), Chuck Grassley (Senate PPT)", "key_quote": "The hostilities that began on February 28, 2026, have terminated", "significance": "Novel legal maneuver to skirt WPR 60-day deadline while blockade continues" },
-  "first_seen": "2026-05-01",
-  "last_seen": "2026-05-01",
-  "mention_count": 15
-},
-{
-  "id": "ent-241",
-  "type": "Event",
-  "name": "Iran Revised Proposal (May 1)",
-  "properties": { "date": "2026-05-01", "mediator": "Pakistan", "content": "Hormuz reopening first, nuclear talks postponed", "us_response": "Trump 'not satisfied', Rubio rejects — must include nuclear", "iran_position": "Khamenei: won't relinquish nuclear/missile capabilities" },
-  "first_seen": "2026-05-01",
-  "last_seen": "2026-05-01",
-  "mention_count": 10
-},
-{
-  "id": "ent-242",
-  "type": "Event",
-  "name": "Tehran Air Defense Activation (May 1)",
-  "properties": { "date": "2026-05-01", "location": "Tehran", "duration": "~20 minutes", "target": "small aircraft and reconnaissance drones", "context": "Coincides with WPR deadline and CENTCOM briefing" },
-  "first_seen": "2026-05-01",
-  "last_seen": "2026-05-01",
-  "mention_count": 3
-},
-{
-  "id": "ent-243",
-  "type": "Event",
-  "name": "US Troop Withdrawal Germany (5,000)",
-  "properties": { "date": "2026-05-01", "scale": "5,000 troops over 6-12 months", "cause": "Trump-Merz feud over Iran war criticism", "expansion": "Threats extended to Italy and Spain" },
-  "first_seen": "2026-05-01",
-  "last_seen": "2026-05-01",
-  "mention_count": 7
-},
-{
-  "id": "ent-244",
-  "type": "Person",
-  "name": "Richard Blumenthal",
-  "properties": { "role": "Senator (D-CT)", "affiliation": "United States Senate", "position": "blockade is 'continuing act of war'" },
-  "first_seen": "2026-05-01",
-  "last_seen": "2026-05-01",
-  "mention_count": 2
-},
-{
-  "id": "ent-245",
-  "type": "Person",
-  "name": "Chuck Grassley",
-  "properties": { "role": "Senate President Pro Tempore", "affiliation": "United States Senate", "context": "Recipient of Trump's 'hostilities terminated' letter" },
-  "first_seen": "2026-05-01",
-  "last_seen": "2026-05-01",
-  "mention_count": 1
-},
-{
-  "id": "ent-246",
-  "type": "Event",
-  "name": "Lebanon Day 15 (May 1)",
-  "properties": { "date": "2026-05-01", "casualties": "12+ killed including child", "idf_strikes": "40 Hezbollah sites in past day", "cumulative": "2,618 killed, 8,094 wounded since Mar 2" },
-  "first_seen": "2026-05-01",
-  "last_seen": "2026-05-01",
-  "mention_count": 4
-},
-{
-  "id": "ent-247",
-  "type": "Concept",
-  "name": "Dark Eagle Hypersonic Missile",
-  "properties": { "domain": "military/weapons", "description": "New US hypersonic missile system Pentagon considering for deployment against Iran" },
-  "first_seen": "2026-05-01",
-  "last_seen": "2026-05-01",
-  "mention_count": 1
-},
-{
-  "id": "ent-248",
-  "type": "Concept",
-  "name": "Hostilities Terminated Doctrine",
-  "properties": { "domain": "legal/constitutional", "description": "Novel legal theory: declaring hostilities terminated to reset WPR clock while blockade continues — no statutory precedent" },
-  "first_seen": "2026-05-01",
-  "last_seen": "2026-05-01",
-  "mention_count": 8
-},
-{
-  "id": "ent-249",
-  "type": "Event",
-  "name": "Iran 14-Point Proposal (May 2)",
-  "properties": { "date": "2026-05-02", "details": "14-point counter to US 9-point proposal via Pakistan; demands: US withdrawal, blockade lifting, frozen assets, reparations, sanctions lifting, end of war on all fronts incl Lebanon, new Hormuz control mechanism; 30-day timeline vs US 2-month; Tasnim/Fars (IRGC-linked) report; Trump 'reviewing' but 'not satisfied'" },
-  "first_seen": "2026-05-02",
-  "last_seen": "2026-05-02",
-  "mention_count": 12
-},
-{
-  "id": "ent-250",
-  "type": "Event",
-  "name": "$8.6B Arms Sales Fast-Track (May 2)",
-  "properties": { "date": "2026-05-02", "details": "Trump bypasses Congress via emergency provision; air defense systems for Kuwait/Qatar; laser-guided rockets for Qatar/UAE/Israel; rewarding Iran war allies; $8.6B total" },
-  "first_seen": "2026-05-02",
-  "last_seen": "2026-05-02",
-  "mention_count": 5
-},
-{
-  "id": "ent-251",
-  "type": "Person",
-  "name": "Mohammad Jafar Asadi",
-  "properties": { "role": "Deputy of Military Headquarters", "affiliation": "Iranian Armed Forces/IRGC", "statement": "War with US 'likely' to resume; evidence shows US not committed to agreements; US actions 'primarily media-driven'; relayed via Fars news agency" },
-  "first_seen": "2026-05-02",
-  "last_seen": "2026-05-02",
-  "mention_count": 3
-},
-{
-  "id": "ent-252",
-  "type": "Event",
-  "name": "Spirit Airlines Shutdown (May 2)",
-  "properties": { "date": "2026-05-02", "details": "First US airline casualty of Iran war; jet fuel $4.51/gal (from $2.24 assumption); sought $500M federal bailout failed; 5% of US flights; no carrier this size liquidated in 20+ years; Sean Duffy tried to find buyers, no takers" },
-  "first_seen": "2026-05-02",
-  "last_seen": "2026-05-02",
-  "mention_count": 8
-},
-{
-  "id": "ent-253",
-  "type": "Event",
-  "name": "Lebanon Day 16 (May 2)",
-  "properties": { "date": "2026-05-02", "casualties": "41 killed in 24h", "idf_strikes": "~50 Hezbollah sites", "cumulative": "2,659 killed, 8,183 injured since Mar 2", "note": "Worst 24h since Black Wednesday (Day 14, 28 killed); China UN envoy: 'lesser fire not ceasefire'" },
-  "first_seen": "2026-05-02",
-  "last_seen": "2026-05-02",
-  "mention_count": 5
-},
-{
-  "id": "ent-254",
-  "type": "Event",
-  "name": "Trump 'Pirates' Statement (May 2)",
-  "properties": { "date": "2026-05-02", "location": "Florida rally", "quote": "We land on top of it and we took over the ship. We took over the cargo, took over the oil. It's a very profitable business", "context": "US gas $4.39/gallon" },
-  "first_seen": "2026-05-02",
-  "last_seen": "2026-05-02",
-  "mention_count": 8
-},
-{
-  "id": "ent-255",
-  "type": "Person",
-  "name": "Roger Wicker",
-  "properties": { "role": "Chair, Senate Armed Services Committee", "affiliation": "US Senate (R-MS)", "statement": "'Very concerned' by Germany withdrawal; 'wrong signal to Putin'; joint statement with Rogers" },
-  "first_seen": "2026-05-02",
-  "last_seen": "2026-05-02",
-  "mention_count": 3
-},
-{
-  "id": "ent-256",
-  "type": "Person",
-  "name": "Mike Rogers (House Armed Services)",
-  "properties": { "role": "Chair, House Armed Services Committee", "affiliation": "US House (R-AL)", "statement": "Joint statement with Wicker opposing Germany withdrawal" },
-  "first_seen": "2026-05-02",
-  "last_seen": "2026-05-02",
-  "mention_count": 3
-},
-{
-  "id": "ent-257",
-  "type": "Person",
-  "name": "Sean Duffy",
-  "properties": { "role": "Transportation Secretary", "affiliation": "US Government", "action": "Tried to find buyers for Spirit Airlines, no takers; bailout talks failed" },
-  "first_seen": "2026-05-02",
-  "last_seen": "2026-05-02",
-  "mention_count": 1
-},
-{
-  "id": "ent-258",
-  "type": "Organization",
-  "name": "Spirit Airlines",
-  "properties": { "type": "airline", "location": "United States", "status": "ceased operations 2026-05-02; first Iran war airline casualty; 5% of US flights" },
-  "first_seen": "2026-05-02",
-  "last_seen": "2026-05-02",
-  "mention_count": 8
-},
-{
-  "id": "ent-259",
-  "type": "Concept",
-  "name": "Strait Chessboard Strategy",
-  "properties": { "domain": "geopolitics", "description": "Fortune analysis: Iran war as part of larger US-China cold war over global chokepoints — Panama Canal to Malacca Strait to Hormuz" },
-  "first_seen": "2026-05-02",
-  "last_seen": "2026-05-02",
-  "mention_count": 1
-}
-]
 }

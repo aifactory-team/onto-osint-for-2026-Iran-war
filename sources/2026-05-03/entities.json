@@ -1,0 +1,127 @@
+{
+  "date": "2026-05-03",
+  "entities": [
+    {
+      "temp_id": "temp-260",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Project Freedom (May 4)",
+      "properties": {
+        "date": "2026-05-04 (announced May 3)",
+        "detail": "Trump announces US military escort for neutral commercial ships out of Hormuz starting Monday morning MET. CENTCOM: guided-missile destroyers, 100+ aircraft, 15,000 service members. 'Not an escort mission' (US official) but 'defensive mission'. Warning: interference 'dealt with forcefully'. ~20,000 seafarers stranded.",
+        "participants": "US Military, CENTCOM, neutral commercial ships"
+      },
+      "source_ids": ["src-754", "src-759", "src-764", "src-766"],
+      "mention_count": 15
+    },
+    {
+      "temp_id": "temp-261",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Ali Nikzad",
+      "properties": {
+        "role": "Iran Deputy Speaker of Parliament",
+        "affiliation": "Iran Parliament",
+        "statement": "Iran will never retreat from its inherent rights in the Strait of Hormuz; advancing legislation for new legal regime"
+      },
+      "source_ids": ["src-756", "src-762"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-262",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Iran Hormuz Navigation Law",
+      "properties": {
+        "date": "2026-05-03 (draft advancing)",
+        "detail": "Iran parliament advancing legislation to impose new legal regime on Hormuz. Israeli ships permanently banned. Hostile countries denied passage. All others need permits. Tolls for safety/guidance/environmental services. Violators: ship seizure + 20% cargo confiscation. Revenue to defense, livelihoods, reconstruction.",
+        "status": "draft advancing in parliament"
+      },
+      "source_ids": ["src-756", "src-762"],
+      "mention_count": 4
+    },
+    {
+      "temp_id": "temp-263",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Rodolphe Haykal",
+      "properties": {
+        "role": "Lebanese Army Chief / Commander",
+        "affiliation": "Lebanese Armed Forces"
+      },
+      "source_ids": ["src-758"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-264",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Joseph Clearfield",
+      "properties": {
+        "role": "US General, head of ceasefire monitoring committee",
+        "affiliation": "US Military"
+      },
+      "source_ids": ["src-758"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-265",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Trump Rejects 14-Point Proposal (May 3)",
+      "properties": {
+        "date": "2026-05-03",
+        "detail": "Trump tells Kan News Iran's 14-point proposal is 'not acceptable'. Says Iran hasn't 'paid a big enough price for what they have done to Humanity, and the World, over the last 47 years.' Warns strikes could resume: 'If they do something bad, there is a possibility it could happen.' Witkoff: 'we're in conversation.'",
+        "participants": "Trump, Kan News, Witkoff"
+      },
+      "source_ids": ["src-755", "src-765", "src-767", "src-768"],
+      "mention_count": 12
+    },
+    {
+      "temp_id": "temp-266",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Iran Reviews US Response (May 3)",
+      "properties": {
+        "date": "2026-05-03",
+        "detail": "Iran Foreign Ministry spokesperson confirms US responded to 14-point proposal via Pakistan. Tehran reviewing Washington's reply. First formal response cycle since counter-proposal submitted.",
+        "mediator": "Pakistan"
+      },
+      "source_ids": ["src-757", "src-780"],
+      "mention_count": 5
+    },
+    {
+      "temp_id": "temp-267",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Haykal-Clearfield Beirut Meeting (May 3)",
+      "properties": {
+        "date": "2026-05-03",
+        "location": "Beirut air base",
+        "detail": "Lebanese army chief Haykal meets US General Clearfield. 'Exceptional meeting' on ceasefire monitoring mechanism. Both stress supporting Lebanese Armed Forces. Israel ordered displacement from 11 villages same day.",
+        "participants": "Rodolphe Haykal, Joseph Clearfield"
+      },
+      "source_ids": ["src-758", "src-786", "src-787"],
+      "mention_count": 4
+    }
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "temp-260", "source_ids": ["src-754"], "confidence": 0.95},
+    {"subject": "ent-003", "predicate": "participatesIn", "object": "temp-260", "source_ids": ["src-754"], "confidence": 0.95},
+    {"subject": "temp-260", "predicate": "locatedIn", "object": "ent-008", "source_ids": ["src-754"], "confidence": 0.95},
+    {"subject": "temp-261", "predicate": "affiliatedWith", "object": "ent-002", "source_ids": ["src-756"], "confidence": 0.9},
+    {"subject": "temp-262", "predicate": "relatedTo", "object": "ent-008", "source_ids": ["src-756"], "confidence": 0.95},
+    {"subject": "ent-001", "predicate": "opposes", "object": "ent-002", "source_ids": ["src-755"], "confidence": 0.9},
+    {"subject": "temp-263", "predicate": "affiliatedWith", "object": "ent-057", "source_ids": ["src-758"], "confidence": 0.95},
+    {"subject": "temp-264", "predicate": "affiliatedWith", "object": "ent-003", "source_ids": ["src-758"], "confidence": 0.95},
+    {"subject": "temp-263", "predicate": "cooperatesWith", "object": "temp-264", "source_ids": ["src-758"], "confidence": 0.9},
+    {"subject": "ent-030", "predicate": "relatedTo", "object": "temp-266", "source_ids": ["src-757"], "confidence": 0.9},
+    {"subject": "temp-260", "predicate": "follows", "object": "ent-249", "source_ids": ["src-754"], "confidence": 0.8}
+  ],
+  "stats": {
+    "total_entities": 8,
+    "new_entities": 8,
+    "matched_entities": 0,
+    "total_relations": 11
+  }
+}

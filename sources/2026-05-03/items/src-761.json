@@ -1,0 +1,19 @@
+{
+  "id": "src-761",
+  "title": "Strait of Hormuz blockade and other major naval sieges in modern times — historical comparison",
+  "url": "https://www.aljazeera.com/news/2026/5/3/strait-of-hormuz-blockade-and-other-major-naval-sieges-in-modern-times",
+  "snippet": "Al Jazeera historical analysis comparing the 2026 Hormuz blockade to prior naval sieges. Shipping traffic through Hormuz has dropped by more than 90% since the conflict began. The dual blockade — US blocking Iran, Iran blocking the Gulf — is unprecedented in modern naval warfare.",
+  "source_name": "Al Jazeera",
+  "language": "en",
+  "discovered_date": "2026-05-03",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "New analytical/historical comparison piece not previously published",
+  "entities": [
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "ent-003", "type": "Organization", "name": "US Military"},
+    {"id": "ent-005", "type": "Organization", "name": "IRGC"}
+  ],
+  "relations": []
+}

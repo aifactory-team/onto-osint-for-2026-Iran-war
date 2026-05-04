@@ -1,0 +1,18 @@
+{
+  "id": "src-763",
+  "title": "이란 종전안에 트럼프 '수용 상상하기 어려워'…쳇바퀴 도는 종전 협상",
+  "url": "https://www.kmib.co.kr/article/view.asp?arcid=0029767462&code=61131111&stg=wm_rank",
+  "snippet": "국민일보 보도. 이란 14개 항 종전 협상안에 대해 트럼프 대통령이 '수용 상상하기 어려워'라고 밝혔다. 이란의 30일 해결 요구와 미국의 2개월 휴전 제안 간 간극이 좁혀지지 않고 있으며, 핵 문제를 후순위로 미루려는 이란의 전략과 핵을 레드라인으로 보는 미국 입장이 대립하고 있다.",
+  "source_name": "국민일보",
+  "language": "ko",
+  "discovered_date": "2026-05-03",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "한국어 독자적 분석 — 협상 교착 구조 분석 포함",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"}
+  ],
+  "relations": []
+}

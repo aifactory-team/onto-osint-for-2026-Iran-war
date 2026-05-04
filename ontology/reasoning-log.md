@@ -1065,3 +1065,46 @@
 ### 스키마 변경 없음
 - 11개 새 엔티티 모두 기존 클래스(Person 4개, Event 6개, Organization 1개, Concept 1개 — 총 12 but Sean Duffy 제외 11개 주요)로 분류 가능
 - 15개 새 관계(명시적) + 2개 업데이트 + 5개 추론 모두 기존 관계 유형으로 표현 가능
+
+---
+
+## 2026-05-03 추론 결과
+
+### 추론 #1: co_participation (Project Freedom ↔ IRGC 군사 대치)
+- **입력:** (ent-260/Project Freedom, locatedIn, ent-008/Hormuz), (ent-005/IRGC, locatedIn, ent-008/Hormuz)
+- **추론:** (ent-260/Project Freedom, opposes, ent-005/IRGC)
+- **신뢰도:** 0.80
+- **상태:** 확정
+- **비고:** 미국이 월요일부터 중립 선박을 호르무즈 밖으로 호위하겠다고 발표. CENTCOM: 구축함, 항공기 100+대, 15,000명 배치. IRGC가 호르무즈를 사실상 통제하고 있는 상황에서 군사 호위 작전은 직접 충돌 가능성을 내포. 트럼프: "interference will be dealt with forcefully."
+
+### 추론 #2: co_participation (이란 항행법 vs Project Freedom — 경쟁적 법적 프레임워크)
+- **입력:** (ent-262/Iran Navigation Law, relatedTo, ent-008/Hormuz), (ent-260/Project Freedom, locatedIn, ent-008/Hormuz)
+- **추론:** (ent-262/Iran Navigation Law, opposes, ent-260/Project Freedom)
+- **신뢰도:** 0.85
+- **상태:** 확정
+- **비고:** 동일한 수역에 대해 양측이 경쟁적 법적/군사적 프레임워크를 동시 구축. 이란: 의회 입법(허가제, 통행료, 몰수). 미국: 군사 호위 작전('Project Freedom'). 호르무즈가 군사 대치에서 **법적 주권 분쟁**으로 전환.
+
+### 추론 #3: event_chain (14개항 제안 → 거부 → 검토 — 협상 사이클)
+- **입력:** (ent-249/14-Point Proposal, date=May 2), (ent-265/Trump Rejects, date=May 3)
+- **추론:** (ent-265/Trump Rejects, follows, ent-249/14-Point Proposal)
+- **신뢰도:** 0.90
+- **상태:** 확정
+- **비고:** 이란 14개항 제출(5/2) → 트럼프 '수용 불가' 공식 거부(5/3) → 미국 파키스탄 경유 답변 → 이란 검토 중(5/3). 공개 거부와 비공식 대화가 동시 진행되는 'negotiation by rejection' 패턴.
+
+### 추론 #4: event_chain (이란 검토 → 트럼프 거부 후속 — 채널 유지)
+- **입력:** (ent-266/Iran Reviews, follows, ent-265/Trump Rejects)
+- **추론:** (ent-266/Iran Reviews, relatedTo, ent-030/Pakistan)
+- **신뢰도:** 0.85
+- **상태:** 확정
+- **비고:** 트럼프가 공개적으로 '불가'라 했음에도 파키스탄 채널로 공식 답변을 전달. Witkoff "we're in conversation" — 비공식 채널 활성. 공개 거부 ≠ 협상 중단.
+
+### 추론 #5: event_chain (하이칼-클리어필드 → 이스라엘-레바논 휴전 모니터링 연속)
+- **입력:** (ent-267/Haykal-Clearfield Meeting, date=May 3), (ent-109/Israel-Lebanon Ceasefire, date=Apr 16)
+- **추론:** (ent-267/Haykal-Clearfield Meeting, relatedTo, ent-109/Israel-Lebanon Ceasefire)
+- **신뢰도:** 0.80
+- **상태:** 확정
+- **비고:** 4/16 휴전 이후 Day 17. 하이칼-클리어필드 '예외적 회담'은 모니터링 메커니즘 강화 시도이나, 같은 날 이스라엘이 11개 마을 퇴거 명령. 휴전 형식 유지와 사실상 붕괴가 동시 진행.
+
+### 스키마 변경 없음
+- 8개 새 엔티티 모두 기존 클래스(Person 3개, Event 5개)로 분류 가능
+- 13개 새 관계(명시적) + 2개 업데이트 + 5개 추론 모두 기존 관계 유형으로 표현 가능

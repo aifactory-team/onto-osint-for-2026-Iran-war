@@ -1,0 +1,19 @@
+{
+  "id": "src-762",
+  "title": "Iran prepares law to manage Strait of Hormuz — tolls, permits, 20% cargo confiscation for violators",
+  "url": "https://www.dawn.com/news/1996982/iran-prepares-law-to-manage-strait-of-hormuz",
+  "snippet": "Dawn reporting on Iran's draft Hormuz navigation law. Tolls for safety, maritime guidance, environmental protection. Revenues to defense, livelihoods, reconstruction. Ships disobeying rules face seizure and 20% cargo confiscation. Law claims to respect international law and neighboring countries' rights.",
+  "source_name": "Dawn",
+  "language": "en",
+  "discovered_date": "2026-05-03",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Additional source on Hormuz navigation law with revenue/enforcement details not in Press TV report",
+  "entities": [
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "temp-261", "type": "Person", "name": "Ali Nikzad"}
+  ],
+  "relations": []
+}

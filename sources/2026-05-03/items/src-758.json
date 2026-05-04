@@ -1,0 +1,25 @@
+{
+  "id": "src-758",
+  "title": "Lebanese and US top generals discuss Israel-Hezbollah ceasefire in 'exceptional' Beirut meeting",
+  "url": "https://www.thenationalnews.com/news/mena/2026/05/03/lebanese-and-us-top-generals-discuss-israel-hezbollah-ceasefire-in-beirut/",
+  "snippet": "Lebanon's army chief General Rodolphe Haykal met US General Joseph Clearfield at Beirut air base on Saturday. Clearfield leads the committee overseeing the US-backed ceasefire between Israel and Hezbollah. The 'exceptional meeting' focused on security, regional developments, and strengthening the ceasefire monitoring mechanism. Both stressed supporting the Lebanese Armed Forces at a critical moment. Meeting came as Israel ordered displacement from 11 southern villages and strikes killed 3 civilians despite ceasefire.",
+  "source_name": "The National",
+  "language": "en",
+  "discovered_date": "2026-05-03",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "New May 3 meeting — first reported Haykal-Clearfield bilateral on ceasefire monitoring",
+  "entities": [
+    {"id": "temp-263", "type": "Person", "name": "Rodolphe Haykal", "role": "Lebanese Army Chief"},
+    {"id": "temp-264", "type": "Person", "name": "Joseph Clearfield", "role": "US General, ceasefire monitoring committee head"},
+    {"id": "ent-057", "type": "Organization", "name": "Lebanon"},
+    {"id": "ent-004", "type": "Organization", "name": "Israel"},
+    {"id": "ent-048", "type": "Organization", "name": "Hezbollah"}
+  ],
+  "relations": [
+    {"subject": "temp-263", "predicate": "affiliatedWith", "object": "ent-057"},
+    {"subject": "temp-264", "predicate": "affiliatedWith", "object": "ent-003"},
+    {"subject": "temp-263", "predicate": "cooperatesWith", "object": "temp-264"}
+  ]
+}

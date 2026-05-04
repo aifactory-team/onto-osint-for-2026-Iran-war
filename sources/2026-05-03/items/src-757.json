@@ -1,0 +1,22 @@
+{
+  "id": "src-757",
+  "title": "Iran says it received US response to 14-point proposal via Pakistan — reviewing reply",
+  "url": "https://www.cnbc.com/2026/05/03/trump-iran-war-peace-proposal.html",
+  "snippet": "Iran's Foreign Ministry spokesperson confirmed that the US has responded to Iran's 14-point proposal via Pakistan, and Tehran is now reviewing Washington's reply. The exchange represents the first formal response cycle since Iran submitted its counter-proposal. The 14-point plan demands war resolution within 30 days (vs US 2-month proposal), including nonaggression guarantees, sanctions relief, withdrawal, frozen assets, reparations, Lebanon end-of-hostilities, and new Hormuz mechanism.",
+  "source_name": "CNBC",
+  "language": "en",
+  "discovered_date": "2026-05-03",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Iran confirming receipt of US formal response via Pakistan is a new development — shifts from 'reviewing' to active response exchange",
+  "entities": [
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"},
+    {"id": "ent-030", "type": "Organization", "name": "Pakistan"}
+  ],
+  "relations": [
+    {"subject": "ent-030", "predicate": "relatedTo", "object": "ent-002"},
+    {"subject": "ent-030", "predicate": "relatedTo", "object": "ent-001"}
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "src-754",
+  "title": "Trump announces 'Project Freedom' to escort neutral ships out of Strait of Hormuz starting Monday",
+  "url": "https://www.axios.com/2026/05/03/trump-us-navy-iran-ships-strait-hormuz",
+  "snippet": "President Trump announced via Truth Social that the US military will begin escorting foreign commercial ships out of the Strait of Hormuz on Monday morning Middle East time, dubbing it 'Project Freedom'. CENTCOM said military support includes guided-missile destroyers, 100+ aircraft, and 15,000 service members. Trump warned interference would be 'dealt with forcefully'. A US official told CNN it is 'not an escort mission' but a 'defensive mission'. Approximately 20,000 seafarers are stranded waiting to pass through.",
+  "source_name": "Axios",
+  "language": "en",
+  "discovered_date": "2026-05-03",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "No previous reporting on 'Project Freedom' escort operation — entirely new initiative announced May 3",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "ent-003", "type": "Organization", "name": "US Military"},
+    {"id": "temp-260", "type": "Event", "name": "Project Freedom (May 4)"},
+    {"id": "ent-070", "type": "Organization", "name": "CENTCOM"}
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "temp-260"},
+    {"subject": "ent-003", "predicate": "participatesIn", "object": "temp-260"},
+    {"subject": "temp-260", "predicate": "locatedIn", "object": "ent-008"}
+  ]
+}

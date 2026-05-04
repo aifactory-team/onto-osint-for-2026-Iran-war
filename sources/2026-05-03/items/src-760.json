@@ -1,0 +1,22 @@
+{
+  "id": "src-760",
+  "title": "Iran demands peace deal in 30 days in 14-point proposal — full breakdown",
+  "url": "https://www.thenationalnews.com/news/mena/2026/05/03/irans-14-point-plan-demands-war-end-sanctions-relief-and-us-withdrawal/",
+  "snippet": "Full breakdown of Iran's 14-point proposal: (1) nonaggression guarantee, (2) US force withdrawal from Iran periphery, (3) end of naval blockade, (4) frozen assets release, (5) war reparations, (6) sanctions relief, (7) end all Lebanon hostilities, (8) new Hormuz mechanism, (9-14) other demands including reconstruction aid and diplomatic normalization. 30-day deadline vs US 2-month proposal. Nuclear talks deferred to later stage — Iran's key strategic demand.",
+  "source_name": "The National",
+  "language": "en",
+  "discovered_date": "2026-05-03",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Most detailed breakdown of 14-point proposal specifics — new analytical content not in previous reports",
+  "entities": [
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "ent-057", "type": "Organization", "name": "Lebanon"}
+  ],
+  "relations": [
+    {"subject": "ent-002", "predicate": "opposes", "object": "ent-001"}
+  ]
+}

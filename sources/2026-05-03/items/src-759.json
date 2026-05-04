@@ -1,0 +1,21 @@
+{
+  "id": "src-759",
+  "title": "Al Jazeera Day 65 overview: What's happening as Trump reviews new plan to end war?",
+  "url": "https://www.aljazeera.com/news/2026/5/3/iran-war-whats-happening-on-day-65-as-trump-reviews-new-plan-to-end-war",
+  "snippet": "Day 65 comprehensive overview: Trump announces Project Freedom to escort neutral ships Monday; rejects Iran 14-point proposal as 'not acceptable'; Witkoff says 'we're in conversation'; Iran Foreign Ministry confirms received US response via Pakistan; 20,000 seafarers stranded in Hormuz; 2,600+ killed in Lebanon since March 2; US gas $4.45/gallon (+49.3% since war start); Iran parliament advancing Hormuz navigation law.",
+  "source_name": "Al Jazeera",
+  "language": "en",
+  "discovered_date": "2026-05-03",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Comprehensive Day 65 overview consolidating all May 3 developments",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "ent-044", "type": "Person", "name": "Steve Witkoff"},
+    {"id": "ent-057", "type": "Organization", "name": "Lebanon"}
+  ],
+  "relations": []
+}

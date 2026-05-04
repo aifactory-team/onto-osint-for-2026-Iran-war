@@ -1,0 +1,21 @@
+{
+  "id": "src-755",
+  "title": "Trump declares Iran's 14-point peace proposal 'not acceptable' — warns strikes could resume",
+  "url": "https://www.aljazeera.com/news/2026/5/3/trump-reviews-iranian-peace-proposal-warns-strikes-could-resume",
+  "snippet": "Trump told Kan News that Iran's 14-point proposal is 'not acceptable', saying Iran has 'not yet paid a big enough price for what they have done to Humanity, and the World, over the last 47 years.' He did not rule out resumed hostilities: 'If they do something bad, there is a possibility it could happen.' Meanwhile Witkoff told CNN 'we're in conversation' and Trump said representatives are having 'very positive discussions.'",
+  "source_name": "Al Jazeera",
+  "language": "en",
+  "discovered_date": "2026-05-03",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Trump's formal rejection of 14-point proposal is new May 3 development; previous reports only noted he was 'reviewing'",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-044", "type": "Person", "name": "Steve Witkoff", "role": "US Special Envoy"}
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "opposes", "object": "ent-002"}
+  ]
+}

@@ -1,0 +1,216 @@
+{
+  "date": "2026-05-03",
+  "collected_at": "2026-05-03T23:00:00Z",
+  "config_topic": "2026 Iran War",
+  "search_count": 16,
+  "total_results": 156,
+  "expanded_keywords": ["Iran war", "Hormuz blockade", "Project Freedom", "Iran 14-point proposal", "Trump Iran", "Lebanon ceasefire", "IRGC", "oil prices Brent", "Hezbollah", "이란 전쟁", "호르무즈 봉쇄", "트럼프 이란 제안", "Witkoff", "Araghchi", "CENTCOM escort", "Iran parliament Hormuz law"],
+  "searches": [
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Iran war May 3 2026 latest news",
+      "language": "en",
+      "timestamp": "2026-05-03T23:00:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "Day 64 of Middle East conflict — Israel and Hezbollah continue to trade blows despite declared ceasefire", "url": "https://www.cnn.com/2026/05/02/world/live-news/iran-war-news", "snippet": "CNN live updates on Day 64", "source_name": "CNN"},
+        {"title": "What's Iran's 14-point proposal to end the war? And will Trump accept it?", "url": "https://www.aljazeera.com/news/2026/5/3/whats-irans-14-point-proposal-to-end-the-war-and-will-trump-accept-it", "snippet": "Analysis of Iran's 14-point proposal", "source_name": "Al Jazeera"},
+        {"title": "Live updates: Trump says US will start guiding ships through Strait of Hormuz", "url": "https://www.cnn.com/2026/05/03/world/live-news/iran-war-news", "snippet": "Trump announces Project Freedom escort mission", "source_name": "CNN"},
+        {"title": "Iran war live: Trump announces plan to escort ships stuck in Hormuz Strait", "url": "https://www.aljazeera.com/news/liveblog/2026/5/3/iran-war-live-trump-says-reviewing-14-point-plan-israel-pounds-lebanon", "snippet": "Live blog Day 65", "source_name": "Al Jazeera"},
+        {"title": "Iran war: What's happening on day 65 as Trump reviews new plan to end war?", "url": "https://www.aljazeera.com/news/2026/5/3/iran-war-whats-happening-on-day-65-as-trump-reviews-new-plan-to-end-war", "snippet": "Day 65 summary", "source_name": "Al Jazeera"},
+        {"title": "Iran News in Brief – May 3, 2026", "url": "https://www.ncr-iran.org/en/news/iran-news-in-brief-news/iran-news-in-brief-may-3-2026/", "snippet": "NCRI daily brief", "source_name": "NCRI"},
+        {"title": "LIVE UPDATES: Conflict in the Middle East (May 3, 2026)", "url": "https://www.gmanetwork.com/news/topstories/nation/986203/live-updates-conflict-in-the-middle-east-may-3-2026/story/", "snippet": "GMA live updates", "source_name": "GMA News"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Iran US blockade Hormuz May 2026",
+      "language": "en",
+      "timestamp": "2026-05-03T23:01:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "Live Updates: Trump announces new effort to escort ships out of Strait of Hormuz", "url": "https://www.cbsnews.com/live-updates/iran-war-trump-strait-of-hormuz-israel-lebanon-ceasefire/", "snippet": "CBS live updates on Hormuz escort", "source_name": "CBS News"},
+        {"title": "Strait of Hormuz blockade and other major naval sieges in modern times", "url": "https://www.aljazeera.com/news/2026/5/3/strait-of-hormuz-blockade-and-other-major-naval-sieges-in-modern-times", "snippet": "Historical comparison of Hormuz blockade", "source_name": "Al Jazeera"},
+        {"title": "US warns shippers against paying Strait of Hormuz tolls, 'donations'", "url": "https://www.aljazeera.com/news/2026/5/1/us-warns-shippers-against-paying-strait-of-hormuz-tolls-donations", "snippet": "US warning on Iran tolls", "source_name": "Al Jazeera"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "이란 전쟁 2026년 5월 최신",
+      "language": "ko",
+      "timestamp": "2026-05-03T23:02:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "이란 종전안 제안에 트럼프 '수용 상상하기 어려워'…쳇바퀴 도는 종전 협상", "url": "https://www.kmib.co.kr/article/view.asp?arcid=0029767462&code=61131111&stg=wm_rank", "snippet": "트럼프 이란 14개항 수용 불가 발언", "source_name": "국민일보"},
+        {"title": "이란 14개항 제안에 美 답변…트럼프 '받아들일 수 없다'", "url": "https://www.fnnews.com/news/202605040655237961", "snippet": "미국 공식 답변 보도", "source_name": "파이낸셜뉴스"},
+        {"title": "트럼프 '이란 새 제안 거부'…이란 '美 답변 검토 중'", "url": "https://www.mt.co.kr/world/2026/05/04/2026050405320155942", "snippet": "양측 제안 교환 현황", "source_name": "머니투데이"},
+        {"title": "[속보]트럼프 '4일부터 호르무즈 갇힌 선박 통과시키려 노력'", "url": "https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=01177526645445640", "snippet": "호르무즈 선박 호위 계획", "source_name": "이데일리"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Iran 14 point proposal Trump response May 2026",
+      "language": "en",
+      "timestamp": "2026-05-03T23:03:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "Donald Trump rejects Iran's peace proposal calling for end to war in 30 days", "url": "https://www.jpost.com/middle-east/iran-news/article-894984", "snippet": "Trump rejects 14-point plan", "source_name": "Jerusalem Post"},
+        {"title": "Iran demands peace deal in 30 days in 14-point proposal to Trump", "url": "https://www.thenationalnews.com/news/mena/2026/05/03/irans-14-point-plan-demands-war-end-sanctions-relief-and-us-withdrawal/", "snippet": "Full details of Iran's 14-point plan", "source_name": "The National"},
+        {"title": "Trump expresses doubt that Iran's peace proposal is 'acceptable'", "url": "https://www.aljazeera.com/news/2026/5/3/trump-reviews-iranian-peace-proposal-warns-strikes-could-resume", "snippet": "Trump warns strikes could resume", "source_name": "Al Jazeera"},
+        {"title": "Iran says it has received U.S. response to its latest offer for peace talks", "url": "https://www.cnbc.com/2026/05/03/trump-iran-war-peace-proposal.html", "snippet": "Iran reviewing US response via Pakistan", "source_name": "CNBC"},
+        {"title": "Iran submits 14-point response to U.S. proposal to end war", "url": "https://www.npr.org/2026/05/02/nx-s1-5808924/iran-response-trump-proposal", "snippet": "NPR analysis of 14-point response", "source_name": "NPR"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Lebanon ceasefire Israel strikes May 2026",
+      "language": "en",
+      "timestamp": "2026-05-03T23:04:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "Lebanese and US top generals discuss Israel-Hezbollah ceasefire in Beirut", "url": "https://www.thenationalnews.com/news/mena/2026/05/03/lebanese-and-us-top-generals-discuss-israel-hezbollah-ceasefire-in-beirut/", "snippet": "Haykal-Clearfield meeting on ceasefire monitoring", "source_name": "The National"},
+        {"title": "Israeli air strikes on Lebanon kill 41 people in 24-hours", "url": "https://www.aljazeera.com/news/2026/5/2/israeli-air-strikes-kill-10-people-in-southern-lebanon", "snippet": "Day 16 record deaths", "source_name": "Al Jazeera"},
+        {"title": "Israeli airstrikes kill 7 in southern Lebanon as a Catholic convent is bulldozed", "url": "https://www.washingtonpost.com/world/2026/05/02/lebanon-israel-hezbollah-airstrikes-ceasefire/ef879a30-4611-11f1-b19d-32431046b5b4_story.html", "snippet": "Convent destroyed, continued strikes", "source_name": "Washington Post"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Iran war oil prices Brent crude May 2026",
+      "language": "en",
+      "timestamp": "2026-05-03T23:05:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "Oil prices fall after Iran sends updated peace proposal", "url": "https://www.cnbc.com/2026/05/01/oil-prices-today-brent-wti-us-iran-war-trump-war-powers-deadline.html", "snippet": "Brent $108, WTI $101", "source_name": "CNBC"},
+        {"title": "Exxon Mobil CEO expects higher oil prices due to Iran war", "url": "https://www.cnbc.com/2026/05/01/exxon-ceo-iran-war-oil-strait-hormuz.html", "snippet": "Market hasn't seen the full impact", "source_name": "CNBC"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "IRGC Hormuz strait ships seized May 2026",
+      "language": "en",
+      "timestamp": "2026-05-03T23:06:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "May 3: Trump says US launching effort to 'guide' stranded ships out of Strait of Hormuz", "url": "https://www.timesofisrael.com/liveblog-may-3-2026/", "snippet": "Times of Israel live blog", "source_name": "Times of Israel"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Iran nuclear negotiations ceasefire 2026",
+      "language": "en",
+      "timestamp": "2026-05-03T23:07:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "Deadlock over Iran's nuclear program and the Strait of Hormuz cripples peace efforts", "url": "https://www.npr.org/2026/04/28/nx-s1-5802283/iran-middle-east-updates", "snippet": "Nuclear and Hormuz deadlock", "source_name": "NPR"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Trump Iran war powers Congress WPR May 2026",
+      "language": "en",
+      "timestamp": "2026-05-03T23:08:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "War Powers Act: Lawmakers can't agree when Trump is supposed to get Congress' approval on Iran war", "url": "https://www.cnn.com/2026/05/01/politics/iran-war-60-day-deadline-congress", "snippet": "Congressional debate on 60-day clock", "source_name": "CNN"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Hezbollah Lebanon rocket attack Israel May 2026",
+      "language": "en",
+      "timestamp": "2026-05-03T23:09:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "Military action still needed to counter Hezbollah rockets and drones, Israel's PM says", "url": "https://www.euronews.com/2026/04/27/military-action-still-needed-to-counter-hezbollah-rockets-and-drones-israels-pm-says", "snippet": "Netanyahu on Hezbollah threat", "source_name": "Euronews"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Trump Project Freedom escort ships Hormuz May 3 2026",
+      "language": "en",
+      "timestamp": "2026-05-03T23:10:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "Trump Vows US Escort for Trapped Ships in Strait of Hormuz", "url": "https://www.newsweek.com/trump-vows-us-escort-for-trapped-ships-in-strait-of-hormuz-11908634", "snippet": "Newsweek on Project Freedom", "source_name": "Newsweek"},
+        {"title": "Trump says U.S. Navy will escort ships out of the Strait of Hormuz from Monday", "url": "https://www.axios.com/2026/05/03/trump-us-navy-iran-ships-strait-hormuz", "snippet": "Axios report on Navy escort", "source_name": "Axios"},
+        {"title": "Trump says US will escort stranded ships out of Hormuz", "url": "https://www.thenationalnews.com/news/us/2026/05/03/trump-says-us-will-escort-stranded-ships-out-of-hormuz/", "snippet": "National report on escort plan", "source_name": "The National"},
+        {"title": "Trump says U.S. will begin guiding ships through Strait of Hormuz", "url": "https://www.nbcnews.com/politics/donald-trump/trump-says-us-will-begin-escorting-ships-strait-hormuz-rcna343364", "snippet": "NBC report on Hormuz escort", "source_name": "NBC News"},
+        {"title": "BREAKING: Trump Announces 'Project Freedom' to Escort Neutral Ships Out of the Gulf", "url": "https://hotair.com/david-strom/2026/05/03/breaking-trump-announces-project-freedom-to-escort-neutral-ships-out-of-the-gulf-n3814558", "snippet": "HotAir analysis", "source_name": "HotAir"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Iran parliament Hormuz navigation law May 2026",
+      "language": "en",
+      "timestamp": "2026-05-03T23:11:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "New law will set conditions for transit through Strait of Hormuz: Deputy speaker", "url": "https://www.presstv.ir/Detail/2026/05/03/767976/New-law-will-set-conditions-for-transit-through-Strait-of-Hormuz-Deputy-speaker", "snippet": "Iran parliament Hormuz law details", "source_name": "Press TV"},
+        {"title": "Iran prepares law to manage Strait of Hormuz", "url": "https://www.dawn.com/news/1996982/iran-prepares-law-to-manage-strait-of-hormuz", "snippet": "Draft law on Hormuz navigation", "source_name": "Dawn"},
+        {"title": "Iran to introduce new navigation law for Strait of Hormuz", "url": "https://caliber.az/en/post/iran-to-introduce-new-navigation-law-for-strait-of-hormuz", "snippet": "Navigation law details", "source_name": "Caliber.Az"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Iran war day 65 May 3 2026 latest developments",
+      "language": "en",
+      "timestamp": "2026-05-03T23:12:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "Iran war: What's happening on day 65 as Trump reviews new plan to end war?", "url": "https://www.aljazeera.com/news/2026/5/3/iran-war-whats-happening-on-day-65-as-trump-reviews-new-plan-to-end-war", "snippet": "Day 65 overview: Trump reviews plan, Project Freedom", "source_name": "Al Jazeera"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "트럼프 이란 14개항 제안 거부 호르무즈 호위 2026년 5월",
+      "language": "ko",
+      "timestamp": "2026-05-03T23:13:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "이란 종전안 제안에 트럼프 '수용 상상하기 어려워'…쳇바퀴 도는 종전 협상", "url": "https://www.kmib.co.kr/article/view.asp?arcid=0029767462&code=61131111&stg=wm_rank", "snippet": "트럼프 14개항 거부", "source_name": "국민일보"},
+        {"title": "이란 14개항 제안에 美 답변…트럼프 '받아들일 수 없다'", "url": "https://www.fnnews.com/news/202605040655237961", "snippet": "미국 답변 및 거부", "source_name": "파이낸셜뉴스"},
+        {"title": "이란, 14개 협의안 제시‥트럼프 '수용 불가' 압박 지속", "url": "https://imnews.imbc.com/replay/2026/nwdesk/article/6819713_37004.html", "snippet": "MBC 뉴스데스크 종합", "source_name": "MBC"},
+        {"title": "트럼프, 이란 제안 수용 거부... 호르무즈 해협 지나던 화물선 공격 받아", "url": "https://www.fnnews.com/news/202605040509595533", "snippet": "화물선 공격 보도", "source_name": "파이낸셜뉴스"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Lebanon US generals ceasefire Beirut May 3 2026",
+      "language": "en",
+      "timestamp": "2026-05-03T23:14:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "Lebanese and US top generals discuss Israel-Hezbollah ceasefire in Beirut", "url": "https://www.thenationalnews.com/news/mena/2026/05/03/lebanese-and-us-top-generals-discuss-israel-hezbollah-ceasefire-in-beirut/", "snippet": "Haykal-Clearfield exceptional meeting at Beirut air base", "source_name": "The National"},
+        {"title": "'Exceptional meeting' between Generals Haykal and Clearfield at Beirut air base", "url": "https://today.lorientlejour.com/article/1505582/exceptional-meeting-between-generals-haykal-and-clearfield-at-beirut-air-base.html", "snippet": "Ceasefire monitoring mechanism discussion", "source_name": "L'Orient Today"},
+        {"title": "Lebanese, US generals meet in Beirut to discuss security and ceasefire", "url": "https://www.middleeasteye.net/live-blog/live-blog-update/lebanese-us-generals-meet-beirut-discuss-security-and-ceasefire", "snippet": "Security and ceasefire discussion", "source_name": "Middle East Eye"}
+      ]
+    },
+    {
+      "method": "websearch",
+      "engine": "built-in",
+      "keyword": "Iran US response counterproposal Pakistan May 3 2026",
+      "language": "en",
+      "timestamp": "2026-05-03T23:15:00Z",
+      "result_count": 10,
+      "results": [
+        {"title": "Iranian media reveal some details on proposal sent to US via Pakistan", "url": "http://www.china.org.cn/2026-05/03/content_118475046.html", "snippet": "Xinhua/China.org.cn on Iran proposal details", "source_name": "China.org.cn"},
+        {"title": "Iran Says US Responded to 14-Point Proposal via Pakistan", "url": "https://www.pakistantoday.com.pk/2026/05/04/iran-says-us-response-to-14-point-proposal-received-through-pakistan-under-review", "snippet": "Pakistan channel confirmation", "source_name": "Pakistan Today"}
+      ]
+    }
+  ]
+}
