@@ -1,0 +1,28 @@
+{
+  "id": "src-828",
+  "title": "Hegseth says 'the ceasefire is not over' — Caine: Iran attacked US 10+ times since April 8, all 'below threshold'",
+  "url": "https://www.cnbc.com/2026/05/05/iran-war-hegseth-trump-ceasefire-hormuz-strait.html",
+  "snippet": "Pentagon chief Pete Hegseth: 'The ceasefire is not over.' Joint Chiefs Chairman Dan Caine: since April 8 ceasefire, Iran has fired at commercial vessels 9 times, seized 2 container ships, and attacked US forces more than 10 times — 'all below the threshold of restarting major combat operations.' US Navy has destroyed 7 Iranian fast boats in total. Project Freedom involves 15,000 US service members. Hegseth: operation is 'defensive in nature, focused in scope, and temporary in duration.' Rubio: Iran should 'pay a price.' 13 American personnel killed and 402 wounded since war began.",
+  "source_name": "CNBC",
+  "language": "en",
+  "discovered_date": "2026-05-05",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "5/5 펜타곤 브리핑은 휴전 이후 최초의 공식 정량적 위반 통계와 임계값 개념을 공개한 신규 정보",
+  "entities": [
+    {"id": "ent-104", "type": "Person", "name": "Pete Hegseth", "role": "US Secretary of Defense"},
+    {"id": "ent-108", "type": "Person", "name": "Dan Caine", "role": "Chairman of Joint Chiefs of Staff"},
+    {"id": "ent-005", "type": "Organization", "name": "IRGC"},
+    {"id": "ent-003", "type": "Organization", "name": "US Military"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "ent-260", "type": "Event", "name": "Project Freedom"},
+    {"id": "ent-131", "type": "Person", "name": "Marco Rubio", "role": "US Secretary of State"},
+    {"id": "ent-070", "type": "Organization", "name": "CENTCOM"}
+  ],
+  "relations": [
+    {"subject": "ent-104", "predicate": "participatesIn", "object": "ent-260"},
+    {"subject": "ent-108", "predicate": "participatesIn", "object": "ent-260"},
+    {"subject": "ent-005", "predicate": "opposes", "object": "ent-003"}
+  ]
+}

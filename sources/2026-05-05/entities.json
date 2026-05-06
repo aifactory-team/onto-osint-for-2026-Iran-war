@@ -1,0 +1,115 @@
+{
+  "date": "2026-05-05",
+  "entities": [
+    {
+      "temp_id": "temp-277",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Project Freedom Pause",
+      "properties": {"date": "2026-05-05", "participants": ["Donald Trump"], "reason": "Great Progress toward Complete and Final Agreement"},
+      "source_ids": ["src-827", "src-836"],
+      "mention_count": 12
+    },
+    {
+      "temp_id": "temp-278",
+      "matched_id": null,
+      "type": "Event",
+      "name": "Jebel Ali Attack May 5",
+      "properties": {"date": "2026-05-05", "location": "Jebel Ali Port, Dubai", "attacker": "Iran (IRGC denies)", "target": "UAE"},
+      "source_ids": ["src-829", "src-853", "src-854"],
+      "mention_count": 8
+    },
+    {
+      "temp_id": "temp-279",
+      "matched_id": null,
+      "type": "Concept",
+      "name": "Iran Strait Authority",
+      "properties": {"domain": "maritime governance", "mechanism": "transit permit system for Hormuz passage"},
+      "source_ids": ["src-831"],
+      "mention_count": 3
+    },
+    {
+      "temp_id": "temp-280",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Wang Yi",
+      "properties": {"role": "Chinese Foreign Minister", "affiliation": "China"},
+      "source_ids": ["src-832"],
+      "mention_count": 2
+    },
+    {
+      "temp_id": "temp-281",
+      "matched_id": null,
+      "type": "Location",
+      "name": "Jebel Ali Port",
+      "properties": {"type": "port", "description": "Largest and busiest harbour in the Middle East, Dubai"},
+      "source_ids": ["src-829"],
+      "mention_count": 4
+    },
+    {
+      "temp_id": "temp-282",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Emmanuel Macron",
+      "properties": {"role": "French President", "affiliation": "France"},
+      "source_ids": ["src-830"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-283",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Keir Starmer",
+      "properties": {"role": "UK Prime Minister", "affiliation": "United Kingdom"},
+      "source_ids": ["src-830"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-284",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Ursula von der Leyen",
+      "properties": {"role": "European Commission President", "affiliation": "EU"},
+      "source_ids": ["src-830"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-285",
+      "matched_id": null,
+      "type": "Person",
+      "name": "Narendra Modi",
+      "properties": {"role": "Indian Prime Minister", "affiliation": "India"},
+      "source_ids": ["src-830"],
+      "mention_count": 1
+    },
+    {
+      "temp_id": "temp-287",
+      "matched_id": null,
+      "type": "Organization",
+      "name": "China",
+      "properties": {"type": "state", "location": "East Asia", "role": "Iran diplomatic partner, 25-year cooperation agreement"},
+      "source_ids": ["src-832"],
+      "mention_count": 3
+    }
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "temp-277", "source_ids": ["src-827"], "confidence": 0.95},
+    {"subject": "temp-277", "predicate": "follows", "object": "ent-260", "source_ids": ["src-827"], "confidence": 0.95},
+    {"subject": "ent-002", "predicate": "participatesIn", "object": "temp-278", "source_ids": ["src-829"], "confidence": 0.90},
+    {"subject": "temp-278", "predicate": "follows", "object": "ent-269", "source_ids": ["src-829"], "confidence": 0.90},
+    {"subject": "ent-042", "predicate": "cooperatesWith", "object": "temp-280", "source_ids": ["src-832"], "confidence": 0.90},
+    {"subject": "ent-002", "predicate": "cooperatesWith", "object": "temp-287", "source_ids": ["src-832"], "confidence": 0.85},
+    {"subject": "ent-002", "predicate": "mentions", "object": "temp-279", "source_ids": ["src-831"], "confidence": 0.90},
+    {"subject": "temp-279", "predicate": "relatedTo", "object": "ent-270", "source_ids": ["src-831"], "confidence": 0.85},
+    {"subject": "ent-210", "predicate": "opposes", "object": "ent-002", "source_ids": ["src-830"], "confidence": 0.85},
+    {"subject": "ent-131", "predicate": "opposes", "object": "ent-002", "source_ids": ["src-835"], "confidence": 0.90},
+    {"subject": "ent-005", "predicate": "opposes", "object": "ent-275", "source_ids": ["src-829"], "confidence": 0.90},
+    {"subject": "ent-217", "predicate": "cooperatesWith", "object": "ent-275", "source_ids": ["src-830"], "confidence": 0.85}
+  ],
+  "stats": {
+    "total_entities": 10,
+    "new_entities": 10,
+    "matched_entities": 0,
+    "total_relations": 12
+  }
+}

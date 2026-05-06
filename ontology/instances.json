@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "알려진 엔티티 인스턴스 — 파이프라인 실행 시 자동으로 추가/업데이트된다.",
-  "last_updated": "2026-05-03",
+  "last_updated": "2026-05-05",
   "entities": [
     {
       "id": "ent-001",
@@ -3018,6 +3018,136 @@
       "first_seen": "2026-05-04",
       "last_seen": "2026-05-04",
       "mention_count": 2
+    },
+    {
+      "id": "ent-277",
+      "type": "Event",
+      "name": "Project Freedom Pause",
+      "properties": {
+        "date": "2026-05-05",
+        "reason": "Trump cites 'Great Progress' toward 'Complete and Final Agreement' with Iran; blockade remains in full force"
+      },
+      "first_seen": "2026-05-05",
+      "last_seen": "2026-05-05",
+      "mention_count": 12
+    },
+    {
+      "id": "ent-278",
+      "type": "Event",
+      "name": "Jebel Ali Attack May 5",
+      "properties": {
+        "date": "2026-05-05",
+        "location": "Jebel Ali Port, Dubai",
+        "attacker": "Iran (IRGC denies)",
+        "type": "missile and drone strikes",
+        "casualties": "none confirmed Day 2"
+      },
+      "first_seen": "2026-05-05",
+      "last_seen": "2026-05-05",
+      "mention_count": 8
+    },
+    {
+      "id": "ent-279",
+      "type": "Concept",
+      "name": "Iran Strait Authority",
+      "properties": {
+        "domain": "maritime governance",
+        "mechanism": "transit permit system for Hormuz passage",
+        "related": "IRGC Maritime Control Zone, Iran Navigation Law"
+      },
+      "first_seen": "2026-05-05",
+      "last_seen": "2026-05-05",
+      "mention_count": 3
+    },
+    {
+      "id": "ent-280",
+      "type": "Person",
+      "name": "Wang Yi",
+      "properties": {
+        "role": "Chinese Foreign Minister",
+        "affiliation": "China",
+        "action_may05": "meets Araghchi in Beijing, first since Feb 28 war"
+      },
+      "first_seen": "2026-05-05",
+      "last_seen": "2026-05-05",
+      "mention_count": 2
+    },
+    {
+      "id": "ent-281",
+      "type": "Location",
+      "name": "Jebel Ali Port",
+      "properties": {
+        "type": "port",
+        "description": "Largest and busiest harbour in the Middle East, Dubai, UAE"
+      },
+      "first_seen": "2026-05-05",
+      "last_seen": "2026-05-05",
+      "mention_count": 4
+    },
+    {
+      "id": "ent-282",
+      "type": "Person",
+      "name": "Emmanuel Macron",
+      "properties": {
+        "role": "French President",
+        "affiliation": "France",
+        "action_may05": "condemns Iran UAE attacks as 'unjustified and unacceptable'"
+      },
+      "first_seen": "2026-05-05",
+      "last_seen": "2026-05-05",
+      "mention_count": 1
+    },
+    {
+      "id": "ent-283",
+      "type": "Person",
+      "name": "Keir Starmer",
+      "properties": {
+        "role": "UK Prime Minister",
+        "affiliation": "United Kingdom",
+        "action_may05": "Iran needs to engage meaningfully in negotiations"
+      },
+      "first_seen": "2026-05-05",
+      "last_seen": "2026-05-05",
+      "mention_count": 1
+    },
+    {
+      "id": "ent-284",
+      "type": "Person",
+      "name": "Ursula von der Leyen",
+      "properties": {
+        "role": "European Commission President",
+        "affiliation": "EU",
+        "action_may05": "attacks 'unacceptable, clear violation of sovereignty'"
+      },
+      "first_seen": "2026-05-05",
+      "last_seen": "2026-05-05",
+      "mention_count": 1
+    },
+    {
+      "id": "ent-285",
+      "type": "Person",
+      "name": "Narendra Modi",
+      "properties": {
+        "role": "Indian Prime Minister",
+        "affiliation": "India",
+        "action_may05": "'Strongly condemn' UAE attacks (3 Indian nationals injured)"
+      },
+      "first_seen": "2026-05-05",
+      "last_seen": "2026-05-05",
+      "mention_count": 1
+    },
+    {
+      "id": "ent-286",
+      "type": "Organization",
+      "name": "China",
+      "properties": {
+        "type": "state",
+        "location": "East Asia",
+        "role": "Iran diplomatic partner, 25-year cooperation agreement, UNSC veto power"
+      },
+      "first_seen": "2026-05-05",
+      "last_seen": "2026-05-05",
+      "mention_count": 3
     }
   ],
   "total_count": 239

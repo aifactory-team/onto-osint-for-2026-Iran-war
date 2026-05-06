@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "OSINT 온톨로지 스키마 — config/osint-config.json의 seed로부터 초기화되고, 매일 파이프라인 실행 시 자동 확장된다.",
-  "last_updated": "2026-05-04",
+  "last_updated": "2026-05-05",
   "classes": [
     {
       "id": "Entity",
@@ -567,6 +567,23 @@
         "src-797",
         "src-798",
         "src-799"
+      ]
+    },
+    {
+      "date": "2026-05-05",
+      "action": "add_instances",
+      "target": "10 new entities (ent-277~ent-286)",
+      "reason": "Project Freedom 일시중단(트럼프, 'Great Progress' 이란 딜), 이란 UAE 2차 공격(제벨알리 표적, IRGC 부인), 'Strait Authority' 호르무즈 통과허가 메커니즘, 아라그치 방중(왕이 회담, UNSC 지지 요청), 국제 공동규탄(마크롱·스타머·폰데어라이엔·모디), 유가 Brent $109.87(-4%)/WTI $102.27(-4%)",
+      "source_ids": [
+        "src-827",
+        "src-828",
+        "src-829",
+        "src-830",
+        "src-831",
+        "src-832",
+        "src-833",
+        "src-834",
+        "src-835"
       ]
     }
   ]

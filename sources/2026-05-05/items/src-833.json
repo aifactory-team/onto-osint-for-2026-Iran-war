@@ -1,0 +1,20 @@
+{
+  "id": "src-833",
+  "title": "Oil prices fall ~4% on ceasefire assurance — Brent $109.87, WTI $102.27, retreat from 4-year highs",
+  "url": "https://www.cnbc.com/2026/05/05/oil-prices-today-wti-brent-iran-war-trump-hormuz.html",
+  "snippet": "Brent crude futures fell about 4% to close at $109.87/bbl. WTI lost nearly 4% to settle at $102.27/bbl. Decline followed Hegseth's statement that US-Iran ceasefire remains in place, easing fears of return to full-scale war. Previous session (May 4): Brent rose 6% to $114.44 (4-year high), WTI rose 4% to $106.42. Since war began (Feb 28), both contracts up about 60%.",
+  "source_name": "CNBC",
+  "language": "en",
+  "discovered_date": "2026-05-05",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "5/5 유가 ~4% 급락은 5/4 급등의 반전이며, 헤그세스 발언이 유가 안정 변수로 작동한 새로운 시장 동향",
+  "entities": [
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "ent-104", "type": "Person", "name": "Pete Hegseth"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-275", "type": "Organization", "name": "UAE"}
+  ],
+  "relations": []
+}

@@ -1,0 +1,24 @@
+{
+  "id": "src-834",
+  "title": "Pentagon: Project Freedom involves 15,000 troops, 'temporary' and 'defensive' — will hand off to allies",
+  "url": "https://www.military.com/blockade-showdown-us-warships-force-hormuz-open-as-iran-strikes",
+  "snippet": "Project Freedom involves roughly 15,000 US service members. Commanders have ability to detect, track and neutralize threats in real time across air and sea domains. Hegseth: operation 'defensive in nature, focused in scope, and temporary in duration' with one mission: protecting innocent commercial shipping. Will subsequently be taken over by other countries. 10 civilian sailors have died due to ongoing conflict in Hormuz. US Navy destroyed 7 Iranian fast boats.",
+  "source_name": "Military.com",
+  "language": "en",
+  "discovered_date": "2026-05-05",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Project Freedom의 규모(15,000명), 민간 사망자(10명), 동맹 이관 계획은 이전 보도에 없던 신규 상세 정보",
+  "entities": [
+    {"id": "ent-260", "type": "Event", "name": "Project Freedom"},
+    {"id": "ent-104", "type": "Person", "name": "Pete Hegseth"},
+    {"id": "ent-003", "type": "Organization", "name": "US Military"},
+    {"id": "ent-070", "type": "Organization", "name": "CENTCOM"},
+    {"id": "ent-005", "type": "Organization", "name": "IRGC"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"}
+  ],
+  "relations": [
+    {"subject": "ent-003", "predicate": "participatesIn", "object": "ent-260"}
+  ]
+}

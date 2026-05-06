@@ -1,0 +1,24 @@
+{
+  "id": "src-832",
+  "title": "Araghchi travels to Beijing to meet Wang Yi — seeks China's backing on UNSC session and sanctions",
+  "url": "https://www.washingtontimes.com/news/2026/may/5/irans-foreign-minister-travel-china-strait-hormuz-tensions-simmer/",
+  "snippet": "Foreign Minister Araghchi traveled to Beijing on Tuesday to meet Chinese FM Wang Yi. First China visit since Feb 28 war began. Iran seeks Chinese opposition to new American sanctions and support for emergency UN Security Council session. US indicated it would block UNSC session. China's role critical given 25-year cooperation agreement. Araghchi: 'Events in Hormuz make clear that there is no military solution to a political crisis.'",
+  "source_name": "Washington Times",
+  "language": "en",
+  "discovered_date": "2026-05-05",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "아라그치 전쟁 이후 최초의 방중은 이란의 새로운 외교 축(중국) 활성화를 의미하는 신규 전개",
+  "entities": [
+    {"id": "ent-042", "type": "Person", "name": "Abbas Araghchi", "role": "Iran Foreign Minister"},
+    {"id": "temp-280", "type": "Person", "name": "Wang Yi", "role": "Chinese Foreign Minister"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "temp-287", "type": "Organization", "name": "China"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"}
+  ],
+  "relations": [
+    {"subject": "ent-042", "predicate": "cooperatesWith", "object": "temp-280"},
+    {"subject": "ent-002", "predicate": "cooperatesWith", "object": "temp-287"}
+  ]
+}

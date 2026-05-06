@@ -1152,3 +1152,46 @@
 - 10개 새 엔티티: Event 3개, Person 3개, Location 1개, Organization 2개, Concept 0개
 - 16개 새 관계(명시적) + 2개 업데이트 + 5개 추론 모두 기존 관계 유형으로 표현 가능
 - 새 클래스/관계 유형 추가 불필요
+
+---
+
+## 2026-05-05 추론 결과
+
+### 추론 #1: event_chain (교전→일시중단)
+- **입력:** (ent-260/Project Freedom, follows → ent-268/호르무즈 교전 May 4)
+- **추론:** (ent-277/Project Freedom Pause, causedBy, ent-268/호르무즈 교전 May 4)
+- **신뢰도:** 0.80
+- **상태:** 확정
+- **비고:** Day 1 교전의 강도(7척 격침, 미사일 교환, UAE 공격)가 트럼프의 정치적 계산을 변경하여 24시간 만에 일시중단 결정. 봉쇄는 유지하되 호송은 중단 — 군사적 비용 대비 외교적 여지 확보.
+
+### 추론 #2: event_chain (Project Freedom→UAE 2차 공격)
+- **입력:** (ent-260/Project Freedom, → ent-269/푸자이라 공격), (ent-269, follows → ent-278/제벨알리 공격)
+- **추론:** (ent-278/제벨알리 공격 May 5, causedBy, ent-260/Project Freedom)
+- **신뢰도:** 0.80
+- **상태:** 확정
+- **비고:** 이란의 UAE 공격이 2일 연속 지속되면서 표적이 푸자이라(ADCOP 우회 경로)에서 제벨알리(중동 최대 항구)로 확대. Project Freedom 시행에 대한 이란의 보복 패턴이 확립됨.
+
+### 추론 #3: event_chain (입법→통제구역→Strait Authority 3단계)
+- **입력:** (ent-265/이란 항행법, → ent-270/IRGC 통제구역, → ent-279/Strait Authority)
+- **추론:** (ent-279/Iran Strait Authority, relatedTo, ent-265/이란 항행법)
+- **신뢰도:** 0.85
+- **상태:** 확정
+- **비고:** 5/3 의회 입법 → 5/4 IRGC 통제구역 선포 → 5/5 Strait Authority 통과허가 메커니즘. 이란이 호르무즈 주권적 통제를 입법·군사·행정 3단계로 체계화. de facto에서 de jure로의 전환 완결.
+
+### 추론 #4: co_participation (중국-러시아 이란 지원 잠재)
+- **입력:** (ent-286/China, cooperatesWith, ent-002/Iran), (ent-009/Russia, potentialRelation, ent-002/Iran)
+- **추론:** (ent-286/China, potentialRelation, ent-009/Russia)
+- **신뢰도:** 0.75
+- **상태:** 확정
+- **비고:** 아라그치가 러시아(4/27 상트페테르부르크)에 이어 중국(5/5 베이징)을 방문. 양국 모두 UNSC 거부권 보유국이며 이란의 대미 외교전에서 핵심 지원 축.
+
+### 추론 #5: co_participation (UAE-US 암시적 동맹 강화)
+- **입력:** (ent-275/UAE, opposes, ent-005/IRGC), (ent-003/US Military, opposes, ent-005/IRGC)
+- **추론:** (ent-275/UAE, cooperatesWith, ent-003/US Military)
+- **신뢰도:** 0.80
+- **상태:** 확정
+- **비고:** 이란의 동시다발 공격(호르무즈+UAE)에 UAE와 미군이 동일 적에 대응. 국제 규탄에서도 걸프+서방이 동일 진영. 직접적 공동 작전은 미확인이나 방위 동맹 강화가 추론됨.
+
+### 스키마 변경 없음
+- 금일 발견된 모든 엔티티와 관계는 기존 스키마로 충분히 표현 가능
+- Strait Authority는 Concept 클래스로 분류 (새 클래스 불필요)

@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "description": "누적 지식그래프 — 모든 트리플을 포함하는 전체 그래프",
-  "last_updated": "2026-05-04",
+  "last_updated": "2026-05-05",
   "nodes": [
     {
       "id": "ent-001",
@@ -1249,6 +1249,56 @@
       "id": "ent-267",
       "type": "Event",
       "label": "Haykal-Clearfield Meeting"
+    },
+    {
+      "id": "ent-277",
+      "type": "Event",
+      "label": "Project Freedom Pause"
+    },
+    {
+      "id": "ent-278",
+      "type": "Event",
+      "label": "Jebel Ali Attack May 5"
+    },
+    {
+      "id": "ent-279",
+      "type": "Concept",
+      "label": "Iran Strait Authority"
+    },
+    {
+      "id": "ent-280",
+      "type": "Person",
+      "label": "Wang Yi"
+    },
+    {
+      "id": "ent-281",
+      "type": "Location",
+      "label": "Jebel Ali Port"
+    },
+    {
+      "id": "ent-282",
+      "type": "Person",
+      "label": "Emmanuel Macron"
+    },
+    {
+      "id": "ent-283",
+      "type": "Person",
+      "label": "Keir Starmer"
+    },
+    {
+      "id": "ent-284",
+      "type": "Person",
+      "label": "Ursula von der Leyen"
+    },
+    {
+      "id": "ent-285",
+      "type": "Person",
+      "label": "Narendra Modi"
+    },
+    {
+      "id": "ent-286",
+      "type": "Organization",
+      "label": "China"
     }
   ],
   "edges": [
@@ -6754,7 +6804,7 @@
       "object": "ent-268",
       "source_id": "src-792",
       "date": "2026-05-04",
-      "confidence": 0.90,
+      "confidence": 0.9,
       "type": "explicit"
     },
     {
@@ -6826,7 +6876,7 @@
       "object": "ent-260",
       "source_id": "src-794",
       "date": "2026-05-04",
-      "confidence": 0.90,
+      "confidence": 0.9,
       "type": "explicit"
     },
     {
@@ -6844,7 +6894,7 @@
       "object": "ent-048",
       "source_id": "src-795",
       "date": "2026-05-04",
-      "confidence": 0.90,
+      "confidence": 0.9,
       "type": "explicit"
     },
     {
@@ -6871,7 +6921,7 @@
       "object": "ent-002",
       "source_id": "src-798",
       "date": "2026-05-04",
-      "confidence": 0.90,
+      "confidence": 0.9,
       "type": "explicit"
     },
     {
@@ -6879,7 +6929,7 @@
       "predicate": "causedBy",
       "object": "ent-260",
       "rule": "event_chain",
-      "confidence": 0.80,
+      "confidence": 0.8,
       "type": "inferred",
       "note": "Fujairah attack on same day as Project Freedom launch — Iran retaliating against UAE for facilitating US operations"
     },
@@ -6915,9 +6965,228 @@
       "predicate": "opposes",
       "object": "ent-109",
       "rule": "co_participation",
-      "confidence": 0.80,
+      "confidence": 0.8,
       "type": "inferred",
       "note": "Berri rejection of negotiations effectively undermines the ceasefire diplomatic framework"
+    },
+    {
+      "subject": "ent-001",
+      "predicate": "participatesIn",
+      "object": "ent-277",
+      "source_id": "src-827",
+      "date": "2026-05-05",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-277",
+      "predicate": "follows",
+      "object": "ent-260",
+      "source_id": "src-827",
+      "date": "2026-05-05",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-277",
+      "predicate": "locatedIn",
+      "object": "ent-008",
+      "source_id": "src-827",
+      "date": "2026-05-05",
+      "confidence": 0.95,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-104",
+      "predicate": "participatesIn",
+      "object": "ent-260",
+      "source_id": "src-828",
+      "date": "2026-05-05",
+      "confidence": 0.9,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-108",
+      "predicate": "participatesIn",
+      "object": "ent-260",
+      "source_id": "src-828",
+      "date": "2026-05-05",
+      "confidence": 0.9,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-002",
+      "predicate": "participatesIn",
+      "object": "ent-278",
+      "source_id": "src-829",
+      "date": "2026-05-05",
+      "confidence": 0.9,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-278",
+      "predicate": "follows",
+      "object": "ent-269",
+      "source_id": "src-829",
+      "date": "2026-05-05",
+      "confidence": 0.9,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-278",
+      "predicate": "locatedIn",
+      "object": "ent-281",
+      "source_id": "src-829",
+      "date": "2026-05-05",
+      "confidence": 0.9,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-005",
+      "predicate": "opposes",
+      "object": "ent-275",
+      "source_id": "src-829",
+      "date": "2026-05-05",
+      "confidence": 0.9,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-002",
+      "predicate": "mentions",
+      "object": "ent-279",
+      "source_id": "src-831",
+      "date": "2026-05-05",
+      "confidence": 0.9,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-279",
+      "predicate": "relatedTo",
+      "object": "ent-270",
+      "source_id": "src-831",
+      "date": "2026-05-05",
+      "confidence": 0.85,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-042",
+      "predicate": "cooperatesWith",
+      "object": "ent-280",
+      "source_id": "src-832",
+      "date": "2026-05-05",
+      "confidence": 0.9,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-002",
+      "predicate": "cooperatesWith",
+      "object": "ent-286",
+      "source_id": "src-832",
+      "date": "2026-05-05",
+      "confidence": 0.85,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-131",
+      "predicate": "opposes",
+      "object": "ent-002",
+      "source_id": "src-835",
+      "date": "2026-05-05",
+      "confidence": 0.9,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-217",
+      "predicate": "cooperatesWith",
+      "object": "ent-275",
+      "source_id": "src-830",
+      "date": "2026-05-05",
+      "confidence": 0.85,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-210",
+      "predicate": "opposes",
+      "object": "ent-002",
+      "source_id": "src-830",
+      "date": "2026-05-05",
+      "confidence": 0.85,
+      "type": "explicit"
+    },
+    {
+      "subject": "ent-005",
+      "predicate": "opposes",
+      "object": "ent-003",
+      "source_id": "src-828",
+      "date": "2026-05-05",
+      "confidence": 0.95,
+      "type": "explicit",
+      "note": "updated: 10+ attacks since ceasefire confirmed by Caine"
+    },
+    {
+      "subject": "ent-042",
+      "predicate": "opposes",
+      "object": "ent-260",
+      "source_id": "src-831",
+      "date": "2026-05-05",
+      "confidence": 0.9,
+      "type": "explicit",
+      "note": "Araghchi: 'Project Deadlock'"
+    },
+    {
+      "subject": "ent-277",
+      "predicate": "causedBy",
+      "object": "ent-268",
+      "source_id": null,
+      "date": "2026-05-05",
+      "confidence": 0.8,
+      "type": "inferred",
+      "rule": "event_chain",
+      "reasoning": "Day 1 교전(ent-268) 후 Trump 일시중단 결정(ent-277) — 교전 강도가 정치적 계산 변경"
+    },
+    {
+      "subject": "ent-278",
+      "predicate": "causedBy",
+      "object": "ent-260",
+      "source_id": null,
+      "date": "2026-05-05",
+      "confidence": 0.8,
+      "type": "inferred",
+      "rule": "event_chain",
+      "reasoning": "Project Freedom(ent-260) 시행이 UAE 보복 공격(ent-278) 촉발 — 5/4 푸자이라에 이어 5/5 제벨알리"
+    },
+    {
+      "subject": "ent-279",
+      "predicate": "relatedTo",
+      "object": "ent-265",
+      "source_id": null,
+      "date": "2026-05-05",
+      "confidence": 0.85,
+      "type": "inferred",
+      "rule": "event_chain",
+      "reasoning": "Strait Authority(ent-279)는 이란 항행법(ent-265)의 집행 메커니즘 — 입법→통제구역→집행기관 3단계 완성"
+    },
+    {
+      "subject": "ent-286",
+      "predicate": "potentialRelation",
+      "object": "ent-009",
+      "source_id": null,
+      "date": "2026-05-05",
+      "confidence": 0.75,
+      "type": "inferred",
+      "rule": "co_participation",
+      "reasoning": "중국(ent-286)과 러시아(ent-009) 모두 이란의 UNSC 지지를 요청받은 안보리 거부권 국가 — 공동 이란 지원 가능성"
+    },
+    {
+      "subject": "ent-275",
+      "predicate": "cooperatesWith",
+      "object": "ent-003",
+      "source_id": null,
+      "date": "2026-05-05",
+      "confidence": 0.8,
+      "type": "inferred",
+      "rule": "co_participation",
+      "reasoning": "UAE(ent-275)와 US Military(ent-003) 모두 이란 공격 대상이며 국제 규탄에서 동일 진영 — 암시적 방위 동맹 강화"
     }
   ],
   "stats": {

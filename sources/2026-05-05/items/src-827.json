@@ -1,0 +1,27 @@
+{
+  "id": "src-827",
+  "title": "Trump pauses 'Project Freedom' in Strait of Hormuz, cites 'Great Progress' on Iran deal — blockade remains",
+  "url": "https://www.cnbc.com/2026/05/05/trump-iran-deal-project-freedom-hormuz-strait.html",
+  "snippet": "Trump posted on Truth Social that Project Freedom 'will be paused for a short period of time to see whether or not the Agreement can be finalized and signed.' The blockade of Iranian ports remains 'in full force and effect.' Trump cited 'Great Progress' toward a 'Complete and Final Agreement' with Iran. Nearly 23,000 sailors on vessels representing 87 countries remain stranded in the Persian Gulf.",
+  "source_name": "CNBC",
+  "language": "en",
+  "discovered_date": "2026-05-05",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "Trump의 Project Freedom 일시중단은 5/4 발표·시행 후 불과 하루 만의 방향 전환으로 완전히 새로운 전개",
+  "entities": [
+    {"id": "ent-001", "type": "Person", "name": "Donald Trump", "role": "US President"},
+    {"id": "ent-260", "type": "Event", "name": "Project Freedom"},
+    {"id": "temp-277", "type": "Event", "name": "Project Freedom Pause"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-070", "type": "Organization", "name": "CENTCOM"},
+    {"id": "ent-003", "type": "Organization", "name": "US Military"}
+  ],
+  "relations": [
+    {"subject": "ent-001", "predicate": "participatesIn", "object": "temp-277"},
+    {"subject": "temp-277", "predicate": "follows", "object": "ent-260"},
+    {"subject": "temp-277", "predicate": "locatedIn", "object": "ent-008"}
+  ]
+}

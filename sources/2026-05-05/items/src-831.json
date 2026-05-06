@@ -1,0 +1,26 @@
+{
+  "id": "src-831",
+  "title": "Iran announces 'Strait Authority' to manage Hormuz shipping — transit permit mechanism",
+  "url": "https://www.thenationalnews.com/news/mena/2026/05/05/iran-seeks-chinas-backing-as-hormuz-clashes-push-ceasefire-to-brink/",
+  "snippet": "Iran announced a new mechanism requiring ships to obtain transit permits through a 'Strait Authority.' Sailors receive email notifications about Iran's transit regulations, then must adjust to the framework and receive a transit permit. Araghchi called Project Freedom 'Project Deadlock.' Iran seeks Chinese opposition to new sanctions and support for emergency UNSC session, which Washington indicated it would block. Iran-China 25-year cooperation agreement covers energy, infrastructure, and defense.",
+  "source_name": "The National",
+  "language": "en",
+  "discovered_date": "2026-05-05",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "'Strait Authority' 개념은 5/3 항행법·5/4 IRGC 통제구역을 제도화한 완전히 새로운 메커니즘",
+  "entities": [
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "temp-279", "type": "Concept", "name": "Iran Strait Authority"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"},
+    {"id": "ent-042", "type": "Person", "name": "Abbas Araghchi", "role": "Iran Foreign Minister"},
+    {"id": "ent-260", "type": "Event", "name": "Project Freedom"},
+    {"id": "ent-270", "type": "Event", "name": "IRGC Hormuz Maritime Control Zone"}
+  ],
+  "relations": [
+    {"subject": "ent-002", "predicate": "mentions", "object": "temp-279"},
+    {"subject": "temp-279", "predicate": "relatedTo", "object": "ent-270"},
+    {"subject": "ent-042", "predicate": "opposes", "object": "ent-260"}
+  ]
+}

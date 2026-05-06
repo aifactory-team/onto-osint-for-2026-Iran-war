@@ -1,0 +1,23 @@
+{
+  "id": "src-835",
+  "title": "Rubio: Iran should 'pay a price' for closing Hormuz; Hegseth hopes Korea joins Project Freedom",
+  "url": "https://www.aljazeera.com/news/liveblog/2026/5/5/iran-war-live-washington-tehran-trade-threats-over-strait-of-hormuz",
+  "snippet": "Secretary of State Marco Rubio: Iran should 'pay a price' for closing the Strait of Hormuz. Rubio stated Operation Epic Fury has 'achieved its objectives.' Hegseth expressed hope that South Korea will join Project Freedom coalition. Al Jazeera live blog also notes IRGC denial of UAE attacks and Araghchi 'Project Deadlock' comment.",
+  "source_name": "Al Jazeera",
+  "language": "en",
+  "discovered_date": "2026-05-05",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "루비오의 'pay a price' 경고와 한국 동참 요청은 새로운 정책 신호 및 동맹 확장 전개",
+  "entities": [
+    {"id": "ent-131", "type": "Person", "name": "Marco Rubio", "role": "US Secretary of State"},
+    {"id": "ent-104", "type": "Person", "name": "Pete Hegseth"},
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-260", "type": "Event", "name": "Project Freedom"},
+    {"id": "ent-008", "type": "Location", "name": "Strait of Hormuz"}
+  ],
+  "relations": [
+    {"subject": "ent-131", "predicate": "opposes", "object": "ent-002"}
+  ]
+}

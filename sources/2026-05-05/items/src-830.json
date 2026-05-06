@@ -1,0 +1,35 @@
+{
+  "id": "src-830",
+  "title": "'Dangerous escalation': World condemns Iran after attacks on UAE — Saudi, Qatar, Germany, France, UK, EU, India",
+  "url": "https://www.aljazeera.com/news/2026/5/5/dangerous-escalation-world-condemns-iran-after-attacks-on-uae",
+  "snippet": "Wave of international condemnation. Saudi Arabia: 'condemns and denounces in the strongest terms', affirms solidarity with UAE. Qatar: 'strongly condemns, blatant violation of sovereignty'. Kuwait: 'reprehensible aggression, clear breach of freedom of navigation'. Bahrain: 'dangerous escalation, urges UNSC action'. Jordan: 'dangerous escalation, threat to UAE security'. Germany/Merz: 'Tehran must return to negotiating table'. France/Macron: 'unjustified and unacceptable'. UK/Starmer: 'Iran needs to engage meaningfully'. EU/von der Leyen: 'unacceptable, clear violation of sovereignty'. India/Modi: 'Strongly condemn' (3 Indian nationals injured). Canada: 'strongly condemns unprovoked strikes'. GCC Secretary-General: 'piracy and serious extortion'. Muslim World League also condemns.",
+  "source_name": "Al Jazeera",
+  "language": "en",
+  "discovered_date": "2026-05-05",
+  "tag": "new",
+  "related_report": null,
+  "related_item": null,
+  "tag_reason": "4/8 휴전 이후 최초의 대규모 국제 공동 규탄 — 걸프·서방·아시아가 동시 대응한 신규 외교적 전개",
+  "entities": [
+    {"id": "ent-002", "type": "Organization", "name": "Iran"},
+    {"id": "ent-275", "type": "Organization", "name": "UAE"},
+    {"id": "ent-219", "type": "Person", "name": "Muhammad bin Salman", "role": "Saudi Crown Prince"},
+    {"id": "ent-210", "type": "Person", "name": "Friedrich Merz", "role": "German Chancellor"},
+    {"id": "temp-282", "type": "Person", "name": "Emmanuel Macron", "role": "French President"},
+    {"id": "temp-283", "type": "Person", "name": "Keir Starmer", "role": "UK Prime Minister"},
+    {"id": "temp-284", "type": "Person", "name": "Ursula von der Leyen", "role": "EU Commission President"},
+    {"id": "temp-285", "type": "Person", "name": "Narendra Modi", "role": "Indian Prime Minister"},
+    {"id": "ent-217", "type": "Organization", "name": "GCC"},
+    {"id": "temp-286", "type": "Organization", "name": "Muslim World League"},
+    {"id": "ent-269", "type": "Event", "name": "Fujairah Drone Attack May 4"},
+    {"id": "temp-278", "type": "Event", "name": "Jebel Ali Attack May 5"}
+  ],
+  "relations": [
+    {"subject": "ent-210", "predicate": "opposes", "object": "ent-002"},
+    {"subject": "temp-282", "predicate": "opposes", "object": "ent-002"},
+    {"subject": "temp-283", "predicate": "opposes", "object": "ent-002"},
+    {"subject": "temp-284", "predicate": "opposes", "object": "ent-002"},
+    {"subject": "temp-285", "predicate": "opposes", "object": "ent-002"},
+    {"subject": "ent-217", "predicate": "cooperatesWith", "object": "ent-275"}
+  ]
+}
